@@ -1,0 +1,102 @@
+header {
+    display: inline-block;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.site_title {
+    color: white;
+    text-decoration: none;
+    font-size: 1.75em;
+    width: 100%;
+    display: inline-block;
+    height: 0;
+}
+
+.site_title h1 {
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    color: white;
+    list-style: none;
+    width: 10%;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    display: inline-block;
+    height: 0;
+    position: relative;
+    top: -1.75em;
+
+}
+
+.navbar li {
+    display: block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.socialbar {
+    list-style: none;
+    width: 20%;
+    margin: 0;
+    margin-left: 5%;
+    float: right;
+    padding: 0;
+    height: 0;
+    display: inline-block;
+    position: relative;
+    top: -1.75em;
+}
+
+.socialbar a {
+    width: 17.5%;
+    display: inline-block;
+    margin-right: 7.5%;
+}
+
+.youtube {
+    background-image: url("../images/youtube_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.vimeo {
+    background-image: url("../images/vimeo_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.instagram {
+    background-image: url("../images/instagram_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}

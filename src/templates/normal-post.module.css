@@ -1,0 +1,63 @@
+.back_container {
+    height: 0;
+}
+
+.back_sign {
+    background-image: url("../images/hotel_sign.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20%;
+    height: 0;
+    padding-bottom: 12%;
+    margin-left: 4.5%;
+    position: relative;
+    top: 100px;
+}
+
+.back_btn {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 26.5%;
+    position: relative;
+    top: 88px;
+}
+
+.post_title {
+    background: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.featuredImage {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.innerHTML {
+    color: white;
+}
+
+.innerHTML p {
+    margin-bottom: 20px;
+    background: black;
+    padding: 20px;
+}
+
+.innerHTML img, span {
+    margin-bottom: 20px;
+    padding: 0;
+}
+

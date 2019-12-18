@@ -1,0 +1,27 @@
+.scaffolding_container {
+    width: 20%;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.brick_fill {
+    width: 255%;
+    height: 100%;
+    position: relative;
+    left: -256.5%;
+    background-image: url("../images/brick.png");
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    z-index: -900;
+}
+
+.scaffolding {
+    width: 40%;
+    position: relative;
+    left: 100%;
+    padding: 12px;
+    display: inline-block;
+    background-image: url("../images/scaffolding_blue_stairs.gif");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}

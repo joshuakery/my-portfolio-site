@@ -1,0 +1,54 @@
+.layout {
+    
+}
+
+.clouds {
+    height: 0;
+    z-index: -999;
+}
+
+.cloud1 {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    height: 0;
+    padding-bottom: 25%;
+    background-image: url('../images/clouds.png');
+    background-size: 100%;
+    top: 200px;
+    left: 5%;
+    z-index: -999;
+}
+
+.cloud2 {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    height: 0;
+    padding-bottom: 25%;
+    background-image: url('../images/clouds.png');
+    background-size: 100%;
+    top: 500px;
+    left: 20%;
+    z-index: -999;
+}
+
+.grass {
+    background-image: url('../images/grass.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: -550px;
+    z-index: -999;
+}
+
+.dirt {
+    background-image: url('../images/dirt.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -100px;
+    z-index: -999;
+}

@@ -1,0 +1,121 @@
+/* .brick {
+    background-image: url('../images/brick_sandstone.png');
+    background-repeat: repeat;
+    background-size: 150px 150px;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    padding: 1%;
+} */
+
+.brick_hole {
+    height: 0;
+    z-index: 999;
+    position: relative;
+}
+
+.left_brick_hole {
+    width: 10%;
+    height: 0;
+    padding-bottom: 96%;
+    z-index: 999;
+    background-image: url("../images/brick_hole.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+}
+
+.right_brick_hole {
+    width: 10%;
+    height: 0;
+    padding-bottom: 96%;
+    z-index: 999;
+    margin-left: 91%;
+    /* float: right; */
+    background-image: url("../images/brick_hole_right.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+}
+
+.room_container {
+    width: 48%;
+    display: inline-block;
+    padding: 1%;
+    position: relative;
+}
+
+.room_container:after {
+    content: '';
+    display: block;
+}
+
+.room {
+    width: 100%;
+    height: 96%;
+    background-size: 100%;
+    text-decoration: none;
+}
+
+.basement_container {
+    background-image: url('../images/concrete.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+}
+
+.basement {
+    width: 48%;
+    padding-bottom: 48%;
+    margin: auto;
+    position: relative;
+    top: -20px;
+}
+
+.featuredImage {
+    z-index: 1; 
+    height: 0;
+    width: 100%;
+    padding-bottom: 95%;
+    position: relative;
+    display: inline-block;
+    top: -100%;
+    /* display: none; */
+    /* width: 95%; */
+}
+
+.featuredImage div {
+    z-index: 1;
+}
+
+.room_link_container {
+    height: 0;
+}
+
+.room_link {
+    background: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0;
+    width: 45%;
+    text-align: center;
+    z-index: 998;
+    position: relative;
+}
+
+/* .room_link {
+    background: black;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0;
+    width: 95%;
+    text-align: center;
+} */
