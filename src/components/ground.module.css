@@ -22,3 +22,15 @@
     position: relative;
     top: -100px;
 }
+
+@media (max-width: 1250px) {
+    .dirt {
+        padding-bottom: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .dirt {
+        padding-bottom: 60%;
+    }
+}

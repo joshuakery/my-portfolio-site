@@ -1,23 +1,23 @@
 .container {
     display: inline-block;
-    width: 75%;
+    width: 100%;
 }
 
 .roof_container {
     /* height: 70px; */
     height: 0;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
 }
 
 .roof {
     background-image: url('../images/roof.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 73.5%;
+    width: 56.5%;
     padding-bottom: 10%;
     z-index: 2;
     margin: 0;
-    margin-left: 30.5%;
+    margin-left: 23%;
     position: relative;
     /* top: 25px; */
 }
@@ -26,13 +26,61 @@
     background-image: url('../images/brick.png');
     background-repeat: repeat;
     background-size: 150px 150px;
-    width: 66%;
+    width: 50%;
     margin: 0;
-    margin-left: 33%;
+    margin-left: 25%;
     display: inline-block;
     position: relative;
     padding: 1%;
     height: 100%;
+}
+
+@media (max-width: 1250px) {
+    .roof_container {
+        padding-bottom: 8%;
+    }
+
+    .roof {
+        width: 83.5%;
+        margin-left: 9.5%;
+    }
+
+    .brick {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+}
+
+@media (max-width: 750px) {
+    .roof_container {
+        padding-bottom: 10%;
+    }
+
+    .roof {
+        width: 107%;
+        margin-left: -3%;
+    }
+
+    .brick {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 450px) {
+    .roof_container {
+        padding-bottom: 10%;
+    }
+
+    .roof {
+        width: 107%;
+        margin-left: -3%;
+    }
+
+    .brick {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
 
 /* .brick_in_scaffolding {

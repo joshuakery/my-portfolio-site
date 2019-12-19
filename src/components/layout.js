@@ -2,7 +2,7 @@ import React from "react"
 import layoutStyles from "./layout.module.css"
 import Header from "../components/header"
 
-export default ({ children }) => {
+export default ({ children, open, setOpen }) => {
     return (
         <div className={layoutStyles.layout}>
             <div className={layoutStyles.clouds}>
@@ -10,7 +10,7 @@ export default ({ children }) => {
                 <div className={layoutStyles.cloud2}></div>
             </div>
             
-            <Header></Header>
+            <Header open={open} setOpen={setOpen}></Header>
             {children}
         </div>
     )

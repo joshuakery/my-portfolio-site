@@ -94,3 +94,28 @@
     width: 45%;
     text-align: center;
 }
+
+@media (max-width: 1250px) {
+    .basement_container {
+        width: 75%;
+        position: relative;
+        left: 1%;
+    }
+}
+
+@media (max-width: 750px) {
+    .basement_container {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .room_container {
+        width: 96%;
+    }
+    .basement_container {
+        width: 200%;
+        margin-left: -50%;
+    }
+}

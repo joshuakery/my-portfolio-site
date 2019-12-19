@@ -49,6 +49,13 @@ header {
     margin-bottom: 10px;
 }
 
+.ham_menu_container {
+    width: 33%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
 .socialbar {
     list-style: none;
     width: 20%;
@@ -99,4 +106,41 @@ header {
     padding-bottom: 100%;
     display: inline-block;
     margin: 0;
+}
+
+@media (max-width: 750px) {
+    header {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .site_title {
+        font-size: 1.25em;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .site_title {
+        font-size: 0.8em;
+    }
+    .navbar {
+        display: none;
+    }
+    .socialbar {
+        top: -1.6em;
+        width: 22.5%;
+    }
+    .socialbar a:nth-child(2) {
+        display: none;
+    }
+    .socialbar a {
+        width: 35%;
+        margin-right: 10%;
+    }
 }
