@@ -12,6 +12,8 @@ module.exports = {
     author: `gatsbyjs`,
   },
   plugins: [
+    
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,6 +37,33 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          //https://www.gatsbyjs.org/packages/gatsby-remark-embed-video/?=video
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              height: 400, // Optional: Overrides optional.ratio
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              urlOverrides: [
+                {
+                  id: 'youtube',
+                  embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
+                }
+              ] //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+            }
+          },
+          {
+            resolve: "gatsby-remark-embed-soundcloud",
+            options: {
+              width: 800, // default is "100%"
+              height: 500, // default is 300
+              color: "#ff00ff", // default is #ff5500
+              autoplay: true, // default is false
+            }
+          },
+          `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-images`,
             options: {

@@ -1,0 +1,6 @@
+.top {
+    background-image: url('../images/tile_wood.jpg');
+    background-repeat: repeat;
+    background-size: 50%;
+    padding: 2%;
+}

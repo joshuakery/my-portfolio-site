@@ -5,7 +5,7 @@ import { useStaticQuery, Link } from "gatsby"
 import RecentShows from "../components/recent_shows"
 import House from "../components/house"
 import Ground from "../components/ground"
-
+import { Resizable } from "re-resizable";
 //Styles
 import catRoomStyles from "./category_rooms.module.css"
 
@@ -18,26 +18,50 @@ const getRooms = (group, location) => {
     for (let i=0; i < group.length-1; i++) {
         let cat = group[i];
         rooms.push(
-            <li key={cat.fieldValue} className={catRoomStyles.room_container}>
-                <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
-                      state={{previousPage: location.pathname}}>
-                    
-                    <div className={catRoomStyles.brick_hole}>
-                        <div className={catRoomStyles.left_brick_hole}></div>
-                    </div>
-                    <div className={catRoomStyles.brick_hole}>
-                        <div className={catRoomStyles.right_brick_hole}></div>
-                    </div>
-                    
-                    <div className={catRoomStyles.room}>
-                        <p className={catRoomStyles.room_link}>
-                            {cat.fieldValue}
-                        </p>
-                    </div>
+            
+                <li key={cat.fieldValue} className={catRoomStyles.room_container}>
+                        <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
+                            state={{previousPage: location.pathname}}>
 
-                    
-                </Link>
-            </li>
+                            
+                            
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.left_wall}></div>
+                            </div>
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.right_wall}></div>
+                            </div>
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.room_contents}></div>
+                            </div>
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.friend}></div>
+                            </div>
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.right_brick_hole}></div>
+                            </div>
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.left_brick_hole}></div>
+                            </div>
+
+                            <div className={catRoomStyles.brick_hole}>
+                                <div className={catRoomStyles.room_link_container}>
+                                    <p className={catRoomStyles.room_link}>
+                                        {cat.fieldValue}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className={catRoomStyles.room}>
+                                {/* <p className={catRoomStyles.room_link}>
+                                    {cat.fieldValue}
+                                </p> */}
+                            </div>
+
+                            
+
+                        </Link>
+                </li>
         )
       }
     return rooms
@@ -49,10 +73,27 @@ const getLastRoom = (group, location) => {
         <li key={cat.fieldValue} className={catRoomStyles.basement_container}>
             <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
                   state={{previousPage: location.pathname}}>
+
+                <div className={catRoomStyles.brick_hole}>
+                    <div className={catRoomStyles.basement_ceiling}></div>
+                </div>
+
+                <div className={catRoomStyles.brick_hole}>
+                    <div className={catRoomStyles.basement_friend}></div>
+                </div>
+
+                <div className={catRoomStyles.brick_hole}>
+                    <div className={catRoomStyles.basement_link_container}>
+                        <p className={catRoomStyles.basement_link}>
+                            {cat.fieldValue}
+                        </p>
+                    </div>
+                </div>
+
                 <div className={catRoomStyles.basement}>
-                    <p className={catRoomStyles.room_link}>
+                    {/* <p className={catRoomStyles.room_link}>
                         {cat.fieldValue}
-                    </p>
+                    </p> */}
                 </div>
             </Link>
         </li>

@@ -47,16 +47,20 @@ export default ({ children, location }) => {
                             <div className={recShowStyles.right_brick_hole}></div>
                         </div>
 
-                        <div className={recShowStyles.room_link_container}>
-                            <p className={recShowStyles.room_link}>
-                                Recent Show: {show.frontmatter.title}
-                            </p>
-                        </div>
+                        
 
+                        <div className={recShowStyles.brick_hole}>
+                            <div className={recShowStyles.room_link_container}>
+                                <p className={recShowStyles.room_link}>
+                                    Recent Show: {show.frontmatter.title}
+                                </p>
+                            </div>
+                        </div>
                         <div className={recShowStyles.image_container}>
                             <Img fluid={show.frontmatter.featuredImage.childImageSharp.fluid}
                                         className={recShowStyles.featuredImage}/>
                         </div>
+                        
                         
                     </Link>
                   </div>
