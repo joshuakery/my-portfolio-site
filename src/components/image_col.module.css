@@ -1,0 +1,8 @@
+.col {
+    width: 100%;
+}
+
+.col span {
+    margin-bottom: 5%;
+    display: block;
+}

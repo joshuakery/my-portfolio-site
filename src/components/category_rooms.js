@@ -5,7 +5,6 @@ import { useStaticQuery, Link } from "gatsby"
 import RecentShows from "../components/recent_shows"
 import House from "../components/house"
 import Ground from "../components/ground"
-import { Resizable } from "re-resizable";
 //Styles
 import catRoomStyles from "./category_rooms.module.css"
 

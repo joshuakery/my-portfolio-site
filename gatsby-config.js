@@ -7,9 +7,9 @@
 module.exports = {
   pathPrefix: "/portfolio",
   siteMetadata: {
-    title: `Title from siteMetadata`,
-    description: `A simple description about pandas eating lots...`,
-    author: `gatsbyjs`,
+    title: `Joshua Kery`,
+    description: `Portfolio Website`,
+    author: `Joshua Kery`,
   },
   plugins: [
     
@@ -37,6 +37,31 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          //https://www.gatsbyjs.org/packages/gatsby-remark-copy-linked-files/?=copy-
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+            },
+          },
+          //https://www.gatsbyjs.org/packages/gatsby-remark-table-of-contents/
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 1,
+              toHeading: 1
+            },
+          },
+          //https://www.gatsbyjs.org/packages/gatsby-remark-autolink-headers/
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `100`,
+              icon: false,
+            },
+          },
           //https://www.gatsbyjs.org/packages/gatsby-remark-embed-video/?=video
           {
             resolve: "gatsby-remark-embed-video",
@@ -70,7 +95,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 1500,
             },
           },
         ],

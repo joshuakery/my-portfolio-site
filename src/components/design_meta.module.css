@@ -1,0 +1,251 @@
+.cover {
+    margin-top: 25px;
+    width: 75%;
+    display: inline-block;
+    box-shadow: none;
+}
+
+.meta {
+    margin-top: 25px;
+    width: 17%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.meta h3 {
+    text-align: right;
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 0.75em;
+}
+
+.meta p {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    width: 75%;
+    margin-top: 75px;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+.container h1 {
+    color: gray;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+    
+    margin-left: 0;
+    margin-top: 150px;
+}
+
+.container h2 {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    color: black;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.container h3 {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    color: black;
+
+    text-align: left;
+
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.container p {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.container span {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    /* border: 1px solid green; */
+    position: relative;
+    box-shadow: none;
+}
+
+.container ol {
+    padding-right: 150px;
+}
+
+.container li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.quote {
+    font-size: 1.25em;
+    font-family: 'PT Serif', serif;
+    
+    width: 60%;
+    
+    margin-bottom: 50px;
+    text-align: left;
+
+    
+}
+
+.quote p {
+    width: 90%;
+    font-family: 'PT Serif', serif;
+    color:  rgb(63,93,170);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    border-left: 2px solid  rgb(63,93,170);
+}
+
+.img_pair {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 40% 80px auto;
+    grid-template-rows: auto;
+    margin: 0;
+    text-align: right;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.img_pair h4 {
+    margin-top: 0;
+    align-self: start;
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    font-weight: 400;
+}
+
+.img_pair h4 p {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.img_pair ol {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.img_pair ul {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.img_pair li {
+    margin-bottom: 20px;
+}
+
+.img_pair span {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: start;
+}
+
+.img_pair span img {
+    height: auto;
+}
+
+.img_pair img {
+    width: 100%;
+}
+
+.full_width_image {
+    /* border: 3px solid blue; */
+    position: relative;
+    left: -30%;
+    width: 191%;
+}
+
+.text_pair {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto 80px 40%;
+    grid-template-rows: auto;
+    margin: 0;
+    text-align: right;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.text_pair h4 {
+    margin-top: 20px;
+    align-self: start;
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-weight: 400;
+}
+
+.text_pair h4 p {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.text_pair ol {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.text_pair ul {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.text_pair li {
+    margin-bottom: 20px;
+}
+
+.text_pair span {
+    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: start;
+}
+
+.text_pair span img {
+    height: auto;
+}
+
+.text_pair img {
+    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 0;
+    align-self: start;
+}

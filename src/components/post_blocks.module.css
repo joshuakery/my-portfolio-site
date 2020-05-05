@@ -1,0 +1,73 @@
+span {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.textbox {
+    padding: 4%;
+    background-image: url('../images/tile_paper.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.textbox span {
+    margin-top: 5%;
+}
+
+p {
+    
+
+    padding-bottom: 1em;
+
+    font-size: 1em;
+    margin: 0;
+}
+
+.group {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left2 {
+    width: 33%;
+    display: inline-block;
+}
+
+.right2 {
+    width: 33%;
+    margin-left: 66%;
+}
+
+.center2 {
+    width: 33%;
+    margin: auto;
+}
+
+.left3 {
+    width: 49%;
+    display: inline-block;
+}
+
+.right3 {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.center3 {
+    width: 50%;
+    margin: auto;
+}
+
+.left4 {
+    width: 66%;
+}
+
+.right4 {
+    width: 66%;
+    margin-left: 40%;
+}
+
+.center4 {
+    width: 66%;
+    margin: auto;
+}

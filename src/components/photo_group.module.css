@@ -1,0 +1,53 @@
+.group {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.group p {
+    background-image: url('../images/tile_paper.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    padding: 4%;
+    padding-bottom: 6%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    width: 30%;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0;
+    /* margin-right: 60%; */
+    position: relative;
+    z-index: 999;
+}
+
+.group h6 {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.group h4 {
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.group span {
+    margin-bottom: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.group > *:nth-child(even) {
+    background: red;
+}
+
+@media (max-width: 450px) {
+    .group h6 {
+        width: 95%;
+    }
+    .group p {
+        width: 85%;
+    }
+}

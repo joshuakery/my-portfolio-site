@@ -1,0 +1,23 @@
+.tablet {
+    background-image: url('../images/tablet.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    width: 50%;
+    padding-top: 7.5%;
+    padding-bottom: 10%;
+    padding-right: 6%;
+    margin: 0;
+    margin-left: 5%;
+    position: relative;
+    top: -5px;
+    z-index: 999;
+}
+
+@media (max-width: 450px) {
+    .tablet {
+        width: 94%;
+        margin-left: 0;
+    }
+
+}

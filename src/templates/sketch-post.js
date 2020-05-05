@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
-import Layout from "../components/layout"
+import { Layout } from "../components/layout"
 import House from "../components/house"
 import Ground from "../components/ground"
 import Scaffolding from "../components/scaffolding"

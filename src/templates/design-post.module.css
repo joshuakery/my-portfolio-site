@@ -1,0 +1,22 @@
+.post_container {
+    padding-top: 150px;
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.post_container h1 {
+    color: gray;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+h1.title {
+    text-align: left;
+    display: inline-block;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 0;
+    font-weight: 400;
+}

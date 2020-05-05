@@ -1,0 +1,42 @@
+.cvtable {
+    font-family: 'PT Serif', serif;
+
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    vertical-align: top;
+
+    margin-bottom: 50px;
+}
+
+.cvtable h1 {
+    color: black;
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cvtable h2 {
+    color: black;
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cvtable table {
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+.cvtable td {
+    padding: 2px;
+    vertical-align: top;
+}
+
+.cvtable td:nth-child(1) {
+    width: 10%;
+    min-width: 65px;
+}

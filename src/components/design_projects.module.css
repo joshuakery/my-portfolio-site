@@ -1,0 +1,30 @@
+.title {
+    text-align: left;
+    width: 20%;
+    margin-left: 10%;
+    font-size: 3em;
+}
+
+.projectsContainer {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.project {
+    width: 25%;
+    display: inline-block;
+    margin: 4%;
+}
+
+.projectTitle {
+    text-align: center;
+    font-size: 2em;
+}
+
+.featuredImage {
+
+}

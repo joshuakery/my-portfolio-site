@@ -20,6 +20,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const normalTemplate = path.resolve('src/templates/normal-post.js');
   const parallelTemplate = path.resolve('src/templates/parallel-post.js');
   const sketchTemplate = path.resolve('src/templates/sketch-post.js');
+  const designTemplate = path.resolve('src/templates/design-post.js');
   //Page Templates
   const tagTemplate = path.resolve('src/templates/tags.js');
   const catTemplate = path.resolve('src/templates/category.js');
@@ -91,6 +92,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       createPage({
           path: edge.node.fields.slug,
           component: normalTemplate,
+          context: {
+              slug: edge.node.fields.slug,
+          },
+      })
+    }
+    else if (edge.node.frontmatter.posttype === "design") {
+      createPage({
+          path: edge.node.fields.slug,
+          component: designTemplate,
           context: {
               slug: edge.node.fields.slug,
           },

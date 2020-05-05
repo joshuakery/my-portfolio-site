@@ -1,0 +1,14 @@
+.aboutbody {
+    width: 40%;
+    margin: auto;
+    background: white;
+    padding: 50px;
+}
+
+.aboutbody p {
+    margin-bottom: 20px;
+}
+
+.aboutbody a {
+    float: right;
+}

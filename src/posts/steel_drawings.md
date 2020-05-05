@@ -1,5 +1,5 @@
 ---
-title: "Steel Drawings"
+title: "Learning to Draw"
 cover: "8.jpg"
 date: "2019-10-18"
 categories:
@@ -10,21 +10,57 @@ posttype: 'normal'
 featuredImage: '../post_images/steel_drawings_square.jpg'
 ---
 
+<group>
 <img src="../post_images/steel_drawings/victaulic.jpg">
+</group>
 
-"Steel Drawings" is a learning and research project I conducted primarily over the Summer of 2019 with my grandfather, a retired designer-draftsman for the now defunct Bethlehem Steel Co. Over the course of this project, my grandfather taught me to draw in the technical style that he used in his career.
+<r3>
+<textbox>
 
+"Learning to Draw" is a learning and research project I conducted primarily over the Summer of 2019 with my grandfather, a retired designer-draftsman for the now defunct Bethlehem Steel Co. Over the course of this project, my grandfather taught me to draw in the technical style that he used in his career.
+
+</textbox>
+</r3>
+
+<group>
 <img src="../post_images/steel_drawings/foundations.jpg">
+</group>
+
+<group>
+<l3>
+<textbox>
 
 We developed a teaching process that mirrored how my grandfather worked alongside engineers at the company. To me, he submitted a concept drawing:
-
 <img src="../post_images/steel_drawings/opa_elevation.jpg">
 
+</l3>
+</textbox>
+</group>
+
+<group>
+<c6>
+<textbox>
 From this, I executed 'detail' drawings of the various elements of the structure. In the actual drafting process, these 'details' would be the actual drawings fabricators at the steel plant would reference as they built these structures.
 
+<br>
+
+<l3>
 <img src="../post_images/steel_drawings/my_valve_access_gen_arr.jpg">
+</l3>
+
+<l3>
 <img src="../post_images/steel_drawings/my_valve_access_ab.jpg">
+</l3>
+
+<c3>
 <img src="../post_images/steel_drawings/my_valve_access_c.jpg">
+</c3>
+
+</textbox>
+</c6>
+</group>
+
+<group>
 
 My grandfather reviewed these drawings and offered feedback on how they could be refined. From this, I redrew and resubmitted them to him:
 
@@ -33,6 +69,8 @@ https://soundcloud.com/user-39152617/steel-drawings-feedback-session
 <img src="../post_images/steel_drawings/my_valve_access_redraft_a.jpg">
 <img src="../post_images/steel_drawings/my_valve_access_redraft_b.jpg">
 <img src="../post_images/steel_drawings/my_valve_access_redraft_cd.jpg">
+
+</group>
 
 My grandfather's home in Surprise, Arizona is a long way from my home in Pittsburgh, so we were frequently mailing our drawings back and forth to each other, and conducting these critiques over the phone. In the downtime between mail exchanges, I created this imaginative draft of the steel plant as a whole:
 

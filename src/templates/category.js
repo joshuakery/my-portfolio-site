@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Layout from "../components/layout"
+import { Layout } from "../components/layout"
 import House from "../components/house"
 import Ground from "../components/ground"
 import { Link, graphql } from "gatsby"
@@ -74,7 +74,7 @@ const Cats = ({ pageContext, data, location }) => {
           </House>
           <Ground></Ground>
           {getLastRoom(edges,location)}
-          <Link to="/projects">All Projects</Link>
+          {/* <Link to="/projects">All Projects</Link> */}
         </div>
     </Layout>
   )
