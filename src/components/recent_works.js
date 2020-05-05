@@ -11,7 +11,7 @@ export default ({ children, location }) => {
     const data = useStaticQuery(
         graphql`
             query {
-                allMarkdownRemark(filter: {frontmatter: {posttype: {ne: "show"}}},
+                allMarkdownRemark(filter: {frontmatter: {posttype: {nin: ["show","cv","about"]}}},
                                   limit: 3,
                                   sort: {fields: frontmatter___date, order: DESC})
                 {
