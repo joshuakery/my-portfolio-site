@@ -1,7 +1,7 @@
 ---
 title: "Safe & Sound"
 cover: "8.jpg"
-date: "2019-5-08"
+date: "2019-05-08"
 categories:
     - design
 tags:

@@ -40,6 +40,7 @@ export default ({ children, location }) => {
         <div className={recWorkStyles.container}>
             <ul className={recWorkStyles.billboard_container}>
               {data.allMarkdownRemark.nodes.map(work => {
+                console.log(work.frontmatter.date);
                 return (
                     <li key={work.id}>
                         <Link to={work.fields.slug} state={{previousPage: location.pathname}}>

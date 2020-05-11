@@ -15,41 +15,62 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            open: false
+            open: false,
+            smallerHeader: false
         }
         this.setOpen = this.setOpen.bind(this);
+        this.resizeHeaderOnScroll = this.resizeHeaderOnScroll.bind(this);
+    }
+
+    componentDidMount() {
+        window.addEventListener("scroll", this.resizeHeaderOnScroll);
+    }
+
+    resizeHeaderOnScroll() {
+        const distanceY = window.pageYOffset || document.documentElement.scrollTop;
+        const shrinkOn = 50;
+
+        if (distanceY > shrinkOn) {
+            this.setState(state => ({
+                smallerHeader: true
+            }))
+        } else {
+            this.setState(state => ({
+                smallerHeader: false
+            }))
+        }
     }
 
     setOpen() {
-        console.log(this.state.open);
         this.setState(state => ({
             open: !this.state.open
         }));
-        console.log(this.state.open);
     }
 
     render() {
         return (
             <div>
-                <header>
+                <header className={this.state.smallerHeader ? headerStyles.smaller_header : null}>
 
-                        <ul className={headerStyles.navbar}>
+                        <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
                             {/* <ListLink to="/" className={headerStyles.navlink}>
                                 HOME
                             </ListLink> */}
                             {/* <ListLink to="/cv/" className={headerStyles.navlink}>
                                 CV
                             </ListLink> */}
-                            <ListLink to="/about/" className={headerStyles.navlink}>
+                            <ListLink to="/about/"
+                                className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
                                 ABOUT
                             </ListLink>
-                            <ListLink to="/projects/" className={headerStyles.navlink}>
+                            <ListLink to="/projects/"
+                                className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
                                 PROJECTS
                             </ListLink>
                         </ul>
                         
-                        {/* <div className={headerStyles.ham_menu_container}>
-                            <HamMenu open={this.props.open}>
+                        <div className={headerStyles.ham_menu_container}>
+                            <HamMenu open={this.state.open}>
                                 <ListLink to="/" className={headerStyles.navlink}>
                                     HOME
                                 </ListLink>
@@ -70,24 +91,27 @@ class Header extends React.Component {
                                     <p className={headerStyles.ham_vimeo}></p>
                                 </a>
                             </HamMenu>
-                        </div> */}
-                        <HamBtn open={this.props.open} setOpen={this.setOpen}>
+                        </div>
+                        <HamBtn open={this.state.open} setOpen={this.setOpen}>
                         </HamBtn>
 
-                        <Link to="/">
-                            <div className={headerStyles.site_title}>
+                        <Link to="/" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
+                            <div className={this.state.smallerHeader ? headerStyles.smaller_site_title : headerStyles.site_title}>
                                 <h1 className={headerStyles.site_title_text}>joshua kery</h1>
                             </div>
                         </Link>
 
-                        <ul className={headerStyles.socialbar}>
-                            <a href="https://www.instagram.com/joshuatkery/">
+                        <ul className={this.state.smallerHeader ? headerStyles.smaller_socialbar : headerStyles.socialbar}>
+                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                                href="https://www.instagram.com/joshuatkery/">
                                 <div className={headerStyles.instagram}></div>
                             </a>
-                            <a href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
+                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                                href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
                                 <p className={headerStyles.youtube}></p>
                             </a>
-                            <a href="https://vimeo.com/user62542730">
+                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                                href="https://vimeo.com/user62542730">
                                 <p className={headerStyles.vimeo}></p>
                             </a>
                         </ul>

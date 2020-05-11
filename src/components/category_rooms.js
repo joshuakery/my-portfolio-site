@@ -108,7 +108,7 @@ export default ({ children, location }) => {
                     title
                     }
                 }
-                allMarkdownRemark {
+                allMarkdownRemark(filter: {frontmatter: {categories: {ne: "design"}}}) {
                     group(field: frontmatter___categories) {
                       fieldValue
                     }
