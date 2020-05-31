@@ -6,6 +6,7 @@ import Ground from "../components/ground"
 import { Link, graphql } from "gatsby"
 import catStyles from "../templates/category.module.css"
 import Img from "gatsby-image"
+import {Bathroom, Bedroom, Kitchen, Basement} from "../components/specialRoom"
 
 const getRooms = (edges, location) => {
   // console.log(location);
@@ -61,6 +62,24 @@ const getLastRoom = (edges,location) => {
   )
 }
 
+const getSpecialRoom = (cat) => {
+  if (cat == "2d") {
+    return (<Bedroom></Bedroom>)
+  }
+  else if (cat == "3d") {
+    return (<Bathroom></Bathroom>)
+  }
+  else if (cat == "Media") {
+    return (<Kitchen></Kitchen>)
+  }
+  else if (cat == "Time-Based") {
+    return (<Basement></Basement>)
+  }
+  else {
+    return null;
+  }
+}
+
 const Cats = ({ pageContext, data, location }) => {
   const { category } = pageContext
   const { edges } = data.allMarkdownRemark
@@ -70,6 +89,7 @@ const Cats = ({ pageContext, data, location }) => {
         <div>
           <h1>{category}</h1>
           <House>
+            {/* {getSpecialRoom(category)} */}
             {getRooms(edges, location)}
           </House>
           <Ground></Ground>

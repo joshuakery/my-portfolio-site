@@ -3,6 +3,7 @@
     width: 70%;
     margin: auto;
     /* border: 1px solid red; */
+    background: white;
 }
 
 .post_container h1 {
@@ -19,4 +20,23 @@ h1.title {
     font-size: 2em;
     margin-bottom: 0;
     font-weight: 400;
+}
+
+iframe {
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    .post_container {
+        padding: 0;
+        padding-top: 150px;
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .post_container {
+        padding: 0;
+        padding-top: 100px;
+        width: 90%;
+    }
 }

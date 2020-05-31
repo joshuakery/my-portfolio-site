@@ -10,7 +10,7 @@ export default ({ data, location }) => {
   return (
     <DesignLayout>
         <div>
-            <Helmet title={data.site.siteMetadata.title} />
+            <Helmet title="Portfolio | Joshua Kery" />
             <div>
               <DesignProjects location={location}></DesignProjects>
             </div>

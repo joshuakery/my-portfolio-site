@@ -1,0 +1,421 @@
+.larger_header {
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    /* background: rgb(63,93,170); */
+    background: white;
+    color: black;
+    /* border: 1px solid yellow; */
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.smaller_header {
+    background: white;
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    transition: all 0.3s ease;
+}
+
+.borderClass {
+    border: 1px solid yellow;
+}
+
+.colorClass {
+    background: red;
+}
+
+.title_container {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: -8px;
+    transition: all 0.3s ease;
+}
+
+.smaller_title_container {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75em;
+    display: inline-block;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.site_title {
+    color: black;
+    position: relative;
+    z-index: -1000; 
+}
+
+.smaller_site_title {
+    color: black;
+    position: relative;
+    z-index: -1000; 
+}
+
+.site_title_text {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.navbar {
+    color: black;
+    list-style: none;
+    width: 25%;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 25%;
+    transition: all 0.3s ease;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75em;
+    display: block;
+    margin: 0;
+    transition: all 0.3s ease;
+    /* margin-bottom: 10px; */
+}
+
+.smaller_navbar {
+    color: black;
+    list-style: none;
+    width: 25%;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 15%;
+    transition: all 0.3s ease;
+}
+
+.smaller_navbar li {
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.smaller_navbar li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    display: block;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.navdropdown {
+    display: inline-block;
+    margin-right: 15%;
+    transition: all 0.3s ease;
+}
+
+.navdropdown button {
+    background: white;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    font-size: 1.7em;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.navdropdown button:focus {
+    outline: 0;
+}
+
+.smaller_navdropdown {
+    display: inline-block;
+    margin-right: 15%;
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown button {
+    background: white;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    font-size: 1.25em;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    padding-bottom: 10px;
+}
+
+.smaller_navdropdown button:focus {
+    outline: 0;
+}
+
+.navdropdown div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown div {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.navdropdown_item {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75em;
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown_item {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    transition: all 0.3s ease;
+}
+
+.socialbar {
+    list-style: none;
+    width: 20%;
+    margin: 0;
+    float: right;
+    text-align: right;
+    margin-right: 4%;
+    padding: 0;
+    height: 0;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.smaller_socialbar {
+    list-style: none;
+    width: 20%;
+    margin: 0;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+    padding: 0;
+    height: 0;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.socialbar_link {
+    width: 2.5em;
+    display: inline-block;
+    margin-right: 7.5%;
+    z-index: 99999;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.smaller_socialbar_link {
+    width: 1.5em;
+    display: inline-block;
+    margin-right: 3%;
+    z-index: 99999;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.socialbar_link:nth-child(3) {
+    margin-right: 15%;
+}
+
+.smaller_socialbar_link:nth-child(3) {
+    margin-right: 15%;
+}
+
+.youtube {
+    background-image: url("../images/youtube_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.vimeo {
+    background-image: url("../images/vimeo_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.instagram {
+    background-image: url("../images/instagram_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.ham_menu_container {
+    width: 50%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.ham_instagram {
+    display: none;
+}
+.ham_vimeo {
+    display: none;
+}
+.ham_youtube {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .smaller_header {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .navbar {
+        display: none;
+    }
+    .smaller_navbar {
+        display: none;
+    }
+    .smaller_socialbar_link {
+        width: 2em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .socialbar a:nth-child(2) {
+        display: none;
+    }
+    .smaller_socialbar a:nth-child(2) {
+        display: none;
+    }
+    .ham_youtube {
+        display: block;
+        width: 2em;
+        padding-bottom: 2em;
+        background-image: url("../images/youtube_btn_black.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 0;
+        /* margin-left: 17%; */
+        margin-top: 7.5%;
+    }
+}
+
+@media (max-width: 550px) {
+    .socialbar {
+        display: none;
+    }
+    .smaller_socialbar {
+        display: none;
+    }
+    .ham_instagram {
+        display: block;
+        width: 2em;
+        padding-bottom: 2em;
+        background-image: url("../images/instagram_btn_black.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 0;
+        /* margin-left: 17%; */
+        margin-top: 7.5%;
+        margin-bottom: 10%;
+    }
+    .ham_vimeo {
+        display: block;
+        width: 2em;
+        padding-bottom: 2em;
+        background-image: url("../images/vimeo_btn_black.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 0;
+        /* margin-left: 17%; */
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        padding-bottom: 12px;
+        /* display: none; */
+    }
+    .smaller_header {
+        padding-bottom: 12px;
+    }
+    .navbar {
+        display: none;
+    }
+    .title_container {
+        font-size: 1em;
+        margin-left: 25%;
+        width: 70%;
+
+    }
+    .smaller_title_container {
+        font-size: 0.8em;
+        margin-left: 25%;
+        width: 70%;
+        top: 0;
+    }
+    .site_title {
+        font-size: 1em;
+        width: 100%;
+    }
+    .site_title_text {
+        text-align: right;
+    }
+}
+

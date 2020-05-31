@@ -1,0 +1,139 @@
+.container {
+    margin-bottom: 10px;
+}
+
+.bathroom {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+    background: red;
+    background-image: url('../images/bathroom_crate.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 10px;
+}
+
+.bathroom_interior {
+    background: orange;
+    background-image: url('../images/bathroomBack.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_leftwall {
+    background-image: url("../images/bathroomLeft.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_rightwall {
+    background-image: url("../images/bathroomRight.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_friend_underwater {
+    background-image: url("../images/colman_underwater.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_friend_neck {
+    background-image: url("../images/colman_neck.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_friend_waisthigh {
+    background-image: url("../images/colman_waisthigh.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.bathroom_friend_floorlevel {
+    background-image: url("../images/colman_floorlevel.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.waterLevel {
+    width: 100%;
+}
+
+.waterLevel_waves {
+    width: 100%;
+    height: 26px;
+    position: relative;
+    top: -13px;
+    background-image: url("../images/water_level.png");
+}
+
+.waterLevel_depths {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    background: linear-gradient( rgba(75,142,180,0), rgba(75,142,180,1) );
+}
+
+.waterLevel_top {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -14px;
+    background: linear-gradient( rgba(165,213,230,1) 0%,
+                                 rgba(124,204,226,0) 90%);
+}
+
+.bedroom {
+    background: orange;
+}
+
+.kitchen {
+    background: lightblue;
+}
+
+.basement {
+    background: green;
+}

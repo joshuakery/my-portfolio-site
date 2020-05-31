@@ -1,0 +1,52 @@
+.open {
+    display: block;
+    padding: 2em;
+    padding-left: 3em;
+    padding-top: 4em;
+    padding-bottom: 2.5em;
+    background: white;
+    position: relative;
+    z-index: 99999;
+    transition: all 0.3s ease;
+    width: 8em;
+}
+
+.closed {
+    transform: translateX(-200%);
+}
+
+.closed li {
+    display: none;
+}
+
+.open li {
+    list-style: none;
+    /* transform: translateX(-100%); */
+    
+}
+
+.open li:nth-child(1) {
+    margin-top: 25px;
+}
+
+.open li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    display: block;
+    padding: 2%;
+    /* margin-left: 15%; */
+}
+
+@media (max-width: 1300px) {
+    .open {
+        padding-top: 3em;
+    }
+}
+
+@media (max-width: 500px) {
+    .open {
+        padding-top: 35%;
+    }
+}

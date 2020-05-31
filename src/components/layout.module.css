@@ -2,6 +2,15 @@
     background: white;
 }
 
+.design_body_container {
+    padding-top: 10%;
+    min-height: 530px;
+}
+
+.design_body_container h1 {
+    color: black;
+}
+
 .rand {
     background: red;
     width: 100%;
@@ -71,8 +80,18 @@
     z-index: -999;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .body_container {
         margin-top: 20%;
+    }
+    .designlayout {
+        width: 100%;
+    }
+    .design_body_container {
+        padding-top: 20%;
+        width: 100%;
+    }
+    .design_body_container h1 {
+        width: 100%;
     }
 }

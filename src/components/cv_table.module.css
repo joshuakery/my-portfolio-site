@@ -1,7 +1,7 @@
 .cvtable {
     font-family: 'PT Serif', serif;
 
-    width: 70%;
+    width: 50%;
     margin: auto;
     background: white;
     padding: 40px;
@@ -39,4 +39,16 @@
 .cvtable td:nth-child(1) {
     width: 10%;
     min-width: 65px;
+}
+
+@media (max-width: 1250px) {
+    .cvtable {
+        width: 70%;
+    }
+}
+
+@media (max-width: 750px) {
+    .cvtable {
+        width: 90%;
+    }
 }

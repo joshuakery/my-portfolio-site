@@ -50,7 +50,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <header className={this.state.smallerHeader ? headerStyles.smaller_header : null}>
+                <header className={this.state.smallerHeader ? headerStyles.smaller_header : headerStyles.larger_header}>
 
                         <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
                             {/* <ListLink to="/" className={headerStyles.navlink}>

@@ -1,6 +1,8 @@
 import React from "react"
 import layoutStyles from "./layout.module.css"
 import { Header } from "../components/header"
+import { DesignHeader } from "../components/design_header"
+import { Footer } from "../components/footer"
 
 class Layout extends React.Component {
     render() {
@@ -16,6 +18,8 @@ class Layout extends React.Component {
                 <div className={layoutStyles.body_container}>
                     {this.props.children}
                 </div>
+
+                <Footer bg={'dark'}></Footer>
             </div>
         )
     }
@@ -25,10 +29,11 @@ class DesignLayout extends React.Component {
     render() {
         return (
             <div className={layoutStyles.designlayout}>            
-                <Header open={this.props.open} setOpen={this.props.setOpen}></Header>
+                <DesignHeader open={this.props.open} setOpen={this.props.setOpen}></DesignHeader>
                 <div className={layoutStyles.design_body_container}>
                     {this.props.children}
                 </div>
+                <Footer bg={'light'}></Footer>
             </div>
         )
     }

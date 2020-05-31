@@ -10,6 +10,27 @@ import styles from "./design_projects.module.css"
 import { graphql } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 
+const getProjects = (edges) => {
+  let projects = [];
+  console.log(edges);
+  for (let i=0; i < edges.length; i++) {
+      let {node} = edges[i];
+      const { slug } = node.fields;
+      const { title, subtitle, featuredImage } = node.frontmatter;
+      console.log(title);
+      projects.push(
+        <li key={slug} className={styles.project}>
+            <Link to={slug}>
+                {/* <h3 className={styles.projectTitle}>{title}</h3> */}
+                <Img fluid={featuredImage.childImageSharp.fluid}
+                            className={styles.featuredImage}/>
+            </Link>
+        </li>
+      )
+  }
+  return projects
+}
+
 export default ({ children, location }) => {
     const data = useStaticQuery(
         graphql`
@@ -39,23 +60,18 @@ export default ({ children, location }) => {
             }
         `
     )
+
     return (
         <div>
             <h1 className={styles.title}>Portfolio</h1>
+            {/* <div className={styles.project1_container}>
+              <h2>Kidspool</h2>
+              <h3>Responsive Web App Study</h3>
+                <div className={styles.project1_img}>
+                </div>
+            </div> */}
             <ul className={styles.projectsContainer}>
-                {data.allMarkdownRemark.edges.map(({ node }) => {
-                const { slug } = node.fields
-                const { title, subtitle, featuredImage } = node.frontmatter
-                return (
-                    <li key={slug} className={styles.project}>
-                        <Link to={slug}>
-                            <h3 className={styles.projectTitle}>{title}</h3>
-                            <Img fluid={featuredImage.childImageSharp.fluid}
-                                        className={styles.featuredImage}/>
-                        </Link>
-                    </li>
-                )
-                })}
+              {getProjects(data.allMarkdownRemark.edges)}
             </ul>
             {children}
         </div>

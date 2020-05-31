@@ -1,0 +1,272 @@
+.darkFooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10%;
+    padding-left: 5%;
+    min-height: 100px;
+    background: black;
+
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.lightFooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10%;
+    padding-left: 5%;
+    min-height: 100px;
+    background: white;
+
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color:black;
+
+    /* border-top: 1px solid gray; */
+}
+
+.siteMap {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.darkMapTitle {
+    width: 100%;
+    display: inline-block;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.mapTitle {
+    width: 100%;
+    display: inline-block;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.mainLinks {
+    width: 40%;
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: text-bottom;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.mainLinks div {
+    vertical-align: top;
+    position: relative;
+    top: -2.5em;
+}
+
+.darkMainLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75em;
+}
+
+.mainLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75em;
+}
+
+.projectsLinks {
+    width: 40%;
+    display: inline-block;
+    padding-left: 10px;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.darkProjectsLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75em;
+}
+
+.projectsLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.75em;
+}
+
+.bioInfo {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bioInfo h1 {
+    color: black;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.darkBioInfo h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.contactInfo {
+    width: 33%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    position: relative;
+    top: -1em;
+}
+
+.contactInfo h2 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.socialbar {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    margin-right: 4%;
+    padding: 0;
+    height: 0;
+    display: inline-block;
+    /* position: absolute; */
+    cursor: pointer;
+}
+
+.socialbar_link {
+    width: 1.5em;
+    display: inline-block;
+    margin-right: 10%;
+    z-index: 99999;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.socialbar_link:nth-child(3) {
+    margin-right: 0;
+}
+
+.youtube {
+    background-image: url("../images/youtube_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.vimeo {
+    background-image: url("../images/vimeo_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.instagram {
+    background-image: url("../images/instagram_btn.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.light_vimeo {
+    background-image: url("../images/vimeo_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.light_youtube {
+    background-image: url("../images/youtube_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.light_instagram {
+    background-image: url("../images/instagram_btn_black.png");
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+@media (max-width: 750px) {
+    .lightFooter {
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin-top: 120px;
+        background: white;
+        /* display: none; */
+    }
+    .siteMap {
+        display: none;
+    }
+    .bioInfo {
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contactInfo {
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contactInfo h2 {
+        font-size: 1em;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .socialbar {
+        margin: 0;
+        text-align: center;
+    }
+}

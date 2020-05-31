@@ -1,0 +1,39 @@
+.btn {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .btn {
+        display: block;
+        width: 2.5em;
+        height: 0;
+        padding-bottom: 6%;
+        margin-left: 3em;
+        position: absolute;
+        /* top: 25%; */
+        /* top: 1em; */
+        z-index: 9999;
+        cursor: pointer;
+    }
+    
+    .btn_open {
+        width: 100%;
+        padding-bottom: 100%;
+        background: white;
+        background-image: url("../images/hamburger_x_black.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    
+    .btn_closed {
+        width: 100%;
+        /* height: 100px; */
+        padding-bottom: 100%;
+        background: white;
+        background-image: url("../images/hamburger_ham_black.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }  
+}

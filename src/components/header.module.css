@@ -306,6 +306,7 @@ header {
 @media (max-width: 500px) {
     header {
         padding-bottom: 12px;
+        /* display: none; */
     }
     .smaller_header {
         padding-bottom: 12px;
