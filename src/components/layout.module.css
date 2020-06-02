@@ -1,3 +1,7 @@
+.designlayout html {
+    background: red;
+}
+
 .designlayout {
     background: white;
 }
@@ -80,6 +84,12 @@
     z-index: -999;
 }
 
+@media (max-width: 1000px) {
+    .design_body_container {
+        padding-top: 15%;
+    }
+}
+
 @media (max-width: 750px) {
     .body_container {
         margin-top: 20%;
@@ -91,7 +101,17 @@
         padding-top: 20%;
         width: 100%;
     }
-    .design_body_container h1 {
+    /* .design_body_container h1 {
         width: 100%;
+    } */
+}
+
+@media (max-width: 500px) {
+    .design_body_container {
+        padding-top: 30%;
+    }
+    .design_body_container h1 {
+        text-align: left;
+        margin-left: 5%;
     }
 }

@@ -42,11 +42,21 @@
 @media (max-width: 1300px) {
     .open {
         padding-top: 3em;
+        padding-right: 3em;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .open {
         padding-top: 35%;
+        width: 60%;
+        padding-left: 12%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 400px) {
+    .open {
+        width: 80%;
     }
 }

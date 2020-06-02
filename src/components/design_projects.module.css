@@ -1,9 +1,12 @@
 .title {
     text-align: left;
-    width: 20%;
-    margin-left: 10%;
+    width: 95%;
+    margin-left: 5%;
     font-size: 3em;
+    font-weight: 400;
 }
+
+
 
 .project1_container {
     width: 100%;
@@ -58,4 +61,28 @@
 
 .featuredImage {
 
+}
+
+@media (max-width: 750px) {
+    .project {
+        width: 48%;
+        margin-bottom: 2%;
+    }
+    .project:nth-child(3n + 2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .project:nth-child(odd) {
+        margin-right: 1%;
+    }
+}
+
+@media (max-width: 550px) {
+    .title {
+        margin-top: 25px;
+    }
+    .project {
+        width: 100%;
+        margin-bottom: 5%;
+    }
 }

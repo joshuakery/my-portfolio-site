@@ -52,3 +52,14 @@
         width: 90%;
     }
 }
+
+@media (max-width: 550px) {
+    .cvtable {
+        padding: 0;
+
+    }
+
+    .cvtable h1 {
+        margin-left: 0;
+    }
+}

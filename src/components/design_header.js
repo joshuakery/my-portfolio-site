@@ -89,7 +89,10 @@ class DesignHeader extends React.Component {
                                 {/* <ListLink to="/portfolio" className={headerStyles.navlink}>
                                     HOME
                                 </ListLink> */}
-                                <ListLink to="/cv/" className={headerStyles.navlink}>
+                                <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
+                                    ABOUT ME
+                                </ListLink>
+                                <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
                                     CV
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
