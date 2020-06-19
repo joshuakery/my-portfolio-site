@@ -1,91 +1,154 @@
+.container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    display: grid;
+    grid-template-columns:  auto;
+    grid-template-rows:  auto 50px auto;
+}
+
+/*----------------------------ROOMS-----------------------------------*/
+
 .room_container {
-    width: 48%;
-    display: inline-block;
-    padding: 1%;
-    position: relative;
+    display: grid;
+    grid-template-columns:  100%;
+    grid-template-rows:  100%;
 }
 
-.room_container:after {
-    content: '';
-    display: block;
+.room_container:nth-child(2) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
-.brick_hole {
-    height: 0;
-    z-index: 999;
-    position: relative;
+.room_container:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
-.left_brick_hole {
-    width: 10%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 999;
-    background-image: url("../images/brick_hole.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-
+.room_container:nth-child(4) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
-.right_brick_hole {
-    width: 10%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 999;
-    float: right;
-    background-image: url("../images/brick_hole_right.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-    position: relative;
-    left: 80%;
-}
+.room_container a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-.left_wall {
     width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    z-index: 998;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+    height: 100%;
 
-.right_wall {
-    width: 80%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 998;
-    float: right;
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: 105%;
-}
-
-.room_contents {
-    width: 100%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 998;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.friend {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    z-index: 998;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    display: grid;
+    grid-template-columns:  30px auto 30px;
+    grid-template-rows: auto;
 }
 
 .room {
-    width: 100%;
-    padding-bottom: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-decoration: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
     box-shadow: inset 0 0 10px #000000;
 }
+
+.left_wall {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.right_wall {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-position-x: right;
+}
+
+.room_contents {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.friend {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.left_brick_hole {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.right_brick_hole {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole_right.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.room_link_container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6em auto;
+
+    opacity: 0;
+}
+
+.room_link_container:hover {
+    opacity: 1;
+}
+
+.room_link_background {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background: rgba(0,0,0,0.5);
+}
+
+.room_link {
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*----------------------------ROOM IMAGES-----------------------------------*/
 
 .room_container:nth-child(1) .room {
     background-image: url('../images/bannister.png');
@@ -105,10 +168,14 @@
 
 .room_container:nth-child(2) .room_contents {
     background-image: url("../images/bedroomMiddle.png");
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .room_container:nth-child(2) .friend {
     background-image: url("../images/adam1.png");
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .room_container:nth-child(3) .room {
@@ -139,173 +206,178 @@
     background-image: url("../images/olivia1.png");
 }
 
+/*----------------------------BASEMENT-----------------------------------*/
+
 .basement_container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
     background-image: url('../images/concrete.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 850px;
-    padding: 1%;
-    margin: auto;
+
+    display: grid;
+    grid-template-columns: auto 400px auto;
+    grid-template-rows: 12px 400px 24px;
+
+}
+
+.basement_container a {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 75px auto;
 }
 
 .basement_ceiling {
     background-image: url('../images/basement_ceiling.png');
-    width: 48%;
-    margin: auto;
-    position: relative;
-    top: -20px;
-    height: 0;
-    padding-bottom: 48%;
-    z-index: 998;
     background-repeat: no-repeat;
     background-size: 100%;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    z-index: 998;
 }
 
 .basement_friend {
     background-image: url('../images/liv1.png');
-    width: 48%;
-    margin: auto;
-    position: relative;
-    top: -20px;
-    height: 0;
-    padding-bottom: 48%;
-    z-index: 998;
     background-repeat: no-repeat;
     background-size: 100%;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    z-index: 998;
 }
 
 .basement {
     background-image: url('../images/basement_bottom.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 48%;
-    padding-bottom: 48%;
-    margin: auto;
-    position: relative;
-    top: -20px;
-}
 
-.room_link_container {
-    opacity: 0;
-    height: 0;
-    z-index: 999;
-    position: relative;
-    width: 100%;
-    background: rgba(0,0,0,0.5);
-    padding-bottom: 100%;
-    line-height: 0;
-}
-
-.room_link_container:hover {
-    opacity: 1;
-}
-
-.room_link {
-    color: rgba(255,255,255,1);
-    font-size: 3em;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    margin: 0;
-    text-align: center;
-    /* display: none; */
-    position: relative;
-    top: -220px;
-    height: 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .basement_link_container {
     opacity: 0;
-    height: 0;
     z-index: 999;
-    position: relative;
-    width: 48%;
-    margin: auto;
-    background: rgba(0,0,0,0.5);
-    padding-bottom: 48%;
-    top: -20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 95px auto;
 }
 
 .basement_link_container:hover {
     opacity: 1;
 }
 
-.basement_link {
-    color: white;
-    font-size: 3em;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    margin: 0;
-    text-align: center;
-    /* display: none; */
-    position: relative;
-    padding-top: 40%;
+/*----------------------------RESIZE ICON-----------------------------------*/
+
+.resize_icon {
+    height: 122px;
+    width: 122px;
+
+    background: transparent;
+    background-image: url("../images/resize_icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
-@media (max-width: 900px) {
-    .left_brick_hole {
-        padding-bottom: 430px;
+/*----------------------------MEDIA QUERIES-----------------------------------*/
+
+@media (max-width: 880px) {
+    .container {
+        grid-template-rows:  auto 50px auto;
     }
-    .right_brick_hole {
-        padding-bottom: 430px;
-    }
-    .left_wall {
-        width: 100%;
-        background-size: 430px;
-        padding-bottom: 430px;
-    }
-    .right_wall {
-        width: 80%;
-        background-size: 430px;
-        background-position: 100%;
-        padding-bottom: 430px;
-    }
-    .room_contents {
-        width: 100%;
-        background-size: 430px;
-        background-position: 50%;
-        padding-bottom: 430px;
-    }
-    .friend {
-        width: 100%;
-        background-size: 430px;
-        background-position: 50%;
-        padding-bottom: 430px;
-    }
-    .room {
-        padding-bottom: 430px;
-        background-size: 430px;
-    }
+
     .basement_container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        display: block;
+        height: 0;
         width: 100%;
-        background-size: 900px;
-        background-position: 50% 0;
-        padding: 0;
-        padding-top: 15px;
+        padding-bottom: 49%;
+
+        background-size: 880px;
+        background-position-x: center;
     }
-    .basement_ceiling {
-        width: 425px;
+
+    .basement_container a {
+        height: 0;
+
+
     }
-    .basement_friend {
-        width: 425px;
-        background-position: 0 100%;
-    }
+
     .basement {
-        width: 425px;
-        background-position: 0 100%;
+        width: 400px;
+        padding-bottom: 45%;
+        margin: auto;
+        margin-top: 12px;
+
+        background-position-y: bottom;
     }
+
+    .basement_ceiling {
+        display: block;
+        height: 0;
+        position: relative;
+        width: 400px;
+        padding-bottom: 45%;
+        margin: auto;
+        margin-top: 12px;
+    }
+
+    .basement_friend {
+        display: block;
+        height: 0;
+        position: relative;
+        width: 400px;
+        padding-bottom: 45%;
+        margin: auto;
+        margin-top: 12px;
+
+        background-position-y: bottom;
+    }
+
+    .basement_link_container {
+        width: 400px;
+        margin: auto;
+        margin-top: 12px;
+    }
+
     .room_link_container {
-        padding-bottom: 430px;
-    }
-    .room_link {
-        top: -250px;
+        opacity: 1;
     }
     .basement_link_container {
-        width: 425px;
+        opacity: 1;
     }
-    .basement_link {
-        padding-top: 37%;
+
+    .resize_icon {
+        display: none;
     }
 }
 
@@ -333,6 +405,19 @@
 }
 
 @media (max-width: 750px) {
+    .room_link_container {
+        grid-template-rows: 5em;
+    }
+    .room_link {
+        font-size: 2.5em;
+    }
+    .basement_link_container {
+        grid-template-rows: 5em;
+    }
+    .basement_link {
+        font-size: 2.5em;
+    }
+
     .basement_friend {
         background-image: url("../images/liv3.png");
     }
@@ -350,153 +435,40 @@
     }
 }
 
-@media (max-width: 500px) {
-    .room_container {
-        width: 46%;
+@media (max-width: 650px) {
+    .room_link_container {
+        grid-template-rows: 4em;
     }
-    .room_container:nth-child(3) {
-        width: 41%;
+    .room_link {
+        font-size: 2em;
     }
-    .room_container:nth-child(4) {
-        width: 51%;
+    .basement_link_container {
+        grid-template-rows: 4em;
+    }
+    .basement_link {
+        font-size: 2em;
     }
 }
 
-@media (max-width: 450px) {
-    .left_brick_hole {
-        padding-bottom: 350px;
+@media (max-width: 500px) {
+    .room_container:nth-child(4) .friend {
+        background-position-x: -125px;
     }
-    .right_brick_hole {
-        padding-bottom: 350px;
-    }
-    .left_wall {
-        width: 100%;
-        background-size: 350px;
-        padding-bottom: 350px;
-    }
-    .right_wall {
-        width: 80%;
-        background-size: 350px;
-        background-position: 100%;
-        padding-bottom: 350px;
-    }
-    .room_contents {
-        width: 100%;
-        background-size: 350px;
-        background-position: 50%;
-        padding-bottom: 350px;
-    }
-    .friend {
-        width: 100%;
-        background-size: 350px;
-        background-position: 50%;
-        padding-bottom: 350px;
-    }
-    .room {
-        padding-bottom: 350px;
-        background-size: 350px;
-    }
-    .room_link_container {
-        padding-bottom: 350px;
-    }
+}
 
-    .room_container:nth-child(2) .left_wall {
-        padding-bottom: 98%;
-        background-position-y: 60%;
+@media (max-width: 440px) {
+    .basement {
+        width: 90%;
     }
-
-    .room_container:nth-child(2) .right_wall {
-        padding-bottom: 98%;
-        background-position-y: 60%;
-    }
-
-    .room_container:nth-child(2) .room_contents {
-        padding-bottom: 98%;
-        background-position-y: 45%;
-    }
-
-    .room_container:nth-child(2) .right_brick_hole {
-        padding-bottom: 98%;
-        background-position-y: 60%;
-    }
-
-    .room_container:nth-child(2) .left_brick_hole {
-        padding-bottom: 98%;
-        background-position-y: 60%;
-    }
-
-    .room_container:nth-child(2) .friend {
-        padding-bottom: 98%;
-        background-position-y: 45%;
-    }
-
-    .room_container:nth-child(2) .room {
-        padding-bottom: 98%;
-        background-position-y: 30%;
-    }
-
-    .room_container:nth-child(2) .room_link_container {
-        padding-bottom: 98%;
-    }
-
     .basement_ceiling {
-        width: 95%;
+        width: 90%;
     }
     .basement_friend {
-        width: 95%;
-        background-position: 0 100%;
+        width: 90%;
     }
-    .basement {
-        width: 95%;
-        background-position: 0 100%;
-    }
+
     .basement_link_container {
-        width: 95%;
-    }
-    .basement_link {
-        padding-top: 37%;
+        width: 90%;
     }
 }
 
-@media not hover {
-    .room_link_container {
-        opacity: 1;
-        padding-bottom: 85px;
-    }
-    .room_link {
-        top: -385px;
-    }
-    .basement_link_container {
-       opacity: 1;
-       padding-bottom: 85px;
-    }
-    .basement_link {
-        padding-top: 10px;
-    }
-}
-
-
-
-@media not hover and (max-width: 450px) {
-    .room_link_container {
-        padding-bottom: 75px;
-    }
-    .room_link {
-        font-size: 2.5em;
-        top: -310px;
-    }
-    .room_container:nth-child(2) .room_link_container {
-        padding-bottom: 75px;
-    }
-    .room_container:nth-child(2) .room_link {
-        top: -3.5em;
-        font-size: 2.5em;
-    }
-    .basement_link_container {
-        padding-bottom: 75px;
-     }
-     .basement_link {
-         padding-top: 10px;
-         font-size: 2.5em;
-     }
-}

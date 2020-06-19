@@ -1,118 +1,125 @@
-
 .container {
-    display: inline-block;
-    width: 48%;
-    margin-right: 2%;
-    height: 0;
-    position: relative;
-    /* top: -35px; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    height: 100%;
+
+    display: grid;
+    grid-template-columns:  auto;
+    grid-template-rows: auto;
 }
 
-.room_container {
-    width: 100%;
-    display: inline-block;
-    height: 0;
-}
+.room_container a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-.room_container:after {
-    content: '';
-    display: block;
-}
-
-.brick_hole {
-    height: 0;
-    z-index: 999;
-    position: relative;
-    /* display: none; */
-}
-
-.left_brick_hole {
-    width: 10%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 999;
-    background-image: url("../images/brick_hole.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-
-}
-
-.right_brick_hole {
-    width: 10%;
-    height: 0;
-    padding-bottom: 96%;
-    z-index: 999;
-    margin-left: 91%;
-    /* float: right; */
-    background-image: url("../images/brick_hole_right.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-
+    display: grid;
+    grid-template-columns:  30px auto 30px;
+    grid-template-rows: auto;
 }
 
 .image_container {
-    height: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    box-shadow: inset 0 0 10px #000000;
+
+    height: 100%;
 }
 
 .featuredImage {
     z-index: 1; 
-    width: 100%;
-    position: relative;
+}
+
+.left_brick_hole {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+    z-index: 2; 
+}
+
+.right_brick_hole {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole_right.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+    z-index: 2; 
 }
 
 .room_link_container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6em auto;
+
     opacity: 0;
-    height: 0;
-    z-index: 999;
-    position: relative;
-    width: 100%;
-    background: rgba(0,0,0,0.8);
-    padding-bottom: 100%;
+
+    z-index: 2;
 }
 
 .room_link_container:hover {
     opacity: 1;
 }
 
+.room_link_background {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background: rgba(0,0,0,0.9);
+}
+
 .room_link {
-    color: rgba(255,255,255,1);
+    color: white;
     font-size: 3em;
+    padding: 10px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
-    margin: 0;
-    text-align: center;
-    padding-top: 15%;
-    padding-left: 5%;
-    width: 90%;
-    height: 0;
 }
 
-@media (max-width: 770px) {
-    .container {
-        top: -15px;
+@media (max-width: 880px) {
+    .room_link_container {
+        opacity: 0;
     }
 }
 
-@media (max-width: 720px) {
-    .container {
-        top: -100px;
+@media (max-width: 750px) {
+    .room_link_container {
+        grid-template-rows: 5em;
+    }
+    .room_link {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 650px) {
+    .room_link_container {
+        grid-template-rows: 4em;
     }
     .room_link {
         font-size: 2em;
-    }
-}
-
-/* @media (max-width: 500px) {
-    .container {
-        width: 46%;
-        top: -240px;
-    }
-} */
-
-@media (max-width: 450px) {
-    .container {
-        width: 46%;
-        top: -15px;
     }
 }

@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Layout } from "../components/layout"
-import House from "../components/house"
-import Ground from "../components/ground"
+import House2 from "../components/house2"
+import Ground2 from "../components/ground2"
 import { Link, graphql } from "gatsby"
 import catStyles from "../templates/category.module.css"
 import Img from "gatsby-image"
@@ -17,24 +17,23 @@ const getRooms = (edges, location) => {
     const { title, featuredImage } = node.frontmatter
     rooms.push (
         <li key={slug} className={catStyles.room_container}>
-        <Link to={slug} state={{previousPage: location.pathname}}>
-          <div className={catStyles.room}>
-            <div className={catStyles.brick_hole}>
-                <div className={catStyles.left_brick_hole}></div>
-            </div>
-            <div className={catStyles.brick_hole}>
-                <div className={catStyles.right_brick_hole}></div>
-            </div>
-            <div className={catStyles.room_link_container}>
-              <p className={catStyles.room_link}>
-                  {title}
-              </p>
-            </div>
+          <Link to={slug} state={{previousPage: location.pathname}}>
+
             <Img fluid={featuredImage.childImageSharp.fluid}
-                        className={catStyles.featuredImage}/>
-          </div>
-          
-        </Link>
+                            className={catStyles.featuredImage}/>
+
+            <div className={catStyles.room_link_container}>
+                <div className={catStyles.room_link_background}>
+                    <p className={catStyles.room_link}>
+                        {title}
+                    </p>
+                </div>
+            </div>
+
+            <div className={catStyles.left_brick_hole}></div>
+            <div className={catStyles.right_brick_hole}></div>
+
+          </Link>
         </li>
     )
   }
@@ -48,15 +47,18 @@ const getLastRoom = (edges,location) => {
   return (
       <li key={slug} className={catStyles.basement_container}>
         <Link to={slug} state={{previousPage: location.pathname}}>
-          <div className={catStyles.basement}>
-            <div className={catStyles.room_link_container}>
-                <p className={catStyles.room_link}>
-                    {title}
-                </p>
-            </div>
-            <Img fluid={featuredImage.childImageSharp.fluid}
-                        className={catStyles.featuredImage}/>
+
+          <Img fluid={featuredImage.childImageSharp.fluid}
+                          className={catStyles.featuredImage}/>
+
+          <div className={catStyles.room_link_container}>
+              <div className={catStyles.room_link_background}>
+                  <p className={catStyles.room_link}>
+                      {title}
+                  </p>
+              </div>
           </div>
+
         </Link>
       </li>
   )
@@ -86,15 +88,15 @@ const Cats = ({ pageContext, data, location }) => {
 
   return (
     <Layout>
-        <div>
+        <div className={catStyles.container}>
           <h1>{category}</h1>
-          <House>
+          <House2>
             {/* {getSpecialRoom(category)} */}
             {getRooms(edges, location)}
-          </House>
-          <Ground></Ground>
-          {getLastRoom(edges,location)}
-          {/* <Link to="/projects">All Projects</Link> */}
+          </House2>
+          <Ground2>
+            {getLastRoom(edges,location)}
+          </Ground2>
         </div>
     </Layout>
   )

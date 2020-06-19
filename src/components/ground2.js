@@ -1,5 +1,5 @@
 import React from "react"
-import groundStyles from '../components/ground.module.css'
+import groundStyles from '../components/ground2.module.css'
 
 export default ({children}) => {
     return (

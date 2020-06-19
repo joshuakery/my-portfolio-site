@@ -22,42 +22,22 @@ const getRooms = (group, location) => {
                         <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
                             state={{previousPage: location.pathname}}>
 
-                            
-                            
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.left_wall}></div>
-                            </div>
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.right_wall}></div>
-                            </div>
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.room_contents}></div>
-                            </div>
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.friend}></div>
-                            </div>
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.right_brick_hole}></div>
-                            </div>
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.left_brick_hole}></div>
-                            </div>
+                            <div className={catRoomStyles.room}></div>
+                            <div className={catRoomStyles.left_wall}></div>
+                            <div className={catRoomStyles.right_wall}></div>
+                            <div className={catRoomStyles.room_contents}></div>
+                            <div className={catRoomStyles.friend}></div>
 
-                            <div className={catRoomStyles.brick_hole}>
-                                <div className={catRoomStyles.room_link_container}>
+                            <div className={catRoomStyles.room_link_container}>
+                                <div className={catRoomStyles.room_link_background}>
                                     <p className={catRoomStyles.room_link}>
                                         {cat.fieldValue}
                                     </p>
                                 </div>
                             </div>
 
-                            <div className={catRoomStyles.room}>
-                                {/* <p className={catRoomStyles.room_link}>
-                                    {cat.fieldValue}
-                                </p> */}
-                            </div>
-
-                            
+                            <div className={catRoomStyles.right_brick_hole}></div>
+                            <div className={catRoomStyles.left_brick_hole}></div>
 
                         </Link>
                 </li>
@@ -71,28 +51,21 @@ const getLastRoom = (group, location) => {
     return (
         <li key={cat.fieldValue} className={catRoomStyles.basement_container}>
             <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
-                  state={{previousPage: location.pathname}}>
+                state={{previousPage: location.pathname}}>
 
-                <div className={catRoomStyles.brick_hole}>
                     <div className={catRoomStyles.basement_ceiling}></div>
-                </div>
-
-                <div className={catRoomStyles.brick_hole}>
                     <div className={catRoomStyles.basement_friend}></div>
-                </div>
 
-                <div className={catRoomStyles.brick_hole}>
                     <div className={catRoomStyles.basement_link_container}>
-                        <p className={catRoomStyles.basement_link}>
-                            {cat.fieldValue}
-                        </p>
+                        <div className={catRoomStyles.room_link_background}>
+                            <p className={catRoomStyles.room_link}>
+                                {cat.fieldValue}
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div className={catRoomStyles.basement}>
-                    {/* <p className={catRoomStyles.room_link}>
-                        {cat.fieldValue}
-                    </p> */}
+                    <div className={catRoomStyles.basement}>
+
                 </div>
             </Link>
         </li>
@@ -117,14 +90,16 @@ export default ({ children, location }) => {
         `
     )
     return (
-        <div>
+        <div className={catRoomStyles.container}>
             <House>
                 <RecentShows location={location}></RecentShows>
                 {getRooms(data.allMarkdownRemark.group, location)}
             </House>
-            <Ground></Ground>
-            {getLastRoom(data.allMarkdownRemark.group, location)}
+            <Ground>
+                {getLastRoom(data.allMarkdownRemark.group, location)}
+            </Ground>
             {children}
+            <div className={catRoomStyles.resize_icon}></div>
         </div>
     )
 }

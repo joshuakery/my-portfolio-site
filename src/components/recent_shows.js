@@ -40,27 +40,21 @@ export default ({ children, location }) => {
                   <div key={show.id} className={recShowStyles.room_container}>
                     <Link to={show.fields.slug} state={{previousPage: location.pathname}}>
 
-                        <div className={recShowStyles.brick_hole}>
-                            <div className={recShowStyles.left_brick_hole}></div>
-                        </div>
-                        <div className={recShowStyles.brick_hole}>
-                            <div className={recShowStyles.right_brick_hole}></div>
-                        </div>
-
-                        
-
-                        <div className={recShowStyles.brick_hole}>
-                            <div className={recShowStyles.room_link_container}>
-                                <p className={recShowStyles.room_link}>
-                                    Recent Show: {show.frontmatter.title}
-                                </p>
-                            </div>
-                        </div>
                         <div className={recShowStyles.image_container}>
                             <Img fluid={show.frontmatter.featuredImage.childImageSharp.fluid}
                                         className={recShowStyles.featuredImage}/>
                         </div>
-                        
+
+                        <div className={recShowStyles.room_link_container}>
+                            <div className={recShowStyles.room_link_background}>
+                                <p className={recShowStyles.room_link}>
+                                    Recent Shows
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className={recShowStyles.left_brick_hole}></div>
+                        <div className={recShowStyles.right_brick_hole}></div>
                         
                     </Link>
                   </div>

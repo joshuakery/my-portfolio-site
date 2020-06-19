@@ -1,9 +1,4 @@
 .darkFooter {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 10%;
-    padding-left: 5%;
-    min-height: 100px;
     background: black;
 
     font-family: 'PT Serif', serif;
@@ -11,67 +6,74 @@
     font-weight: 400;
     text-align: center;
     color: white;
+
+    padding-top: 40px;
+
+    display: grid;
+    grid-template-columns: 4% auto 4%;
+    grid-template-rows: auto auto auto;
 }
 
 .lightFooter {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 10%;
-    padding-left: 5%;
-    min-height: 100px;
     background: white;
 
     font-family: 'PT Serif', serif;
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    color:black;
+    color: black;
 
-    /* border-top: 1px solid gray; */
+    padding-top: 40px;
+
+    display: grid;
+    grid-template-columns: 4% auto 4%;
+    grid-template-rows: auto auto auto;
 }
 
 .siteMap {
-    width: 33%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-}
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
-.darkMapTitle {
-    width: 100%;
-    display: inline-block;
-    font-size: 1em;
-    text-decoration: none;
-    color: white;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: auto 25% 10% 25% auto;
+    grid-template-rows: auto auto;
 }
 
 .mapTitle {
-    width: 100%;
-    display: inline-block;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
     font-size: 1em;
     text-decoration: none;
     color: black;
 }
 
-.mainLinks {
-    width: 40%;
-    display: inline-block;
-    padding-left: 10px;
-    vertical-align: text-bottom;
-    margin: 0;
-    margin-top: 10px;
-}
+.darkMapTitle {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-.mainLinks div {
-    vertical-align: top;
-    position: relative;
-    top: -2.5em;
-}
-
-.darkMainLinks a {
+    font-size: 1em;
     text-decoration: none;
     color: white;
-    font-size: 0.75em;
+}
+
+.mainLinks {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    padding: 0;
+    
+    text-align: left;
 }
 
 .mainLinks a {
@@ -80,19 +82,32 @@
     font-size: 0.75em;
 }
 
-.projectsLinks {
-    width: 40%;
-    display: inline-block;
-    padding-left: 10px;
-    margin: 0;
-    margin-top: 10px;
+.darkMainLinks {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
+    padding: 0;
+    
+    text-align: left;
 }
 
-.darkProjectsLinks a {
+.darkMainLinks a {
     text-decoration: none;
     color: white;
     font-size: 0.75em;
+}
+
+.projectsLinks {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    padding: 0;
+
+    text-align: right;
 }
 
 .projectsLinks a {
@@ -101,39 +116,71 @@
     font-size: 0.75em;
 }
 
+.darkProjectsLinks {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    padding: 0;
+
+    text-align: right;
+}
+
+.darkProjectsLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75em;
+}
+
 .bioInfo {
-    width: 33%;
-    display: inline-block;
-    vertical-align: top;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    margin-bottom: 40px;
+
+    text-align: center;
 }
 
 .bioInfo h1 {
-    color: black;
-    padding: 0;
-    margin: 0;
     margin-bottom: 10px;
+
+    color: black;
     font-family: 'PT Serif', serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
+.darkBioInfo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
 .darkBioInfo h1 {
-    color: white;
-    padding: 0;
-    margin: 0;
     margin-bottom: 10px;
+
+    color: white;
     font-family: 'PT Serif', serif;
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .contactInfo {
-    width: 33%;
-    display: inline-block;
-    text-align: right;
-    vertical-align: top;
-    position: relative;
-    top: -1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .contactInfo h2 {
@@ -143,28 +190,34 @@
 
 .socialbar {
     list-style: none;
-    width: 100%;
-    margin: 0;
+    
     text-align: right;
-    margin-right: 4%;
+    margin: 0;
     padding: 0;
-    height: 0;
-    display: inline-block;
-    /* position: absolute; */
+    display: grid;
+    grid-template-columns: auto 5% 8% 5% 8% 5% auto;
     cursor: pointer;
 }
 
 .socialbar_link {
-    width: 1.5em;
-    display: inline-block;
-    margin-right: 10%;
     z-index: 99999;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
+.socialbar_link:nth-child(1) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.socialbar_link:nth-child(2) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
 .socialbar_link:nth-child(3) {
-    margin-right: 0;
+    grid-column-start: 6;
+    grid-column-end: 7;
 }
 
 .youtube {
@@ -237,14 +290,67 @@
     margin: 0;
 }
 
-@media (max-width: 750px) {
+@media (min-width: 880px) {
+    .darkFooter {
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-template-rows: auto;
+
+        padding-top: 100px;
+    }
+    .lightFooter {
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-template-rows: auto;
+
+        padding-top: 100px;
+    }
+    .siteMap {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        grid-template-columns: 0 25% 10% 25% auto;
+
+        text-align: left;
+    }
+    .projectsLinks {
+        text-align: left;
+    }
+    .darkProjectsLinks {
+        text-align: left;
+    }
+    .bioInfo {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .darkBioInfo {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .contactInfo {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        text-align: right;
+    }
+    .socialbar {
+        grid-template-columns: auto 5% 8% 5% 8% 5% 0;
+    }
+}
+
+/* @media (max-width: 750px) {
     .lightFooter {
         width: 100%;
         padding: 0;
         display: block;
         margin-top: 120px;
         background: white;
-        /* display: none; */
     }
     .siteMap {
         display: none;
@@ -269,4 +375,4 @@
         margin: 0;
         text-align: center;
     }
-}
+} */

@@ -27,6 +27,7 @@ export default ({ data }) => {
                 <Link to="/cv/">My CV</Link>
                 </AboutBody>
                 
+                
             </div>
         </Layout>
     )
