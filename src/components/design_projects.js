@@ -63,7 +63,7 @@ export default ({ children, location }) => {
 
     return (
         <div>
-            <h1 className={styles.title}>Portfolio</h1>
+            {/* <h1 className={styles.title}>Portfolio</h1> */}
             {/* <div className={styles.project1_container}>
               <h2>Kidspool</h2>
               <h3>Responsive Web App Study</h3>

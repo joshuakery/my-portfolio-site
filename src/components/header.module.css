@@ -18,6 +18,7 @@ header {
     transition: all 0.3s ease;
 }
 
+
 .borderClass {
     border: 1px solid yellow;
 }
@@ -124,6 +125,95 @@ header {
     margin: 0;
     transition: all 0.3s ease;
 }
+
+/*-------------------------------------DROPDOWN-------------------------------------*/
+
+.navdropdown {
+    display: inline-block;
+    margin-right: 15%;
+    transition: all 0.3s ease;
+}
+
+.navdropdown button {
+    background:  rgb(63,93,170);
+
+    padding: 0;
+    margin-top: 5px;
+    border: none;
+
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 400;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.navdropdown button:focus {
+    outline: 0;
+}
+
+.smaller_navdropdown {
+    display: inline-block;
+    margin-right: 15%;
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown button {
+    background:  rgb(63,93,170);
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    font-size: 1.25em;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+    color: white;
+}
+
+.smaller_navdropdown button:focus {
+    outline: 0;
+}
+
+.navdropdown div {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background:  rgb(63,93,170);
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background:  rgb(63,93,170);
+    transition: all 0.3s ease;
+}
+
+.navdropdown_item {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75em;
+    transition: all 0.3s ease;
+}
+
+.smaller_navdropdown_item {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    transition: all 0.3s ease;
+}
+
+/*-------------------------------------SOCIAL BAR-------------------------------------*/
 
 .socialbar {
     list-style: none;

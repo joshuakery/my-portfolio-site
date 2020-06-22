@@ -7,7 +7,7 @@ import RecentWorks from "../components/recent_works"
 export default ({ data, location }) => {
     return (
         <Layout>
-          {/* <RecentWorks location={location}></RecentWorks> */}
+          <RecentWorks location={location}></RecentWorks>
           <CategoryRooms location={location}></CategoryRooms>
         </Layout>
     )

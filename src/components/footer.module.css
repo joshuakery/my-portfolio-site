@@ -8,6 +8,7 @@
     color: white;
 
     padding-top: 40px;
+    padding-bottom: 60px;
 
     display: grid;
     grid-template-columns: 4% auto 4%;

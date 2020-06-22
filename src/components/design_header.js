@@ -54,16 +54,6 @@ class DesignHeader extends React.Component {
                 <header className={this.state.smallerHeader ? headerStyles.smaller_header : headerStyles.larger_header}>
 
                         <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
-                            {/* <ListLink to="/" className={headerStyles.navlink}>
-                                HOME
-                            </ListLink> */}
-                            {/* <ListLink to="/cv/" className={headerStyles.navlink}>
-                                CV
-                            </ListLink> */}
-                            {/* <ListLink to="/portfolio_about/"
-                                className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
-                                ABOUT
-                            </ListLink> */}
                             <DropdownButton title="ABOUT" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
                                 <Dropdown.Item>
                                     <Link to="/portfolio_about/"
@@ -78,10 +68,24 @@ class DesignHeader extends React.Component {
                                     </Link>
                                 </Dropdown.Item>
                             </DropdownButton>
-                            <ListLink to="/portfolio/"
+                            {/* <ListLink to="/portfolio/"
                                 className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
                                 PORTFOLIO
-                            </ListLink>
+                            </ListLink> */}
+                            <DropdownButton title="WORKS" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+                                <Dropdown.Item>
+                                    <Link to="/portfolio/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Design Portfolio
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/projects/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              All Projects
+                                    </Link>
+                                </Dropdown.Item>
+                            </DropdownButton>
                         </ul>
                         
                         <div className={headerStyles.ham_menu_container}>
@@ -113,7 +117,7 @@ class DesignHeader extends React.Component {
                         <HamBtn open={this.state.open} setOpen={this.setOpen}>
                         </HamBtn>
 
-                        <Link to="/portfolio" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
+                        <Link to="/" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
                             <div className={this.state.smallerHeader ? headerStyles.smaller_site_title : headerStyles.site_title}>
                                 <h1 className={headerStyles.site_title_text}>joshua kery</h1>
                             </div>

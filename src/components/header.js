@@ -1,5 +1,6 @@
 import React, {useState}  from "react"
 import { Link } from "gatsby"
+import {Dropdown, DropdownButton} from 'react-bootstrap'
 import HamBtn from "../components/hamburger_button"
 import HamMenu from "../components/hamburger_menu"
 import headerStyles from "./header.module.css"
@@ -53,20 +54,42 @@ class Header extends React.Component {
                 <header className={this.state.smallerHeader ? headerStyles.smaller_header : headerStyles.larger_header}>
 
                         <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
-                            {/* <ListLink to="/" className={headerStyles.navlink}>
-                                HOME
-                            </ListLink> */}
-                            {/* <ListLink to="/cv/" className={headerStyles.navlink}>
-                                CV
-                            </ListLink> */}
-                            <ListLink to="/about/"
-                                className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
-                                ABOUT
-                            </ListLink>
-                            <ListLink to="/projects/"
+
+                            <DropdownButton title="ABOUT" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+                                <Dropdown.Item>
+                                    <Link to="/portfolio_about/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Bio
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/portfolio_cv/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              CV
+                                    </Link>
+                                </Dropdown.Item>
+                            </DropdownButton>
+
+                            {/* <ListLink to="/projects/"
                                 className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
                                 PROJECTS
-                            </ListLink>
+                            </ListLink> */}
+
+                            <DropdownButton title="WORKS" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+                                <Dropdown.Item>
+                                    <Link to="/portfolio/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Design Portfolio
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/projects/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              All Projects
+                                    </Link>
+                                </Dropdown.Item>
+                            </DropdownButton>
+
                         </ul>
                         
                         <div className={headerStyles.ham_menu_container}>

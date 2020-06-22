@@ -38,27 +38,31 @@ export default ({ children, location }) => {
     )
     return (
         <div className={recWorkStyles.container}>
-            <ul className={recWorkStyles.billboard_container}>
-              {data.allMarkdownRemark.nodes.map(work => {
-                console.log(work.frontmatter.date);
-                return (
-                    <li key={work.id}>
-                        <Link to={work.fields.slug} state={{previousPage: location.pathname}}>
-                            <div className={recWorkStyles.ad}>
-                                <div className={recWorkStyles.ad_link_container}>
+
+            <div className={recWorkStyles.billboard_container}>
+                <ul className={recWorkStyles.billboard}>
+                {data.allMarkdownRemark.nodes.map(work => {
+                    return (
+                        <li key={work.id}>
+                            <Link to={work.fields.slug}
+                                state={{previousPage: location.pathname}}
+                                className={recWorkStyles.ad}>
+
+                                    <Img fluid={work.frontmatter.featuredImage.childImageSharp.fluid}
+                                            className={recWorkStyles.featuredImage}/>
+
                                     <p className={recWorkStyles.ad_link}>
-                                        {work.frontmatter.title}
+                                            {work.frontmatter.title}
                                     </p>
-                                </div>
-                                <Img fluid={work.frontmatter.featuredImage.childImageSharp.fluid}
-                                        className={recWorkStyles.featuredImage}/>
-                            </div>
-                        </Link>
-                    </li>
-                )
-              }
-              )}
-            </ul>
+
+                            </Link>
+                        </li>
+                    )
+                }
+                )}
+                </ul>
+            </div>
+
             <div className={recWorkStyles.billboard_title_container}>
                 <h3 className={recWorkStyles.billboard_title}>
                     RECENT WORKS
