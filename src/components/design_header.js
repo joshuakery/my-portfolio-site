@@ -99,7 +99,7 @@ class DesignHeader extends React.Component {
                                 <ListLink to="/projects/" className={headerStyles.navlink}>
                                     ALL PROJECTS
                                 </ListLink>
-                                <a to="https://www.instagram.com/joshuatkery/">
+                                {/* <a to="https://www.instagram.com/joshuatkery/">
                                     <div className={headerStyles.ham_instagram}>
                                     </div>
                                 </a>
@@ -108,7 +108,7 @@ class DesignHeader extends React.Component {
                                 </a>
                                 <a to="https://vimeo.com/user62542730">
                                     <p className={headerStyles.ham_vimeo}></p>
-                                </a>
+                                </a> */}
                             </HamMenu>
                         </div>
                         <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>

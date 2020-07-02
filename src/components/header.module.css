@@ -399,6 +399,7 @@
     z-index: 9999;
     top: 0;
     display: none;
+    width: 0;
 }
 
 .smaller_ham_menu_container {
@@ -408,6 +409,7 @@
     top: 0;
     transition: all 0.3s ease;
     display: none;
+    width: 0;
 }
 
 .ham_instagram {
@@ -462,7 +464,6 @@
         background-image: url("../images/youtube_btn.png");
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 0;
         margin-top: 5%;
         margin-bottom: 5%;
     }
