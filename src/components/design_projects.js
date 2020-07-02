@@ -36,7 +36,8 @@ export default ({ children, location }) => {
         graphql`
             query {
                 allMarkdownRemark(
-                    filter: {frontmatter: {categories: {eq: "design"}}}
+                  sort: {order: DESC, fields: frontmatter___date},
+                  filter: {frontmatter: {categories: {eq: "design"}}}
                 ) {
                     edges {
                       node {

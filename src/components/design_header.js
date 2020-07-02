@@ -68,10 +68,7 @@ class DesignHeader extends React.Component {
                                     </Link>
                                 </Dropdown.Item>
                             </DropdownButton>
-                            {/* <ListLink to="/portfolio/"
-                                className={this.state.smallerHeader ? headerStyles.smaller_navlink : headerStyles.navlink}>
-                                PORTFOLIO
-                            </ListLink> */}
+
                             <DropdownButton title="WORKS" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
                                 <Dropdown.Item>
                                     <Link to="/portfolio/"
@@ -87,12 +84,9 @@ class DesignHeader extends React.Component {
                                 </Dropdown.Item>
                             </DropdownButton>
                         </ul>
-                        
-                        <div className={headerStyles.ham_menu_container}>
+
+                        <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
                             <HamMenu open={this.state.open}>
-                                {/* <ListLink to="/portfolio" className={headerStyles.navlink}>
-                                    HOME
-                                </ListLink> */}
                                 <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
                                     ABOUT ME
                                 </ListLink>
@@ -100,7 +94,10 @@ class DesignHeader extends React.Component {
                                     CV
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
-                                    PORTFOLIO
+                                    DESIGN PORTFOLIO
+                                </ListLink>
+                                <ListLink to="/projects/" className={headerStyles.navlink}>
+                                    ALL PROJECTS
                                 </ListLink>
                                 <a to="https://www.instagram.com/joshuatkery/">
                                     <div className={headerStyles.ham_instagram}>
@@ -114,11 +111,11 @@ class DesignHeader extends React.Component {
                                 </a>
                             </HamMenu>
                         </div>
-                        <HamBtn open={this.state.open} setOpen={this.setOpen}>
+                        <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
                         </HamBtn>
 
                         <Link to="/" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
-                            <div className={this.state.smallerHeader ? headerStyles.smaller_site_title : headerStyles.site_title}>
+                            <div className={headerStyles.site_title}>
                                 <h1 className={headerStyles.site_title_text}>joshua kery</h1>
                             </div>
                         </Link>
@@ -126,15 +123,15 @@ class DesignHeader extends React.Component {
                         <ul className={this.state.smallerHeader ? headerStyles.smaller_socialbar : headerStyles.socialbar}>
                             <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
                                 href="https://www.instagram.com/joshuatkery/">
-                                <div className={headerStyles.instagram}></div>
+                                <div className={this.state.smallerHeader ? headerStyles.smaller_instagram : headerStyles.instagram}></div>
                             </a>
                             <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
                                 href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
-                                <p className={headerStyles.youtube}></p>
+                                <p className={this.state.smallerHeader ? headerStyles.smaller_youtube : headerStyles.youtube}></p>
                             </a>
                             <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
                                 href="https://vimeo.com/user62542730">
-                                <p className={headerStyles.vimeo}></p>
+                                <p className={this.state.smallerHeader ? headerStyles.smaller_vimeo : headerStyles.vimeo}></p>
                             </a>
                         </ul>
                 </header>
