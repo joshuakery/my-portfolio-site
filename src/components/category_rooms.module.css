@@ -1,8 +1,9 @@
 .container {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+
 
     display: grid;
     grid-template-columns:  auto;
@@ -38,6 +39,20 @@
     grid-row-end: 5;
 }
 
+.room_container:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.room_container:nth-child(6) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
 .room_container a {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -59,6 +74,8 @@
     grid-row-end: 2;
 
     box-shadow: inset 0 0 10px #000000;
+
+    background-size: 400px;
 }
 
 .left_wall {
@@ -66,6 +83,8 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+
+    background-size: 400px;
 }
 
 .right_wall {
@@ -74,6 +93,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
 
+    background-size: 400px;
     background-position-x: right;
 }
 
@@ -82,6 +102,22 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+}
+
+.room_contents_left {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.room_contents_right {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-position-x: right;
 }
 
 .friend {
@@ -145,7 +181,10 @@
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+
     text-align: center;
+    padding-top: 12px;
+    margin: 0;
 }
 
 /*----------------------------ROOM IMAGES-----------------------------------*/
@@ -191,18 +230,48 @@
 }
 
 .room_container:nth-child(4) .room {
+    background-image: url('../images/banisterBack.png');
+    background-position-x: 40%;
+}
+
+.room_container:nth-child(5) .room {
+    background-image: url('../images/diningroomBack.png');
+}
+
+.room_container:nth-child(5) .left_wall {
+    background-image: url("../images/diningroomLeft.png");
+}
+
+.room_container:nth-child(5) .right_wall {
+    background-image: url("../images/diningroomRight.png");
+}
+
+.room_container:nth-child(5) .room_contents {
+    background-image: url("../images/diningroomContentsMiddle.png");
+    background-position-x: center;
+}
+
+.room_container:nth-child(5) .room_contents_left {
+    background-image: url("../images/diningroomContentsLeft.png");
+}
+
+.room_container:nth-child(5) .room_contents_right {
+    background-image: url("../images/diningroomContentsRight.png");
+}
+
+.room_container:nth-child(6) .room {
     background-image: url('../images/kitchenBack.png');
 }
 
-.room_container:nth-child(4) .left_wall {
+.room_container:nth-child(6) .left_wall {
     background-image: url("../images/kitchenLeft.png");
 }
 
-.room_container:nth-child(4) .right_wall {
+.room_container:nth-child(6) .right_wall {
     background-image: url("../images/kitchenRight.png");
 }
 
-.room_container:nth-child(4) .friend {
+.room_container:nth-child(6) .friend {
     background-image: url("../images/olivia1.png");
 }
 
@@ -397,7 +466,7 @@
     .room_container:nth-child(3) .right_wall {
         background-image: url("../images/bathroomRight2.png");
     }
-    .room_container:nth-child(4) .friend {
+    .room_container:nth-child(6) .friend {
         background-image: url("../images/olivia2.png");
         width: 80%;
         background-position: 24%;
@@ -432,28 +501,30 @@
     .room_container:nth-child(3) .right_wall {
         background-image: url("../images/bathroomRight3.png");
     }
-    .room_container:nth-child(4) .friend {
+    .room_container:nth-child(6) .friend {
         background-image: url("../images/olivia3.png");
     }
 }
 
 @media (max-width: 650px) {
     .room_link_container {
-        grid-template-rows: 4em;
+        grid-template-rows: 2em;
     }
     .room_link {
-        font-size: 2em;
+        font-size: 1em;
+        padding: 5px;
     }
     .basement_link_container {
-        grid-template-rows: 4em;
+        grid-template-rows: 2em;
     }
     .basement_link {
-        font-size: 2em;
+        font-size: 1em;
+        padding: 5px;
     }
 }
 
 @media (max-width: 500px) {
-    .room_container:nth-child(4) .friend {
+    .room_container:nth-child(6) .friend {
         background-position-x: -125px;
     }
 }

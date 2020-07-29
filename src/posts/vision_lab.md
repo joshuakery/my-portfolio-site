@@ -3,7 +3,7 @@ title: "CFA Vision Lab"
 cover: "8.jpg"
 date: "2019-12-03"
 categories:
-    - media
+    - interactive
 tags:
     - programming
 posttype: 'normal'

@@ -15,22 +15,28 @@ class Footer extends React.Component {
                             <div>
                                 <Link to="/projects">All Projects</Link>
                                 <br></br>
+                                <Link to="/projects/uxui">UX/UI</Link>
+                                <br></br>
                                 <Link to="/projects/2-d">2D</Link>
                                 <br></br>
                                 <Link to="/projects/3-d">3D</Link>
                                 <br></br>
-                                <Link to="/projects/media">Media</Link>
+                                <Link to="/projects/interactive">Interactive</Link>
                                 <br></br>
                                 <Link to="/projects/time-based">Time-Based</Link>
+                                <br></br>
+                                <Link to="/projects/games">Games</Link>
                             </div>
                         </ul>
                         <ul className={this.props.bg == 'dark' ? footerStyles.darkMainLinks : footerStyles.mainLinks}>
                             <div>
-                                <Link to="/about">About</Link>
+                                <Link to="/about">My Designs Work</Link>
+                                <br></br>
+                                <Link to="/about">Artist Statement</Link>
+                                <br></br>
+                                <Link to="/resume">Resume</Link>
                                 <br></br>
                                 <Link to="/cv">CV</Link>
-                                <br></br>
-                                <Link to="/portfolio">Selected Portfolio</Link>
                             </div>
 
                         </ul>

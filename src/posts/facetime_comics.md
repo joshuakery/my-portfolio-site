@@ -3,7 +3,7 @@ title: "Facetime Comics"
 cover: "8.jpg"
 date: "2019-03-01"
 categories:
-    - media
+    - 2d
 tags:
     - programming
     - telepresence

@@ -1,0 +1,33 @@
+.frame {
+    width: 33%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.text {
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 200%;
+
+    text-align: center;
+}
+
+@media (max-width: 875px) {
+    .frame {
+        width: 66%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .frame {
+        margin-top: 40px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .text {
+        font-size: 1em;
+    }
+}

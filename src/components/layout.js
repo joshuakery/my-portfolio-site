@@ -8,7 +8,9 @@ class Layout extends React.Component {
     render() {
         return (
             <div className={layoutStyles.layout}>                            
-                <Header open={this.props.open} setOpen={this.props.setOpen}></Header>
+                <Header open={this.props.open}
+                        setOpen={this.props.setOpen}>
+                </Header>
 
                 <div className={layoutStyles.clouds}>
                     <div className={layoutStyles.cloud1}></div>
@@ -22,6 +24,7 @@ class Layout extends React.Component {
                 <Footer bg={'dark'}></Footer>
             </div>
         )
+
     }
 }
 

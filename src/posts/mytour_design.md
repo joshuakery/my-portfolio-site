@@ -3,7 +3,8 @@ title: "myHouse"
 cover: "8.jpg"
 date: "2019-11-04"
 categories:
-    - design
+    - uxui
+    - interactive
 tags:
     - ux
 posttype: 'design'

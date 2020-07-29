@@ -3,7 +3,6 @@ title: "The Josh Kery Historical Society"
 cover: "8.jpg"
 date: "2019-10-18"
 categories:
-    - media
     - 2d
     - 3d
     - time-based

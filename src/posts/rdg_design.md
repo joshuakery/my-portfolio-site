@@ -3,7 +3,7 @@ title: "The Redistricting Game"
 cover: "8.jpg"
 date: "2017-10-01"
 categories:
-    - design
+    - games
 tags:
     - programming
     - gerrymandering
@@ -31,7 +31,9 @@ December 2017
 
 ###MY ROLE
 
-Illustration, Development
+PM\
+Illustration\
+Development
 
 ###TEAM
 
@@ -52,9 +54,11 @@ Adobe Photoshop, Adobe Flash
 
 #OVERVIEW
 
-##I led the update for the Redistricting Game an Adobe Flash game originally made in 2007, as part of the Committee of Seventy's Draw the Lines PA campaign to educate Pennsylvania voters about the state's heavily gerrymandered districts before the 2018 Pennsyvlania Supreme Court vote on redrawing them.
+##In 2018, the Pennsyvlania Supreme Court was to vote on redrawing the state's district lines.
 
+##The Committee of Seventy asked us to update the Redistricting Game before this vote, to help them educate citizens about the gerrymandering that's shaped Pennsylvania's district.
 
+##I led the update for the game, which was made in 2007 in Adobe Flash.
 
 <img src="../post_images/rdg/rdg2.png">
 

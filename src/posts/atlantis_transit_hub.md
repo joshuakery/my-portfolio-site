@@ -3,7 +3,7 @@ title: "Atlantis Transit Hub"
 cover: "8.jpg"
 date: "2019-11-04"
 categories:
-    - design
+    - uxui
 tags:
     - ux
 posttype: 'design'

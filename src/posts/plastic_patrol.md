@@ -3,7 +3,7 @@ title: "Plastic Patrol"
 cover: "8.jpg"
 date: "2020-5-17"
 categories:
-    - design
+    - games
 tags:
     - ux
     - ui

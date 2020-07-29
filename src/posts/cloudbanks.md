@@ -4,7 +4,6 @@ cover: "8.jpg"
 date: "2020-05-02"
 categories:
     - time-based
-    - media
 tags:
     - metals
 posttype: 'show'

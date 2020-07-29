@@ -3,7 +3,7 @@ title: "Wordhunt"
 cover: "8.jpg"
 date: "2018-05-01"
 categories:
-    - media
+    - interactive
 tags:
     - programming
 posttype: 'normal'

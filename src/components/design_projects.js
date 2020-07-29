@@ -37,7 +37,7 @@ export default ({ children, location }) => {
             query {
                 allMarkdownRemark(
                   sort: {order: DESC, fields: frontmatter___date},
-                  filter: {frontmatter: {categories: {eq: "design"}}}
+                  filter: {frontmatter: {categories: {eq: "uxui"}}}
                 ) {
                     edges {
                       node {

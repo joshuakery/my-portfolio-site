@@ -11,6 +11,7 @@ export default ({ data, location }) => {
     <DesignLayout>
         <div>
             <Helmet title="Portfolio | Joshua Kery" />
+            <h1>UX/UI Projects</h1>
             <div>
               <DesignProjects location={location}></DesignProjects>
             </div>

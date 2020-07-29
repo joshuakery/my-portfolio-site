@@ -3,7 +3,7 @@ title: "Sketches for Alphabet Blocks and Balloons"
 cover: "8.jpg"
 date: "2018-01-01"
 categories:
-    - media
+    - interactive
 tags:
     - programming
     - in_progress

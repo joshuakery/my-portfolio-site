@@ -3,7 +3,7 @@ title: "Alphabet Blocks and Balloons"
 cover: "8.jpg"
 date: "2019-02-01"
 categories:
-    - media
+    - interactive
 tags:
     - programming
     - in_progress

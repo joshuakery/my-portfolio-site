@@ -3,7 +3,7 @@ title: "Every Possible Utterance"
 cover: "8.jpg"
 date: "2019-14-12"
 categories:
-    - design
+    - 3d
 tags:
     - ux
 posttype: 'design'

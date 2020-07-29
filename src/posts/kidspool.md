@@ -3,7 +3,7 @@ title: "Kidspool"
 cover: "8.jpg"
 date: "2019-12-12"
 categories:
-    - design
+    - uxui
 tags:
     - ux
 posttype: 'design'

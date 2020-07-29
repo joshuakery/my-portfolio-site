@@ -3,7 +3,7 @@ title: "Safe & Sound"
 cover: "8.jpg"
 date: "2019-05-08"
 categories:
-    - design
+    - uxui
 tags:
     - ux
 posttype: 'design'

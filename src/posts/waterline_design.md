@@ -3,7 +3,8 @@ title: "Waterline"
 cover: "8.jpg"
 date: "2019-05-04"
 categories:
-    - design
+    - interactive
+    - uxui
 tags:
     - ux
 posttype: 'design'

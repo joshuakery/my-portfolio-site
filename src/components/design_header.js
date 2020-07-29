@@ -58,7 +58,19 @@ class DesignHeader extends React.Component {
                                 <Dropdown.Item>
                                     <Link to="/portfolio_about/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Bio
+                                                My Design Work
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/about/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Artist Statement
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/resume/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Resume
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
@@ -73,7 +85,7 @@ class DesignHeader extends React.Component {
                                 <Dropdown.Item>
                                     <Link to="/portfolio/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Design Portfolio
+                                              UX/UI Projects
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
@@ -88,13 +100,19 @@ class DesignHeader extends React.Component {
                         <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
                             <HamMenu open={this.state.open}>
                                 <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                                    ABOUT ME
+                                    ABOUT DESIGN
+                                </ListLink>
+                                <ListLink to="/about/" className={headerStyles.navlink}>
+                                    ARTIST STATEMENT
+                                </ListLink>
+                                <ListLink to="/resume/" className={headerStyles.navlink}>
+                                    RESUME
                                 </ListLink>
                                 <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
                                     CV
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
-                                    DESIGN PORTFOLIO
+                                    UX/UI PROJECTS
                                 </ListLink>
                                 <ListLink to="/projects/" className={headerStyles.navlink}>
                                     ALL PROJECTS

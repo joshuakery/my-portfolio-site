@@ -22,7 +22,7 @@ b. 1997 Lives and studies in Pittsburgh, PA
 
  | 
 ---- | ----
-2020 | Undergraduate Research Assistant – ARCADE, Carnegie Mellon University Entertainment Technology Center (Pittsburgh, PA)
+2020 | Designer – ARCADE, Carnegie Mellon University Entertainment Technology Center (Pittsburgh, PA)
 2019-20 | Teaching Artist - MuseumLab (Pittsburgh, PA)
 2019 | Undergraduate Research Assistant – ClassInsight, Carnegie Mellon University(Pittsburgh, PA)
 2018 | Tutor – Temple University Japan (Tokyo, Japan)

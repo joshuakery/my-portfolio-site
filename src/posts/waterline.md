@@ -3,7 +3,7 @@ title: "Waterline"
 cover: "8.jpg"
 date: "2019-05-01"
 categories:
-    - media
+    - interactive
 tags:
     - programming
 posttype: 'normal'

@@ -3,7 +3,7 @@ title: "Messages"
 cover: "8.jpg"
 date: "2019-10-15"
 categories:
-    - media
+    - 2d
 tags:
     - programming
     - telepresence

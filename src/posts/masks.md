@@ -3,7 +3,6 @@ title: "Masks"
 cover: "8.jpg"
 date: "2018-12-10"
 categories:
-    - 2d
     - time-based
 tags:
     - family

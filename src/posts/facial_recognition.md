@@ -3,7 +3,7 @@ title: "CMU Facial Recogition"
 cover: "8.jpg"
 date: "2019-09-15"
 categories:
-    - media
+    - interactive
 tags:
     - programming
 posttype: 'normal'

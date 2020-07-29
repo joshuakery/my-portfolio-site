@@ -14,40 +14,47 @@ import kebabCase from "lodash/kebabCase"
 
 const getRooms = (group, location) => {
     let rooms = [];
-    for (let i=0; i < group.length-1; i++) {
+    for (let i=group.length-1; i > 0; i--) {
         let cat = group[i];
-        rooms.push(
-            
-                <li key={cat.fieldValue} className={catRoomStyles.room_container}>
-                        <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
-                            state={{previousPage: location.pathname}}>
 
-                            <div className={catRoomStyles.room}></div>
-                            <div className={catRoomStyles.left_wall}></div>
-                            <div className={catRoomStyles.right_wall}></div>
-                            <div className={catRoomStyles.room_contents}></div>
-                            <div className={catRoomStyles.friend}></div>
+        let room = (
 
-                            <div className={catRoomStyles.room_link_container}>
-                                <div className={catRoomStyles.room_link_background}>
-                                    <p className={catRoomStyles.room_link}>
-                                        {cat.fieldValue}
-                                    </p>
-                                </div>
-                            </div>
+            <li key={cat.fieldValue} className={catRoomStyles.room_container}>
+                <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
+                    state={{previousPage: location.pathname}}>
 
-                            <div className={catRoomStyles.right_brick_hole}></div>
-                            <div className={catRoomStyles.left_brick_hole}></div>
+                    <div className={catRoomStyles.room}></div>
+                    <div className={catRoomStyles.left_wall}></div>
+                    <div className={catRoomStyles.right_wall}></div>
+                    <div className={catRoomStyles.room_contents}></div>
+                    <div className={catRoomStyles.room_contents_right}></div>
+                    <div className={catRoomStyles.room_contents_left}></div>
+                    
+                    <div className={catRoomStyles.friend}></div>
 
-                        </Link>
-                </li>
-        )
+                    <div className={catRoomStyles.room_link_container}>
+                        <div className={catRoomStyles.room_link_background}>
+                            <p className={catRoomStyles.room_link}>
+                                {cat.fieldValue}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className={catRoomStyles.right_brick_hole}></div>
+                    <div className={catRoomStyles.left_brick_hole}></div>
+
+                </Link>
+            </li>
+
+        );
+
+        rooms.push(room);
       }
     return rooms
 }
 
 const getLastRoom = (group, location) => {
-    let cat = group[group.length-1];
+    let cat = group[0];
     return (
         <li key={cat.fieldValue} className={catRoomStyles.basement_container}>
             <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
@@ -81,7 +88,7 @@ export default ({ children, location }) => {
                     title
                     }
                 }
-                allMarkdownRemark(filter: {frontmatter: {categories: {ne: "design"}}}) {
+                allMarkdownRemark {
                     group(field: frontmatter___categories) {
                       fieldValue
                     }
@@ -89,6 +96,7 @@ export default ({ children, location }) => {
             }
         `
     )
+
     return (
         <div className={catRoomStyles.container}>
             <House>

@@ -1,15 +1,16 @@
 import React, {useState}  from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, Link } from "gatsby"
 import {Dropdown, DropdownButton} from 'react-bootstrap'
 import HamBtn from "../components/hamburger_button"
 import HamMenu from "../components/hamburger_menu"
 import headerStyles from "./header.module.css"
+import kebabCase from "lodash/kebabCase"
 
 const ListLink = props => (
     <li>
       <Link to={props.to}>{props.children}</Link>
     </li>
-)
+);
 
 class Header extends React.Component {
 
@@ -58,7 +59,19 @@ class Header extends React.Component {
                                 <Dropdown.Item>
                                     <Link to="/portfolio_about/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Bio
+                                              My Design Work
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/about/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Artist Statement
+                                    </Link>
+                                </Dropdown.Item>
+                                <Dropdown.Item>
+                                    <Link to="/resume/"
+                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+                                              Resume
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
@@ -69,11 +82,11 @@ class Header extends React.Component {
                                 </Dropdown.Item>
                             </DropdownButton>
 
-                            <DropdownButton title="WORKS" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+                            <DropdownButton title="PORTFOLIO" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
                                 <Dropdown.Item>
                                     <Link to="/portfolio/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Design Portfolio
+                                              UX Design Portfolio
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
@@ -88,27 +101,23 @@ class Header extends React.Component {
                         <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
                             <HamMenu open={this.state.open}>
                                 <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                                    ABOUT ME
+                                    ABOUT DESIGN
+                                </ListLink>
+                                <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
+                                    ARTIST STATEMENT
+                                </ListLink>
+                                <ListLink to="/resume/" className={headerStyles.navlink}>
+                                    RESUME
                                 </ListLink>
                                 <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
                                     CV
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
-                                    DESIGN PORTFOLIO
+                                    UX/UI PORTFOLIO
                                 </ListLink>
                                 <ListLink to="/projects/" className={headerStyles.navlink}>
                                     ALL PROJECTS
                                 </ListLink>
-                                {/* <a to="https://www.instagram.com/joshuatkery/">
-                                    <div className={headerStyles.ham_instagram}>
-                                    </div>
-                                </a>
-                                <a to="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
-                                    <p className={headerStyles.ham_youtube}></p>
-                                </a>
-                                <a to="https://vimeo.com/user62542730">
-                                    <p className={headerStyles.ham_vimeo}></p>
-                                </a> */}
                             </HamMenu>
                         </div>
                         <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>

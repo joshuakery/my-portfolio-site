@@ -3,8 +3,8 @@ title: "Glitches in the Museum"
 cover: "8.jpg"
 date: "2020-7-24"
 categories:
-    - design
-    - time-based
+    - uxui
+    - games
 tags:
     - ux
     - ui

@@ -2,11 +2,13 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Layout } from "../components/layout"
 import CategoryRooms from "../components/category_rooms"
+import Intro from "../components/intro"
 import RecentWorks from "../components/recent_works"
 
-export default ({ data, location }) => {
+export default ({ location }) => {
     return (
         <Layout>
+          <Intro></Intro>
           <RecentWorks location={location}></RecentWorks>
           <CategoryRooms location={location}></CategoryRooms>
         </Layout>
