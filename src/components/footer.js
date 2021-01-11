@@ -7,7 +7,7 @@ class Footer extends React.Component {
         return (
             <div>
                 <footer className={this.props.bg == 'dark' ? footerStyles.darkFooter : footerStyles.lightFooter}>
-                    <div className={footerStyles.siteMap}>
+                    {/* <div className={footerStyles.siteMap}>
                         <Link to="/" className={this.props.bg == 'dark' ? footerStyles.darkMapTitle : footerStyles.mapTitle}>
                             joshuakery.com
                         </Link>
@@ -30,7 +30,7 @@ class Footer extends React.Component {
                         </ul>
                         <ul className={this.props.bg == 'dark' ? footerStyles.darkMainLinks : footerStyles.mainLinks}>
                             <div>
-                                <Link to="/about">My Designs Work</Link>
+                                <Link to="/about">My Design Work</Link>
                                 <br></br>
                                 <Link to="/about">Artist Statement</Link>
                                 <br></br>
@@ -42,10 +42,11 @@ class Footer extends React.Component {
                         </ul>
 
 
-                    </div>
+                    </div> */}
 
                     <div className={this.props.bg == 'dark' ? footerStyles.darkBioInfo : footerStyles.bioInfo}>
-                        <h1>Joshua Kery</h1>  
+                        <h1>Joshua Kery</h1> 
+                        <p>Experience Designer</p> 
                         <p>Interdisciplinary Artist</p>
                     </div>
 

@@ -4,6 +4,7 @@ cover: "8.jpg"
 date: "2019-11-04"
 categories:
     - uxui
+    - design
 tags:
     - ux
 posttype: 'design'

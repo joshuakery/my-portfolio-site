@@ -1,5 +1,6 @@
 import React from "react"
 import { DesignLayout } from "../components/layout"
+import Intro from "../components/intro"
 
 // Components
 import { Helmet } from "react-helmet"
@@ -10,8 +11,8 @@ export default ({ data, location }) => {
   return (
     <DesignLayout>
         <div>
-            <Helmet title="Portfolio | Joshua Kery" />
-            <h1>UX/UI Projects</h1>
+            <Helmet title="Design | Joshua Kery" />
+            <Intro></Intro>
             <div>
               <DesignProjects location={location}></DesignProjects>
             </div>

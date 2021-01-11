@@ -1,10 +1,11 @@
 ---
 title: "Glitches in the Museum"
-cover: "8.jpg"
+cover: '../post_images/arcade/model_closeup1.png'
 date: "2020-7-24"
 categories:
     - uxui
     - games
+    - design
 tags:
     - ux
     - ui
@@ -99,13 +100,27 @@ Players get their daily mission brief and login when they first join, just like 
 
 <h4>
 
-That project features colorful characters and a breadth of 3D world-building tools, shared in augmented reality across multiple devices. It leverages new positions sensors installed at MuseumLab to accurately position objects in AR for multiple players.
+That project features colorful characters and a breadth of 3D world-building tools, shared in augmented reality across multiple devices. It leverages new position sensors installed at MuseumLab to accurately position objects in AR for multiple players.
 
 </h4>
 
 <img src="../post_images/arcade/arcade_academy.jpg">
 
 </text-pair>
+
+<!-- <img src="../post_images/arcade/wongface_ad.jpg"> -->
+
+<img-pair>
+
+<img src="../post_images/arcade/wongface_ad.jpg">
+
+<h4>
+
+These same sensors were used to place [Jordan Wong's digital mural](https://www.facebook.com/events/childrens-museum-of-pittsburgh/wongface-at-childrens-museum-of-pittsburgh/2394319897336149/) inside the museum.
+
+</h4>
+
+</img-pair>
 
 
 #PROCESS

@@ -17,7 +17,7 @@
 
 .lightFooter {
     background: white;
-
+    width:100%;
     font-family: 'PT Serif', serif;
     font-size: 1em;
     font-weight: 400;
@@ -291,7 +291,11 @@
     margin: 0;
 }
 
-@media (min-width: 880px) {
+.bioInfo p {
+    padding-bottom: 0.25em;
+}
+
+@media (min-width: 750px) {
     .darkFooter {
         grid-template-columns: 5% auto auto auto 5%;
         grid-template-rows: auto;
@@ -299,10 +303,10 @@
         padding-top: 100px;
     }
     .lightFooter {
-        grid-template-columns: 5% auto auto auto 5%;
+        grid-template-columns: 25px auto auto 25px;
         grid-template-rows: auto;
 
-        padding-top: 100px;
+        padding-top: 120px;
     }
     .siteMap {
         grid-column-start: 2;
@@ -321,10 +325,14 @@
         text-align: left;
     }
     .bioInfo {
-        grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
+        text-align: left;
+    }
+    .bioInfo h1 {
+        text-align: left;
     }
     .darkBioInfo {
         grid-column-start: 3;
@@ -333,15 +341,19 @@
         grid-row-end: 2;
     }
     .contactInfo {
-        grid-column-start: 4;
-        grid-column-end: 5;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
-
+        margin: 0;
         text-align: right;
     }
+    .contactInfo h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
     .socialbar {
-        grid-template-columns: auto 5% 8% 5% 8% 5% 0;
+        grid-template-columns: auto 25px 2% 25px 2% 25px 0;
     }
 }
 

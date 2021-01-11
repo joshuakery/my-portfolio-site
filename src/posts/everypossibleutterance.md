@@ -4,6 +4,7 @@ cover: "8.jpg"
 date: "2019-14-12"
 categories:
     - 3d
+    - live-shows
 tags:
     - ux
 posttype: 'design'

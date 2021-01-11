@@ -97,14 +97,19 @@ export default ({ children, location }) => {
         `
     )
 
+    //hardcode which cats to include
+    let group = data.allMarkdownRemark.group;
+    let toInclude = ['2d','3d','games','interactive','time-based','uxui'];
+    group = group.filter((member) => (toInclude.includes(member.fieldValue))); 
+
     return (
         <div className={catRoomStyles.container}>
             <House>
                 <RecentShows location={location}></RecentShows>
-                {getRooms(data.allMarkdownRemark.group, location)}
+                {getRooms(group, location)}
             </House>
             <Ground>
-                {getLastRoom(data.allMarkdownRemark.group, location)}
+                {getLastRoom(group, location)}
             </Ground>
             {children}
             <div className={catRoomStyles.resize_icon}></div>

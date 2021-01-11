@@ -5,10 +5,11 @@ import CategoryRooms from "../components/category_rooms"
 import Intro from "../components/intro"
 import RecentWorks from "../components/recent_works"
 
+
+
 export default ({ location }) => {
     return (
         <Layout>
-          <Intro></Intro>
           <RecentWorks location={location}></RecentWorks>
           <CategoryRooms location={location}></CategoryRooms>
         </Layout>

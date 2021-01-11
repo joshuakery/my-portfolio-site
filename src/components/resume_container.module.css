@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -22,12 +22,30 @@
 .container a {
     color: white;
     background: black;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.container a:hover {
+    background:rgb(63,93,170)
 }
 
 @media (min-width: 750px) {
     .container {
         width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container h1 {
+        text-align: left;
+        margin-bottom: 100px;
+    }
+    .container p {
+        text-align: left;
+    }
+    figure {
+        width: 100%;
+        margin: 0;
     }
 }

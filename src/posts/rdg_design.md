@@ -4,6 +4,7 @@ cover: "8.jpg"
 date: "2017-10-01"
 categories:
     - games
+    - creative-coding
 tags:
     - programming
     - gerrymandering

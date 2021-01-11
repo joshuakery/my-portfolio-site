@@ -59,7 +59,7 @@ class Header extends React.Component {
                                 <Dropdown.Item>
                                     <Link to="/portfolio_about/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              My Design Work
+                                              About Me
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
@@ -86,13 +86,13 @@ class Header extends React.Component {
                                 <Dropdown.Item>
                                     <Link to="/portfolio/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              UX Design Portfolio
+                                              Design Portfolio
                                     </Link>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
                                     <Link to="/projects/"
                                           className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              All Projects
+                                              All Art
                                     </Link>
                                 </Dropdown.Item>
                             </DropdownButton>
@@ -101,7 +101,7 @@ class Header extends React.Component {
                         <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
                             <HamMenu open={this.state.open}>
                                 <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                                    ABOUT DESIGN
+                                    ABOUT ME
                                 </ListLink>
                                 <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
                                     ARTIST STATEMENT
@@ -113,10 +113,10 @@ class Header extends React.Component {
                                     CV
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
-                                    UX/UI PORTFOLIO
+                                    DESIGN PORTFOLIO
                                 </ListLink>
                                 <ListLink to="/projects/" className={headerStyles.navlink}>
-                                    ALL PROJECTS
+                                    ALL ART
                                 </ListLink>
                             </HamMenu>
                         </div>

@@ -8,7 +8,7 @@ featuredImage: '../post_images/braces_square.jpg'
 
 #JOSHUA KERY
 
-b. 1997 Lives and studies in Pittsburgh, PA
+b. 1997 Lives and works in Pittsburgh, PA
 
 ##EDUCATION
 
@@ -22,6 +22,8 @@ b. 1997 Lives and studies in Pittsburgh, PA
 
  | 
 ---- | ----
+2020-21 | Education Programs Intern - Design Museum Everywhere (Boston, MA)
+2020 | Freelance Designer
 2020 | Designer – ARCADE, Carnegie Mellon University Entertainment Technology Center (Pittsburgh, PA)
 2019-20 | Teaching Artist - MuseumLab (Pittsburgh, PA)
 2019 | Undergraduate Research Assistant – ClassInsight, Carnegie Mellon University(Pittsburgh, PA)
@@ -37,7 +39,9 @@ b. 1997 Lives and studies in Pittsburgh, PA
 
  | 
 ---- | ----
-2020 | Cloudbanks, a Virtual Performance, Zoom Webinar – Theatrical Performance
+2020 | Packing and Cracking, University of North Carolina Chapel Hill’s Process Series October 2020 - Theatrical Performance
+<i></i> | Packing and Cracking, Philadelphia Fringe Festival September 2020 - Theatrical Performance
+<i></i> | Cloudbanks, a Virtual Performance, Zoom Webinar – Theatrical Performance
 <i></i> | No Tutorial, Miller Institute for Contemporary Art (Pittsburgh, PA) – Group Exhibition
 2019 | The Josh Kery Historical Society, The Frame Gallery (Pittsburgh, PA) – Solo Exhibition
 <i></i>  | Every Possible Utterance, MuseumLab (Pittsburgh, PA) – Group Exhibition

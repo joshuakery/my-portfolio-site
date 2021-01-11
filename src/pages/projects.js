@@ -20,44 +20,6 @@ export default ({ data, location }) => {
   )
 }
 
-// const CatsPage = ({
-//   data: {
-//     site: {
-//       siteMetadata: { title },
-//     },
-//   },
-// }) => (
-//     <Layout>
-//         <div>
-//             <Helmet title={title} />
-//             <div>
-//               <h1>Projects</h1>
-//               <Category_Rooms></Category_Rooms>
-//             </div>
-//         </div>
-//     </Layout>
-// )
-
-// CatsPage.propTypes = {
-//   data: PropTypes.shape({
-//     allMarkdownRemark: PropTypes.shape({
-//       group: PropTypes.arrayOf(
-//         PropTypes.shape({
-//           fieldValue: PropTypes.string.isRequired,
-//           totalCount: PropTypes.number.isRequired,
-//         }).isRequired
-//       ),
-//     }),
-//     site: PropTypes.shape({
-//       siteMetadata: PropTypes.shape({
-//         title: PropTypes.string.isRequired,
-//       }),
-//     }),
-//   }),
-// }
-
-// export default CatsPage
-
 export const pageQuery = graphql`
   query {
     site {

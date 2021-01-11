@@ -1,11 +1,11 @@
 .frame {
     width: 33%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .text {
-    color: white;
+    color: black;
     font-size: 1.25em;
     font-family: 'Poppins', sans-serif;
     line-height: 200%;
@@ -13,21 +13,15 @@
     text-align: center;
 }
 
-@media (max-width: 875px) {
-    .frame {
-        width: 66%;
-        margin-bottom: 40px;
-    }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
     .frame {
         margin-top: 40px;
-        width: 80%;
-        margin-bottom: 40px;
+        width: 100%;
+        /* padding-left: 20px; */
+        margin-bottom: 80px;
     }
 
     .text {
-        font-size: 1em;
+        text-align: left;
     }
 }

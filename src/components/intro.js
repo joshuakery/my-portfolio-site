@@ -5,9 +5,10 @@ export default ({children}) => {
     return (
         <div className={introStyles.frame}>
             <p className={introStyles.text}>
-                Hi! I am an <b>Interdisciplinary artist</b><br></br>
-                interested in a career in <br></br>
-                <b>Exhibit Design</b> and <b>UX Design</b>
+                experience designer.
+            </p>
+            <p className={introStyles.text}>
+                interdisciplinary artist.
             </p>
             {children}
         </div>

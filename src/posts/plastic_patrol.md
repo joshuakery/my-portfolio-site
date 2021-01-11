@@ -4,6 +4,7 @@ cover: "8.jpg"
 date: "2020-5-17"
 categories:
     - games
+    - design
 tags:
     - ux
     - ui
@@ -12,7 +13,7 @@ posttype: 'design'
 featuredImage: '../post_images/plastic_patrol_square.png'
 ---
 
-#User Interface Design & Unity Development
+#Game Design for the Museum Floor
 
 <cover-img>
 

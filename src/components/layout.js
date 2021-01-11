@@ -43,19 +43,3 @@ class DesignLayout extends React.Component {
 }
 
 export { Layout, DesignLayout }
-
-// export default ({ children, open, setOpen }) => {
-//     return (
-//         <div className={layoutStyles.layout}>           
-//             <div className={layoutStyles.clouds}>
-//                 <div className={layoutStyles.cloud1}></div>
-//                 <div className={layoutStyles.cloud2}></div>
-//             </div>
-             
-//             <Header open={open} setOpen={setOpen}></Header>
-//             <div className={layoutStyles.body_container}>
-//                 {children}
-//             </div>
-//         </div>
-//     )
-// }

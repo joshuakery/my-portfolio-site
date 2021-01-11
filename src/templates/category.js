@@ -8,6 +8,10 @@ import catStyles from "../templates/category.module.css"
 import Img from "gatsby-image"
 import {Bathroom, Bedroom, Kitchen, Basement} from "../components/specialRoom"
 
+import { Helmet } from "react-helmet"
+import { DesignLayout } from "../components/layout";
+import DesignProjects from "../components/design_projects"
+
 const getRooms = (edges, location) => {
   // console.log(location);
   let rooms = [];
@@ -82,24 +86,110 @@ const getSpecialRoom = (cat) => {
   }
 }
 
-const Cats = ({ pageContext, data, location }) => {
-  const { category } = pageContext
-  const { edges } = data.allMarkdownRemark
+//SAVING THIS BECAUSE THIS IS THE OLD CATS, FOR THE OLD ART WEBSITE
+// const Cats = ({ pageContext, data, location }) => {
+//   const { category } = pageContext
+//   const { edges } = data.allMarkdownRemark
 
+//   return (
+//     <Layout>
+//         <div className={catStyles.container}>
+//           <h1>{category}</h1>
+//           <House2>
+//             {/* {getSpecialRoom(category)} */}
+//             {getRooms(edges, location)}
+//           </House2>
+//           <Ground2>
+//             {getLastRoom(edges,location)}
+//           </Ground2>
+//         </div>
+//     </Layout>
+//   )
+// }
+
+const getProjects = (edges) => {
+  let projects = [];
+  for (let i=0; i < edges.length; i++) {
+      let {node} = edges[i];
+      const { slug } = node.fields;
+      const { title, featuredImage } = node.frontmatter;
+      projects.push(
+        <li key={slug}>
+            <Link to={slug}>
+                <Img fluid={featuredImage.childImageSharp.fluid}/>
+                <h3>{title}</h3>
+            </Link>
+        </li>
+      )
+  }
+  return projects
+}
+
+// const Cats = ({ pageContext, data, location }) => {
+//   const { category } = pageContext;
+//   const { edges } = data.allMarkdownRemark;
+//   return (
+//     <DesignLayout>
+//         <div>
+//           <Helmet title={category + " | Joshua Kery"} />
+//           <div>
+//             <h1 className={catStyles.catTitle}>{category}</h1>
+//             <ul className={catStyles.projectsList}>
+//               {getProjects(edges)}
+//             </ul>
+//           </div>
+//         </div>
+//     </DesignLayout>
+//   );
+// }
+
+const DESIGNCATS = ['teaching','live-shows','design','creative-coding'];
+const Cats = ({ pageContext, data, location }) => {
+  const { category } = pageContext;
+  const { edges } = data.allMarkdownRemark;
   return (
-    <Layout>
-        <div className={catStyles.container}>
-          <h1>{category}</h1>
-          <House2>
-            {/* {getSpecialRoom(category)} */}
-            {getRooms(edges, location)}
-          </House2>
-          <Ground2>
-            {getLastRoom(edges,location)}
-          </Ground2>
-        </div>
-    </Layout>
-  )
+        <DesignLayout>
+            <div>
+              <Helmet title={category + " | Joshua Kery"} />
+              <div>
+                <h1 className={catStyles.catTitle}>{category}</h1>
+                <ul className={catStyles.projectsList}>
+                  {getProjects(edges)}
+                </ul>
+              </div>
+            </div>
+        </DesignLayout>
+      );
+  // if (category in DESIGNCATS) {
+  //   return (
+  //     <DesignLayout>
+  //         <div>
+  //           <Helmet title={category + " | Joshua Kery"} />
+  //           <div>
+  //             <h1 className={catStyles.catTitle}>{category}</h1>
+  //             <ul className={catStyles.projectsList}>
+  //               {getProjects(edges)}
+  //             </ul>
+  //           </div>
+  //         </div>
+  //     </DesignLayout>
+  //   );
+  // } else {
+  //   return (
+  //     <Layout>
+  //         <div className={catStyles.container}>
+  //           <h1>{category}</h1>
+  //           <House2>
+  //             {/* {getSpecialRoom(category)} */}
+  //             {getRooms(edges, location)}
+  //           </House2>
+  //           <Ground2>
+  //             {getLastRoom(edges,location)}
+  //           </Ground2>
+  //         </div>
+  //     </Layout>
+  //   );
+  // }
 }
 
 Cats.propTypes = {

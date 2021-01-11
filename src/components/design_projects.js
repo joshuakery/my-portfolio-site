@@ -10,20 +10,50 @@ import styles from "./design_projects.module.css"
 import { graphql } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 
+const PORTFOLIO_CATEGORIES = [
+'design',
+'teaching',
+'creative-coding',
+'live-shows'
+];
+
+const getOneProjectForEachCategory = edges => {
+  const catsSoFar = [];
+  return edges.filter(edge => {
+    const {node} = edge;
+    let {categories} = node.frontmatter;
+    categories = categories.filter(cat => (PORTFOLIO_CATEGORIES.includes(cat)));
+    if (!catsSoFar.includes(categories[0])) {
+      catsSoFar.push(categories[0]);
+      return true;
+    } else {
+      return false;
+    }
+  })
+}
+
 const getProjects = (edges) => {
   let projects = [];
-  console.log(edges);
-  for (let i=0; i < edges.length; i++) {
-      let {node} = edges[i];
+  let fEdges = getOneProjectForEachCategory(edges);
+  for (let i=0; i < fEdges.length; i++) {
+      let {node} = fEdges[i];
       const { slug } = node.fields;
-      const { title, subtitle, featuredImage } = node.frontmatter;
-      console.log(title);
+      const { categories, title, subtitle, featuredImage } = node.frontmatter;
+      categories = categories.filter(cat => (PORTFOLIO_CATEGORIES.includes(cat)));
       projects.push(
         <li key={slug} className={styles.project}>
+            <div className={styles.catLabelContainer}>
+              {categories.map( (cat, i) => (
+                <div>
+                <Link to={'/projects/' + cat}><div>{cat.toUpperCase()}</div></Link>
+                {i < categories.length - 1 && (<div>and</div>)}
+                </div>
+              ))}
+            </div>
             <Link to={slug}>
-                {/* <h3 className={styles.projectTitle}>{title}</h3> */}
                 <Img fluid={featuredImage.childImageSharp.fluid}
                             className={styles.featuredImage}/>
+                <h3 className={styles.projectTitle}>{title}</h3>
             </Link>
         </li>
       )
@@ -37,11 +67,12 @@ export default ({ children, location }) => {
             query {
                 allMarkdownRemark(
                   sort: {order: DESC, fields: frontmatter___date},
-                  filter: {frontmatter: {categories: {eq: "uxui"}}}
+                  filter: {frontmatter: {categories: {in: ["design","creative-coding","teaching","live-shows"]}}}
                 ) {
                     edges {
                       node {
                         frontmatter {
+                          categories
                           title
                           featuredImage {
                             childImageSharp {
