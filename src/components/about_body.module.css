@@ -12,7 +12,7 @@
 }
 
 .aboutbody a {
-    float: right;
+    /* float: right; */
 }
 
 @media (max-width: 750px) {
