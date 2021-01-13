@@ -23,7 +23,7 @@ b. 1997 Lives and works in Pittsburgh, PA
  | 
 ---- | ----
 2020-21 | Education Programs Intern - Design Museum Everywhere (Boston, MA)
-2020 | Freelance Designer
+2020-21 | Freelance Designer & Developer
 2020 | Designer – ARCADE, Carnegie Mellon University Entertainment Technology Center (Pittsburgh, PA)
 2019-20 | Teaching Artist - MuseumLab (Pittsburgh, PA)
 2019 | Undergraduate Research Assistant – ClassInsight, Carnegie Mellon University(Pittsburgh, PA)

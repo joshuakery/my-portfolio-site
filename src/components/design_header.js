@@ -118,7 +118,7 @@ return (
                         headerStyles.smaller_navdropdown_item :
                         headerStyles.navdropdown_item}
                 >
-                            Development
+                            Creative Coding
                 </Link>
             </Dropdown.Item>
             <Dropdown.Item>
@@ -161,7 +161,7 @@ return (
                 TEACHING
             </ListLink>
             <ListLink to="/projects/creative-coding" className={headerStyles.navlink}>
-                DEVELOPMENT
+                CREATIVE CODING
             </ListLink>
             <ListLink to="/projects/live-shows" className={headerStyles.navlink}>
                 LIVE SHOWS
