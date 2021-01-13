@@ -39,14 +39,14 @@ const getProjects = (edges) => {
       let {node} = fEdges[i];
       const { slug } = node.fields;
       const { categories, title, subtitle, featuredImage } = node.frontmatter;
-      categories = categories.filter(cat => (PORTFOLIO_CATEGORIES.includes(cat)));
+      const nCategories = categories.filter(cat => (PORTFOLIO_CATEGORIES.includes(cat)));
       projects.push(
         <li key={slug} className={styles.project}>
             <div className={styles.catLabelContainer}>
-              {categories.map( (cat, i) => (
+              {nCategories.map( (cat, i) => (
                 <div>
                 <Link to={'/projects/' + cat}><div>{cat.toUpperCase()}</div></Link>
-                {i < categories.length - 1 && (<div>and</div>)}
+                {i < nCategories.length - 1 && (<div>and</div>)}
                 </div>
               ))}
             </div>
