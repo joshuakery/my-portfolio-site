@@ -144,7 +144,7 @@ We began to aggregate our notes into an affinity diagram (in progress):
 
 ##Before developing hi-fidelity mockups, I used the freedom of this personal project to explore.
 
-The following sketches were inspired by sewing patterns and weaving guides, in reference to "knit" part of "CloseKnit."
+The following sketches were inspired by sewing patterns and weaving guides, in reference to the "knit" part of "CloseKnit."
 
 <img src="../post_images/closeknit/hifi-sketch1.png" />
 

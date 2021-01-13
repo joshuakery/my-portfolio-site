@@ -14,9 +14,9 @@ featuredImage: '../post_images/wed_cards_square.png'
 
 <cover-img>
 
-<img src="../post_images/wed_cards/exhibition_screenshot.png">
+<img src="../post_images/wed_cards/card_sample.jpg">
 
-*screenshot from the exhibition*
+*sample of two cards*
 
 </cover-img>
 
