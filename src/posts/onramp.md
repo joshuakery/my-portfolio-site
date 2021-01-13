@@ -119,7 +119,7 @@ AIU3, however, wanted teachers to approach the switch with pedagogy at the foref
 
 We often had educators asking us, 'Well, how do I give out this worksheet on the computer?' ...
 
-We don't want to educators to bring ineffective teaching practices with them online. We want to use this transition as an opportunity to focus on effective teaching skills. Pedagogy first, technology second.
+We don't want educators to bring ineffective teaching practices with them online. We want to use this transition as an opportunity to focus on effective teaching skills. Pedagogy first, technology second.
 
 </quote>
 

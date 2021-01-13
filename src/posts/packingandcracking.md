@@ -133,7 +133,7 @@ Game 8, in which audience members draw their own gerrymandering lines,
 
 <h4>
 
-And Game 9, in which audience members draw what think the heavily gerrymandered districts of their state look like.
+And Game 9, in which audience members draw what they think the heavily gerrymandered districts of their state look like.
 
 </h4>
 
