@@ -7,14 +7,14 @@ categories:
 tags:
     - programming
 posttype: 'design'
-featuredImage: '../post_images/closeknit_square.png'
+featuredImage: '../post_images/closeknit_square.jpg'
 ---
 
 #Mobile Social Media App Design
 
 <cover-img>
 
-<img src="../post_images/closeknit/hifi-sketch1.png" />
+<img src="../post_images/closeknit/closeknit_iphone_mockup.jpg" />
 
 </cover-img>
 

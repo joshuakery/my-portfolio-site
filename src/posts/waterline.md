@@ -7,12 +7,12 @@ categories:
 tags:
     - programming
 posttype: 'normal'
-featuredImage: '../post_images/waterline_square.png'
+featuredImage: '../post_images/waterline_square.jpg'
 ---
 
 `youtube: https://www.youtube.com/watch?v=-2wOi8ma14s&t=2s`
 
-<img src="../post_images/waterline/waterline_big.png">
+<img src="../post_images/waterline/waterline_iphone_mockup.jpg">
 
 “Waterline” encourages responsible water use by drawing a line of where water would flow if you kept pouring it on the ground in front you.
 

@@ -8,14 +8,14 @@ categories:
 tags:
     - ux
 posttype: 'design'
-featuredImage: '../post_images/atlantis_square.png'
+featuredImage: '../post_images/atlantis_square.jpg'
 ---
 
 #Data Driven Display Study
 
 <cover-img>
 
-<img src="../post_images/atlantis/cover.jpg">
+<img src="../post_images/atlantis/atlantis_mockup.jpg">
 
 </cover-img>
 

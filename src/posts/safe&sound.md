@@ -8,14 +8,14 @@ categories:
 tags:
     - ux
 posttype: 'design'
-featuredImage: '../post_images/safe&sound_square.png'
+featuredImage: '../post_images/safe&sound_square.jpg'
 ---
 
 #Helping Students Feel Safe Walking Home
 
 <cover-img>
 
-<img src="../post_images/safe&sound/ucre_final_overview.png">
+<img src="../post_images/safe&sound/safe&sound_iphone_mockup.jpg">
 
 </cover-img>
 

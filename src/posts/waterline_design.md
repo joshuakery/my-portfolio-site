@@ -9,14 +9,14 @@ categories:
 tags:
     - ux
 posttype: 'design'
-featuredImage: '../post_images/waterline_square.png'
+featuredImage: '../post_images/waterline_square.jpg'
 ---
 
 #Water Visualization App
 
 <cover-img>
 
-<img src="../post_images/waterline/waterline_big.png">
+<img src="../post_images/waterline/waterline_iphone_mockup.jpg">
 
 </cover-img>
 

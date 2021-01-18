@@ -15,7 +15,7 @@ featuredImage: '../post_images/kidspool_square.png'
 
 <cover-img>
 
-<img src="../post_images/kidspool/kidspool_cover.png">
+<img src="../post_images/kidspool/kidspool_responsive_mockup.jpg">
 
 </cover-img>
 
@@ -58,6 +58,100 @@ Figma
 ##Nowhere is this time commitment more strongly felt than when driving their athletes to practices and games.
 
 ##We designed Kidspool, a web app for organizing youth athlete carpools, to free up more time for parents by improving the existing carpool structure — making it more flexible, accessible, and fair.
+
+#FINAL PRODUCT
+
+The following GIFs showcase our final design solution. Our main focus in these prototypes is to have a **simplified, straightforward interface**.
+
+###Requesting a Ride
+
+<img-pair>
+
+<img src="../post_images/kidspool/kidspool_prototype1.gif">
+
+<h4>
+
+Users can tap a card for which there is no ride arranged to either offer a ride or request a ride.
+
+**Need met:** Parents act as both drivers and ride-requesters, and our UI needs to serve both those needs.
+
+The ride requesting flow allows parents to specify pickup location, number of seats, type of trip, and driver selection.
+
+</h4>
+
+</img-pair>
+
+###A Driver Has Responded to Your Ride & Viewing the Leaderboard
+
+<text-pair>
+
+<h4>
+
+Tapping on the header shows the driver leaderboard, which displays token counts for parents on your team.
+
+**Need met:** The token system is an in-app currency to **encourage equal contribution to carpooling**.
+
+Giving rides earns tokens, and requesting rides costs tokens. Tokens help parents avoid awkward conversations by providing automatic indirect feedback to under-contributing parents.
+
+</h4>
+
+<img src="../post_images/kidspool/kidspool_prototype2.gif">
+
+</text-pair>
+
+###Tracking a Driver On Their Way to Practice
+
+<img-pair>
+
+<img src="../post_images/kidspool/kidspool_prototype3.gif">
+
+<h4>
+
+Tapping on an active event-details page shows the driver’s route status and a live tracking dot for the ride. There are also affordances to contact the driver.
+
+**Need met:** Children’s safety is a primary concern with this platform, and the live tracking and driver contact give parents peace of mind.
+
+</h4>
+
+</img-pair>
+
+###Picking up Athletes in the Carpool
+
+<text-pair>
+
+<h4>
+
+Tapping on an event that you’re driving for shows pickup information, incoming ride requests, and turn-by-turn navigation.
+
+**Need met:** Parent drivers don’t need to leave the application to navigate to their pickups. They can respond to incoming requests from within the app.
+
+</h4>
+
+<img src="../post_images/kidspool/kidspool_prototype4.gif">
+
+</text-pair>
+
+###We’re featuring the Kidspool onboarding flow on a desktop/tablet screen. The desktop view offers more real-estate for parents to fill out an input-heavy form.
+
+<full-width-image>
+
+<img src="../post_images/kidspool/onboarding.png">
+
+</full-width-image>
+
+Parents will be given a link by their coach to join their team’s Kidspool community. Parents create an account, fill in their contact information, and most importantly, fill in their driving availability (bottom-right in the image).
+
+Presenting this in the onboarding also establishes a **precedent that parents are all expected to drive** in addition to requesting rides.
+
+###We also created the desktop version of the ride-tracking interface. 
+
+<full-width-image>
+
+<img src="../post_images/kidspool/desktop_driving.png">
+
+</full-width-image>
+
+Since safety is a primary concern for parents, we take advantage of the bigger screen size to give parents a **more comprehensive map**. Yet the design is still consistent with the user interactions and elements of the mobile application to **ensure learnability**.
 
 #BACKGROUND
 
@@ -189,100 +283,6 @@ We arrived at this style guide for the rest of our app.
 <img src="../post_images/kidspool/desktop_home_mobile_combined.png">
 
 We received feedback that the UI and colors felt **hectic and overloaded.** We also received feedback that the event name (“Soccer practice”) felt more emphasized than it needed to be, and that the actual useful information (i.e. event statuses) felt secondary. Next, we focused on **reducing the amount of data presented** and **emphasizing event statuses.**
-
-#FINAL PRODUCT
-
-The following GIFs showcase our final design solution. Our main focus in these prototypes is to have a **simplified, straightforward interface**.
-
-###Requesting a Ride
-
-<img-pair>
-
-<img src="../post_images/kidspool/kidspool_prototype1.gif">
-
-<h4>
-
-Users can tap a card for which there is no ride arranged to either offer a ride or request a ride.
-
-**Need met:** Parents act as both drivers and ride-requesters, and our UI needs to serve both those needs.
-
-The ride requesting flow allows parents to specify pickup location, number of seats, type of trip, and driver selection.
-
-</h4>
-
-</img-pair>
-
-###A Driver Has Responded to Your Ride & Viewing the Leaderboard
-
-<text-pair>
-
-<h4>
-
-Tapping on the header shows the driver leaderboard, which displays token counts for parents on your team.
-
-**Need met:** The token system is an in-app currency to **encourage equal contribution to carpooling**.
-
-Giving rides earns tokens, and requesting rides costs tokens. Tokens help parents avoid awkward conversations by providing automatic indirect feedback to under-contributing parents.
-
-</h4>
-
-<img src="../post_images/kidspool/kidspool_prototype2.gif">
-
-</text-pair>
-
-###Tracking a Driver On Their Way to Practice
-
-<img-pair>
-
-<img src="../post_images/kidspool/kidspool_prototype3.gif">
-
-<h4>
-
-Tapping on an active event-details page shows the driver’s route status and a live tracking dot for the ride. There are also affordances to contact the driver.
-
-**Need met:** Children’s safety is a primary concern with this platform, and the live tracking and driver contact give parents peace of mind.
-
-</h4>
-
-</img-pair>
-
-###Picking up Athletes in the Carpool
-
-<text-pair>
-
-<h4>
-
-Tapping on an event that you’re driving for shows pickup information, incoming ride requests, and turn-by-turn navigation.
-
-**Need met:** Parent drivers don’t need to leave the application to navigate to their pickups. They can respond to incoming requests from within the app.
-
-</h4>
-
-<img src="../post_images/kidspool/kidspool_prototype4.gif">
-
-</text-pair>
-
-###We’re featuring the Kidspool onboarding flow on a desktop/tablet screen. The desktop view offers more real-estate for parents to fill out an input-heavy form.
-
-<full-width-image>
-
-<img src="../post_images/kidspool/onboarding.png">
-
-</full-width-image>
-
-Parents will be given a link by their coach to join their team’s Kidspool community. Parents create an account, fill in their contact information, and most importantly, fill in their driving availability (bottom-right in the image).
-
-Presenting this in the onboarding also establishes a **precedent that parents are all expected to drive** in addition to requesting rides.
-
-###We also created the desktop version of the ride-tracking interface. 
-
-<full-width-image>
-
-<img src="../post_images/kidspool/desktop_driving.png">
-
-</full-width-image>
-
-Since safety is a primary concern for parents, we take advantage of the bigger screen size to give parents a **more comprehensive map**. Yet the design is still consistent with the user interactions and elements of the mobile application to **ensure learnability**.
 
 #REFLECTION
 

@@ -14,7 +14,7 @@ featuredImage: '../post_images/onramp_square.png'
 
 <cover-img>
 
-<img src="../post_images/onramp/onramp-landing.png" />
+<img src="../post_images/onramp/onramp_responsive_mockup.jpg" />
 
 </cover-img>
 

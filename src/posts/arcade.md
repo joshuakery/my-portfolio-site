@@ -10,14 +10,14 @@ tags:
     - ux
     - ui
 posttype: 'design'
-featuredImage: '../post_images/arcade_square.png'
+featuredImage: '../post_images/arcade_square.jpg'
 ---
 
 #User Interface Design & Unity Development
 
 <cover-img>
 
-<img src="../post_images/arcade/model_closeup1.png">
+<img src="../post_images/arcade/arcade_desktop_mockup.jpg">
 
 </cover-img>
 
