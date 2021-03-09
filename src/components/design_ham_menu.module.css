@@ -1,37 +1,16 @@
 .open {
-    display: block;
-    padding: 2em;
-    padding-top: 3em;
-    padding-right: 20px;
-    padding-left: 3em;
-    padding-bottom: 2.5em;
+    padding: 10px 20px;
+    padding-top: 2em;
     background: white;
-    position: relative;
+    
+    box-shadow: -1px 1px 2px rgba(0,0,0,0.2);
     z-index: 9999;
     transition: all 0.3s ease;
-    width: 13em;
-    transform: translateX(-100%);
-    box-shadow: -1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .closed {
-    display: block;
-    padding: 2em;
-    padding-top: 3em;
-    padding-right: 20px;
-    padding-left: 3em;
-    padding-bottom: 2.5em;
-    background: white;
-    position: relative;
-    z-index: 9999;
-    transition: all 1s ease;
-    width: 13em;
-    /* box-shadow: -1px 1px 2px rgba(0,0,0,0.2); */
+    transform: translateX(110%);
 }
-
-/* .closed li {
-    display: none;
-} */
 
 .open li {
     list-style: none;  
@@ -41,28 +20,11 @@
     margin-top: 25px;
 }
 
-.open li a {
+.open a {
     color: black;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    display: block;
-    padding: 2%;
-}
-
-.closed li {
-    list-style: none;  
-}
-
-.closed li:nth-child(1) {
-    margin-top: 25px;
-}
-
-.closed li a {
-    color: black;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: block;
     padding: 2%;
 }

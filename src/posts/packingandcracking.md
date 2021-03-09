@@ -4,6 +4,7 @@ cover: "8.jpg"
 date: "2020-10-24"
 categories:
     - live-shows
+    - show
 tags:
     - programming
 posttype: 'design'

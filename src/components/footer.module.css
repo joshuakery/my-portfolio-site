@@ -1,7 +1,7 @@
 .darkFooter {
     background: black;
 
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-align: center;
@@ -18,7 +18,7 @@
 .lightFooter {
     background: white;
     width:100%;
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-align: center;
@@ -149,7 +149,7 @@
     margin-bottom: 10px;
 
     color: black;
-    font-family: 'PT Serif', serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -169,7 +169,7 @@
     margin-bottom: 10px;
 
     color: white;
-    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Serif', serif; */
     font-size: 2em;
     font-weight: bold;
 }
@@ -189,14 +189,26 @@
     font-weight: 400;
 }
 
+.contactInfo p {
+    padding-bottom: 0.5em;
+}
+
+.contactInfo a {
+    color: black;
+}
+
+.contactInfo a:hover {
+    color: rgb(28,153,138);
+}
+
 .socialbar {
     list-style: none;
     
     text-align: right;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: auto 5% 8% 5% 8% 5% auto;
+    display: flex;
+    justify-content: flex-end;
     cursor: pointer;
 }
 
@@ -204,21 +216,7 @@
     z-index: 99999;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.socialbar_link:nth-child(1) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.socialbar_link:nth-child(2) {
-    grid-column-start: 4;
-    grid-column-end: 5;
-}
-
-.socialbar_link:nth-child(3) {
-    grid-column-start: 6;
-    grid-column-end: 7;
+    width: 1.5em;
 }
 
 .youtube {
@@ -351,9 +349,6 @@
     .contactInfo h2 {
         margin-top: 0;
         margin-bottom: 5px;
-    }
-    .socialbar {
-        grid-template-columns: auto 25px 2% 25px 2% 25px 0;
     }
 }
 

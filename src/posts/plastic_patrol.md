@@ -9,6 +9,7 @@ tags:
     - ux
     - ui
     - game
+    - interactive
 posttype: 'design'
 featuredImage: '../post_images/plastic_patrol_square.png'
 ---

@@ -1,4 +1,4 @@
-.larger_header {
+.header {
     background: white;
     color: black;
 
@@ -17,25 +17,9 @@
 }
 
 .smaller_header {
-    background: white;
-    color: black;
-
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    
-    transition: all 0.3s ease;
-
     padding: 10px 20px;
     width: calc(100% - 40px);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 0;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 33% 34% 33%;
 }
 
 /*-------------------------TITLE--------------------------*/
@@ -50,32 +34,15 @@
     font-size: 1em;
     text-align: center;
 
-    display: inline-block;
-
-    position: relative;
-    top: -10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
 
     transition: all 0.3s ease;
 }
 
 .smaller_title_container {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    text-decoration: none;
-    color: black;
     font-size: 0.75em;
-    text-align: center;
-
-    display: inline-block;
-
-    /* position: relative;
-    top: -10px; */
-
-    transition: all 0.3s ease;
-    padding-bottom:10px;
 }
 
 .site_title_text {
@@ -98,32 +65,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
-
-    transition: all 0.3s ease;
-}
-
-.smaller_navbar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: inline-flex;
     align-items:center;
 
     transition: all 0.3s ease;
 }
 
-.navbar li {
-    display: inline-block;
-    margin-right: 15%;
+.smaller_navbar {
 }
 
-.smaller_navbar li {
+.navbar li {
     display: inline-block;
     margin-right: 15%;
 }
@@ -132,20 +83,38 @@
     color: black;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.75em;
+    font-size: 1.5em;
     display: block;
     margin: 0;
-    transition: all 0.3s ease;
 }
 
 .smaller_navbar li a {
+    font-size: 1.25em;
+}
+
+.navbar li a:hover {
+    color: pink;
+}
+
+.navemail {
     color: black;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
     display: block;
     margin: 0;
     transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+   justify-content: flex-end;
+}
+
+.navemail:hover {
+    color: pink;
+}
+
+.smaller_navemail {
+    font-size: 1.25em;
 }
 
 .navdropdown {
@@ -253,13 +222,9 @@
     padding-bottom: 10px;
 }
 
-.smaller_navdropdown div:nth-child(2n) a:last-child a:hover {
-    /* color: */
-}
-
 
 /*-------------------------SOCIAL BAR--------------------------*/
-.socialbar {
+/* .socialbar {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -275,7 +240,6 @@
     text-align: right;
 
     position: absolute;
-    /* top: 25%; */
 
     cursor: pointer;
 
@@ -302,7 +266,6 @@
     text-align: right;
 
     position: absolute;
-    /* top: 20%; */
 
     cursor: pointer;
 
@@ -311,9 +274,9 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
-}
+} */
 
-.socialbar_link {
+/* .socialbar_link {
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -385,9 +348,9 @@
     padding: 0;
 
     transition: all 0.3s ease;
-}
+} */
 
-.instagram {
+/* .instagram {
     background-image: url("../images/instagram_btn_black.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -411,7 +374,7 @@
     padding: 0;
 
     transition: all 0.3s ease;
-}
+} */
 
 /*-------------------------HUD--------------------------*/
 .ham_btn {
@@ -429,22 +392,16 @@
     top: 0;
     right: 0;
     display: none;
-    width: 0;
+    width: 100%;
+    height:0;
     text-align: right;
 }
 
 .smaller_ham_menu_container {
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    right: 0;
     transition: all 0.3s ease;
-    display: none;
-    width: 0;
-    text-align: right;
 }
 
-.ham_instagram {
+/* .ham_instagram {
     display: none;
 }
 .ham_vimeo {
@@ -452,39 +409,29 @@
 }
 .ham_youtube {
     display: none;
-}
+} */
 
 .linebreak {
     width: 100%;
-    border-bottom: 3px solid black;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1300px) {
-    .smaller_socialbar_link {
+    /* .smaller_socialbar_link {
         width: 2em;
-    }
-
+    } */
     .ham_btn {
         display: inline-block;
     }
     .ham_menu_container {
         display: inline-block;
     }
-    .smaller_ham_menu_container {
-        display: inline-block;
-    }
 }
 
 @media (max-width: 1000px) {
-    .navbar {
-        display: none;
-    }
-    .smaller_navbar {
-        display: none;
-    }
-    .socialbar {
+    /* .socialbar {
         grid-template-columns: 50% 50%;
     }
     .smaller_socialbar {
@@ -495,8 +442,8 @@
     }
     .smaller_socialbar a:nth-child(2) {
         display: none;
-    }
-    .ham_youtube {
+    } */
+    /* .ham_youtube {
         display: block;
         width: 2em;
         padding-bottom: 2em;
@@ -506,43 +453,36 @@
         height: 0;
         margin-top: 5%;
         margin-bottom: 5%;
-    }
+    } */
 }
 
 @media (max-width: 1000px) {
-    .larger_header {
+    .header {
         grid-template-columns: auto 15%;
-        padding-top: 20px;
-        padding: 20px 20px;
-    }
-    .smaller_header {
-        grid-template-columns: auto 15%;
-        padding-top: 10px;
+        padding: 10px 20px;
+        width: calc(100% - 40px);
     }
     .title_container {
         grid-column-start: 1;
         grid-column-end: 2;
-        top: -5px;
-        width: 100%;
-        margin: 0;
-    }
-    .smaller_title_container {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        top: 0;
-        width: 100%;
-        margin: 0;
+        justify-content: flex-start;
     }
     .site_title_text {
         text-align: left;
     }
-    .socialbar {
+    .navbar {
+        display: none;
+    }
+    .navemail {
+        display: none;
+    }
+    /* .socialbar {
         display: none;
     }
     .smaller_socialbar {
         display: none;
-    }
-    .ham_instagram {
+    } */
+    /* .ham_instagram {
         display: block;
         width: 2em;
         padding-bottom: 2em;
@@ -562,6 +502,6 @@
         height: 0;
 
         margin-top: 2%;
-    }
+    } */
 }
 

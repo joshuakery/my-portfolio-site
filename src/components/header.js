@@ -50,97 +50,64 @@ class Header extends React.Component {
     }
 
     render() {
+        const small = this.state.smallerHeader;
         return (
             <div>
-                <header className={this.state.smallerHeader ? headerStyles.smaller_header : headerStyles.larger_header}>
+                <header className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
 
-                        <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
-                            <DropdownButton title="ABOUT" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
-                                <Dropdown.Item>
-                                    <Link to="/portfolio_about/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              About Me
-                                    </Link>
-                                </Dropdown.Item>
-                                <Dropdown.Item>
-                                    <Link to="/about/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Artist Statement
-                                    </Link>
-                                </Dropdown.Item>
-                                <Dropdown.Item>
-                                    <Link to="/resume/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Resume
-                                    </Link>
-                                </Dropdown.Item>
-                                <Dropdown.Item>
-                                    <Link to="/portfolio_cv/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              CV
-                                    </Link>
-                                </Dropdown.Item>
-                            </DropdownButton>
-
-                            <DropdownButton title="PORTFOLIO" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
-                                <Dropdown.Item>
-                                    <Link to="/portfolio/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              Design Portfolio
-                                    </Link>
-                                </Dropdown.Item>
-                                <Dropdown.Item>
-                                    <Link to="/projects/"
-                                          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
-                                              All Art
-                                    </Link>
-                                </Dropdown.Item>
-                            </DropdownButton>
+                        <ul className={`${headerStyles.navbar} ${small && headerStyles.smaller_navbar}`}>
+                            <li>
+                                <Link
+                                to="/about/"
+                                className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
+                                >
+                                    about
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                to="/cv/"
+                                className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
+                                >
+                                    cv
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                to="/portfolio/"
+                                className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
+                                >
+                                    design site
+                                </Link>
+                            </li>
                         </ul>
 
                         <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
                             <HamMenu open={this.state.open}>
-                                <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                                    ABOUT ME
+                                <ListLink to="/about/" className={headerStyles.navlink}>
+                                    about
                                 </ListLink>
-                                <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                                    ARTIST STATEMENT
-                                </ListLink>
-                                <ListLink to="/resume/" className={headerStyles.navlink}>
-                                    RESUME
-                                </ListLink>
-                                <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
-                                    CV
+                                <ListLink to="/cv/" className={headerStyles.navlink}>
+                                    cv
                                 </ListLink>
                                 <ListLink to="/portfolio/" className={headerStyles.navlink}>
-                                    DESIGN PORTFOLIO
-                                </ListLink>
-                                <ListLink to="/projects/" className={headerStyles.navlink}>
-                                    ALL ART
+                                    design site
                                 </ListLink>
                             </HamMenu>
                         </div>
                         <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
                         </HamBtn>
 
-                        <Link to="/" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
+                        <Link to="/" className={`${headerStyles.title_container} ${small && headerStyles.smaller_title_container}`}>
                             <div className={headerStyles.site_title}>
                                 <h1 className={headerStyles.site_title_text}>joshua kery</h1>
                             </div>
                         </Link>
 
-                        <ul className={this.state.smallerHeader ? headerStyles.smaller_socialbar : headerStyles.socialbar}>
-                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                        <ul className={`${headerStyles.socialbar} ${small && headerStyles.smaller_socialbar}`}>
+                            <a className={`${headerStyles.socialbar_link} ${small && headerStyles.smaller_socialbar_link}`}
                                 href="https://www.instagram.com/joshuatkery/">
-                                <div className={this.state.smallerHeader ? headerStyles.smaller_instagram : headerStyles.instagram}></div>
-                            </a>
-                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
-                                href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
-                                <p className={this.state.smallerHeader ? headerStyles.smaller_youtube : headerStyles.youtube}></p>
-                            </a>
-                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
-                                href="https://vimeo.com/user62542730">
-                                <p className={this.state.smallerHeader ? headerStyles.smaller_vimeo : headerStyles.vimeo}></p>
+                                <div className={`${headerStyles.instagram} ${small && headerStyles.smaller_instagram}`}></div>
                             </a>
                         </ul>
                 </header>
@@ -151,3 +118,54 @@ class Header extends React.Component {
 }
 
 export { Header };
+
+{/* <DropdownButton title="ABOUT" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+<Dropdown.Item>
+    <Link to="/portfolio_about/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              About Me
+    </Link>
+</Dropdown.Item>
+<Dropdown.Item>
+    <Link to="/about/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              Artist Statement
+    </Link>
+</Dropdown.Item>
+<Dropdown.Item>
+    <Link to="/resume/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              Resume
+    </Link>
+</Dropdown.Item>
+<Dropdown.Item>
+    <Link to="/portfolio_cv/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              CV
+    </Link>
+</Dropdown.Item>
+</DropdownButton> */}
+
+{/* <DropdownButton title="PORTFOLIO" className={this.state.smallerHeader ? headerStyles.smaller_navdropdown : headerStyles.navdropdown}>
+<Dropdown.Item>
+    <Link to="/portfolio/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              Design Portfolio
+    </Link>
+</Dropdown.Item>
+<Dropdown.Item>
+    <Link to="/projects/"
+          className={this.state.smallerHeader ? headerStyles.smaller_navdropdown_item : headerStyles.navdropdown_item}>
+              All Art
+    </Link>
+</Dropdown.Item>
+</DropdownButton> */}
+
+                            {/* <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                                href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
+                                <p className={this.state.smallerHeader ? headerStyles.smaller_youtube : headerStyles.youtube}></p>
+                            </a>
+                            <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
+                                href="https://vimeo.com/user62542730">
+                                <p className={this.state.smallerHeader ? headerStyles.smaller_vimeo : headerStyles.vimeo}></p>
+                            </a> */}

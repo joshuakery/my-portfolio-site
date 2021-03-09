@@ -52,20 +52,20 @@ class Footer extends React.Component {
 
                     <div className={footerStyles.contactInfo}>
                         <h2>Contact Me:</h2>
-                        <p>joshuakery1@gmail.com</p>
+                        <p><a href="mailto:joshuakery1@gmail.com">joshuakery1@gmail.com</a></p>
                         <ul className={footerStyles.socialbar}>
                             <a className={footerStyles.socialbar_link}
                                 href="https://www.instagram.com/joshuatkery/">
                                 <div className={this.props.bg == 'dark' ? footerStyles.instagram : footerStyles.light_instagram}></div>
                             </a>
-                            <a className={footerStyles.socialbar_link}
+                            {/* <a className={footerStyles.socialbar_link}
                                 href="https://www.youtube.com/channel/UCTrtZPaGZ89PdvwrO2fjtSg">
                                 <p className={this.props.bg == 'dark' ? footerStyles.youtube : footerStyles.light_youtube}></p>
                             </a>
                             <a className={footerStyles.socialbar_link}
                                 href="https://vimeo.com/user62542730">
                                 <p className={this.props.bg == 'dark' ? footerStyles.vimeo : footerStyles.light_vimeo}></p>
-                            </a>
+                            </a> */}
                         </ul>
                     </div>
                 </footer>

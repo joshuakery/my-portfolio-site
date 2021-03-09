@@ -99,7 +99,8 @@ export default ({ children, location }) => {
 
     //hardcode which cats to include
     let group = data.allMarkdownRemark.group;
-    let toInclude = ['2d','3d','games','interactive','time-based','uxui'];
+    // let toInclude = ['2d','3d','games','interactive','time-based','uxui'];
+    const toInclude = ['2d','3d','interactive','time-based'];
     group = group.filter((member) => (toInclude.includes(member.fieldValue))); 
 
     return (

@@ -6,10 +6,11 @@ categories:
     - 2d
     - 3d
     - time-based
+    - show
 tags:
     - programming
     - telepresence
-posttype: 'show'
+posttype: 'normal'
 featuredImage: '../post_images/josh_kery_historical_square.png'
 ---
 

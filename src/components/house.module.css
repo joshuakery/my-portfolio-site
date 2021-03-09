@@ -46,7 +46,7 @@
 
     display: grid;
     grid-template-columns: auto 400px auto 400px auto;
-    grid-template-rows: 20px 400px 20px 400px 20px 400px 20px;
+    grid-template-rows: 20px 400px 20px 400px 20px;
 }
 
 /*----------------------------MEDIA QUERIES-----------------------------------*/
@@ -83,7 +83,7 @@
         grid-column-end: 2;
 
         grid-template-columns: 25px 48% 25px auto 25px;
-        grid-template-rows: 20px auto 20px 400px 20px 400px 20px;
+        grid-template-rows: 20px auto 20px 400px 20px;
     }
 }
 

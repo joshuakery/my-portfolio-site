@@ -6,6 +6,7 @@ categories:
     - uxui
     - games
     - design
+    - interactive
 tags:
     - ux
     - ui

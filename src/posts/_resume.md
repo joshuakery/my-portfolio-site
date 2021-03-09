@@ -6,6 +6,6 @@ posttype: 'resume'
 featuredImage: '../post_images/braces_square.jpg'
 ---
 
-[Download](https://drive.google.com/file/d/1KqKJ3M3osHaB6B2qJ7pktLrVh6qYCjj9/view?usp=sharing)
+[Download](https://drive.google.com/file/d/1neY8qrcXvrLGtE98helTQbZSxrPG7zRS/view?usp=sharing)
 
-<img src="../images/joshua_kery_resume_img.jpg" alt="Joshua Kery Sample Resume">
+<img src="../images/Kery_Joshua_Sample_Resume.jpg" alt="Joshua Kery Sample Resume">

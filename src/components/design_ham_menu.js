@@ -3,18 +3,9 @@ import hamMenuStyles from '../components/design_ham_menu.module.css';
 
 
 export default ({children, open}) => {
-    if (open) {
-        return (
-            <div className={hamMenuStyles.open}>
-                {children}
-            </div>
-        ) 
-    }
-    else {
-        return (
-            <div className={hamMenuStyles.closed}>
-                {children}
-            </div>
-        )
-    }
+    return (
+        <div className={`${hamMenuStyles.open} ${!open && hamMenuStyles.closed}`}>
+            {children}
+        </div>
+    );
 }

@@ -49,12 +49,76 @@ setOpen() {
 }
 
 render() {
+const small = this.state.smallerHeader;
 return (
-    <div>
-    <header className={this.state.smallerHeader ? headerStyles.smaller_header : headerStyles.larger_header}>
+    <header className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
 
-    <ul className={this.state.smallerHeader ? headerStyles.smaller_navbar : headerStyles.navbar}>
-        <DropdownButton
+    <ul className={`${headerStyles.navbar} ${small && headerStyles.smaller_navbar}`}>
+        <li>
+            <Link
+            to="/resume/"
+            className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
+            >
+                resume
+            </Link>
+        </li>
+        <li>
+            <Link
+            to="/"
+            className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
+            >
+                art site
+            </Link> 
+        </li>
+    </ul>
+
+    <Link
+    to="/portfolio"
+    className={`${headerStyles.title_container} ${small && headerStyles.smaller_title_container}`}>
+        <div className={headerStyles.site_title}>
+            <h1 className={headerStyles.site_title_text}>joshua kery</h1>
+        </div>
+    </Link>
+
+    <a href="mailto:joshuakery1@gmail.com"
+    className={`${headerStyles.navemail} ${small && headerStyles.smaller_navemail}`}
+    >
+        joshuakery1@gmail.com
+    </a>
+
+    <div className={`${headerStyles.ham_menu_container} ${small && headerStyles.smaller_ham_menu_container}`}>
+    <HamMenu open={this.state.open}>
+        <ListLink to="/portfolio/" className={headerStyles.navlink}>
+            home
+        </ListLink>
+        <ListLink to="/resume/" className={headerStyles.navlink}>
+            resume
+        </ListLink>
+        <ListLink to="/" className={headerStyles.navlink}>
+            art site
+        </ListLink>
+        <div className={headerStyles.linebreak}></div>
+        <a href="mailto:joshuakery1@gmail.com" className={headerStyles.navlink}>
+            joshuakery1@gmail.com
+        </a>
+    </HamMenu>
+    </div>
+    <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
+    </HamBtn>
+
+
+    { this.props.children }
+    
+    </header>
+    
+
+)
+}
+}
+
+export { DesignHeader };
+
+{/* <DropdownButton
             title="ABOUT"
             className={this.state.smallerHeader ?
                 headerStyles.smaller_navdropdown :
@@ -139,46 +203,8 @@ return (
                             Art
                 </Link>
             </Dropdown.Item>
-        </DropdownButton>
-    </ul>
+        </DropdownButton> */}
 
-    <div className={this.state.smallerHeader ? headerStyles.smaller_ham_menu_container :headerStyles.ham_menu_container}>
-        <HamMenu open={this.state.open}>
-            <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
-                ABOUT ME
-            </ListLink>
-            <ListLink to="/resume/" className={headerStyles.navlink}>
-                RESUME
-            </ListLink>
-            <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
-                CV
-            </ListLink>
-            <div className={headerStyles.linebreak}></div>
-            <ListLink to="/projects/design" className={headerStyles.navlink}>
-                DESIGN
-            </ListLink>
-            <ListLink to="/projects/teaching" className={headerStyles.navlink}>
-                TEACHING
-            </ListLink>
-            <ListLink to="/projects/creative-coding" className={headerStyles.navlink}>
-                CREATIVE CODING
-            </ListLink>
-            <ListLink to="/projects/live-shows" className={headerStyles.navlink}>
-                LIVE SHOWS
-            </ListLink>
-            <ListLink to="/" className={headerStyles.navlink}>
-                ART
-            </ListLink>
-        </HamMenu>
-    </div>
-    <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
-    </HamBtn>
-
-    <Link to="/portfolio" className={this.state.smallerHeader ? headerStyles.smaller_title_container : headerStyles.title_container}>
-        <div className={headerStyles.site_title}>
-            <h1 className={headerStyles.site_title_text}>joshua kery</h1>
-        </div>
-    </Link>
 
     {/* <ul className={this.state.smallerHeader ? headerStyles.smaller_socialbar : headerStyles.socialbar}>
         <a className={this.state.smallerHeader ? headerStyles.smaller_socialbar_link : headerStyles.socialbar_link}
@@ -194,11 +220,27 @@ return (
             <p className={this.state.smallerHeader ? headerStyles.smaller_vimeo : headerStyles.vimeo}></p>
         </a>
     </ul> */}
-    </header>
-    { this.props.children }
-    </div>
-)
-}
-}
 
-export { DesignHeader };
+//     <ListLink to="/portfolio_about/" className={headerStyles.navlink}>
+//     ABOUT ME
+// </ListLink>
+//     <ListLink to="/portfolio_cv/" className={headerStyles.navlink}>
+//     CV
+// </ListLink>
+// <div className={headerStyles.linebreak}></div>
+// <ListLink to="/projects/design" className={headerStyles.navlink}>
+//     DESIGN
+// </ListLink>
+// <ListLink to="/projects/teaching" className={headerStyles.navlink}>
+//     TEACHING
+// </ListLink>
+// <ListLink to="/projects/creative-coding" className={headerStyles.navlink}>
+//     CREATIVE CODING
+// </ListLink>
+// <ListLink to="/projects/live-shows" className={headerStyles.navlink}>
+//     LIVE SHOWS
+// </ListLink>
+// <ListLink to="/" className={headerStyles.navlink}>
+//     ART
+// </ListLink>
+

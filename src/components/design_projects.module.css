@@ -7,33 +7,6 @@
     font-weight: 400;
 }
 
-/* .project1_container {
-    width: 100%;
-    height: 500px;
-    background: radial-gradient(farthest-corner at bottom right, rgba(238,115,123,1), rgba(52,46,56,1));
-}
-
-.project1_container h2 {
-    color: white;
-    font-size: 3em;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    text-align: right;
-    float: right;
-    margin-right: 20%;
-    margin-top: 100px;
-}
-
-.project1_img {
-    width: 300px;
-    margin-left: 20%;
-    height: 600px;
-    background: transparent;
-    background-image: url("../post_images/kidspool/iphone_frame.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
-
 .projectsContainer {
     list-style: none;
     padding: 0;
@@ -41,21 +14,25 @@
     padding: 0;
     margin: auto;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
 }
 
 .catLabelContainer {
     display: inline-block;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     width: 100%;
 }
 
 .catLabelContainer a {
     color: black;
     font-family: 'Poppins';
+    font-size:0.75em;
 }
 
 .catLabelContainer:hover a {
-    color:rgb(63,93,170);
+    color:rgb(28,153,138);
     /* font-weight:bold; */
 }
 
@@ -69,10 +46,12 @@
 
 
 .project {
-    width: 60%;
-    margin-bottom: 5%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
-.project:nth-child(even) {
+/* .project:nth-child(even) {
     float: right;
 }
 .project:nth-child(even) .catLabelContainer div {
@@ -80,17 +59,18 @@
 }
 .project:nth-child(even) .projectTitle {
     text-align: right;
-}
+} */
 
 
 .projectTitle {
     text-align: left;
     font-size: 1.5em;
     color: black;
+    margin-bottom: 5px;
 }
 
 .project a:hover .projectTitle {
-    color:pink;
+    color:rgb(28,153,138);
 }
 
 .project a:hover .featuredImage {
@@ -101,9 +81,15 @@
     margin-bottom: 10px;
 }
 
+@media (min-width: 400px) {
+    .project {
+        width: 60%;
+    }
+}
+
 @media (min-width: 750px) {
     /* clear old styles */
-    .project:nth-child(even) {
+    /* .project:nth-child(even) {
         float: none;
     }
     .project:nth-child(even) .catLabelContainer div {
@@ -111,7 +97,7 @@
     }
     .project:nth-child(even) .projectTitle {
         text-align: left;
-    }
+    } */
     /* set new styles */
     .projectsContainer {
         display: grid;
@@ -119,7 +105,7 @@
         grid-template-rows: auto;
     }
     .project {
-        width: auto;
+        width: calc(100% - 10px);
         display: inline-block;
         margin-bottom: 60px;
         margin-right: 10px;
@@ -131,34 +117,6 @@
     .projectTitle {
         padding: 0 10px;
     }
-    /* .projectsContainer {
-        display: grid;
-        grid-template-columns: repeat(12,calc(100%/12));
-        grid-template-rows: auto;
-    }
-    .project {
-        width: 100%;
-        display: inline-block;
-        margin-bottom: 100px;
-
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-    .project:nth-child(2n) {
-        grid-column-start: 7;
-        grid-column-end: 13;
-    }
-    .project:nth-child(3n) {
-        grid-column-start: 2;
-        grid-column-end: 7;
-    }
-    .catLabelContainer div {
-        width:100%;
-    } */
-    /* .project:nth-child(3n + 2) {
-        margin-left: 1%;
-        margin-right: 1%;
-    } */
 }
 
 @media (min-width:1000px) {

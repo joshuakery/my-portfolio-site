@@ -5,6 +5,7 @@ date: "2017-10-01"
 categories:
     - games
     - creative-coding
+    - interactive
 tags:
     - programming
     - gerrymandering

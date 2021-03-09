@@ -1,6 +1,6 @@
 
 
-/* .projectsList {
+.projectsList {
     margin-top: 20%;
     list-style: none;
     padding: 0;
@@ -55,7 +55,7 @@ h3 {
     .projectsList {
         display: grid;
         grid-template-columns: repeat(3,calc(100%/3));
-    } */
+    }
     /* .projectsList {
         display: grid;
         grid-template-columns: repeat(12,calc(100%/12));
@@ -73,7 +73,7 @@ h3 {
         grid-row-start: 2;
         grid-row-end: 3;
     } */
-/* }
+}
 @media (min-width:1000px) {
     .projectsList {
         width:80%;
@@ -83,11 +83,11 @@ h3 {
     .catTitle {
         text-align:center;
     }
-} */
+}
 
 
 /*---------------OLD STUFF FOR ROOMS AND STUFF-----------------------------------*/
-.container {
+/* .container {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -100,7 +100,7 @@ h3 {
 
 /*----------------------------ROOMS-----------------------------------*/
 
-.room_container {
+/*.room_container {
     margin: 0;
     margin-bottom: 20px;
 
@@ -238,7 +238,7 @@ h3 {
 
 /*----------------------------MEDIA QUERIES-----------------------------------*/
 
-@media (max-width: 880px) {
+/*@media (max-width: 880px) {
     .basement_container {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -294,5 +294,5 @@ h3 {
     .basement_link_container {
         width: 90%;
     }
-}
+} */
 

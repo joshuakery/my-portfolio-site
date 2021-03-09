@@ -2,6 +2,7 @@ import React from "react"
 import layoutStyles from "./layout.module.css"
 import { Header } from "../components/header"
 import { DesignHeader } from "../components/design_header"
+import Intro from "../components/intro"
 import { Footer } from "../components/footer"
 
 class Layout extends React.Component {
@@ -21,7 +22,8 @@ class Layout extends React.Component {
                     {this.props.children}
                 </div>
 
-                <Footer bg={'dark'}></Footer>
+                {/* <Footer bg={'dark'}></Footer> */}
+                <div style={{width:'100%',height:'200px',background:'black'}}></div>
             </div>
         )
 
