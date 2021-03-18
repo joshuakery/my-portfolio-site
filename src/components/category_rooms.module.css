@@ -303,6 +303,8 @@
     background-size: 100%;
     background-repeat: no-repeat;
 
+    z-index: 11;
+
     display: grid;
     grid-template-columns: auto 400px auto;
     grid-template-rows: 12px 400px 24px;
@@ -390,7 +392,7 @@
     bottom: 0;
     right: 0;
 
-    z-index: 4;
+    z-index: 1000;
 }
 
 /*----------------------------MEDIA QUERIES-----------------------------------*/

@@ -52,7 +52,7 @@ class Header extends React.Component {
     render() {
         const small = this.state.smallerHeader;
         return (
-            <div>
+            <div className={`${headerStyles.header_container}`}>
                 <header className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
 
                         <ul className={`${headerStyles.navbar} ${small && headerStyles.smaller_navbar}`}>

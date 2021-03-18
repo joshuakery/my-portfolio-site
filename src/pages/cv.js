@@ -4,6 +4,7 @@ import { Helmet, renderStatic } from "react-helmet"
 import { graphql } from "gatsby"
 import rehypeReact from "rehype-react"
 import { CVTable } from "../components/cv_table"
+import Ground from "../components/ground"
 
 const renderAst = new rehypeReact({
     createElement: React.createElement,
@@ -16,15 +17,13 @@ export default ({ data }) => {
     const cv = data.allMarkdownRemark.edges[0].node;
     return (
         <Layout>
-            <div>
                 <Helmet title={cv.frontmatter.title} />
-                <h1>{cv.frontmatter.title}</h1>
                 <CVTable>
-                {
-                    renderAst(cv.htmlAst)
-                }
+                  {
+                      renderAst(cv.htmlAst)
+                  }
                 </CVTable>
-            </div>
+                <Ground></Ground>
         </Layout>
     )
 

@@ -26,6 +26,7 @@ featuredImage: '../post_images/frank_arthur_square.jpg'
 <c4><img src="../post_images/frank_arthur/pittsburgh_homestead.jpg"><c4>
 </group>
 
+<group>
 <r2><img src="../post_images/frank_arthur/bethlehem_steel_works2.jpg"></r2>
 </group>
 

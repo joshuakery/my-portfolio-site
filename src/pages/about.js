@@ -5,6 +5,7 @@ import { Helmet, renderStatic } from "react-helmet"
 import { graphql } from "gatsby"
 import rehypeReact from "rehype-react"
 import { AboutBody } from "../components/about_body"
+import Ground from "../components/ground"
 
 const renderAst = new rehypeReact({
     createElement: React.createElement,
@@ -17,18 +18,17 @@ export default ({ data }) => {
     const about = data.allMarkdownRemark.edges[0].node;
     return (
         <Layout>
-            <div>
+
                 <Helmet title={about.frontmatter.title} />
-                <h1>{about.frontmatter.title}</h1>
+                
                 <AboutBody>
+                <h1>{about.frontmatter.title}</h1>
                 {
                     renderAst(about.htmlAst)
                 }
-                <Link to="/cv/">My CV</Link>
                 </AboutBody>
+                <Ground></Ground>
                 
-                
-            </div>
         </Layout>
     )
 

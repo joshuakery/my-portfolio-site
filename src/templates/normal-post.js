@@ -16,8 +16,7 @@ import ImageRow from "../components/image-row"
 import ImageCol from "../components/image_col"
 import SEO from "../components/seo"
 import { Layout } from "../components/layout"
-import TableTop from "../components/tabletop"
-import Img from "gatsby-image"
+import Ground from "../components/ground"
 
 
 import normalStyles from '../templates/normal-post.module.css'
@@ -44,7 +43,7 @@ export default ({ location, data }) => {
   return (
     <Layout>
 
-      {location.state && location.state.previousPage &&
+      {/* {location.state && location.state.previousPage &&
         <Link to={location.state.previousPage}>
           <div className={normalStyles.back_container}>
             <div className={normalStyles.back_sign}>
@@ -54,16 +53,17 @@ export default ({ location, data }) => {
             </div>
           </div>
         </Link>
-      }
+      } */}
       <SEO title={post.frontmatter.title} description={post.excerpt} />
 
-      <TableTop>
+      <div className={normalStyles.post_container}>
         <h1 className={normalStyles.post_title}>{post.frontmatter.title}</h1>
         {/* <div dangerouslySetInnerHTML={{ __html: post.html }} className={normalStyles.innerHTML}/> */}
         {
           renderAst(post.htmlAst)
         }
-      </TableTop>
+      </div>
+      <Ground></Ground>
 
     </Layout>
   )

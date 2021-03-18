@@ -7,6 +7,7 @@
     padding: 40px;
     vertical-align: top;
 
+    z-index: 10;
     margin-bottom: 50px;
 }
 
@@ -55,8 +56,8 @@
 
 @media (max-width: 550px) {
     .cvtable {
-        padding: 0;
-
+        padding: 20px;
+        width: calc(100% - 40px);
     }
 
     .cvtable h1 {

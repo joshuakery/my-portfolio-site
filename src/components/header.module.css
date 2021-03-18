@@ -1,3 +1,7 @@
+.header_container {
+    margin-bottom: 50px;
+}
+
 .header {
     background: rgb(63,93,170);
     color: white;
@@ -8,7 +12,7 @@
 
     transition: all 0.3s ease;
 
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
     padding-left: 5%;
@@ -16,16 +20,14 @@
 
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 25% 40% 25%;
+    grid-template-columns: 30% 30% 30%;
+
+    margin-bottom: 80px;
 }
 
 .smaller_header {
     padding-top: 10px;
     padding-bottom: 10px;
-
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 30% 30% 30%;
 }
 
 /*-------------------------TITLE--------------------------*/
@@ -366,7 +368,7 @@
     .smaller_socialbar a:nth-child(2) {
         display: none;
     }
-    .ham_youtube {
+    /* .ham_youtube {
         display: block;
         width: 2em;
         padding-bottom: 2em;
@@ -375,20 +377,22 @@
         background-repeat: no-repeat;
         margin-top: 5%;
         margin-bottom: 5%;
-    }
+    } */
 }
 
 @media (max-width: 600px) {
-    .larger_header {
+    .header {
         grid-template-columns: 15% 75%;
-        padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .smaller_header {
         grid-template-columns: 15% 75%;
-        padding-top: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
     .title_container {
-        top: -5px;
+        justify-content: flex-end;
         margin: 0;
     }
     .smaller_title_container {
@@ -398,15 +402,9 @@
     .site_title_text {
         text-align: right;
     }
-    .socialbar {
-        display: none;
-    }
-    .smaller_socialbar {
-        display: none;
-    }
-    .ham_menu_container {
+    /* .ham_menu_container {
         padding-top: 3em;
-    }
+    } */
     .ham_instagram {
         display: block;
         width: 2em;
@@ -417,7 +415,7 @@
         height: 0;
         margin-top: 7.5%;
     }
-    .ham_vimeo {
+    /* .ham_vimeo {
         display: block;
         width: 2em;
         padding-bottom: 2em;
@@ -427,6 +425,6 @@
         height: 0;
 
         margin-top: 2%;
-    }
+    } */
 }
 

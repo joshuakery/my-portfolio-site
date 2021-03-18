@@ -43,7 +43,6 @@ import Styles from "../components/about_body.module.css"
 // }
 class AboutBody extends React.Component {
     render() {
-        console.log(this.props);
         return (
             <div className={Styles.aboutbody}>
                 { this.props.children }
