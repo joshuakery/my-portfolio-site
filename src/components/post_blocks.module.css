@@ -14,8 +14,8 @@ span {
     margin-top: 5%;
 }
 
-.textbox figcaption {
-    color: black;
+.textbox a {
+    cursor: pointer;
 }
 
 p {
@@ -33,6 +33,13 @@ p {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
+.group figcaption {
+    color: darkgray;
+    margin: 10px;
+}
+
+
 
 @media (min-width: 750px) {
     .block {
