@@ -81,7 +81,23 @@ Colorful glitches have appeared throughout the space, and the player must find a
 
 <img src="../post_images/arcade/soundbooth.png">
 
-Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
+
+
+<text-pair>
+
+<h4>
+
+In my role, I developed a custom set of UI elements for Unity as well as a small set of 2D animations for the interface.
+
+</h4>
+
+<img src="../post_images/arcade/broken_camera_broke.gif">
+<img src="../post_images/arcade/broken_camera_fix.gif">
+
+</text-pair>
+
+
+###Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
 
 <img src="../post_images/arcade/model_closeup2.png">
 

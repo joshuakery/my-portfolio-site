@@ -72,13 +72,28 @@ Desktop screenshot of a rehearsal. On the left, the Zoom call with an aggie.io d
 
 This custom software was used in Packing and Cracking's presentation through the Philadelphia Fringe Festival in September 2020, and through University of North Carolina-Chapel Hill’s Process Series in October 2020.
 
-[Find the full documentation on Github.](https://github.com/joshuakery/PackingAndCrackingCueSystem)
+<!-- [Find the full documentation on Github.](https://github.com/joshuakery/PackingAndCrackingCueSystem) -->
 
 #DOCUMENTATION
 
 Watch the full-length documentation of Packing and Cracking at University of North Carolina-Chapel Hill’s Process Series, October 2020:
 
 `youtube: https://youtu.be/gb2MUFC6qlA`
+
+<text-pair>
+
+<h4>
+
+In the event, audiences participated in a series of interactive games, where they drew, responded to quizzes, explored maps, and watched interviews with local politicans and activists talking about gerrymandering.
+
+</h4>
+
+<img src="../post_images/packingandcracking/game1-rain.gif" />
+<img src="../post_images/packingandcracking/game6-responses.png" />
+<img src="../post_images/packingandcracking/game10-flags.png" />
+
+</text-pair>
+
 
 <br><br>
 

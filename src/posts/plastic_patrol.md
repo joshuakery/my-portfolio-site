@@ -1,10 +1,10 @@
 ---
 title: "Plastic Patrol"
 cover: "8.jpg"
-date: "2020-5-17"
+date: "2020-05-17"
 categories:
     - games
-    - design
+    - teaching
 tags:
     - ux
     - ui
