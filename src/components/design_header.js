@@ -4,6 +4,7 @@ import {Dropdown, DropdownButton} from 'react-bootstrap'
 import HamBtn from "../components/design_ham_btn"
 import HamMenu from "../components/design_ham_menu"
 import headerStyles from "./design_header.module.css"
+import SocialBar from "../components/socialbar";
 
 const ListLink = props => (
     <li>
@@ -80,11 +81,9 @@ return (
         </div>
     </Link>
 
-    <a href="mailto:joshuakery1@gmail.com"
-    className={`${headerStyles.navemail} ${small && headerStyles.smaller_navemail}`}
-    >
-        joshuakery1@gmail.com
-    </a>
+    <div className={`${headerStyles.socialbar_container}`}>
+        <SocialBar small={small} />
+    </div>
 
     <div className={`${headerStyles.ham_menu_container} ${small && headerStyles.smaller_ham_menu_container}`}>
     <HamMenu open={this.state.open}>

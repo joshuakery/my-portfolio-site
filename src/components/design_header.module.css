@@ -117,6 +117,8 @@
     font-size: 1.25em;
 }
 
+
+
 .navdropdown {
     display: inline-block;
     margin-right: 15%;
@@ -474,6 +476,9 @@
         display: none;
     }
     .navemail {
+        display: none;
+    }
+    .socialbar_container {
         display: none;
     }
     /* .socialbar {

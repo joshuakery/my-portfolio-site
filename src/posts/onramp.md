@@ -61,7 +61,7 @@ Wordpress
 
 #FINAL PRODUCT
 
-##[Visit the final website here.](https://www.onrampremotelearning.net)
+<a href="https://www.onrampremotelearning.net" target="_blank"><h2>Visit the final website here.</h2></a>
 
 ##Desktop
 
