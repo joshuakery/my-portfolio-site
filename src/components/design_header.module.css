@@ -403,15 +403,9 @@
     transition: all 0.3s ease;
 }
 
-/* .ham_instagram {
-    display: none;
+.ham_menu_container .ham_socialbar_container li {
+    margin-top: 0;
 }
-.ham_vimeo {
-    display: none;
-}
-.ham_youtube {
-    display: none;
-} */
 
 .linebreak {
     width: 100%;

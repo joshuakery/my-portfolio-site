@@ -97,9 +97,9 @@ return (
             art site
         </ListLink>
         <div className={headerStyles.linebreak}></div>
-        <a href="mailto:joshuakery1@gmail.com" className={headerStyles.navlink}>
-            joshuakery1@gmail.com
-        </a>
+        <div className={`${headerStyles.ham_socialbar_container}`}>
+            <SocialBar small={small} />
+        </div>
     </HamMenu>
     </div>
     <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
