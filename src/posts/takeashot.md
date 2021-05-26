@@ -80,13 +80,13 @@ Landing
 
 </h4>
 
-<img src="../post_images/takeashot/landing_iphone-mockup-opt.png" />
+<img src="../post_images/takeashot/landing_iphone-mockup-.png" />
 
 </text-pair>
 
 <img-pair>
 
-<img src="../post_images/takeashot/resources_iphone-mockup-opt.png" />
+<img src="../post_images/takeashot/resources_iphone-mockup-.png" />
 
 <h4>
 
@@ -104,7 +104,7 @@ Rules & Prizes
 
 </h4>
 
-<img src="../post_images/takeashot/rules&prizes_iphone-mockup-opt.png" />
+<img src="../post_images/takeashot/rules&prizes_iphone-mockup-.png" />
 
 </text-pair>
 
