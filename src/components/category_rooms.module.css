@@ -4,11 +4,11 @@
     grid-row-start: 3;
     grid-row-end: 6;
 
-
     display: grid;
     grid-template-columns:  auto;
     grid-template-rows:  auto 50px auto;
 }
+
 
 /*----------------------------ROOMS-----------------------------------*/
 
@@ -53,21 +53,21 @@
     grid-row-end: 7;
 }
 
-.room_container a {
+.room {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 
     width: 100%;
-    height: 100%;
+    height: 400px;
 
     display: grid;
     grid-template-columns:  30px auto 30px;
     grid-template-rows: auto;
 }
 
-.room {
+.back_wall {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -127,73 +127,17 @@
     grid-row-end: 2;
 }
 
-.left_brick_hole {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    background-image: url("../images/brick_hole.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-}
-
-.right_brick_hole {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    background-image: url("../images/brick_hole_right.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-}
-
-.room_link_container {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 6em auto;
-
-    opacity: 0;
-}
-
-.room_link_container:hover {
-    opacity: 1;
-}
-
-.room_link_background {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    background: rgba(0,0,0,0.5);
-}
-
-.room_link {
-    color: white;
-    font-size: 3em;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-
-    text-align: center;
-    padding-top: 12px;
-    margin: 0;
-}
-
 /*----------------------------ROOM IMAGES-----------------------------------*/
 
-.room_container:nth-child(1) .room {
+.room_container:nth-child(1) .back_wall {
     background-image: url('../images/bannister.png');
 }
 
 .room_container:nth-child(2) .room {
+    height: 100%;
+}
+
+.room_container:nth-child(2) .back_wall {
     background-image: url('../images/bedroomBack.png');
 }
 
@@ -217,7 +161,7 @@
     background-position-y: center;
 }
 
-.room_container:nth-child(3) .room {
+.room_container:nth-child(3) .back_wall {
     background-image: url('../images/bathroomBack.png');
 }
 
@@ -275,51 +219,44 @@
     background-image: url("../images/olivia1.png");
 } */
 
-.room_container:nth-child(4) .room {
+.room_container:last-child .back_wall {
     background-image: url('../images/kitchenBack.png');
 }
 
-.room_container:nth-child(4) .left_wall {
+.room_container:last-child .left_wall {
     background-image: url("../images/kitchenLeft.png");
 }
 
-.room_container:nth-child(4) .right_wall {
+.room_container:last-child .right_wall {
     background-image: url("../images/kitchenRight.png");
 }
 
-.room_container:nth-child(4) .friend {
+.room_container:last-child .friend {
     background-image: url("../images/olivia1.png");
 }
 
 /*----------------------------BASEMENT-----------------------------------*/
-
 .basement_container {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
-
-    background-image: url('../images/concrete.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-
-    z-index: 11;
-
-    display: grid;
-    grid-template-columns: auto 400px auto;
-    grid-template-rows: 12px 400px 24px;
-
+    list-style: none;
+    z-index: 10;
 }
 
-.basement_container a {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.basement {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
+    width: 100%;
+    height: 100%;
+    
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 75px auto;
+    grid-template-rows: 75px auto;  
 }
 
 .basement_ceiling {
@@ -339,6 +276,7 @@
     background-image: url('../images/liv1.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position-y: bottom;
 
     grid-column-start: 1;
     grid-column-end: 2;
@@ -348,10 +286,11 @@
     z-index: 998;
 }
 
-.basement {
+.basement_back_wall {
     background-image: url('../images/basement_bottom.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position-y: bottom;
 
     grid-column-start: 1;
     grid-column-end: 2;
@@ -359,7 +298,7 @@
     grid-row-end: 3;
 }
 
-.basement_link_container {
+/* .basement_link_container {
     opacity: 0;
     z-index: 999;
 
@@ -375,7 +314,7 @@
 
 .basement_link_container:hover {
     opacity: 1;
-}
+} */
 
 /*----------------------------RESIZE ICON-----------------------------------*/
 
@@ -405,64 +344,6 @@
     .basement_container {
         grid-column-start: 1;
         grid-column-end: 2;
-
-        display: block;
-        height: 0;
-        width: 100%;
-        padding-bottom: 49%;
-
-        background-size: 880px;
-        background-position-x: center;
-    }
-
-    .basement_container a {
-        height: 0;
-
-
-    }
-
-    .basement {
-        width: 400px;
-        padding-bottom: 45%;
-        margin: auto;
-        margin-top: 12px;
-
-        background-position-y: bottom;
-    }
-
-    .basement_ceiling {
-        display: block;
-        height: 0;
-        position: relative;
-        width: 400px;
-        padding-bottom: 45%;
-        margin: auto;
-        margin-top: 12px;
-    }
-
-    .basement_friend {
-        display: block;
-        height: 0;
-        position: relative;
-        width: 400px;
-        padding-bottom: 45%;
-        margin: auto;
-        margin-top: 12px;
-
-        background-position-y: bottom;
-    }
-
-    .basement_link_container {
-        width: 400px;
-        margin: auto;
-        margin-top: 12px;
-    }
-
-    .room_link_container {
-        opacity: 1;
-    }
-    .basement_link_container {
-        opacity: 1;
     }
 
     .resize_icon {
@@ -557,7 +438,7 @@
     }
 }
 
-@media (max-width: 440px) {
+/* @media (max-width: 440px) {
     .basement {
         width: 90%;
     }
@@ -571,5 +452,5 @@
     .basement_link_container {
         width: 90%;
     }
-}
+} */
 

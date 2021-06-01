@@ -4,6 +4,8 @@ import React from "react"
 import { useStaticQuery, Link } from "gatsby"
 import RecentShows from "../components/recent_shows"
 import House from "../components/house"
+import Room from "../components/room"
+import {HomePageBasement} from "../components/room_basement"
 import Ground from "../components/ground"
 //Styles
 import catRoomStyles from "./category_rooms.module.css"
@@ -20,30 +22,20 @@ const getRooms = (group, location) => {
         let room = (
 
             <li key={cat.fieldValue} className={catRoomStyles.room_container}>
-                <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
-                    state={{previousPage: location.pathname}}>
+                <Room title={cat.fieldValue} slug={`/projects/${kebabCase(cat.fieldValue)}/`}>
 
-                    <div className={catRoomStyles.room}></div>
-                    <div className={catRoomStyles.left_wall}></div>
-                    <div className={catRoomStyles.right_wall}></div>
-                    <div className={catRoomStyles.room_contents}></div>
-                    <div className={catRoomStyles.room_contents_right}></div>
-                    <div className={catRoomStyles.room_contents_left}></div>
-                    
-                    <div className={catRoomStyles.friend}></div>
-
-                    <div className={catRoomStyles.room_link_container}>
-                        <div className={catRoomStyles.room_link_background}>
-                            <p className={catRoomStyles.room_link}>
-                                {cat.fieldValue}
-                            </p>
+                        <div className={catRoomStyles.room}>
+                            <div className={catRoomStyles.back_wall}></div>
+                            <div className={catRoomStyles.left_wall}></div>
+                            <div className={catRoomStyles.right_wall}></div>
+                            <div className={catRoomStyles.room_contents}></div>
+                            <div className={catRoomStyles.room_contents_right}></div>
+                            <div className={catRoomStyles.room_contents_left}></div>
+                            
+                            <div className={catRoomStyles.friend}></div>
                         </div>
-                    </div>
 
-                    <div className={catRoomStyles.right_brick_hole}></div>
-                    <div className={catRoomStyles.left_brick_hole}></div>
-
-                </Link>
+                </Room>
             </li>
 
         );
@@ -57,24 +49,17 @@ const getLastRoom = (group, location) => {
     let cat = group[0];
     return (
         <li key={cat.fieldValue} className={catRoomStyles.basement_container}>
-            <Link key={cat.fieldValue} to={`/projects/${kebabCase(cat.fieldValue)}/`}
-                state={{previousPage: location.pathname}}>
+            <HomePageBasement title={cat.fieldValue} slug={`/projects/${kebabCase(cat.fieldValue)}/`}>
+
+                <div className={catRoomStyles.basement}>
 
                     <div className={catRoomStyles.basement_ceiling}></div>
                     <div className={catRoomStyles.basement_friend}></div>
-
-                    <div className={catRoomStyles.basement_link_container}>
-                        <div className={catRoomStyles.room_link_background}>
-                            <p className={catRoomStyles.room_link}>
-                                {cat.fieldValue}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className={catRoomStyles.basement}>
+                    <div className={catRoomStyles.basement_back_wall}></div>
 
                 </div>
-            </Link>
+            
+            </HomePageBasement>
         </li>
     )
 }
@@ -101,7 +86,7 @@ export default ({ children, location }) => {
     let group = data.allMarkdownRemark.group;
     // let toInclude = ['2d','3d','games','interactive','time-based','uxui'];
     const toInclude = ['2d','3d','interactive','time-based'];
-    group = group.filter((member) => (toInclude.includes(member.fieldValue))); 
+    group = group.filter((member) => (toInclude.includes(member.fieldValue)));
 
     return (
         <div className={catRoomStyles.container}>

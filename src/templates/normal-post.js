@@ -18,7 +18,6 @@ import SEO from "../components/seo"
 import { Layout } from "../components/layout"
 import Ground from "../components/ground"
 
-
 import normalStyles from '../templates/normal-post.module.css'
 
 const renderAst = new rehypeReact({

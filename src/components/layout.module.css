@@ -13,6 +13,7 @@
 
 .design_body_container {
     width: calc(100% - 40px);
+    max-width: 1200px;
     margin:auto;
     padding-top: calc(40px + 6em);
     min-height: 700px;

@@ -35,7 +35,7 @@ export default ({ children, location }) => {
     )
     // console.log(location);
     return (
-        <div className={recShowStyles.container}>
+        <li className={recShowStyles.container}>
               {data.allMarkdownRemark.nodes.map(show => (
                   <div key={show.id} className={recShowStyles.room_container}>
                     <Link to={show.fields.slug} state={{previousPage: location.pathname}}>
@@ -60,6 +60,6 @@ export default ({ children, location }) => {
                   </div>
               ))}
             {children}
-        </div>
+        </li>
     )
 }

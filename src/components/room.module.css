@@ -1,0 +1,52 @@
+/* Room */
+
+.room {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    width: 100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns:  30px auto 30px;
+    grid-template-rows:  100%;
+}
+
+.children_container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    box-shadow: inset 0 0 10px #000000;
+}
+
+/* Brick Hole */
+
+.left_brick_hole {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+    z-index: 2;
+}
+
+.right_brick_hole {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-image: url("../images/brick_hole_right.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+
+    z-index: 2;
+}

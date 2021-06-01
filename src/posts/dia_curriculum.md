@@ -7,7 +7,7 @@ categories:
 tags:
     - programming
 posttype: 'design'
-featuredImage: '../post_images/dia_curriculum_square.png'
+featuredImage: '../post_images/dia_curriculum_square.jpg'
 ---
 
 #Curriculum Writing

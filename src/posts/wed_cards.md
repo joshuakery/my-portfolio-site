@@ -7,7 +7,7 @@ categories:
 tags:
     - programming
 posttype: 'design'
-featuredImage: '../post_images/wed_cards_square.png'
+featuredImage: '../post_images/wed_cards_square.jpg'
 ---
 
 #An Educational Card Deck Accompanying Design Museum Everywhere's [We Design Exhibition](https://designmuseumfoundation.org/we-design-online-exhibition/)

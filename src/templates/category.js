@@ -1,12 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Layout } from "../components/layout"
-import House2 from "../components/house2"
-import Ground2 from "../components/ground2"
+import House from "../components/house"
+import Room from "../components/room"
+import Basement from "../components/room_basement"
+import Ground from "../components/ground"
 import { Link, graphql } from "gatsby"
 import catStyles from "../templates/category.module.css"
 import Img from "gatsby-image"
-import {Bathroom, Bedroom, Kitchen, Basement} from "../components/specialRoom"
+// import {Bathroom, Bedroom, Kitchen, Basement} from "../components/specialRoom"
 
 const getRooms = (edges, location) => {
   // console.log(location);
@@ -17,24 +19,30 @@ const getRooms = (edges, location) => {
     const { title, featuredImage } = node.frontmatter
     rooms.push (
         <li key={slug} className={catStyles.room_container}>
-          <Link to={slug} state={{previousPage: location.pathname}}>
-
+          <Room title={title} slug={slug}>
             <Img fluid={featuredImage.childImageSharp.fluid}
-                            className={catStyles.featuredImage}/>
-
-            <div className={catStyles.room_link_container}>
-                <div className={catStyles.room_link_background}>
-                    <p className={catStyles.room_link}>
-                        {title}
-                    </p>
-                </div>
-            </div>
-
-            <div className={catStyles.left_brick_hole}></div>
-            <div className={catStyles.right_brick_hole}></div>
-
-          </Link>
+                  className={catStyles.featuredImage}/>
+          </Room>
         </li>
+        // 
+        //   <Link to={slug} state={{previousPage: location.pathname}}>
+
+        //     <Img fluid={featuredImage.childImageSharp.fluid}
+        //                     className={catStyles.featuredImage}/>
+
+        //     <div className={catStyles.room_link_container}>
+        //         <div className={catStyles.room_link_background}>
+        //             <p className={catStyles.room_link}>
+        //                 {title}
+        //             </p>
+        //         </div>
+        //     </div>
+
+        //     <div className={catStyles.left_brick_hole}></div>
+        //     <div className={catStyles.right_brick_hole}></div>
+
+        //   </Link>
+        // </li>
     )
   }
   return rooms
@@ -46,7 +54,11 @@ const getLastRoom = (edges,location) => {
   const { title, featuredImage } = node.frontmatter
   return (
       <li key={slug} className={catStyles.basement_container}>
-        <Link to={slug} state={{previousPage: location.pathname}}>
+        <Basement title={title} slug={slug}>
+          <Img fluid={featuredImage.childImageSharp.fluid}
+               className={catStyles.featuredImage}/>
+        </Basement>
+        {/* <Link to={slug} state={{previousPage: location.pathname}}>
 
           <Img fluid={featuredImage.childImageSharp.fluid}
                           className={catStyles.featuredImage}/>
@@ -59,28 +71,28 @@ const getLastRoom = (edges,location) => {
               </div>
           </div>
 
-        </Link>
+        </Link> */}
       </li>
   )
 }
 
-const getSpecialRoom = (cat) => {
-  if (cat == "2d") {
-    return (<Bedroom></Bedroom>)
-  }
-  else if (cat == "3d") {
-    return (<Bathroom></Bathroom>)
-  }
-  else if (cat == "Media") {
-    return (<Kitchen></Kitchen>)
-  }
-  else if (cat == "Time-Based") {
-    return (<Basement></Basement>)
-  }
-  else {
-    return null;
-  }
-}
+// const getSpecialRoom = (cat) => {
+//   if (cat == "2d") {
+//     return (<Bedroom></Bedroom>)
+//   }
+//   else if (cat == "3d") {
+//     return (<Bathroom></Bathroom>)
+//   }
+//   else if (cat == "Media") {
+//     return (<Kitchen></Kitchen>)
+//   }
+//   else if (cat == "Time-Based") {
+//     return (<Basement></Basement>)
+//   }
+//   else {
+//     return null;
+//   }
+// }
 
 //SAVING THIS BECAUSE THIS IS THE OLD CATS, FOR THE OLD ART WEBSITE
 const Cats = ({ pageContext, data, location }) => {
@@ -89,15 +101,15 @@ const Cats = ({ pageContext, data, location }) => {
 
   return (
     <Layout>
+        <h1>{category}</h1>
         <div className={catStyles.container}>
-          <h1>{category}</h1>
-          <House2>
+          <House>
             {/* {getSpecialRoom(category)} */}
             {getRooms(edges, location)}
-          </House2>
-          <Ground2>
+          </House>
+          <Ground>
             {getLastRoom(edges,location)}
-          </Ground2>
+          </Ground>
         </div>
     </Layout>
   )
@@ -120,9 +132,6 @@ const getProjects = (edges) => {
   }
   return projects
 }
-
-
-
 
 Cats.propTypes = {
   pageContext: PropTypes.shape({
