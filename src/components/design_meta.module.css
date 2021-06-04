@@ -5,6 +5,10 @@
     box-shadow: none;
 }
 
+.cover img {
+    width: 100%;
+}
+
 .meta {
     margin-top: 25px;
     width: 17%;
@@ -100,6 +104,10 @@
 .container li a {
     text-decoration: none;
     color: gray;
+}
+
+.container img {
+    width: 100%;
 }
 
 .quote {
