@@ -48,9 +48,11 @@ Wordpress
 
 #OVERVIEW
 
-##To celebrate science and vaccine research alongside the documentary film, [*Chasing Covid*](https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid), producer Carl Kurlander and the [Allegheny Intermediate Unit]((https://www.aiu3.net/)) commissioned me to build a video contest website.
+##To celebrate science and vaccine research alongside the documentary film, <a href="https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid" target="_blank"><i>Chasing Covid</i></a>, producer Carl Kurlander and the <a href="https://www.aiu3.net/" target="_blank">Allegheny Intermediate Unit</a> commissioned me to build a video contest website.
 
 ##The contest asks teens grades 6 - 12 to make their own videos and help good information about science **go viral**.
+
+
 
 #FINAL PRODUCT
 

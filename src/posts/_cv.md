@@ -15,7 +15,7 @@ b. 1997 Lives and works in Pittsburgh, PA
  | 
 ---- | ----
 2020 | BFA - Carnegie Mellon University, School of Art (Pittsburgh, PA)
-2018 | Study Abroad Program - Temple University Japan (Tokyo, Japan)
+2018 | Semester Abroad - Temple University Japan (Tokyo, Japan)
 2015 | Pre-college – School of the Museum of Fine Arts, Boston (Boston, MA)
 
 ##PROFESSIONAL APPOINTMENTS
@@ -50,6 +50,15 @@ b. 1997 Lives and works in Pittsburgh, PA
 <i></i>  | Interactive Art, Frank-Ratchye STUDIO for Creative Inquiry (Pittsburgh, PA) – Group Exhibition
 2018 | Bound, Design Festa Gallery East (Tokyo, Japan) – Group Exhibition
 <i></i>  | The Pittsburgh Athenaeum, College of Fine Arts, Carnegie Mellon University (Pittsburgh, PA) – Group Exhibition
+
+##PANELS & CONFERENCES
+
+ | 
+---- | ----
+2021 | Resilience, Resistance, Renovation, Rebirth Virtual Conference panelist, Northern Arizona University
+<i></i> | Arena Academy guest presentor and panelist
+<i></i> | Chatham University guest presentor and panelist
+
 
 ##AWARDS & GRANTS
 
