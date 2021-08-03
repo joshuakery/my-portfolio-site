@@ -124,9 +124,21 @@ To do so, the contest creators needed a website that could:
 
 #DESIGN PROCESS
 
+##Mood Board and Concept Sketching
+
+While discussing functional needs with the contest's project managers, I began by assembling a mood board over Pinterest and by sketching aesthetic features for the site.
+
+<img src="../post_images/takeashot/pinterest.jpg" />
+
+<img src="../post_images/takeashot/concept-sketch.jpg" />
+
+<br /><br />
+
 ##Collaborative Outline
 
 Together with the contest's project managers, we created the following outline for the site:
+
+<div style="font-style:italic">
 
 - Main Page
     - General Information about Contest
@@ -148,6 +160,9 @@ Together with the contest's project managers, we created the following outline f
         - Profile Details
         - Change Password
         - My Video
+
+</div>
+
 
 <br /><br />
 
@@ -177,7 +192,11 @@ Video Gallery
 
 Individual Video
 
-<img src="../post_images/takeashot/individual-video-opt.jpg" />
+<img src="../post_images/takeashot/individual-video-opt.jpg"/>
+
+<br /><br />
+
+With the graphics prototyped at a high fidelity, and with the website leveraging traditional interaction patterns, I decided to move into development rather than create a clickable prototype.
 
 </grid-container>
 
