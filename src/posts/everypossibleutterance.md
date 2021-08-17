@@ -52,19 +52,27 @@ Rhino, woodshop
 
 <grid-container>
 
-#OVERVIEW
+#CHALLENGE
 
-##A site-specific music, art, engineering, and performance exhibition by graduate and undergraduate students from Carnegie Mellon University’s Integrative Design, Arts, and Technology (IDeATe) network.
+##Combine the work of 20 animators, a body and performance course, and an experimental ensemble into a night of discovery and play.
 
-##My team designed and developed the tower and projection mapping surrounding live musicians in the second half of the exhibition.
+##My team designed and built the tower and projection mapping surrounding live musicians in the second half of the exhibition.
 
-#
+#SOLUTION
 
 <img src="../post_images/everypossibleutterance/overview2.jpg">
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/588497528?h=4aa4a66aa2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 <img src="../post_images/everypossibleutterance/audience1.jpg">
 
 <img src="../post_images/everypossibleutterance/musician1.jpg">
+
+<br>
+
+##A free-standing frame of projected animations surrounds musicians from the Exploded Ensemble. The videos are remixed live in concert with the music.
+
+<br>
 
 <img src="../post_images/everypossibleutterance/overview3.jpg">
 
@@ -72,19 +80,42 @@ Rhino, woodshop
 
 <img src="../post_images/everypossibleutterance/purple.jpg">
 
-#DESIGN
+#PROCESS
 
-##I designed and led the fabrication of the 10' tall frames surrounding the musicians.
+<img src="../post_images/everypossibleutterance/visitor-flow.jpg">
+
+<img src="../post_images/everypossibleutterance/visitor-flow-map.jpg">
+
+
+##I designed and led fabrication of the 10' tall frames surrounding the musicians.
+
+Mockups of projection surface:
+
+<img src="../post_images/everypossibleutterance/assembly-hall-mockup.jpg">
+
+<img src="../post_images/everypossibleutterance/musician-closeup.jpg">
 
 <img src="../post_images/everypossibleutterance/render_combined.jpg">
 
-<img src="../post_images/everypossibleutterance/circles.jpg">
+<img src="../post_images/everypossibleutterance/projectors-mockup.jpg">
 
-Our team live mixed a collection of previously created animations with real-time 3D avatars, puppeteered behind-the-curtain by Nick Diamant:
+<img src="../post_images/everypossibleutterance/limbo-excerpt.gif">
 
-<img src="../post_images/everypossibleutterance/nick.jpg">
+Our team live mixed with QLab a collection of previously created animations and a feed of real-time 3D avatars, designed and puppeteered behind-the-curtain by Nik Diamant.
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/588493208?h=7f2d47b5e9" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+<br><br>
+
+
+
+<!-- <img src="../post_images/everypossibleutterance/circles.jpg">
+
+<img src="../post_images/everypossibleutterance/nick.jpg"> -->
 
 Featured animations were created by the visual design team and our peers in *Animation Studio*.
+
+<img src="../post_images/everypossibleutterance/visitor-flow-map-photos.jpg">
 
 #EVENT DETAILS
 
