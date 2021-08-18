@@ -1,7 +1,7 @@
 ---
 title: "Every Possible Utterance"
 cover: "8.jpg"
-date: "2019-14-12"
+date: "2021-14-12"
 categories:
     - 3d
     - live-shows
