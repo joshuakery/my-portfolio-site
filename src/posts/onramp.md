@@ -20,7 +20,7 @@ featuredImage: '../post_images/onramp_square.png'
 
 <design-meta>
 
-###MEDIUM
+###WHAT
 
 Responsive Website
 
@@ -30,8 +30,9 @@ August - December 2020
 
 ###MY ROLE
 
-Design,\
-Full-Stack Development
+Co-designed concept and early user experience, \
+Designed final experience and visuals, \
+Developed custom Wordpress Plugin and Theme
 
 ###CO-DESIGNER
 
@@ -53,15 +54,53 @@ Wordpress
 
 #OVERVIEW
 
-##The switch to remote and hybrid learning has been a challenge for schoolteachers across the country.
+##The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to connect regional schoolteachers with remote and hybrid teaching guidance produced by passionate fellow educators.
 
-##Their fellow teachers, who are continuously innovating in the face of this challenge, may be their greatest resource in meeting this challenge.
+#UX CHALLENGE
 
-##As such, the [Allegheny Intermediate Unit](https://www.aiu3.net/) sought a website to connect regional schoolteachers with the ideas of passionate educators sharing their solutions in remote and hybrid learning.
+##With two modes of content delivery — pre-recorded video lessons and live workshops — AIU sought a web resource where teachers could easily access both.
 
-#FINAL PRODUCT
+<br>
 
-<a href="https://www.onrampremotelearning.net" target="_blank"><h2>Visit the final website here.</h2></a>
+<img src="../post_images/onramp/onramp-modalities.png" />
+
+#UX CHALLENGE
+
+##AIU wanted to show teachers how each video lesson and workshop matched one of 6 Instructional Design Principles from the Friday Institute.
+
+<br>
+
+<img src="../post_images/onramp/onramp-principles.png" />
+
+<br><br>
+
+Many educators have approached the adaptation to remote and hybrid learning as a problem of technology, eagerly trying to learn new or unfamiliar tools like Google Classroom.
+
+AIU3, however, wanted teachers to approach the switch with pedagogy at the forefront.
+
+<br><br>
+
+<quote>
+
+We often had educators asking us, 'Well, how do I give out this *worksheet* on the computer?' ...
+
+Research has shown that worksheets are a less effective teaching practice...
+
+We don't want educators to bring ineffective teaching practices with them online. We want to use this transition as an opportunity to focus on effective teaching skills. *Pedagogy first, technology second.*
+
+</quote>
+
+<br><br>
+
+##Additionally, they wanted to merge two brand identities in this site: the Instructional Design Principles, and a set of logo standards developed by their graphics team.
+
+<br>
+
+<img src="../post_images/onramp/onramp-brand-challenge.png" />
+
+<br><br>
+
+#UX SOLUTION
 
 ##Desktop
 
@@ -107,34 +146,26 @@ Main Site
 
 </img-pair>
 
-#BACKGROUND
 
-##AIU3 wanted to center its learning content around the six [Instructional Design Principles for Remote Teaching and Learning](https://onrampremotelearning.net/the-framework-2/) it had developed in collaboration with the [Friday Institute for Educational Innovation](https://www.fi.ncsu.edu/) at NC State.
 
-Many educators have approached the adaptation to remote and hybrid learning as a problem of technology, eagerly trying to learn new or unfamiliar tools like Google Classroom.
+<br><br>
 
-AIU3, however, wanted teachers to approach the switch with pedagogy at the forefront.
+#UX PROCESS
 
-<quote>
+##Defining the User Flow
 
-We often had educators asking us, 'Well, how do I give out this worksheet on the computer?' ...
+<img src="../post_images/onramp/onramp-flow.png" />
 
-We don't want educators to bring ineffective teaching practices with them online. We want to use this transition as an opportunity to focus on effective teaching skills. Pedagogy first, technology second.
+<br><br>
 
-</quote>
+##Crafting the Information Architecture
 
-The Instructional Design Principles ask teachers to focus on the following when running class remotely:
+<img src="../post_images/onramp/onramp-architecture.png" />
 
-1. Social and Emotional Learning
-1. Connection to Families and Students
-1. Student Engagement Aligned to Standards
-1. Flexibility and Choice for Diverse Needs
-1. Feedback on Student Work
-1. Collaboration Among Students
+<br><br>
 
-#DESIGN PROCESS
 
-##Ideation
+<!-- ##Ideation
 
 <img src="../post_images/onramp/sketches.jpg" />
 
@@ -144,17 +175,17 @@ The Instructional Design Principles ask teachers to focus on the following when 
 
 <img src="../post_images/onramp/wireframe-main.jpg" />
 
-<img src="../post_images/onramp/wireframes.jpg" />
+<img src="../post_images/onramp/wireframes.jpg" /> -->
 
-##Mid-fi Wireframes
+<!-- ##Mid-fi Wireframes -->
 
-<img src="../post_images/onramp/xili_wireframes.png" />
+<!-- <img src="../post_images/onramp/xili_wireframes.png" /> -->
 
-<img src="../post_images/onramp/midfi1.png" />
+<!-- <img src="../post_images/onramp/midfi1.png" />
 
-<img src="../post_images/onramp/midfi2.png" />
+<img src="../post_images/onramp/midfi2.png" /> -->
 
-##Final Layouts
+##Mid-fi & Hi-fi Mockups
 
 <img src="../post_images/onramp/onramp-hifi1.png" />
 
@@ -166,7 +197,7 @@ The Instructional Design Principles ask teachers to focus on the following when 
 
 <img src="../post_images/onramp/dark_mockup.png" />
 
-#DEVELOPMENT
+<!-- #DEVELOPMENT
 
 ##For ease of use, AIU3 asked us to integrate its synchronous and asynchronous content into one, navigable system.
 
@@ -181,9 +212,13 @@ Furthermore, I developed in javascript a custom breadcrumbs system on the landin
 Finally, I customized the site's Events RSS feed to display our content in bi-weekly email newsletters with robust styling that stands up to most email clients.
 
 <img src="../post_images/onramp/mailchimp_rss.png" />
-a test email in MailChimp
+a test email in MailChimp -->
 
+<br><br>
 
+<a href="https://www.onrampremotelearning.net" target="_blank"><h2>Visit the final website here.</h2></a>
+
+<br><br>
 
 
 
