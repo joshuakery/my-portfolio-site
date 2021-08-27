@@ -10,8 +10,9 @@ categories:
 tags:
     - ux
     - ui
+    - featured
 posttype: 'design'
-featuredImage: '../post_images/arcade_square.jpg'
+featuredImage: '../post_images/arcade_cover.gif'
 ---
 
 #User Interface Design & Unity Development
@@ -61,25 +62,28 @@ Unity
 
 #OVERVIEW
 
-##MuseumLab, at the Children's Museum of Pittsburgh, has been closed for quarantine, and this includes ARCADE Lab's augmented reality works located inside.
+MuseumLab, at the Children's Museum of Pittsburgh, has been closed for quarantine, and this includes ARCADE Lab's augmented reality works located inside.
 
-##ARCADE Lab wanted to develop a game for visitors' home computers that connected them to the AR experience at the museum.
+ARCADE Lab wanted to develop a game for visitors' home computers that connected them to the AR experience at the museum.
 
-##Introducing: Glitches in the Museum, a spy game that casts you as a security guard, trying to remotely help some invasive glitch characters play with the activites in MuseumLab.
+#UX SOLUTION
 
-#FINAL PRODUCT
+##Glitches in the Museum
 
-<full-width-image>
+A spy game that casts you as a security guard, trying to remotely help some invasive glitch characters play with the activites in MuseumLab
 
-<img src="../post_images/arcade/final_gallery_view2.png">
+<browser-container>
+<img src="../post_images/arcade/final_gallery_view2.png" title="Gallery View">
+</browser-container>
 
-</full-width-image>
 
-##Players play as a security guard seeing the closed museum space through cameras.
+Players play as a security guard seeing the closed museum space through cameras.
 
 Colorful glitches have appeared throughout the space, and the player must find and help each of them, just as the museum would help any visitor.
 
-<img src="../post_images/arcade/soundbooth.png">
+<browser-container>
+<img src="../post_images/arcade/soundbooth.png" title="Soundbooth Scene">
+</browser-container>
 
 
 
@@ -99,19 +103,27 @@ In my role, I developed a custom set of UI elements for Unity as well as a small
 
 ###Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
 
-<img src="../post_images/arcade/model_closeup2.png">
+<browser-container>
+<img src="../post_images/arcade/model_closeup2.png" title="Detail: Discovered Glitch!">
+</browser-container>
 
 Glitches are hidden at first, but a handy spyglass will reveal them!
 
-<img src="../post_images/arcade/individual_view1.png">
+<browser-container>
+<img src="../post_images/arcade/individual_view1.png" title="Individual Camera View: Discovering a Glitch">
+</browser-container>
 
 Players get their daily mission brief and login when they first join, just like showing up to work as a real security guard.
 
-<img src="../post_images/arcade/mission_brief.png">
+<browser-container>
+<img src="../post_images/arcade/mission_brief.png" title="Mission Brief">
+</browser-container>
 
 #BACKGROUND
 
-##This work is a spin-off from ARCADE Lab's augmented reality creative annotation platform in development for MuseumLab.
+##Pivot from Augmented Reality
+
+This work is a spin-off from ARCADE Lab's augmented reality creative annotation platform in development for MuseumLab.
 
 <text-pair>
 
@@ -120,6 +132,7 @@ Players get their daily mission brief and login when they first join, just like 
 That project features colorful characters and a breadth of 3D world-building tools, shared in augmented reality across multiple devices. It leverages new position sensors installed at MuseumLab to accurately position objects in AR for multiple players.
 
 </h4>
+
 
 <img src="../post_images/arcade/arcade_academy.jpg">
 
@@ -140,15 +153,20 @@ These same sensors were used to place [Jordan Wong's digital mural](https://www.
 </img-pair>
 
 
-#PROCESS
+#UX PROCESS
 
-##Our first step was to model the visitor experience in a user flow diagram, from first learning about glitches appearing at the museum, to completing the game and making the final connection to a future AR experience.
+##User Experience Design
 
-<full-width-image>
+Our first step was to model the visitor experience in a user flow diagram, from first learning about glitches appearing at the museum, to completing the game and making the final connection to a future AR experience.
 
-<img src="../post_images/arcade/user_flow.png">
 
-</full-width-image>
+
+<div style="background:black;padding:20px">
+<img src="../post_images/arcade/arcade_flow.png">
+</div>
+<br><br>
+
+##Prototyping UI Design
 
 This user flow was useful for reaching consensus with our developers for the goals of our game too!
 
@@ -162,26 +180,34 @@ We chose a sci-fi aesthetic to immerse players in a world that collapses technic
 
 <full-width-image>
 
-<img src="../post_images/arcade/midfi.jpg">
+<img src="../post_images/arcade/arcade_architecture.png">
 
 </full-width-image>
 
 ###We adapted our mid-fidelity prototypes into hi-fi mockups, which we used to export assets to Unity.
 
-<img src="../post_images/arcade/gallery_view_midfi.png">
+<browser-container isPrototype="true">
+<img src="../post_images/arcade/gallery_view_midfi.png" title="Mid Fidelity Prototype">
+</browser-container>
 
-<img src="../post_images/arcade/gallery_view_hover.png">
+<browser-container>
+<img src="../post_images/arcade/gallery_view_hover.png" title="High Fidelity Prototype">
+</browser-container>
 
-A working prototype, created in Figma, was useful for communicating the whole of the experience to our team:
+<div>
+<button-link href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv7lov8OfgSkTDurVtqygAU%2FARCADE-User-Flow%3Fnode-id%3D140%253A1626%26scaling%3Dmin-zoom&chrome=DOCUMENTATION">VIEW PROTOTYPE</button-link>
+</div>
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fv7lov8OfgSkTDurVtqygAU%2FARCADE-User-Flow%3Fnode-id%3D140%253A1626%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
+<br><br>
 
 ###We aggregated these assets into a style sheet:
 
-<img src="../post_images/arcade/style_sheet.png">
+<img src="../post_images/arcade/style_sheet.png" title="UI Style Sheet">
 
-We used this style sheet as the basis for novel assets we created as our developers and project managers added new features to the game.
+We used this style sheet as the basis for novel assets we created as our developers and project managers added new features to the game, including this surpise glitch to find at the game's end:
 
-<img src="../post_images/arcade/mission_completed.png">
+<browser-container>
+<img src="../post_images/arcade/mission_completed.png" title="Surprise Mission: Find the Chicken Glitch">
+</browser-container>
 
 </grid-container>

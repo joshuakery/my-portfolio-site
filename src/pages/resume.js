@@ -3,12 +3,14 @@ import { DesignLayout } from "../components/layout"
 import { Helmet, renderStatic } from "react-helmet"
 import { graphql } from "gatsby"
 import rehypeReact from "rehype-react"
-import { ResumeContainer } from "../components/resume_container"
+import { ButtonLink, GridContainer } from "../components/design/meta"
+import { ResumeContainer } from "../components/design/resume_container"
 
 const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: {
-
+      "button-link": ButtonLink,
+      "grid-container": GridContainer,
     },
   }).Compiler
 

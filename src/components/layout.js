@@ -1,9 +1,8 @@
 import React from "react"
 import layoutStyles from "./layout.module.css"
 import { Header } from "../components/header"
-import { DesignHeader } from "../components/design_header"
-import Intro from "../components/intro"
-import { Footer } from "../components/footer"
+import { DesignHeader } from "../components/design/header"
+import { Footer } from "./design/footer"
 
 class Layout extends React.Component {
     render() {
@@ -22,7 +21,6 @@ class Layout extends React.Component {
                     {this.props.children}
                 </div>
 
-                {/* <Footer bg={'dark'}></Footer> */}
                 <div style={{width:'100%',height:'200px',background:'black'}}></div>
             </div>
         )
@@ -38,7 +36,7 @@ class DesignLayout extends React.Component {
                 <div className={layoutStyles.design_body_container}>
                     {this.props.children}
                 </div>
-                <Footer bg={'light'}></Footer>
+                <Footer />
             </div>
         )
     }

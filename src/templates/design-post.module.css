@@ -1,11 +1,10 @@
 .post_container {
     width: 70%;
     margin: auto;
-    background: white;
 }
 
 .post_container div h1 {
-    color: gray;
+    color: lightgray;
     font-size: 1em;
     font-weight: 400;
     text-align: left;
@@ -14,7 +13,6 @@
 h1.title {
     text-align: left;
     display: inline-block;
-    color: black;
     font-size: 2em;
     margin-bottom: 0;
     font-weight: 800;

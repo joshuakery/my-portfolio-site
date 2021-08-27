@@ -1,5 +1,5 @@
 import React from "react"
-import Styles from "../components/resume_container.module.css"
+import Styles from "./resume_container.module.css"
 
 class ResumeContainer extends React.Component {
     render() {

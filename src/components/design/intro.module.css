@@ -5,23 +5,15 @@
 }
 
 .text {
-    color: black;
     font-size: 1.25em;
     font-family: 'Poppins', sans-serif;
-    /* line-height: 200%; */
-
     text-align: center;
-}
-
-a {
-    color: rgb(28,153,138);
 }
 
 @media (max-width: 1000px) {
     .frame {
         margin-top: 40px;
         width: 100%;
-        /* padding-left: 20px; */
         margin-bottom: 80px;
     }
 

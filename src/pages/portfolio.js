@@ -1,11 +1,11 @@
 import React from "react"
 import { DesignLayout } from "../components/layout"
-import Intro from "../components/intro"
+import Intro from "../components/design/intro"
 
 // Components
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-import DesignProjects from "../components/design_projects"
+import DesignProjects from "../components/design/projects"
 
 export default ({ data, location }) => {
   return (

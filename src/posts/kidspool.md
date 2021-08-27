@@ -7,6 +7,7 @@ categories:
     - design
 tags:
     - ux
+    - featured
 posttype: 'design'
 featuredImage: '../post_images/kidspool_square.png'
 ---
@@ -21,7 +22,7 @@ featuredImage: '../post_images/kidspool_square.png'
 
 <design-meta>
 
-###MEDIUM
+###WHAT
 
 Responsive Web App
 
@@ -31,7 +32,9 @@ December, 2019
 
 ###MY ROLE
 
-Research, Design
+Conducted User Research Interviews and Analysis\
+Co-crafted User Experience Design and Information Architecture\
+Contributed assets to Hi-Fidelity Prototype
 
 ###TEAM
 
@@ -53,15 +56,11 @@ Figma
 
 #OVERVIEW
 
-##It's a common surprise in youth sports: The *parents* are committing almost as much time to the sport as the kids.
+We designed Kidspool, a web app for organizing youth athlete carpools, to free up more time for parents by improving the existing carpool structure — making it more flexible, accessible, and fair.
 
-##Nowhere is this time commitment more strongly felt than when driving their athletes to practices and games.
+#UX SOLUTION
 
-##We designed Kidspool, a web app for organizing youth athlete carpools, to free up more time for parents by improving the existing carpool structure — making it more flexible, accessible, and fair.
-
-#FINAL PRODUCT
-
-The following GIFs showcase our final design solution. Our main focus in these prototypes is to have a **simplified, straightforward interface**.
+##A Streamlined Interface
 
 ###Requesting a Ride
 
@@ -71,25 +70,21 @@ The following GIFs showcase our final design solution. Our main focus in these p
 
 <h4>
 
-Users can tap a card for which there is no ride arranged to either offer a ride or request a ride.
+Users may tap a card to either offer a ride or request a ride.
 
 **Need met:** Parents act as both drivers and ride-requesters, and our UI needs to serve both those needs.
-
-The ride requesting flow allows parents to specify pickup location, number of seats, type of trip, and driver selection.
 
 </h4>
 
 </img-pair>
 
-###A Driver Has Responded to Your Ride & Viewing the Leaderboard
+###Viewing the Tokens Leaderboard
 
 <text-pair>
 
 <h4>
 
-Tapping on the header shows the driver leaderboard, which displays token counts for parents on your team.
-
-**Need met:** The token system is an in-app currency to **encourage equal contribution to carpooling**.
+**Need met:** We encourage equal contribution to carpooling through an in-app currency.
 
 Giving rides earns tokens, and requesting rides costs tokens. Tokens help parents avoid awkward conversations by providing automatic indirect feedback to under-contributing parents.
 
@@ -121,8 +116,6 @@ Tapping on an active event-details page shows the driver’s route status and a 
 
 <h4>
 
-Tapping on an event that you’re driving for shows pickup information, incoming ride requests, and turn-by-turn navigation.
-
 **Need met:** Parent drivers don’t need to leave the application to navigate to their pickups. They can respond to incoming requests from within the app.
 
 </h4>
@@ -130,6 +123,10 @@ Tapping on an event that you’re driving for shows pickup information, incoming
 <img src="../post_images/kidspool/kidspool_prototype4.gif">
 
 </text-pair>
+
+<br><br><br><br>
+
+##Onboarding on Desktop
 
 ###We’re featuring the Kidspool onboarding flow on a desktop/tablet screen. The desktop view offers more real-estate for parents to fill out an input-heavy form.
 
@@ -153,27 +150,27 @@ Presenting this in the onboarding also establishes a **precedent that parents ar
 
 Since safety is a primary concern for parents, we take advantage of the bigger screen size to give parents a **more comprehensive map**. Yet the design is still consistent with the user interactions and elements of the mobile application to **ensure learnability**.
 
-#BACKGROUND
+#UX RESEARCH
 
-##For this design study, we took on youth athletics as a focus area that might benefit from a responsive web app.
+##Interviews with Three Stakeholder Groups
 
-#RESEARCH
+From *six* interviews we conducted, we developed personas for parents, coaches, and club & league administrators.
 
-##We conducted guerilla research with three stakeholder groups: parents, coaches, and club & league administrators.
+<img src="../post_images/kidspool/kidspool_parentpersona.png" title="Parent Persona">
 
-We developed personas for these stakeholder groups, which would later inform our design process:
+<br><br>
 
-<img src="../post_images/kidspool/kidspool_parentpersona.png">
+##Analysis via Affinity Diagraming
 
 <text-pair>
 
 <h4>
 
-By analyzing these interviews through affinity diagraming, we generated several key insights:
+We generated several key insights from this analysis:
 
-1. Parents and coaches are both frustrated with the time commitment of youth sports.
-2. Some youth athletes miss chances to play on certain teams because their parents lack the social connections with other players' parents.
-3. Athletes and parents rely on coaches for organizational information and logistics.
+1. Parents and coaches are both **frustrated** with the time commitment of youth sports.
+2. Some youth athletes miss chances to play on certain teams because their parents **lack the social connections** with other players' parents.
+3. Athletes and parents rely on coaches for **organizational information and logistics**.
 
 </h4>
 
@@ -181,11 +178,11 @@ By analyzing these interviews through affinity diagraming, we generated several 
 
 </text-pair>
 
-###From this research, we also developed a detailed journey map for parents and coaches:
+##Analysis via Journey Mapping
 
 <full-width-image>
 
-<img src="../post_images/kidspool/journeymap.png">
+<img src="../post_images/kidspool/journeymap.png" title="Journey Map for Parent and Coach Experiences">
 
 </full-width-image>
 
@@ -193,9 +190,11 @@ Some of the lowest points in parents' emotional journeys involve the **time comm
 
 Conversely, *coaches* are most frustrated with **time spent on planning and logistics, communication with parents, and player absence.**
 
-#PROCESS
+#UX PROCESS
 
-##With an understanding of these design opportunities, we iterated through several solutions via rapid storyboarding.
+##Rapid Prototyping
+
+We crafted storyboards for potential solutions and **speed-dated** them with colleagues.
 
 <full-width-image>
 
@@ -203,11 +202,17 @@ Conversely, *coaches* are most frustrated with **time spent on planning and logi
 
 </full-width-image>
 
-By speed-dating our storyboards, we identified a common need among parents and coaches: **To spend less time getting their kids to practice and games.**
+**Insight:** Parents and coaches need to spend less time getting kids to practice.
 
-We decided that a responsive web app would best meet this need by improving the **existing carpool network.** Carpooling already reduced parents' drive times and fostered community. Yet, from our research, we knew that even with carpools, parents still struggled with the time commitment of their children's sports.
+<br><br>
 
-###How might we improve the system so that they feel like it's working better for them?
+##Solution Identified: Improve the Existing Carpool Network
+
+Carpooling already reduced parents' drive times and fostered community. Yet, from our research, we knew that even with carpools, parents still struggled with the time commitment of their children's sports.
+
+<br><br>
+
+##How might we improve the system so that they feel like it's working better for them?
 
 We identified opportunities in three areas:
 
@@ -215,23 +220,17 @@ We identified opportunities in three areas:
 2. to **ease newcomers into the carpool**, to give them access with strong ties to the community, but also to grow that community.
 3. To encourage **fair and equal contribution** to the team from all parents, so that the volunteer-nature of the carpool feels sustainable across seasons.
 
-#SOLUTION
+#UX PROCESS
 
-##Based on our research and storyboarding sessions, we began outlining user flow and rudimentary wireframes for our application.
+##Converging and Diverging Design
 
-We implemented a **mobile-first** approach, since we knew a majority of our key interactions would take place on the phone.
-
-###As a group, we brainstormed wireframes for the main user flow on mobile.
+With a **mobile-first** approach, we worked together to **converge** on what screens were key:
 
 <img-pair>
 
 <img src="../post_images/kidspool/whiteboard_wireframes.png">
 
 <h4>
-
-In this step, our goal was to realize our vision onto a whiteboard so that **we were all on the same page** before we proceeded to the low-fi prototyping stage.
-
-We were able to identify several key screens we needed to build next, such as:
 
 - Home page with list of events
 - Details screen for each event
@@ -242,15 +241,17 @@ We were able to identify several key screens we needed to build next, such as:
 
 </img-pair>
 
-###Next, we entered a diverging phase in our design process. We individually created low-fidelity prototypes based on our initial wireframes.
+Next, we diverged, each of us creating low-fidelity prototypes:
 
 <img src="../post_images/kidspool/lowfi.png">
 
-Reconvening, we looked at our different prototypes and selected screens that **best conveyed the mental model** parents have about carpooling for sports practices.
+We selected screens that best conveyed parents' **mental model** about carpooling.
 
-We decided to focus our home screen on an **event-based model** rather than a request-based model. Each upcoming practice, game, or other team event will be an “event card” on the home screen. Each card will have a status (“matched”, “pending”, “driving”, etc.) and parents can tap the card to see more details.
+We focused on an **event-based model**. Each upcoming practice, game, or other team event will be an “event card” on the home screen.
 
-<img-pair>
+<img src="../post_images/kidspool/lowfi_flow_short.png" title="User Flows from each Event Card">
+
+<!-- <img-pair>
 
 <img src="../post_images/kidspool/lowfi_flow_short.png">
 
@@ -266,19 +267,17 @@ This led us to three natural flows from each event card:
 
 </h4>
 
-</img-pair>
+</img-pair> -->
 
-###Once our low-fidelity prototype was finalized, we diverged once again to determine high-fidelity guidelines with which to build our high-fi prototype.
+<br><br>
 
-<img src="../post_images/kidspool/different_design_screenshots.png">
+##High Fidelity Prototyping
 
-At this stage, we each built a screen in high fidelity in our individual design styles.
+<img src="../post_images/kidspool/different_design_screenshots.png" title="Diverging Designs for Kidspool Screens">
 
-<img src="../post_images/kidspool/style_guide.png">
+<img src="../post_images/kidspool/style_guide.png" title="Kidspool Style Guide">
 
-We arrived at this style guide for the rest of our app.
-
-###We submitted this initial high-fidelity prototype for critique:
+###Submitted for critique:
 
 <img src="../post_images/kidspool/desktop_home_mobile_combined.png">
 
@@ -286,7 +285,7 @@ We received feedback that the UI and colors felt **hectic and overloaded.** We a
 
 #REFLECTION
 
-##We encountered several challenges in this open-ended project:
+###We encountered several challenges in this open-ended project:
 
 1. Finding the right level of formality during guerilla research - we wanted to come across as professional researchers, but not intimidate people
 2. We were given freedom to select which problem to solve, but this can lead to a tyranny of choices. It was difficult to arrive at an appropriately small problem to solve

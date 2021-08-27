@@ -1,17 +1,18 @@
 ---
 title: "Every Possible Utterance"
 cover: "8.jpg"
-date: "2021-14-12"
+date: "2019-14-12"
 categories:
     - 3d
     - live-shows
 tags:
     - ux
+    - featured
 posttype: 'design'
 featuredImage: '../post_images/everypossibleutterance_square.jpg'
 ---
 
-#Installation Design
+#Projecting the Tower of Babble
 
 <cover-img>
 
@@ -52,27 +53,35 @@ Rhino, woodshop
 
 <grid-container>
 
-#CHALLENGE
+#UX CHALLENGE
 
-##Combine the work of 20 animators, a body and performance course, and an experimental ensemble into a night of discovery and play.
+##20 Animators, a Body and Performance Class, and an Experimental Ensemble
 
-##My team designed and built the tower and projection mapping surrounding live musicians in the second half of the exhibition.
+We needed to combine the work of three groups of artists into a night of experimentation and play.
 
-#SOLUTION
+My team designed and built the tower and projection mapping surrounding live musicians in the second half of the exhibition.
+
+#UX SOLUTION
+
+##The Tower of Babble
 
 <img src="../post_images/everypossibleutterance/overview2.jpg">
 
+<br>
+
+A free-standing frame of projected animations surrounds musicians from the Exploded Ensemble. The videos are remixed live in concert with the music.
+
+<br>
+
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/588497528?h=4aa4a66aa2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+<br>
 
 <img src="../post_images/everypossibleutterance/audience1.jpg">
 
 <img src="../post_images/everypossibleutterance/musician1.jpg">
 
-<br>
 
-##A free-standing frame of projected animations surrounds musicians from the Exploded Ensemble. The videos are remixed live in concert with the music.
-
-<br>
 
 <img src="../post_images/everypossibleutterance/overview3.jpg">
 
@@ -80,46 +89,57 @@ Rhino, woodshop
 
 <img src="../post_images/everypossibleutterance/purple.jpg">
 
-#PROCESS
+#UX PROCESS
 
-<img src="../post_images/everypossibleutterance/visitor-flow.jpg">
+##Defining the Experience Flow
 
-<img src="../post_images/everypossibleutterance/visitor-flow-map.jpg">
+<img src="../post_images/everypossibleutterance/visitor-flow-black.jpg">
 
-
-##I designed and led fabrication of the 10' tall frames surrounding the musicians.
-
-Mockups of projection surface:
-
-<img src="../post_images/everypossibleutterance/assembly-hall-mockup.jpg">
-
-<img src="../post_images/everypossibleutterance/musician-closeup.jpg">
-
-<img src="../post_images/everypossibleutterance/render_combined.jpg">
-
-<img src="../post_images/everypossibleutterance/projectors-mockup.jpg">
-
-<img src="../post_images/everypossibleutterance/limbo-excerpt.gif">
-
-Our team live mixed with QLab a collection of previously created animations and a feed of real-time 3D avatars, designed and puppeteered behind-the-curtain by Nik Diamant.
-
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/588493208?h=7f2d47b5e9" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<img src="../post_images/everypossibleutterance/visitor-flow-map-black.jpg" title="Visitor Flow Diagram, against a map of Museumlab">
 
 <br><br>
 
+##Building a Tower
+
+I designed and led fabrication of the 10' tall frames surrounding the musicians.
+
+This structure supported six sides stretched with scrim, reflective enough to capture the animations, and transparent enough to show the musicians performing inside.
+
+<img src="../post_images/everypossibleutterance/assembly-hall-mockup.jpg" title="Mockup of Tower of Babble">
+
+<img src="../post_images/everypossibleutterance/musician-closeup.jpg" title="Mockup of Tower of Babble: Musician Detail">
+
+Using QLab, our team VJ'd a collection of animations created by the visual design team and our peers in *Animation Studio*.
+
+<br><br>
+
+<img src="../post_images/everypossibleutterance/render_combined-black.jpg">
+
+<br>
+
+<img src="../post_images/everypossibleutterance/projectors-mockup-black.jpg">
+
+<figure>
+<img src="../post_images/everypossibleutterance/limbo-excerpt.gif">
+<figcaption>Concept for use of projectors and live puppeteering</figcaption>
+</figure>
+
+<br>
+
+In a hidden side room of the performance space, Nik Diamant puppeteered real-time 3D avatars that he created. We cut in a feed of Nik's performance along with the animations.
 
 
-<!-- <img src="../post_images/everypossibleutterance/circles.jpg">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/588493208?h=7f2d47b5e9" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-<img src="../post_images/everypossibleutterance/nick.jpg"> -->
+<br><br><br><br>
 
-Featured animations were created by the visual design team and our peers in *Animation Studio*.
+<img src="../post_images/everypossibleutterance/visitor-flow-map-photos-black.jpg" title="Photo documentation from the event alongside experience flow">
 
-<img src="../post_images/everypossibleutterance/visitor-flow-map-photos.jpg">
+<br><br>
 
-#EVENT DETAILS
+##Event Details
 
-##Every Possible Utterance was produced through the collaboration of *Exploded Ensemble*, *Animation Studio*, and *Activating the Body: Physical Computing and Technology in Performance* (all Fall 2019).
+Every Possible Utterance was produced through the collaboration of *Exploded Ensemble*, *Animation Studio*, and *Activating the Body: Physical Computing and Technology in Performance* (all Fall 2019).
 
 <img src="../post_images/everypossibleutterance/epu1.jpg">
 

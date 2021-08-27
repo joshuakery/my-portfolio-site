@@ -6,15 +6,16 @@ categories:
     - design
 tags:
     - programming
+    - featured
 posttype: 'design'
-featuredImage: '../post_images/onramp_square.png'
+featuredImage: '../post_images/onramp-cover.gif'
 ---
 
-#Responsive Website for Educators
+#A Learning Management System for Hybrid Educators
 
 <cover-img>
 
-<img src="../post_images/onramp/onramp_responsive_mockup.jpg" />
+<img src="../post_images/onramp/onramp-main.png" />
 
 </cover-img>
 
@@ -34,7 +35,7 @@ Co-designed concept and early user experience, \
 Designed final experience and visuals, \
 Developed custom Wordpress Plugin and Theme
 
-###CO-DESIGNER
+<!-- ###CO-DESIGNER
 
 Amelia (Xi) Li
 
@@ -46,7 +47,7 @@ Support schoolteachers adapting to remote learning.
 
 Figma\
 Adobe Illustrator\
-Wordpress
+Wordpress -->
 
 </design-meta>
 
@@ -54,11 +55,13 @@ Wordpress
 
 #OVERVIEW
 
-##The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to connect regional schoolteachers with remote and hybrid teaching guidance produced by passionate fellow educators.
+The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to connect regional schoolteachers with remote and hybrid teaching guidance produced by passionate fellow educators.
 
 #UX CHALLENGE
 
-##With two modes of content delivery — pre-recorded video lessons and live workshops — AIU sought a web resource where teachers could easily access both.
+##Navigating a Multi-Modal Resource
+
+With two modes of content delivery — pre-recorded video lessons and live workshops — AIU sought a web resource where teachers could easily access both.
 
 <br>
 
@@ -66,7 +69,9 @@ Wordpress
 
 #UX CHALLENGE
 
-##AIU wanted to show teachers how each video lesson and workshop matched one of 6 Instructional Design Principles from the Friday Institute.
+##An Instructional Design Lens
+
+AIU wanted to show teachers how each video lesson and workshop matched one of 6 Instructional Design Principles from the Friday Institute.
 
 <br>
 
@@ -92,7 +97,11 @@ We don't want educators to bring ineffective teaching practices with them online
 
 <br><br>
 
-##Additionally, they wanted to merge two brand identities in this site: the Instructional Design Principles, and a set of logo standards developed by their graphics team.
+#UX CHALLENGE
+
+##Merging Two Brand Identities
+
+AIU needed to merge two brands in this site: the Instructional Design Principles, and a set of logo standards developed by their graphics team.
 
 <br>
 
@@ -102,27 +111,48 @@ We don't want educators to bring ineffective teaching practices with them online
 
 #UX SOLUTION
 
-##Desktop
+##OnRamp to Remote Learning: Responsive Web App
 
-Landing
+<browser-container>
+<img src="../post_images/onramp/onramp-landing2.png" title="Landing Page" />
+</browser-container>
 
-<img src="../post_images/onramp/onramp-landing2.png" />
-
+<browser-container>
+<figure>
 <img src="../post_images/onramp/onramp-landing.gif" style="width:100%" />
+<figcaption>Landing Page</figcaption>
+</figure>
+</browser-container>
 
 <br><br>
 
-Main Site
-
+<browser-container>
+<figure>
 <img src="../post_images/onramp/onramp-main.png" />
+<figcaption>All Content Page</figcaption>
+</figure>
+</browser-container>
 
+
+<browser-container>
+<figure>
 <img src="../post_images/onramp/onramp-main.gif" style="width:100%" />
+<figcaption>All Content Page</figcaption>
+</figure>
+</browser-container>
 
 <br><br>
 
-##Mobile
+<multi-mobile-container title="Mobile Landing and All Content Page">
+<mobile-container>
+<img src="../post_images/onramp/onramp-mobile-landing.gif" style="width:100%" />
+</mobile-container>
+<mobile-container>
+<img src="../post_images/onramp/onramp-mobile-main.gif" style="width:100%" />
+</mobile-container>
+</multi-mobile-container>
 
-<text-pair>
+<!-- <text-pair>
 
 <h4>
 
@@ -144,7 +174,7 @@ Main Site
 
 </h4>
 
-</img-pair>
+</img-pair> -->
 
 
 
@@ -159,6 +189,8 @@ Main Site
 <br><br>
 
 ##Crafting the Information Architecture
+
+My co-designer and I created this architecture for the site, following our flow map above.
 
 <img src="../post_images/onramp/onramp-architecture.png" />
 
@@ -187,15 +219,25 @@ Main Site
 
 ##Mid-fi & Hi-fi Mockups
 
-<img src="../post_images/onramp/onramp-hifi1.png" />
+For the second phase of this project, I developed these higher fidelity mockups of the site in preparation of executing it in code.
 
-<full-width-image>
+<browser-container isPrototype="true">
+<img src="../post_images/onramp/onramp-hifi1.png" title="Early Mid-fi Prototype: All Content Page"/>
+</browser-container>
 
-<img src="../post_images/onramp/onramp-hifi2.png" />
+<browser-container isPrototype="true">
+<img src="../post_images/onramp/onramp-hifi2.png" title="Mid-fi Prototype: All Content Page"/>
+</browser-container>
 
-</full-width-image>
+<browser-container isPrototype="true">
+<img src="../post_images/onramp/light_mainpage.png" title="Hi-fi Prototype: All Content Page" />
+</browser-container>
 
-<img src="../post_images/onramp/dark_mockup.png" />
+<browser-container isPrototype="true">
+<img src="../post_images/onramp/light_landing3.png" title="Hi-fi Prototype: Landing Page" />
+</browser-container>
+
+
 
 <!-- #DEVELOPMENT
 
@@ -216,7 +258,10 @@ a test email in MailChimp -->
 
 <br><br>
 
-<a href="https://www.onrampremotelearning.net" target="_blank"><h2>Visit the final website here.</h2></a>
+<div>
+<button-link href="https://www.onrampremotelearning.net">VISIT ONRAMP</button-link>
+</div>
+
 
 <br><br>
 

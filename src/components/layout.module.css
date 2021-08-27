@@ -1,14 +1,21 @@
 .layout {
     background: linear-gradient( rgb(63,93,170), rgb(162,189,216) );
     z-index: -999999;
-    
-}
-.designlayout html {
-    background: red;
 }
 
 .designlayout {
-    background: white;
+    background: black;
+    color: white;
+}
+
+.designlayout a,
+.designlayout p,
+.designlayout h1,
+.designlayout h3 {
+    color: white;
+}
+.designlayout a {
+    text-decoration: underline;
 }
 
 .design_body_container {
@@ -20,7 +27,6 @@
 }
 
 .design_body_container h1 {
-    color: black;
     text-align: left;
 }
 
@@ -60,24 +66,6 @@
     left: 20%;
 }
 
-/* .grass {
-    background-image: url('../images/grass.png');
-    background-repeat: repeat-x;
-    width: 100%;
-    height: 100px;
-    position: relative;
-    top: -550px;
-}
-
-.dirt {
-    background-image: url('../images/dirt.png');
-    background-repeat: repeat;
-    width: 100%;
-    height: 500px;
-    position: relative;
-    top: -100px;
-} */
-
 @media (max-width: 750px) {
     .body_container {
         margin-top: calc(50px + 1em);
@@ -95,18 +83,3 @@
         text-align: center;
     }
 }
-
-/* @media (max-width: 750px) {
-    .body_container {
-        margin-top: 20%;
-    }
-}
-
-@media (max-width: 1000px) {
-    .design_body_container {
-        width: 100%;
-    }
-    .design_body_container h1 {
-        text-align: left;
-    }
-} */

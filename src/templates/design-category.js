@@ -1,8 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Layout } from "../components/layout"
-import House2 from "../components/house2"
-import Ground2 from "../components/ground2"
 import { Link, graphql } from "gatsby"
 import catStyles from "../templates/design-category.module.css"
 import Img from "gatsby-image"
@@ -10,10 +7,8 @@ import {Bathroom, Bedroom, Kitchen, Basement} from "../components/specialRoom"
 
 import { Helmet } from "react-helmet"
 import { DesignLayout } from "../components/layout";
-import DesignProjects from "../components/design_projects"
 
 const getRooms = (edges, location) => {
-  // console.log(location);
   let rooms = [];
   for (let i=0; i < edges.length-1; i++) {
     let {node} = edges[i];

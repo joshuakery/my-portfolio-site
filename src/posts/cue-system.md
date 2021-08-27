@@ -43,17 +43,23 @@ Development
 
 #OVERVIEW
 
-##Sharing back the work I did for [Packing and Cracking](https://joshuakery.com/posts/packingandcracking/)
+##Re-iterating on [Packing and Cracking](https://joshuakery.com/posts/packingandcracking/)
 
-##I created this codebase to help others develop audience interactions for theatrical web performances
+I created this codebase to help others develop audience interactions for theatrical web performances
 
 *Icon credit: https://thenounproject.com/bmijnlieff/*
 
-<img src="../post_images/cue-system/admin.jpg">
-
 #FINAL PRODUCT
 
-<a target="_blank" href="https://github.com/joshuakery/interactive-cue-system"><h2>Github</h2></a>
+<browser-container>
+<img src="../post_images/cue-system/admin.jpg">
+</browser-container>
+
+<div>
+<button-link href="https://github.com/joshuakery/interactive-cue-system">SEE IT ON GITHUB</button-link>
+</div>
+
+<br><br>
 
 ##Demo
 

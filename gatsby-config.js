@@ -30,6 +30,7 @@ module.exports = {
     },
     //https://www.gatsbyjs.org/packages/gatsby-image/ and also....
     //https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/
+    // for handling gif and svg: https://www.orangejellyfish.com/blog/a-comprehensive-guide-to-images-in-gatsby/
     `gatsby-transformer-sharp`,
     //https://www.gatsbyjs.org/packages/gatsby-remark-images/
     `gatsby-plugin-sharp`,
@@ -97,6 +98,7 @@ module.exports = {
               // base for generating different widths of each image.
               showCaptions: true,
               maxWidth: 1500,
+              backgroundColor: `transparent`,
             },
           },
         ],

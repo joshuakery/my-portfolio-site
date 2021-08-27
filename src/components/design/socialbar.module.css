@@ -1,0 +1,36 @@
+.socialbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:100%;
+}
+
+.socialbar li {
+    margin-left: 10px;
+}
+
+.sociallink {
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.sociallink.small {
+    width: 30px;
+    height: 30px;
+}
+
+.sociallink svg {
+    fill: white;
+}
+
+.sociallink:hover {
+    border-color: white;
+}

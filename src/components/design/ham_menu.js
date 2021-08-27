@@ -1,5 +1,5 @@
 import React from "react"
-import hamMenuStyles from '../components/design_ham_menu.module.css';
+import hamMenuStyles from './ham_menu.module.css';
 
 
 export default ({children, open}) => {
