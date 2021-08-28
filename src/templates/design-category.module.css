@@ -11,20 +11,31 @@
     margin-bottom: 15%;
 }
 
+
+
 .projectsList li:nth-child(odd) {
     margin-right: 0;
     margin-left: 40%;
 }
 
-h3 {
-    color: black;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 0;
+
+.projectsList li a {
+    text-decoration: none;
 }
 
-.projectsList li:hover h3 {
-    color:pink;
+.projectsList li:hover a {
+    text-decoration: underline;
+}
+
+.projectsList .featuredImage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.projectsList h3 {
+    text-align: left;
+    margin-bottom: 0;
+    text-decoration: none;
 }
 
 .catTitle {

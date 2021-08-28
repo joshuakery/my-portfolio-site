@@ -105,6 +105,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             featuredImage {
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 800) {
                   ...GatsbyImageSharpFluid
