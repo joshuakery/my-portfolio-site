@@ -48,31 +48,42 @@ Wordpress
 
 #OVERVIEW
 
-##To celebrate science and vaccine research alongside the documentary film, <a href="https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid" target="_blank"><i>Chasing Covid</i></a>, producer Carl Kurlander and the <a href="https://www.aiu3.net/" target="_blank">Allegheny Intermediate Unit</a> commissioned me to build a video contest website.
+To celebrate science and vaccine research alongside the documentary film, <a href="https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid" target="_blank"><i>Chasing Covid</i></a>, producer Carl Kurlander and the <a href="https://www.aiu3.net/" target="_blank">Allegheny Intermediate Unit</a> commissioned me to build a video contest website.
 
-##The contest asks teens grades 6 - 12 to make their own videos and help good information about science **go viral**.
+The contest asks teens grades 6 - 12 to make their own videos and help good information about science **go viral**.
 
+<br><br>
 
+<div>
+<button-link href="https://www.takeashotatchangingtheworld.org">VISIT THE TAKE A SHOT WEBSITE</button-link>
+</div>
 
-#FINAL PRODUCT
+<br><br>
 
-<a href="https://www.takeashotatchangingtheworld.org" target="_blank"><h2>Visit the final website here.</h2></a>
+#UX PRODUCT
 
-##Desktop
+##A Dynamic Colorful Interface
 
-Landing
+<browser-container>
+<img src="../post_images/takeashot/desktop-landing.jpg" title="Landing Page"/>
+</browser-container>
 
-<img src="../post_images/takeashot/desktop-landing.jpg" />
+<browser-container>
+<img src="../post_images/takeashot/desktop-resources.jpg" title="Educational Resources Page"/>
+</browser-container>
 
-Educational Resources
+<browser-container>
+<img src="../post_images/takeashot/desktop-rules&prizes.jpg" title="Rules & Prizes Page"/>
+</browser-container>
 
-<img src="../post_images/takeashot/desktop-resources.jpg" />
-
-Rules & Prizes
-
-<img src="../post_images/takeashot/desktop-rules&prizes.jpg" />
-
-##Mobile
+<!-- <multi-mobile-container title="Mobile Landing and Educational Resources Page">
+<mobile-container>
+<img src="../post_images/takeashot/landing_iphone-mockup-.png" style="width:100%" />
+</mobile-container>
+<mobile-container>
+<img src="../post_images/takeashot/resources_iphone-mockup-.png" style="width:100%" />
+</mobile-container>
+</multi-mobile-container> -->
 
 <text-pair>
 
@@ -112,7 +123,9 @@ Rules & Prizes
 
 #BACKGROUND
 
-##[*Chasing Covid*](https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid) tells the story of the research team at the [Center for Vaccine Research](https://www.cvr.pitt.edu/) at the University of Pittsburgh as they worked to develop a vaccine for COVID-19 in 2020.
+##Inspired by the Documentary
+
+[*Chasing Covid*](https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid) tells the story of the research team at the [Center for Vaccine Research](https://www.cvr.pitt.edu/) at the University of Pittsburgh as they worked to develop a vaccine for COVID-19 in 2020.
 
 To engage schools in celebrating the work of vaccine researchers everywhere, *Take a Shot at Changing the World* invites students to submit their own videos to a contest with a cash prize.
 
@@ -170,31 +183,33 @@ Together with the contest's project managers, we created the following outline f
 
 I produced two concepts at this stage to gather feedback about the aesthetic direction of the site.
 
-<img src="../post_images/takeashot/rough1.jpg" />
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/rough1.jpg" title="Mid-fi Landing Page Option 1"/>
+</browser-container>
 
-<img src="../post_images/takeashot/rough2.jpg" />
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/rough2.jpg" title="Mid-fi Landing Page Option 2"/>
+</browser-container>
 
 <br /><br />
 
 ##Hi-fi Mockups
 
-Landing
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/main-page-opt.jpg" title="Landing Page"/>
+</browser-container>
 
-<img src="../post_images/takeashot/main-page-opt.jpg" />
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/lesson-plans-opt.jpg" title="Educational Resources Page"/>
+</browser-container>
 
-Educational Resources
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/video-gallery-opt.jpg" title="Video Gallery Page"/>
+</browser-container>
 
-<img src="../post_images/takeashot/lesson-plans-opt.jpg" />
-
-Video Gallery
-
-<img src="../post_images/takeashot/video-gallery-opt.jpg" />
-
-Individual Video
-
-<img src="../post_images/takeashot/individual-video-opt.jpg"/>
-
-<br /><br />
+<browser-container isPrototype="true">
+<img src="../post_images/takeashot/individual-video-opt.jpg" title="Individual Video Page"/>
+</browser-container>
 
 With the graphics prototyped at a high fidelity, and with the website leveraging traditional interaction patterns, I decided to move into development rather than create a clickable prototype.
 

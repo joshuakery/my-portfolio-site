@@ -21,7 +21,7 @@
     border-bottom-right-radius: 10px;
 }
 
-.meta {
+div.meta {
     width: 100%;
 }
 
@@ -33,10 +33,15 @@ div.meta h3 {
     font-size: 0.75em;
 }
 
-.meta p {
+div.meta p {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
+}
+
+div.meta h3,
+div.meta h1 {
+    text-align: left;
 }
 
 .container {
@@ -53,7 +58,7 @@ div.meta h3 {
     text-align: left;
     
     margin-left: 0;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .container h2 {
@@ -161,7 +166,6 @@ div.meta h3 {
 .quote p {
     width: 100%;
     font-family: 'PT Serif', serif;
-    color:  black;
     padding-bottom: 0;
 }
 
@@ -361,7 +365,8 @@ div.meta h3 {
     margin-bottom: 0;
 }
 
-.browserWindow span img {
+.browserWindow span img,
+.browserWindow img {
     border: 2px solid white;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -392,6 +397,10 @@ div.meta h3 {
     height: 100%;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+div.mobileContainer span {
+    margin-bottom: 4px;
 }
 
 .mobileContainer:nth-child(2) {

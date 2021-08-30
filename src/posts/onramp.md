@@ -31,9 +31,9 @@ August - December 2020
 
 ###MY ROLE
 
-Co-designed concept and early user experience, \
-Designed final experience and visuals, \
-Developed custom Wordpress Plugin and Theme
+Co-designed concept and early user experience \
+Designed final experience and visuals \
+Developed custom Wordpress plugin and theme
 
 <!-- ###CO-DESIGNER
 
@@ -56,6 +56,10 @@ Wordpress -->
 #OVERVIEW
 
 The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to connect regional schoolteachers with remote and hybrid teaching guidance produced by passionate fellow educators.
+
+<div>
+<button-link href="https://www.onrampremotelearning.net">VISIT LIVE ONRAMP WEBSITE</button-link>
+</div>
 
 #UX CHALLENGE
 
@@ -259,7 +263,7 @@ a test email in MailChimp -->
 <br><br>
 
 <div>
-<button-link href="https://www.onrampremotelearning.net">VISIT ONRAMP</button-link>
+<button-link href="https://www.onrampremotelearning.net">VISIT LIVE ONRAMP WEBSITE</button-link>
 </div>
 
 

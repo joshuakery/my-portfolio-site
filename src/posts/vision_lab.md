@@ -39,9 +39,9 @@ OpenFrameworks, Wacom Tablet
 
 #OVERVIEW
 
-##CFA Vision Lab was a durational performance as an AI.
+CFA Vision Lab was a durational performance as an AI.
 
-##For three hours in the Cohon University Center at Carnegie Mellon University, I performed the job of a machine vision demo, drawing solid color masks over human bodies and objects in a live video feed of the room.
+For three hours in the Cohon University Center at Carnegie Mellon University, I performed the job of a machine vision demo, drawing solid color masks over human bodies and objects in a live video feed of the room.
 
 <img src="../post_images/vision_lab/screenshot1.png">
 
@@ -54,7 +54,9 @@ My work was shown on an existing screen in the University Center, so that passer
 
 #CONTEXT
 
-##This performance was intended to blend in with existing machine vision demos on the Carnegie Mellon campus, notably feelingspector on display in Newell-Simon Hall.
+##Blending in with Computer Vision Demos
+
+This performance was intended to blend in with existing computer vision demos on the Carnegie Mellon campus, notably feelingspector on display in Newell-Simon Hall.
 
 To that end, I chose the existing AB Tech display in CMU University Center to show this work. These demonstrations are, for CMU students, so commonplace that they hardly attract notice.
 
@@ -62,7 +64,9 @@ To that end, I chose the existing AB Tech display in CMU University Center to sh
 
 #TECHNOLOGY USED
 
-##CFA Vision Lab was developed in C++ with OpenFrameworks, and uses optical flow to “stick” my pixels to the subjects that I masked.
+##Built with OpenFrameworks
+
+CFA Vision Lab was developed in C++ with OpenFrameworks, and uses optical flow to “stick” my pixels to the subjects that I masked.
 
 I struggled with the effect of this on people walking quickly through the room, because they would walk away with my colors which I had so carefully drawn over the people sitting more still.
 

@@ -56,17 +56,19 @@ Adobe Photoshop, Adobe Flash
 
 #OVERVIEW
 
-##In 2018, the Pennsyvlania Supreme Court was to vote on redrawing the state's district lines.
+In 2018, the Pennsyvlania Supreme Court was to vote on redrawing the state's district lines.
 
-##The Committee of Seventy asked us to update the Redistricting Game before this vote, to help them educate citizens about the gerrymandering that's shaped Pennsylvania's district.
+The Committee of Seventy asked us to update the Redistricting Game before this vote, to help them educate citizens about the gerrymandering that's shaped Pennsylvania's district.
 
-##I led the update for the game, which was made in 2007 in Adobe Flash.
+I led the update for the game, which was made in 2007 in Adobe Flash.
 
 <img src="../post_images/rdg/rdg2.png">
 
 #PROCESS
 
-##We were asked to integrate current Pennsylvania census data into the exisiting game and adapt its graphics for the state.
+##Customizing the Game for Pennsylvania
+
+We were asked to integrate current Pennsylvania census data into the exisiting game and adapt its graphics for the state.
 
 As a team of three, we created custom graphics for the state of Pennsylvania, and integrated real census and voter distribution data into the game to teach Pennsylvania residents about gerrymandering in their home state.
 

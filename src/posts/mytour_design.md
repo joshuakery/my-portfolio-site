@@ -14,11 +14,11 @@ featuredImage: '../post_images/mytour_square.png'
 
 #Interactive Tour of My Family Home
 
-<iframe src="https://joshuakery.github.io/mytour" height="800"></iframe>
-
 <grid-container>
 
-##This was brief project I developed while learning to develop websites in React.
+<iframe src="https://joshuakery.github.io/mytour" height="800"></iframe>
+
+This was brief project I developed while learning to develop websites in React.
 
 It's an iteration on a virtual tour of my family home I prepared in the Spring of 2019.
 

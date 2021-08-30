@@ -66,6 +66,11 @@ MuseumLab, at the Children's Museum of Pittsburgh, has been closed for quarantin
 
 ARCADE Lab wanted to develop a game for visitors' home computers that connected them to the AR experience at the museum.
 
+<div>
+<button-link href="https://johnchoi313.github.io/TechLab-WebGL/">VISIT GAME DEMO</button-link>
+</div>
+
+
 #UX SOLUTION
 
 ##Glitches in the Museum
@@ -82,7 +87,10 @@ Players play as a security guard seeing the closed museum space through cameras.
 Colorful glitches have appeared throughout the space, and the player must find and help each of them, just as the museum would help any visitor.
 
 <browser-container>
-<img src="../post_images/arcade/soundbooth.png" title="Soundbooth Scene">
+<figure>
+<img src="../post_images/arcade/too-shy-to-record.gif">
+<figcaption>Soundbooth Scene: Players must help the Glitch with the sound mixer</figcaption>
+</figure>
 </browser-container>
 
 
@@ -104,13 +112,19 @@ In my role, I developed a custom set of UI elements for Unity as well as a small
 ###Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
 
 <browser-container>
-<img src="../post_images/arcade/model_closeup2.png" title="Detail: Discovered Glitch!">
+<figure>
+<img src="../post_images/arcade/ghost-guy-wave.gif">
+<figcaption>A Glitch was discovered!</figcaption>
+</figure>
 </browser-container>
 
 Glitches are hidden at first, but a handy spyglass will reveal them!
 
 <browser-container>
-<img src="../post_images/arcade/individual_view1.png" title="Individual Camera View: Discovering a Glitch">
+<figure>
+<img src="../post_images/arcade/finding-dino.gif">
+<figcaption>Individual Camera View: Discovering a Glitch</figcaption>
+</figure>
 </browser-container>
 
 Players get their daily mission brief and login when they first join, just like showing up to work as a real security guard.
