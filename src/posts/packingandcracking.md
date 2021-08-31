@@ -21,7 +21,7 @@ featuredImage: '../post_images/packingandcracking_square.png'
 
 <design-meta>
 
-###EVENT
+###WHAT
 
 Participatory, civics-education performance
 
@@ -31,11 +31,11 @@ September, October 2020
 
 ###MY ROLE
 
-Design\
-Development\
+UI Design\
+Front-End Development in HTML/CSS/Javascript\
 'Board Op'
 
-###DESIGN TEAM
+###TEAM
 
 Joseph Amodei\
 Rachel Gita Karp\
@@ -46,6 +46,8 @@ Rory Kulz
 <grid-container>
 
 #OVERVIEW
+
+##What is Packing and Cracking?
 
 <quote>
 
@@ -61,12 +63,18 @@ Through participatory drawing and map-drawing games, Packing and Cracking uses c
 
 <br><br>
 
-##For the online performances of Packing and Cracking, I helped develop a browser-based cue system and a collaborative drawing app.
+#PRODUCT
 
-##We defined and triggered changes to a custom "game page" that audience members viewed alongside the performance in Zoom.
+##A Browser-Based Game Page
 
+For the online performances of Packing and Cracking, I helped develop a browser-based cue system and a collaborative drawing app.
+
+We defined and triggered changes to a custom "game page" that audience members viewed alongside the performance in Zoom.
+
+<figure>
 <img src="../post_images/packingandcracking/game4_screenshot2.png" />
-Desktop screenshot of a rehearsal. On the left, the Zoom call with an aggie.io drawing canvas screen-shared. On the right, our game page.
+<figcaption>Desktop screenshot of a rehearsal. On the left, the Zoom call with an aggie.io drawing canvas screen-shared. On the right, our game page.</figcaption>
+</figure>
 
 <br><br>
 
@@ -99,7 +107,7 @@ In the event, audiences participated in a series of interactive games, where the
 
 #COLLABORATIVE DRAWING TOOLS
 
-##Packing and Cracking is, foremost, a show about maps.
+##A Show About Maps
 
 Audience members draw personal maps at the beginning of the performance:
 
@@ -109,7 +117,9 @@ Audience members draw personal maps at the beginning of the performance:
 
 These personal maps help challenge the authority of the maps we see all around us.
 
-##For the October performance, I developed a custom drawing tool with glitch.me to reduce the learning curve for drawing online:
+##A Custom Drawing Tool
+
+For the October performance, I developed a drawing tool with glitch.me to reduce the learning curve for drawing online:
 
 <img src="../post_images/packingandcracking/custom_drawing.png" />
 
@@ -155,7 +165,7 @@ And Game 9, in which audience members draw what they think the heavily gerrymand
 
 </img-pair>
 
-##Using our own platform allowed us to more easily gather audience members' drawings to share back out with them throughout the performance.
+Using our own platform allowed us to more easily gather audience members' drawings to share back out with them throughout the performance.
 
 The drawings below come from Game 9, when facilitators and audience members draw on top of the heavily gerrymandered districts in their state.
 
@@ -163,9 +173,11 @@ The drawings below come from Game 9, when facilitators and audience members draw
 
 <br><br>
 
-#MAPS APIS
+#TECHNOLOGY USED
 
-##Additionally, audience members explored maps through our use of the Google Maps API and Mapbox.
+##Maps APIs
+
+Audience members explored maps through our use of the Google Maps API and Mapbox.
 
 <full-width-image>
 
@@ -175,7 +187,7 @@ The drawings below come from Game 9, when facilitators and audience members draw
 
 Above, audience members submitted locations of their choice that we geocoded and plotted on a map of North Carolina's congressional districts, highlighting the hidden ways these district lines split up the state.
 
-##We incorporated both the Google Maps API and Mapbox SDK into the performance.
+We incorporated both the Google Maps API and Mapbox SDK into the performance.
 
 <img-pair>
 
@@ -216,15 +228,17 @@ On the back-end, we used the Google Civics API to get the Congressional District
 
 <br><br>
 
-#THE CUE SYSTEM
+#TECHNOLOGY DEVELOPED
 
-##The custom webpage was controlled by a theatrical cue system that we developed in PHP and Javascript.
+##Theatrical Cue System
+
+The custom webpage was controlled by a cue system that we developed in PHP and Javascript.
 
 A "board-op" moved the performance through its pre-defined cues using a webpage side by side with the virtual performance:
 
 <img src="../post_images/packingandcracking/game2_admin_overview.png" />
 
-##Assigning audience members into groups increases their motivation to participate and to learn from the performance.
+Assigning audience members into groups increases their motivation to participate and to learn from the performance.
 
 As such, we developed the admin page to allow us to assign them to different teams:
 

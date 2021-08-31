@@ -21,7 +21,7 @@ featuredImage: '../post_images/cloudbanks_square.png'
 
 <design-meta>
 
-###EVENT
+###WHAT
 
 Remote Performance
 
@@ -29,13 +29,10 @@ Remote Performance
 
 May, 2020
 
-###PLATFORM
-
-Zoom
-
 ###MY ROLE
 
-Writer, Set & Costume Design
+Writer\
+Set & Costume Designer
 
 ###DESIGN COLLABORATORS
 
@@ -47,15 +44,17 @@ Shori Sims
 
 <grid-container>
 
-#RECORDING
+##Recording
 
 `vimeo: https://vimeo.com/414793308`
 
-#PLAYBILL
+<br><br>
 
-##Produced by New Works Coffeehouse
+##Playbill
 
-##Directed by Sabrina Zanello Jackson
+Produced by New Works Coffeehouse
+
+Directed by Sabrina Zanello Jackson
 
 Written by Josh Kery
 
@@ -66,7 +65,7 @@ Cast:
 - Max: Ayda Ozdoganlar
 - Howard: Reece Grover
 
-## 
+<br>
 
 Stage Manager: Annika Evens
 
@@ -85,36 +84,31 @@ Frank-Ratchye Fund For Art @ the Frontier and the Residency in Your Room Fellows
 
 <img src="../post_images/cloudbanks/amazon_urn.png">
 
-#SYNOPSIS
+<br><br>
 
-##Now that human memories are completely converted to digital files, we can remember everything. Real-world limitations on resources and space, however, mean that our long-term memories come at immense financial cost.
+##Synopsis
 
-##So like all of us, the Kohl family faces a decision when they lose their father but not his memories. His life’s recordings are stored on an Amazon Urn ® that’s too expensive to keep. The mother of the family wants to donate the memories to The Museum of Family Records, which is more than happy to take them. But her children are still attached to what they have left of their Dad. It’s the day of the donation, and someone must decide what to do with their father.
+Now that human memories are completely converted to digital files, we can remember everything. Real-world limitations on resources and space, however, mean that our long-term memories come at immense financial cost.
 
-#ORIGINAL SET DESIGN
+So like all of us, the Kohl family faces a decision when they lose their father but not his memories. His life’s recordings are stored on an Amazon Urn ® that’s too expensive to keep. The mother of the family wants to donate the memories to The Museum of Family Records, which is more than happy to take them. But her children are still attached to what they have left of their Dad. It’s the day of the donation, and someone must decide what to do with their father.
 
-##The set was designed as a highly compact living space that would fit inside the living room of a residential home in Pittsburgh, the intended performance venue.
+<br><br>
+
+##Original Set Design
+
+The set was designed as a highly compact living space that would fit inside the living room of a residential home in Pittsburgh, the intended performance venue.
 
 <img src="../post_images/cloudbanks/set_design_overview.png">
 
-###The set design captured the modularity and tidiness invoked by the media celebrity of Marie Kondo and our trending fascination with simplification and storage.
+The set design captured the modularity and tidiness invoked by the media celebrity of Marie Kondo and our trending fascination with simplification and storage.
 
 <img src="../post_images/cloudbanks/model_walls.png">
 
-##It featured a three-part modular couch, a pull-down table, and a sliding wall used to create a privacy booth in the home.
+It featured a three-part modular couch, a pull-down table, and a sliding wall used to create a privacy booth in the home.
 
 <img src="../post_images/cloudbanks/sketchbook.jpg">
 
 <img src="../post_images/cloudbanks/nancy.jpg">
 
-#COSTUME DESIGN
-
-<img src="../post_images/cloudbanks/costumes_design.png">
-
-#GRANT PROPOSAL, STUDIO FOR CREATIVE INQUIRY
-
-<img src="../post_images/cloudbanks/residency_in_room.jpg">
-
-<img src="../post_images/cloudbanks/studio_logo.jpg">
 
 </grid-container>

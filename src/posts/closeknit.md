@@ -3,7 +3,7 @@ title: "CloseKnit"
 cover: "8.jpg"
 date: "2020-8-31"
 categories:
-    - design
+    - 
 tags:
     - programming
 posttype: 'design'

@@ -62,11 +62,19 @@ The contest asks teens grades 6 - 12 to make their own videos and help good info
 
 #UX PRODUCT
 
-##A Dynamic Colorful Interface
+##Responsive Web Interface
 
 <browser-container>
 <img src="../post_images/takeashot/desktop-landing.jpg" title="Landing Page"/>
 </browser-container>
+
+<multi-mobile-container title="Mobile Landing Page">
+<mobile-container>
+<img src="../post_images/takeashot/mobile-landing-iphonex.png" style="width:100%" />
+</mobile-container>
+</multi-mobile-container>
+
+<br><br>
 
 <browser-container>
 <img src="../post_images/takeashot/desktop-resources.jpg" title="Educational Resources Page"/>
@@ -76,50 +84,17 @@ The contest asks teens grades 6 - 12 to make their own videos and help good info
 <img src="../post_images/takeashot/desktop-rules&prizes.jpg" title="Rules & Prizes Page"/>
 </browser-container>
 
-<!-- <multi-mobile-container title="Mobile Landing and Educational Resources Page">
+<multi-mobile-container title="Mobile Rules & Prizes and Educational Resources Page">
 <mobile-container>
-<img src="../post_images/takeashot/landing_iphone-mockup-.png" style="width:100%" />
+<img src="../post_images/takeashot/mobile-resources-iphonex.png" style="width:100%" />
 </mobile-container>
 <mobile-container>
-<img src="../post_images/takeashot/resources_iphone-mockup-.png" style="width:100%" />
+<img src="../post_images/takeashot/mobile-rules&prizes-iphonex.png" style="width:100%" />
 </mobile-container>
-</multi-mobile-container> -->
+</multi-mobile-container>
 
-<text-pair>
 
-<h4>
 
-Landing
-
-</h4>
-
-<img src="../post_images/takeashot/landing_iphone-mockup-.png" />
-
-</text-pair>
-
-<img-pair>
-
-<img src="../post_images/takeashot/resources_iphone-mockup-.png" />
-
-<h4>
-
-Educational Resources
-
-</h4>
-
-</img-pair>
-
-<text-pair>
-
-<h4>
-
-Rules & Prizes
-
-</h4>
-
-<img src="../post_images/takeashot/rules&prizes_iphone-mockup-.png" />
-
-</text-pair>
 
 #BACKGROUND
 
@@ -212,6 +187,10 @@ I produced two concepts at this stage to gather feedback about the aesthetic dir
 </browser-container>
 
 With the graphics prototyped at a high fidelity, and with the website leveraging traditional interaction patterns, I decided to move into development rather than create a clickable prototype.
+
+<div>
+<button-link href="https://www.takeashotatchangingtheworld.org">VISIT THE TAKE A SHOT WEBSITE</button-link>
+</div>
 
 </grid-container>
 
