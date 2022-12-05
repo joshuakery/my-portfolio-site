@@ -51,8 +51,9 @@ setOpen() {
 render() {
 const small = this.state.smallerHeader;
 return (
-    <header className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
+    <header >
 
+    <div className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
     <ul className={`${headerStyles.navbar} ${small && headerStyles.smaller_navbar}`}>
         <li>
             <Link
@@ -85,25 +86,27 @@ return (
     </div>
 
     <div className={`${headerStyles.ham_menu_container} ${small && headerStyles.smaller_ham_menu_container}`}>
-    <HamMenu open={this.state.open}>
-        <ListLink to="/portfolio/" className={headerStyles.navlink}>
-            home
-        </ListLink>
-        <ListLink to="/resume/" className={headerStyles.navlink}>
-            resume
-        </ListLink>
-        <ListLink to="/" className={headerStyles.navlink}>
-            art site
-        </ListLink>
-        <div className={headerStyles.linebreak}></div>
-        <div className={`${headerStyles.ham_socialbar_container}`}>
-            <SocialBar small={small} />
+        <HamMenu open={this.state.open}>
+            <ListLink to="/portfolio/" className={headerStyles.navlink}>
+                home
+            </ListLink>
+            <ListLink to="/resume/" className={headerStyles.navlink}>
+                resume
+            </ListLink>
+            <ListLink to="/" className={headerStyles.navlink}>
+                art site
+            </ListLink>
+            <div className={headerStyles.linebreak}></div>
+            <div className={`${headerStyles.ham_socialbar_container}`}>
+                <SocialBar small={small} />
+            </div>
+        </HamMenu>
         </div>
-    </HamMenu>
-    </div>
+
     <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
     </HamBtn>
 
+    </div>
 
     { this.props.children }
     

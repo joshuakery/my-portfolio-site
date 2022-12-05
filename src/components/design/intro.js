@@ -6,10 +6,10 @@ export default ({children}) => {
     return (
         <div className={introStyles.frame}>
             <p className={introStyles.text}>
-                I create teaching materials, interfaces, and tools for digital performances.
+                I create learning materials, visitor interfaces, and tools for digital performances.
             </p>
             <p className={introStyles.text}>
-                I recently worked as a Learning and Engagement Contractor for <a href="https://designmuseumfoundation.org/" target="_blank">Design Museum Everywhere.</a>
+                I currently work as a freelance software developer, frequently for <a href="https://rlmg.com/" target="_blank">Richard Lewis Media Group.</a>
             </p>
             {children}
         </div>

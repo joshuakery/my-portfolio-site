@@ -7,7 +7,7 @@ featuredImage: '../post_images/braces_square.jpg'
 ---
 
 I am an experience designer and an interdisciplinary artist with a passion for designing for learning and a background in Fine Arts and Human Computer Interaction.
-I am currently an Education Programs Intern at [Design Museum Everywhere](https://designmuseumfoundation.org), and I also freelance as a web designer and full-stack developer. In the past, I have worked as a Teaching Artist at the Children's Museum of Pittsburgh and am eagerly waiting for our museums to fully re-open. Raised in Boston, I currently live in Pittsburgh, where I earned my BFA from Carnegie Mellon University in 2020.
+I currently work as a freelance software developer, mostly for [Richard Lewis Media Group](https://rlmg.com). In the past, I have worked as a UX Designer for [Aspirant]("https://aspirant.com"). I currently live in Washington DC.
 
 ...
 
