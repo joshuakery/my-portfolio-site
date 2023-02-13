@@ -12,7 +12,7 @@ posttype: 'design'
 featuredImage: '../post_images/kidspool_square.png'
 ---
 
-#Responsive Web Design Study
+# Responsive Web Design Study
 
 <cover-img>
 
@@ -22,31 +22,31 @@ featuredImage: '../post_images/kidspool_square.png'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Responsive Web App
 
-###WHEN
+### WHEN
 
 December, 2019
 
-###MY ROLE
+### MY ROLE
 
 Conducted User Research Interviews and Analysis\
 Co-crafted User Experience Design and Information Architecture\
 Contributed assets to Hi-Fidelity Prototype
 
-###TEAM
+### TEAM
 
 Aaron Bishop\
 Missy Chen\
 Gautham Sajith
 
-###GOAL
+### GOAL
 
 Reduce overhead for carpooling student athletes
 
-###TOOLS
+### TOOLS
 
 Figma
 
@@ -54,15 +54,15 @@ Figma
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 We designed Kidspool, a web app for organizing youth athlete carpools, to free up more time for parents by improving the existing carpool structure — making it more flexible, accessible, and fair.
 
-#UX SOLUTION
+# UX SOLUTION
 
-##A Streamlined Interface
+## A Streamlined Interface
 
-###Requesting a Ride
+### Requesting a Ride
 
 <img-pair>
 
@@ -78,7 +78,7 @@ Users may tap a card to either offer a ride or request a ride.
 
 </img-pair>
 
-###Viewing the Tokens Leaderboard
+### Viewing the Tokens Leaderboard
 
 <text-pair>
 
@@ -94,7 +94,7 @@ Giving rides earns tokens, and requesting rides costs tokens. Tokens help parent
 
 </text-pair>
 
-###Tracking a Driver On Their Way to Practice
+### Tracking a Driver On Their Way to Practice
 
 <img-pair>
 
@@ -110,7 +110,7 @@ Tapping on an active event-details page shows the driver’s route status and a 
 
 </img-pair>
 
-###Picking up Athletes in the Carpool
+### Picking up Athletes in the Carpool
 
 <text-pair>
 
@@ -126,9 +126,9 @@ Tapping on an active event-details page shows the driver’s route status and a 
 
 <br><br><br><br>
 
-##Onboarding on Desktop
+## Onboarding on Desktop
 
-###We’re featuring the Kidspool onboarding flow on a desktop/tablet screen. The desktop view offers more real-estate for parents to fill out an input-heavy form.
+### We’re featuring the Kidspool onboarding flow on a desktop/tablet screen. The desktop view offers more real-estate for parents to fill out an input-heavy form.
 
 <full-width-image>
 
@@ -140,7 +140,7 @@ Parents will be given a link by their coach to join their team’s Kidspool comm
 
 Presenting this in the onboarding also establishes a **precedent that parents are all expected to drive** in addition to requesting rides.
 
-###We also created the desktop version of the ride-tracking interface. 
+### We also created the desktop version of the ride-tracking interface. 
 
 <full-width-image>
 
@@ -150,9 +150,9 @@ Presenting this in the onboarding also establishes a **precedent that parents ar
 
 Since safety is a primary concern for parents, we take advantage of the bigger screen size to give parents a **more comprehensive map**. Yet the design is still consistent with the user interactions and elements of the mobile application to **ensure learnability**.
 
-#UX RESEARCH
+# UX RESEARCH
 
-##Interviews with Three Stakeholder Groups
+## Interviews with Three Stakeholder Groups
 
 From *six* interviews we conducted, we developed personas for parents, coaches, and club & league administrators.
 
@@ -160,7 +160,7 @@ From *six* interviews we conducted, we developed personas for parents, coaches, 
 
 <br><br>
 
-##Analysis via Affinity Diagraming
+## Analysis via Affinity Diagraming
 
 <text-pair>
 
@@ -178,7 +178,7 @@ We generated several key insights from this analysis:
 
 </text-pair>
 
-##Analysis via Journey Mapping
+## Analysis via Journey Mapping
 
 <full-width-image>
 
@@ -190,9 +190,9 @@ Some of the lowest points in parents' emotional journeys involve the **time comm
 
 Conversely, *coaches* are most frustrated with **time spent on planning and logistics, communication with parents, and player absence.**
 
-#UX PROCESS
+# UX PROCESS
 
-##Rapid Prototyping
+## Rapid Prototyping
 
 We crafted storyboards for potential solutions and **speed-dated** them with colleagues.
 
@@ -206,13 +206,13 @@ We crafted storyboards for potential solutions and **speed-dated** them with col
 
 <br><br>
 
-##Solution Identified: Improve the Existing Carpool Network
+## Solution Identified: Improve the Existing Carpool Network
 
 Carpooling already reduced parents' drive times and fostered community. Yet, from our research, we knew that even with carpools, parents still struggled with the time commitment of their children's sports.
 
 <br><br>
 
-##How might we improve the system so that they feel like it's working better for them?
+## How might we improve the system so that they feel like it's working better for them?
 
 We identified opportunities in three areas:
 
@@ -220,9 +220,9 @@ We identified opportunities in three areas:
 2. to **ease newcomers into the carpool**, to give them access with strong ties to the community, but also to grow that community.
 3. To encourage **fair and equal contribution** to the team from all parents, so that the volunteer-nature of the carpool feels sustainable across seasons.
 
-#UX PROCESS
+# UX PROCESS
 
-##Converging and Diverging Design
+## Converging and Diverging Design
 
 With a **mobile-first** approach, we worked together to **converge** on what screens were key:
 
@@ -271,27 +271,27 @@ This led us to three natural flows from each event card:
 
 <br><br>
 
-##High Fidelity Prototyping
+## High Fidelity Prototyping
 
 <img src="../post_images/kidspool/different_design_screenshots.png" title="Diverging Designs for Kidspool Screens">
 
 <img src="../post_images/kidspool/style_guide.png" title="Kidspool Style Guide">
 
-###Submitted for critique:
+### Submitted for critique:
 
 <img src="../post_images/kidspool/desktop_home_mobile_combined.png">
 
 We received feedback that the UI and colors felt **hectic and overloaded.** We also received feedback that the event name (“Soccer practice”) felt more emphasized than it needed to be, and that the actual useful information (i.e. event statuses) felt secondary. Next, we focused on **reducing the amount of data presented** and **emphasizing event statuses.**
 
-#REFLECTION
+# REFLECTION
 
-###We encountered several challenges in this open-ended project:
+### We encountered several challenges in this open-ended project:
 
 1. Finding the right level of formality during guerilla research - we wanted to come across as professional researchers, but not intimidate people
 2. We were given freedom to select which problem to solve, but this can lead to a tyranny of choices. It was difficult to arrive at an appropriately small problem to solve
 3. Determining how to adapt our mobile-first design to take full advantage of larger displays (e.g., PC displays) was difficult
 
-###Throughout the project, we learned a great deal. Several key lessons include:
+### Throughout the project, we learned a great deal. Several key lessons include:
 
 1. Investing in quality research tools (e.g., personas) can inform current-state analysis and pinpointing the right problem to solve
 2. Adding an emotional dimension to our pitch helps listeners to empathize and relate to our message

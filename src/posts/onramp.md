@@ -11,7 +11,7 @@ posttype: 'design'
 featuredImage: '../post_images/onramp-cover.gif'
 ---
 
-#A Learning Management System for Hybrid Educators
+# A Learning Management System for Hybrid Educators
 
 <cover-img>
 
@@ -21,29 +21,29 @@ featuredImage: '../post_images/onramp-cover.gif'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Responsive Website
 
-###WHEN
+### WHEN
 
 August - December 2020
 
-###MY ROLE
+### MY ROLE
 
 Co-designed concept and early user experience \
 Designed final experience and visuals \
 Developed custom Wordpress plugin and theme
 
-<!-- ###CO-DESIGNER
+<!-- ### CO-DESIGNER
 
 Amelia (Xi) Li
 
-###GOALS
+### GOALS
 
 Support schoolteachers adapting to remote learning.
 
-###TOOLS
+### TOOLS
 
 Figma\
 Adobe Illustrator\
@@ -53,7 +53,7 @@ Wordpress -->
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to connect regional schoolteachers with remote and hybrid teaching guidance produced by passionate fellow educators.
 
@@ -61,9 +61,9 @@ The [Allegheny Intermediate Unit](https://www.aiu3.net/) needed a platform to co
 <button-link href="https://www.onrampremotelearning.net">VISIT LIVE ONRAMP WEBSITE</button-link>
 </div>
 
-#UX CHALLENGE
+# UX CHALLENGE
 
-##Navigating a Multi-Modal Resource
+## Navigating a Multi-Modal Resource
 
 With two modes of content delivery — pre-recorded video lessons and live workshops — AIU sought a web resource where teachers could easily access both.
 
@@ -71,9 +71,9 @@ With two modes of content delivery — pre-recorded video lessons and live works
 
 <img src="../post_images/onramp/onramp-modalities.png" />
 
-#UX CHALLENGE
+# UX CHALLENGE
 
-##An Instructional Design Lens
+## An Instructional Design Lens
 
 AIU wanted to show teachers how each video lesson and workshop matched one of 6 Instructional Design Principles from the Friday Institute.
 
@@ -101,9 +101,9 @@ We don't want educators to bring ineffective teaching practices with them online
 
 <br><br>
 
-#UX CHALLENGE
+# UX CHALLENGE
 
-##Merging Two Brand Identities
+## Merging Two Brand Identities
 
 AIU needed to merge two brands in this site: the Instructional Design Principles, and a set of logo standards developed by their graphics team.
 
@@ -113,9 +113,9 @@ AIU needed to merge two brands in this site: the Instructional Design Principles
 
 <br><br>
 
-#UX SOLUTION
+# UX SOLUTION
 
-##OnRamp to Remote Learning: Responsive Web App
+## OnRamp to Remote Learning: Responsive Web App
 
 <browser-container>
 <img src="../post_images/onramp/onramp-landing2.png" title="Landing Page" />
@@ -184,15 +184,15 @@ Main Site
 
 <br><br>
 
-#UX PROCESS
+# UX PROCESS
 
-##Defining the User Flow
+## Defining the User Flow
 
 <img src="../post_images/onramp/onramp-flow.png" />
 
 <br><br>
 
-##Crafting the Information Architecture
+## Crafting the Information Architecture
 
 My co-designer and I created this architecture for the site, following our flow map above.
 
@@ -201,11 +201,11 @@ My co-designer and I created this architecture for the site, following our flow 
 <br><br>
 
 
-<!-- ##Ideation
+<!-- ## Ideation
 
 <img src="../post_images/onramp/sketches.jpg" />
 
-##Lo-fi Wireframes
+## Lo-fi Wireframes
 
 <img src="../post_images/onramp/wireframe-splash.jpg" />
 
@@ -213,7 +213,7 @@ My co-designer and I created this architecture for the site, following our flow 
 
 <img src="../post_images/onramp/wireframes.jpg" /> -->
 
-<!-- ##Mid-fi Wireframes -->
+<!-- ## Mid-fi Wireframes -->
 
 <!-- <img src="../post_images/onramp/xili_wireframes.png" /> -->
 
@@ -221,7 +221,7 @@ My co-designer and I created this architecture for the site, following our flow 
 
 <img src="../post_images/onramp/midfi2.png" /> -->
 
-##Mid-fi & Hi-fi Mockups
+## Mid-fi & Hi-fi Mockups
 
 For the second phase of this project, I developed these higher fidelity mockups of the site in preparation of executing it in code.
 
@@ -243,9 +243,9 @@ For the second phase of this project, I developed these higher fidelity mockups 
 
 
 
-<!-- #DEVELOPMENT
+<!-- # DEVELOPMENT
 
-##For ease of use, AIU3 asked us to integrate its synchronous and asynchronous content into one, navigable system.
+## For ease of use, AIU3 asked us to integrate its synchronous and asynchronous content into one, navigable system.
 
 To that end, as the solo developer I created a custom Wordpress plugin that combined the content of the [LearnDash LMS](https://www.learndash.com) and [Events Manager](https://wp-events-plugin.com/) plugins.
 

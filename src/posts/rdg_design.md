@@ -13,7 +13,7 @@ posttype: 'design'
 featuredImage: '../post_images/rdg_square.png'
 ---
 
-#Educational Game
+# Educational Game
 
 <cover-img>
 
@@ -23,30 +23,30 @@ featuredImage: '../post_images/rdg_square.png'
 
 <design-meta>
 
-###CLIENT
+### CLIENT
 
 Committee of Seventy
 
-###WHEN
+### WHEN
 
 December 2017
 
-###MY ROLE
+### MY ROLE
 
 PM\
 Illustration\
 Development
 
-###TEAM
+### TEAM
 
 Ben Klingensmith\
 Andrew Boyer
 
-###GOAL
+### GOAL
 
 Customize the Redistricting Game for the State of Pennsylvania
 
-###TOOLS
+### TOOLS
 
 Adobe Photoshop, Adobe Flash
 
@@ -54,7 +54,7 @@ Adobe Photoshop, Adobe Flash
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 In 2018, the Pennsyvlania Supreme Court was to vote on redrawing the state's district lines.
 
@@ -64,9 +64,9 @@ I led the update for the game, which was made in 2007 in Adobe Flash.
 
 <img src="../post_images/rdg/rdg2.png">
 
-#PROCESS
+# PROCESS
 
-##Customizing the Game for Pennsylvania
+## Customizing the Game for Pennsylvania
 
 We were asked to integrate current Pennsylvania census data into the exisiting game and adapt its graphics for the state.
 

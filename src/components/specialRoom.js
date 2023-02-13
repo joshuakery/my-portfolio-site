@@ -1,5 +1,5 @@
 import React from "react"
-import specialStyles from '../components/specialRoom.module.css'
+import * as styles from '../components/specialRoom.module.css'
 import {Rnd} from "react-rnd"
 
 class Bathroom extends React.Component {
@@ -68,22 +68,22 @@ class Bathroom extends React.Component {
     getFriend() {
         if (this.state.friend == "underwater") {
             return (
-                <div className={specialStyles.bathroom_friend_underwater}></div>
+                <div className={styles.bathroom_friend_underwater}></div>
             )
         } 
         else if (this.state.friend == "neck") {
             return (
-                <div className={specialStyles.bathroom_friend_neck}></div>
+                <div className={styles.bathroom_friend_neck}></div>
             )
         }
         else if (this.state.friend == "waisthigh") {
             return (
-                <div className={specialStyles.bathroom_friend_waisthigh}></div>
+                <div className={styles.bathroom_friend_waisthigh}></div>
             )
         }
         else if (this.state.friend == "floorlevel") {
             return (
-                <div className={specialStyles.bathroom_friend_floorlevel}></div>
+                <div className={styles.bathroom_friend_floorlevel}></div>
             )
         }
         else {
@@ -94,14 +94,14 @@ class Bathroom extends React.Component {
     render() {
         console.log(this.state.roomSize);
         return (
-                    <div className={specialStyles.container}>
-                        <div className={specialStyles.bathroom}>
-                            <div className={specialStyles.bathroom_interior}></div>
-                            <div className={specialStyles.bathroom_leftwall}></div>
-                            <div className={specialStyles.bathroom_rightwall}></div>
+                    <div className={styles.container}>
+                        <div className={styles.bathroom}>
+                            <div className={styles.bathroom_interior}></div>
+                            <div className={styles.bathroom_leftwall}></div>
+                            <div className={styles.bathroom_rightwall}></div>
                             {this.getFriend()}
                             <Rnd
-                                className = {specialStyles.waterLevel}
+                                className = {styles.waterLevel}
                                 default={{
                                 x: 10,
                                 y: 200,
@@ -122,8 +122,8 @@ class Bathroom extends React.Component {
                                 minHeight="40"
                                 onResize={this.submergeFriend}
                             >
-                                <div className={specialStyles.waterLevel_waves}></div>
-                                <div className={specialStyles.waterLevel_top}></div>  
+                                <div className={styles.waterLevel_waves}></div>
+                                <div className={styles.waterLevel_top}></div>  
                                 
                             </Rnd>
                         </div>
@@ -135,7 +135,7 @@ class Bathroom extends React.Component {
 class Bedroom extends React.Component {
     render() {
         return (
-                    <div className={specialStyles.bedroom}>
+                    <div className={styles.bedroom}>
                         {this.props.children}
                     </div>
                 )
@@ -145,7 +145,7 @@ class Bedroom extends React.Component {
 class Kitchen extends React.Component {
     render() {
         return (
-                    <div className={specialStyles.kitchen}>
+                    <div className={styles.kitchen}>
                         {this.props.children}
                     </div>
                 )
@@ -155,7 +155,7 @@ class Kitchen extends React.Component {
 class Basement extends React.Component {
     render() {
         return (
-                    <div className={specialStyles.basement}>
+                    <div className={styles.basement}>
                         {this.props.children}
                     </div>
                 )

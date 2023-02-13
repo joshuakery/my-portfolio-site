@@ -6,8 +6,8 @@ import Room from "../components/room"
 import Basement from "../components/room_basement"
 import Ground from "../components/ground"
 import { Link, graphql } from "gatsby"
-import catStyles from "../templates/category.module.css"
-import Image from "gatsby-dynamic-image"
+import * as styles from "../templates/category.module.css"
+import MyGatsbyImage from "../components/utility/my-gatsby-image"
 
 const getRooms = (edges, location) => {
   let rooms = [];
@@ -16,10 +16,15 @@ const getRooms = (edges, location) => {
     const { slug } = node.fields
     const { title, featuredImage } = node.frontmatter
     rooms.push (
-        <li key={slug} className={catStyles.room_container}>
+        <li key={slug} className={styles.room_container}>
           <Room title={title} slug={slug}>
-            <Image node={featuredImage}
-                  className={catStyles.featuredImage}/>
+            {/* <Image node={featuredImage}
+                  className={catStyles.featuredImage}/> */}
+            <MyGatsbyImage
+                  node={featuredImage}
+                  alt={title}
+                  className={styles.featuredImage}
+            />
           </Room>
         </li>
     )
@@ -32,10 +37,15 @@ const getLastRoom = (edges,location) => {
   const { slug } = node.fields
   const { title, featuredImage } = node.frontmatter
   return (
-      <li key={slug} className={catStyles.basement_container}>
+      <li key={slug} className={styles.basement_container}>
         <Basement title={title} slug={slug}>
-          <Image node={featuredImage}
-               className={catStyles.featuredImage}/>
+          {/* <Image node={featuredImage}
+               className={catStyles.featuredImage}/> */}
+            <MyGatsbyImage
+                  node={featuredImage}
+                  alt={title}
+                  className={styles.featuredImage}
+            />
         </Basement>
       </li>
   )
@@ -49,7 +59,7 @@ const Cats = ({ pageContext, data, location }) => {
   return (
     <Layout>
         <h1>{category}</h1>
-        <div className={catStyles.container}>
+        <div className={styles.container}>
           <House>
             {/* {getSpecialRoom(category)} */}
             {getRooms(edges, location)}
@@ -91,7 +101,7 @@ export const pageQuery = graphql`
   query($category: String) {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: [{ frontmatter: { date: DESC } }]
       filter: { frontmatter: { categories: { in: [$category] },
                                posttype: {nin: ["sketchbook"]}
                               } }
@@ -104,12 +114,12 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            featuredImage {
+            featuredImage
+            {
               publicURL
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
-                }
+              childImageSharp
+              {
+                gatsbyImageData
               }
             }
           }

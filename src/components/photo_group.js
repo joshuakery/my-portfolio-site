@@ -1,5 +1,5 @@
 import React from "react"
-import PhotoGroupStyles from "../components/photo_group.module.css"
+import * as styles from "../components/photo_group.module.css"
 
 export default class PhotoGroup extends React.Component {
     static defaultProps= {
@@ -12,7 +12,7 @@ export default class PhotoGroup extends React.Component {
 
     render() {
         return (
-            <div className={PhotoGroupStyles.group}>
+            <div className={styles.group}>
                 { this.props.children }
             </div>
         )

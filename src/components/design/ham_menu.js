@@ -1,10 +1,10 @@
 import React from "react"
-import hamMenuStyles from './ham_menu.module.css';
+import * as styles from './ham_menu.module.css';
 
 
 export default ({children, open}) => {
     return (
-        <div className={`${hamMenuStyles.open} ${!open && hamMenuStyles.closed}`}>
+        <div className={`${styles.open} ${!open && styles.closed}`}>
             {children}
         </div>
     );

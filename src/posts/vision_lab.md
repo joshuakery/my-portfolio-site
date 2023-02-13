@@ -11,7 +11,7 @@ posttype: 'design'
 featuredImage: '../post_images/vision_lab_square.png'
 ---
 
-#Durational Performance with Custom Software
+# Durational Performance with Custom Software
 
 <cover-img>
 
@@ -21,15 +21,15 @@ featuredImage: '../post_images/vision_lab_square.png'
 
 <design-meta>
 
-###MEDIUM
+### MEDIUM
 
 Durational Performance
 
-###WHEN
+### WHEN
 
 Dec, 2020
 
-###TOOLS
+### TOOLS
 
 OpenFrameworks, Wacom Tablet
 
@@ -37,7 +37,7 @@ OpenFrameworks, Wacom Tablet
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 CFA Vision Lab was a durational performance as an AI.
 
@@ -52,9 +52,9 @@ My work was shown on an existing screen in the University Center, so that passer
 <img src="../post_images/vision_lab/screen1.png">
 <img src="../post_images/vision_lab/screenshot2.png">
 
-#CONTEXT
+# CONTEXT
 
-##Blending in with Computer Vision Demos
+## Blending in with Computer Vision Demos
 
 This performance was intended to blend in with existing computer vision demos on the Carnegie Mellon campus, notably feelingspector on display in Newell-Simon Hall.
 
@@ -62,9 +62,9 @@ To that end, I chose the existing AB Tech display in CMU University Center to sh
 
 <img src="../post_images/vision_lab/feelingspector3.png">
 
-#TECHNOLOGY USED
+# TECHNOLOGY USED
 
-##Built with OpenFrameworks
+## Built with OpenFrameworks
 
 CFA Vision Lab was developed in C++ with OpenFrameworks, and uses optical flow to “stick” my pixels to the subjects that I masked.
 
@@ -72,9 +72,9 @@ I struggled with the effect of this on people walking quickly through the room, 
 
 <img src="../post_images/vision_lab/detail1.png">
 
-#ARTIST STATEMENT 
+# ARTIST STATEMENT 
 
-##I want this performance to live among the work of other people acting as machines. 
+## I want this performance to live among the work of other people acting as machines. 
 
 Machine learning attracts great attention, from user experience design to insurance. But where businesses lack the training data or the resources to acquire it to produce a machine learning model, they may fall back on human laborers to pretend to be the bots and do the machines’ work of labelling images or steering vehicles. Amazon’s Mechanical Turk is then aptly named. As a service that organizes laborers to sometimes perform this ruse, it fulfills the role of the original mechanical turk, a chess player who disguised himself as a machine that plays chess. Both mark up the price of human labor by disguising it as a machine's.
 

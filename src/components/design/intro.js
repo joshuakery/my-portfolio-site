@@ -1,18 +1,19 @@
 import React from "react"
-import introStyles from './intro.module.css'
-/* test */
+import * as styles from './intro.module.css'
 
-export default ({children}) => {
+function Intro({children}) {
     return (
-        <div className={introStyles.frame}>
-            <p className={introStyles.text}>
+        <div className={styles.frame}>
+            <p className={styles.text}>
                 I create learning materials, user interfaces, and tools for digital performances.
             </p>
             
-            <p className={introStyles.text}>
-                I currently work as a freelance software developer, frequently for <a href="https://rlmg.com/" target="_blank">Richard Lewis Media Group.</a>
+            <p className={styles.text}>
+                I currently work as a freelance software developer, frequently for <a href="https://rlmg.com/" target="_blank" rel="noreferrer">Richard Lewis Media Group.</a>
             </p>
             {children}
         </div>
     )
 }
+
+export default Intro;

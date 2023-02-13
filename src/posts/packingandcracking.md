@@ -11,7 +11,7 @@ posttype: 'design'
 featuredImage: '../post_images/packingandcracking_square.png'
 ---
 
-#Cue System for Browser-Based Performance
+# Cue System for Browser-Based Performance
 
 <cover-img>
 
@@ -21,21 +21,21 @@ featuredImage: '../post_images/packingandcracking_square.png'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Participatory, civics-education performance
 
-###WHEN
+### WHEN
 
 September, October 2020
 
-###MY ROLE
+### MY ROLE
 
 UI Design\
 Front-End Development in HTML/CSS/Javascript\
 'Board Op'
 
-###TEAM
+### TEAM
 
 Joseph Amodei\
 Rachel Gita Karp\
@@ -45,9 +45,9 @@ Rory Kulz
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-##What is Packing and Cracking?
+## What is Packing and Cracking?
 
 <quote>
 
@@ -63,9 +63,9 @@ Through participatory drawing and map-drawing games, Packing and Cracking uses c
 
 <br><br>
 
-#PRODUCT
+# PRODUCT
 
-##A Browser-Based Game Page
+## A Browser-Based Game Page
 
 For the online performances of Packing and Cracking, I helped develop a browser-based cue system and a collaborative drawing app.
 
@@ -82,7 +82,7 @@ This custom software was used in Packing and Cracking's presentation through the
 
 <!-- [Find the full documentation on Github.](https://github.com/joshuakery/PackingAndCrackingCueSystem) -->
 
-#DOCUMENTATION
+# DOCUMENTATION
 
 Watch the full-length documentation of Packing and Cracking at University of North Carolina-Chapel Hill’s Process Series, October 2020:
 
@@ -105,9 +105,9 @@ In the event, audiences participated in a series of interactive games, where the
 
 <br><br>
 
-#COLLABORATIVE DRAWING TOOLS
+# COLLABORATIVE DRAWING TOOLS
 
-##A Show About Maps
+## A Show About Maps
 
 Audience members draw personal maps at the beginning of the performance:
 
@@ -117,7 +117,7 @@ Audience members draw personal maps at the beginning of the performance:
 
 These personal maps help challenge the authority of the maps we see all around us.
 
-##A Custom Drawing Tool
+## A Custom Drawing Tool
 
 For the October performance, I developed a drawing tool with glitch.me to reduce the learning curve for drawing online:
 
@@ -173,9 +173,9 @@ The drawings below come from Game 9, when facilitators and audience members draw
 
 <br><br>
 
-#TECHNOLOGY USED
+# TECHNOLOGY USED
 
-##Maps APIs
+## Maps APIs
 
 Audience members explored maps through our use of the Google Maps API and Mapbox.
 
@@ -228,9 +228,9 @@ On the back-end, we used the Google Civics API to get the Congressional District
 
 <br><br>
 
-#TECHNOLOGY DEVELOPED
+# TECHNOLOGY DEVELOPED
 
-##Theatrical Cue System
+## Theatrical Cue System
 
 The custom webpage was controlled by a cue system that we developed in PHP and Javascript.
 

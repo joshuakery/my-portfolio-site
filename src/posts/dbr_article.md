@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/dbr_article_square.png'
 ---
 
-#Research on the Design-Based Research methodology
+# Research on the Design-Based Research methodology
 
 <cover-img>
 
@@ -22,19 +22,19 @@ featuredImage: '../post_images/dbr_article_square.png'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Research for a written piece about Design-Based Research
 
-###WHEN
+### WHEN
 
 November 2020
 
-###MY ROLE
+### MY ROLE
 
 Co-Author: Research & Writing
 
-###CO-AUTHOR
+### CO-AUTHOR
 
 Mimi Shalf
 
@@ -42,21 +42,21 @@ Mimi Shalf
 
 <grid-container>
 
-#ARTICLE LINK
+# ARTICLE LINK
 
-##Coming Soon.
+## Coming Soon.
 
-#OVERVIEW
+# OVERVIEW
 
-##[Design-Based Research](http://www.designbasedresearch.org/reppubs/DBRC2003.pdf) offers a new lens for educators to see their design process.
+## [Design-Based Research](http://www.designbasedresearch.org/reppubs/DBRC2003.pdf) offers a new lens for educators to see their design process.
 
-##By considering how the designer contributes learning theories and design guidelines to the education community, it creates a new entry to well-worn approaches like Design Thinking, and highlights the power of participatory design like that taught by the [Cambridge D-Lab.](https://www.cpsd.us/office_of_curriculum_and_instruction/innovation_design_lab)
+## By considering how the designer contributes learning theories and design guidelines to the education community, it creates a new entry to well-worn approaches like Design Thinking, and highlights the power of participatory design like that taught by the [Cambridge D-Lab.](https://www.cpsd.us/office_of_curriculum_and_instruction/innovation_design_lab)
 
-##This November, Mimi Shalf, the Education Programs Apprentice at [Design Museum](https://designmuseumfoundation.org/), and I conducted research for an article on Design-Based Research.
+## This November, Mimi Shalf, the Education Programs Apprentice at [Design Museum](https://designmuseumfoundation.org/), and I conducted research for an article on Design-Based Research.
 
-#RESEARCH
+# RESEARCH
 
-##The following people generously gave us their time to speak with us regarding their work and the questions raised by our research into Design-Based Research.
+## The following people generously gave us their time to speak with us regarding their work and the questions raised by our research into Design-Based Research.
 
 <img-pair>
 <div style="width:50%;border-radius:50%;overflow:hidden;"><img src="../post_images/dbr_article/uyham.jpeg"></div>
@@ -90,7 +90,7 @@ Founding Designer at Primer
 Experiential Learning Manager at Lambda School
 
 
-#RESOURCES
+# RESOURCES
 
 Our research list for this piece included:
 
@@ -130,7 +130,7 @@ Our research list for this piece included:
 
 1. Smith, Kim. “Learning Beautiful: Building Computer Skills Without Computers.” Design Museum Everywhere, 20 May 2020, designmuseumfoundation.org/learning-beautiful/. 
 
-1. “Some Examples of DBR” Explanation - How Does DBR Differ from Other Approaches?, http://dbr.coe.uga.edu/enact02.htm#references.
+1. “Some Examples of DBR” Explanation - How Does DBR Differ from Other Approaches?, http://dbr.coe.uga.edu/enact02.htm# references.
 
 1. The Design-Based Research Collective. "Design-Based Research: An Emerging Paradigm for Educational Inquiry." Educational Researcher, vol. 32 no. 1 pp.5-8, 2003.
 

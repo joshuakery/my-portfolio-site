@@ -12,7 +12,7 @@ posttype: 'design'
 featuredImage: '../post_images/mytour_square.png'
 ---
 
-#Interactive Tour of My Family Home
+# Interactive Tour of My Family Home
 
 <grid-container>
 

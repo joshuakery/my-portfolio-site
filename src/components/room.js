@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import RoomText from "../components/room_link"
 
-import styles from "./room.module.css"
+import * as styles from "./room.module.css"
 
 const Room = (props) => {
     const { children, title, slug } = props;

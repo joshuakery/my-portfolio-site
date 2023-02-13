@@ -1,8 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
-import catStyles from "../templates/design-category.module.css"
-import Image from "gatsby-dynamic-image"
+import * as styles from "../templates/design-category.module.css"
+// import Image from "gatsby-dynamic-image"
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import { Helmet } from "react-helmet"
 import { DesignLayout } from "../components/layout";
@@ -13,11 +14,16 @@ const getProjects = (edges) => {
       let {node} = edges[i];
       const { slug } = node.fields;
       const { title, featuredImage } = node.frontmatter;
-      console.log(featuredImage);
+      const image = getImage(featuredImage);
       projects.push(
         <li key={slug}>
             <Link to={slug}>
-                <Image node={featuredImage} className={catStyles.featuredImage}/>
+                {/* <Image node={featuredImage} className={catStyles.featuredImage}/> */}
+                <GatsbyImage
+                      image={image}
+                      alt={title}
+                      className={styles.featuredImage}
+                />
                 <h3>{title}</h3>
             </Link>
         </li>
@@ -35,8 +41,8 @@ const Cats = ({ pageContext, data, location }) => {
             <div>
               <Helmet title={category + " | Joshua Kery"} />
               <div>
-                <h1 className={catStyles.catTitle}>{category}</h1>
-                <ul className={catStyles.projectsList}>
+                <h1 className={styles.catTitle}>{category}</h1>
+                <ul className={styles.projectsList}>
                   {getProjects(edges)}
                 </ul>
               </div>
@@ -74,7 +80,7 @@ export const pageQuery = graphql`
   query($category: String) {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: [{ frontmatter: { date: DESC } }]
       filter: { frontmatter: { categories: { in: [$category] },
                                posttype: {nin: ["sketchbook"]}
                               } }
@@ -89,10 +95,9 @@ export const pageQuery = graphql`
             title
             featuredImage {
               publicURL
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
-                }
+              childImageSharp
+              {
+                gatsbyImageData
               }
             }
           }

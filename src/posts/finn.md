@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/finn.svg'
 ---
 
-#Responsive Website for Educators
+# Responsive Website for Educators
 
 <cover-img>
 
@@ -20,15 +20,15 @@ featuredImage: '../post_images/finn.svg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Character Re-design
 
-###WHEN
+### WHEN
 
 September 2020
 
-###MY ROLE
+### MY ROLE
 
 Character Designer
 
@@ -36,9 +36,9 @@ Character Designer
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-##Matching Character and UI Design
+## Matching Character and UI Design
 
 Troutwood asked me to update their mascot 'Finn' to match the latest design of their website.
 
@@ -58,7 +58,7 @@ I crafted a few options for them, with two shown below:
 
 <br><br>
 
-##Variations
+## Variations
 
 I produced a set of 22 variations of Finn for Troutwood.
 
@@ -68,7 +68,7 @@ I produced a set of 22 variations of Finn for Troutwood.
 
 <br><br>
 
-##Style Guide
+## Style Guide
 
 Additionally, Troutwood asked me to produce a Duolingo-inspired style guide to help future illustrators.
 

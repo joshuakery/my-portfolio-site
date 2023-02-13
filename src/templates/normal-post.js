@@ -8,8 +8,10 @@ import { Group,
          Left2, Right2, Center2,
          Left3, Right3, Center3,
          Left4, Right4, Center4,
-         TextBox
-        } from "../components/post_blocks"
+         TextBox,
+         MultiMobileContainer, MobileContainer,
+         ButtonLink
+        } from "../components/post_blocks"     
 import VideoContainer from "../components/video_container"
 import FullWidthImage from "../components/full_width_image"
 import ImageRow from "../components/image-row"
@@ -18,7 +20,7 @@ import SEO from "../components/seo"
 import { Layout } from "../components/layout"
 import Ground from "../components/ground"
 
-import normalStyles from '../templates/normal-post.module.css'
+import * as styles from '../templates/normal-post.module.css'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -33,6 +35,9 @@ const renderAst = new rehypeReact({
     "l4": Left4, "r4": Right4, "c4": Center4,
     "textbox": TextBox,
     h5: FullWidthImage,
+    "multi-mobile-container": MultiMobileContainer,
+    "mobile-container": MobileContainer,
+    "button-link": ButtonLink
   },
 }).Compiler
 
@@ -55,8 +60,8 @@ export default ({ location, data }) => {
       } */}
       <SEO title={post.frontmatter.title} description={post.excerpt} />
 
-      <div className={normalStyles.post_container}>
-        <h1 className={normalStyles.post_title}>{post.frontmatter.title}</h1>
+      <div className={styles.post_container}>
+        <h1 className={styles.post_title}>{post.frontmatter.title}</h1>
         {/* <div dangerouslySetInnerHTML={{ __html: post.html }} className={normalStyles.innerHTML}/> */}
         {
           renderAst(post.htmlAst)
@@ -72,13 +77,14 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
-      frontmatter {
+      frontmatter
+      {
         title
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 800) {
-              ...GatsbyImageSharpFluid
-            }
+        featuredImage
+        {
+          childImageSharp
+          {
+            gatsbyImageData
           }
         }
       }

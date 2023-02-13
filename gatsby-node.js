@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // const sketchTemplate = path.resolve('src/templates/sketch-post.js');
   const designTemplate = path.resolve('src/templates/design-post.js');
   //Page Templates
-  const tagTemplate = path.resolve('src/templates/tags.js');
+  // const tagTemplate = path.resolve('src/templates/tags.js');
   const catTemplate = path.resolve('src/templates/category.js');
   const designCatTemplate = path.resolve('src/templates/design-category.js');
   //Query
@@ -33,7 +33,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           node {
             frontmatter {
               posttype
-              tags
               categories
             }
             fields {
@@ -42,13 +41,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
       }
-      tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
-          fieldValue
-        }
-      }
-      catsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___categories) {
+      catsGroup: allMarkdownRemark
+      (
+        limit: 2000
+      )
+      {
+        group
+        (
+          field:
+          {
+            frontmatter:
+            {
+              categories: SELECT
+            }
+          }
+        )          
+        {
           fieldValue
         }
       }
@@ -112,17 +120,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   })
 
-  const tags = result.data.tagsGroup.group
-  // Make tag pages
-  tags.forEach(tag => {
-    createPage({
-      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
-      component: tagTemplate,
-      context: {
-        tag: tag.fieldValue,
-      },
-    })
-  })
+  // const tags = result.data.tagsGroup.group
+  // // Make tag pages
+  // tags.forEach(tag => {
+  //   createPage({
+  //     path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+  //     component: tagTemplate,
+  //     context: {
+  //       tag: tag.fieldValue,
+  //     },
+  //   })
+  // })
 
   const DESIGNCATS = ['teaching','live-shows','design','creative-coding'];
   const cats = result.data.catsGroup.group;

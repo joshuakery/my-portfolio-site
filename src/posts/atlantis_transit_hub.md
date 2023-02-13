@@ -11,7 +11,7 @@ posttype: 'design'
 featuredImage: '../post_images/atlantis_square.jpg'
 ---
 
-#Data Driven Display Study
+# Data Driven Display Study
 
 <cover-img>
 
@@ -21,30 +21,30 @@ featuredImage: '../post_images/atlantis_square.jpg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 55" Wall-Mounted Display
 
-###WHEN
+### WHEN
 
 October, 2019
 
-###MY ROLE
+### MY ROLE
 
 Contributed to UX and UI Design\
 Crafted all Animation
 
-###TEAM
+### TEAM
 
 Hailey Motooka\
 Parker Nussbaum\
 Molly Schaefer
 
-###GOAL
+### GOAL
 
 Encourage Transit through a Legible Data Display
 
-###TOOLS
+### TOOLS
 
 Figma\
 Adobe After Effects
@@ -53,18 +53,18 @@ Adobe After Effects
 
 <grid-container>
 
-#UX CHALLENGE
+# UX CHALLENGE
 
-##Three Transportation Methods, One Display
+## Three Transportation Methods, One Display
 
 The San Juan Islands Atlantis Hub needs a new system of transportation displays to cope with the changing paradigm of travel in the region.
 
 The client is interested in increasing inner-island travel in the area, across **three** transportation methods — planes, trains, and ferries — with a flexible travel plan: the **PTF Pass.**
 
 
-#UX SOLUTION
+# UX SOLUTION
 
-##Dynamic Data-Driven Display
+## Dynamic Data-Driven Display
 
 <!-- For all our users, we present 12 hours of travel options in our main screen.
 
@@ -92,7 +92,7 @@ With a **time-block based display,** travellers easily compare arrival times and
 
 <br><br>
 
-##PTF Earliest
+## PTF Earliest
 
 To our paying passholders, we offer **PTF Earliest**, a quick overview of the fastest means to get to any San Juan Islands destination, accessible only with the PTF Pass.
 
@@ -151,9 +151,9 @@ In our design, the physical pass is the key to our interactive map. We aimed to 
 </text-pair>
 
 
-#UX PROCESS
+# UX PROCESS
 
-##User & Stakeholder Alignment: Easier and More Flexible Travel
+## User & Stakeholder Alignment: Easier and More Flexible Travel
 
 <div style="background:white;border-radius:10px">
 <img src="../post_images/atlantis/stakeholder_map.png" style="background:white">
@@ -174,7 +174,7 @@ We identified categories common across planes, trains, and ferries that were use
 
 <br><br>
 
-##Beyond the Standard
+## Beyond the Standard
 
 From our stakeholder needs, it seemed like having a good sense of connections and time-management were priorities, and could be addressed through a display similar to a calendar:
 
@@ -182,7 +182,7 @@ From our stakeholder needs, it seemed like having a good sense of connections an
 
 <br><br>
 
-##Web Calendar Model
+## Web Calendar Model
 
 <figure>
 <img src="../post_images/atlantis/iteration1.jpg">
@@ -199,7 +199,7 @@ One clear advantage of representing trips in this way: **The entire duration of 
 
 <br><br>
 
-##Diverging Designs: Three Explorations
+## Diverging Designs: Three Explorations
 
 We wanted to branch off from this first prototype by re-incorporating other stakeholder needs, individualizing displays and better highlighting trip connections and durations.
 
@@ -253,9 +253,9 @@ We developed a map as the clearest way to show connections between destinations.
 
 </text-pair>
 
-#UX SOLUTION
+# UX SOLUTION
 
-##Using Motion to Expand Our Display
+## Using Motion to Expand Our Display
 
 To comprehensively address all the data points we needed to show our users, we used motion to expand the size of our display beyond the space of our target screens.
 
@@ -273,7 +273,7 @@ We dropped the distinct pauses on different sections of our display in favor of 
 
 </img-pair>
 
-##Flexibility, Empowerment, and Luxury
+## Flexibility, Empowerment, and Luxury
 
 These parts of the PTF experience we wanted to emphasize in our pitch. Using the theme of “visualizing and taking control of your time,” we discussed how our display supports flexible, empowered, and luxurious travel.
 

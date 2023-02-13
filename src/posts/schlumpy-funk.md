@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/schlumpy-funk-studios-square.jpg'
 ---
 
-#Augmented reality. Schlumpy Funk.
+# Augmented reality. Schlumpy Funk.
 
 <cover-img>
 
@@ -22,30 +22,30 @@ featuredImage: '../post_images/schlumpy-funk-studios-square.jpg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 AR experience
 
-###GOALS
+### GOALS
 
 Explore local artist's work
 
-###WHEN
+### WHEN
 
 March - May 2020
 
-###COLLABORATOR
+### COLLABORATOR
 
 [Michelle Cedeño](https://michellecedeno.com/)
 
-###MY ROLE
+### MY ROLE
 
 Concept\
 Research\
 Design\
 Development
 
-###TOOLS
+### TOOLS
 
 Figma\
 Metashape\
@@ -56,7 +56,7 @@ Unity
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 An augmented reality experience bringing you closer to the work of Pittsburgh artist [Laura Jean McLaughlin](http://laurajeanmclaughlin.com/).
 
@@ -69,9 +69,9 @@ We created Schlumpy Funk Studio, a guided digital sculpting experience to celebr
 <img src="../post_images/schlumpy-funk-studios/Laura/claypen-actual.jpg">
 
 
-#FINAL PRODUCT
+# FINAL PRODUCT
 
-##Celebrating Artist Laura Jean McLaughlin
+## Celebrating Artist Laura Jean McLaughlin
 
 Schlumpy Funk Studio pulls inspiration from her meditative studio practice and the many sites of her public artworks across Pittsburgh.
 
@@ -98,9 +98,9 @@ A QR code at each site of Laura’s works gives viewers access to the Schlumpy F
 
 <img src="../post_images/schlumpy-funk-studios/Laura/toxoplamosis-print.jpeg">
 
-#BACKGROUND
+# BACKGROUND
 
-##Engaging with Laura Jean McLaughlin's artistic practice
+## Engaging with Laura Jean McLaughlin's artistic practice
 
 I had the pleasure of being introduced to Laura via Michelle, who lived above her studio, the Claypen, at the time of the project.
 
@@ -117,7 +117,7 @@ I had the pleasure of being introduced to Laura via Michelle, who lived above he
 </img-pair>
 
 
-##What is Schlumpy Funk?
+## What is Schlumpy Funk?
 
 <quote>
 
@@ -136,9 +136,9 @@ In her words, it has "its origins based in the Surrealist, Dada and Funk movemen
 </div>
 <br><br>
 
-#RESEARCH
+# RESEARCH
 
-##The Claypen
+## The Claypen
 
 The site of Laura's practice - The Claypen Studio on Penn Avenue - was crucial for the development of this project.
 
@@ -146,7 +146,7 @@ Each month, people from all over Pittsburgh stroll Penn Avenue between the 4800 
 
 <br><br>
 
-##Capturing Laura's Work with Photogrammetry
+## Capturing Laura's Work with Photogrammetry
 
 To capture the feeling of Laura's work, we transformed her studio's facade (see above) and a set of featured sculptures into 3D models using photogrammetry.
 
@@ -173,9 +173,9 @@ To capture the feeling of Laura's work, we transformed her studio's facade (see 
 <figcaption>Photogrammetry model of sculpture in the Claypen</figcaption>
 </figure>
 
-#PROTOTYPING
+# PROTOTYPING
 
-##Map of the Virtual Space
+## Map of the Virtual Space
 
 This map guided our arrangement of the 3D models in AR and served as a prototype of the user experience.
 
@@ -183,7 +183,7 @@ This map guided our arrangement of the 3D models in AR and served as a prototype
 
 <br><br>
 
-##Defining the UI
+## Defining the UI
 
 <img-pair>
 
@@ -207,7 +207,7 @@ This map guided our arrangement of the 3D models in AR and served as a prototype
 
 <br><br>
 
-##Boots the Cat
+## Boots the Cat
 
 Laura fosters over 20 cats. They are an inseparable element of the Claypen.
 
@@ -227,7 +227,7 @@ We decided to feature one cat, Boots, as the guide to the experience.
 
 <br><br>
 
-##Studio
+## Studio
 
 We created a simplified version of Laura's studio for visitors to explore.
 
@@ -240,11 +240,11 @@ We created a simplified version of Laura's studio for visitors to explore.
 <img src="../post_images/schlumpy-funk-studios/Studio/objects.jpg">
 
 
-#REFLECTION
+# REFLECTION
 
-##Michelle and I were able to complete 90% of this project during the first three months of the pandemic, and for that I am very happy.
+## Michelle and I were able to complete 90% of this project during the first three months of the pandemic, and for that I am very happy.
 
-##Challenges Met
+## Challenges Met
 
 - This was our first time building a project with Cinema4D and Metashape, and I'm glad to add these tools to my artist's belt.
 

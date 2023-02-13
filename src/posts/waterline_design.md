@@ -12,7 +12,7 @@ posttype: 'design'
 featuredImage: '../post_images/waterline_square.jpg'
 ---
 
-#Water Visualization App
+# Water Visualization App
 
 <cover-img>
 
@@ -22,23 +22,23 @@ featuredImage: '../post_images/waterline_square.jpg'
 
 <design-meta>
 
-###MEDIUM
+### MEDIUM
 
 Mobile Application
 
-###WHEN
+### WHEN
 
 May, 2019
 
-###WHAT
+### WHAT
 
 Design, Development
 
-###GOAL
+### GOAL
 
 Encourage Clean Water Practices at their Source
 
-###TOOLS
+### TOOLS
 
 Adobe Illustrator, Unity, Mapbox SDK
 
@@ -46,19 +46,19 @@ Adobe Illustrator, Unity, Mapbox SDK
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 Pittsburgh's water issues revolve around an *abundance* of rainwater: Where does it all go, and what does it carry with it? Flooding, sewage overflow, and industrial pollution are critical issues for a city that prides itself in its rivers.
 
 “Waterline” is a mobile app that encourages responsible water use by showing users who is affected by the downstream journey of their water. The app draws a line that starts at the user's current position and travels in the direction that water and contaminants would flow downhill to reach the nearest river.
 
-#FINAL PRODUCT
+# FINAL PRODUCT
 
 `youtube: https://www.youtube.com/watch?v=-2wOi8ma14s&t=2s`
 
-#BACKGROUND
+# BACKGROUND
 
-##Flooding and Pollution in Pittsburgh
+## Flooding and Pollution in Pittsburgh
 
 Pittsburgh's civil servants, local leaders, and artists have for a long time tackled flooding and pollution in the city's water system. 
 
@@ -68,9 +68,9 @@ Waterline was specifically inspired by Zachary Rapaport's Water Walk in Larimer,
 
 But the question of how water moves through our neighborhoods during a flood can also answer the question of where it's picking up pollutants along the way.
 
-#TECHNOLOGY USED
+# TECHNOLOGY USED
 
-##Built in Unity with Mapbox SDK
+## Built in Unity with Mapbox SDK
 
 Waterline features two main screens:
 

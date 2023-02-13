@@ -1,5 +1,5 @@
 import React from "react"
-import ImageColStyles from "../components/image_col.module.css"
+import * as styles from "../components/image_col.module.css"
 
 export default class ImageCol extends React.Component {
     static defaultProps= {
@@ -12,7 +12,7 @@ export default class ImageCol extends React.Component {
 
     render() {
         return (
-            <div className={ImageColStyles.col}>
+            <div className={styles.col}>
                 { this.props.children }
             </div>
         )

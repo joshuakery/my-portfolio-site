@@ -10,7 +10,7 @@ import { ButtonLink, MultiMobileContainer, MobileContainer, GridContainer,
          FullWidthImage, 
          BrowserContainer } from "../components/design/meta"
 
-import Styles from "../templates/design-post.module.css"
+import * as styles from "../templates/design-post.module.css"
 import { DesignLayout } from "../components/layout"
 
 const renderAst = new rehypeReact({
@@ -32,11 +32,12 @@ const renderAst = new rehypeReact({
 
 export default ({ data, location }) => {
   const post = data.markdownRemark;
+  console.log(post.htmlAst);
   return (
     <DesignLayout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <div className={Styles.post_container}>
-          <h1 className={Styles.title}>{post.frontmatter.title}</h1>
+      <div className={styles.post_container}>
+          <h1 className={styles.title}>{post.frontmatter.title}</h1>
           {
             renderAst(post.htmlAst)
           }

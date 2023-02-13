@@ -1,5 +1,5 @@
 import React from "react"
-import Styles from "../components/about_body.module.css"
+import * as styles from "../components/about_body.module.css"
 
 // import { useStaticQuery } from "gatsby"
 // import rehypeReact from "rehype-react"
@@ -44,7 +44,7 @@ import Styles from "../components/about_body.module.css"
 class AboutBody extends React.Component {
     render() {
         return (
-            <div className={Styles.aboutbody}>
+            <div className={styles.aboutbody}>
                 { this.props.children }
             </div>
         )

@@ -8,7 +8,7 @@ import Room from "../components/room"
 import {HomePageBasement} from "../components/room_basement"
 import Ground from "../components/ground"
 //Styles
-import catRoomStyles from "./category_rooms.module.css"
+import * as styles from "./category_rooms.module.css"
 
 // Utilities
 import { graphql } from "gatsby"
@@ -21,18 +21,18 @@ const getRooms = (group, location) => {
 
         let room = (
 
-            <li key={cat.fieldValue} className={catRoomStyles.room_container}>
+            <li key={cat.fieldValue} className={styles.room_container}>
                 <Room title={cat.fieldValue} slug={`/projects/${kebabCase(cat.fieldValue)}/`}>
 
-                        <div className={catRoomStyles.room}>
-                            <div className={catRoomStyles.back_wall}></div>
-                            <div className={catRoomStyles.left_wall}></div>
-                            <div className={catRoomStyles.right_wall}></div>
-                            <div className={catRoomStyles.room_contents}></div>
-                            <div className={catRoomStyles.room_contents_right}></div>
-                            <div className={catRoomStyles.room_contents_left}></div>
+                        <div className={styles.room}>
+                            <div className={styles.back_wall}></div>
+                            <div className={styles.left_wall}></div>
+                            <div className={styles.right_wall}></div>
+                            <div className={styles.room_contents}></div>
+                            <div className={styles.room_contents_right}></div>
+                            <div className={styles.room_contents_left}></div>
                             
-                            <div className={catRoomStyles.friend}></div>
+                            <div className={styles.friend}></div>
                         </div>
 
                 </Room>
@@ -48,14 +48,14 @@ const getRooms = (group, location) => {
 const getLastRoom = (group, location) => {
     let cat = group[0];
     return (
-        <li key={cat.fieldValue} className={catRoomStyles.basement_container}>
+        <li key={cat.fieldValue} className={styles.basement_container}>
             <HomePageBasement title={cat.fieldValue} slug={`/projects/${kebabCase(cat.fieldValue)}/`}>
 
-                <div className={catRoomStyles.basement}>
+                <div className={styles.basement}>
 
-                    <div className={catRoomStyles.basement_ceiling}></div>
-                    <div className={catRoomStyles.basement_friend}></div>
-                    <div className={catRoomStyles.basement_back_wall}></div>
+                    <div className={styles.basement_ceiling}></div>
+                    <div className={styles.basement_friend}></div>
+                    <div className={styles.basement_back_wall}></div>
 
                 </div>
             
@@ -67,14 +67,28 @@ const getLastRoom = (group, location) => {
 export default ({ children, location }) => {
     const data = useStaticQuery(
         graphql`
-            query {
-                site {
-                    siteMetadata {
-                    title
+            query
+            {
+                site
+                {
+                    siteMetadata
+                    {
+                        title
                     }
                 }
-                allMarkdownRemark {
-                    group(field: frontmatter___categories) {
+                allMarkdownRemark
+                {
+                    group
+                    (
+                        field:
+                        {
+                            frontmatter:
+                            {
+                                categories: SELECT
+                            }
+                        }
+                    )
+                    {
                       fieldValue
                     }
                 }
@@ -89,7 +103,7 @@ export default ({ children, location }) => {
     group = group.filter((member) => (toInclude.includes(member.fieldValue)));
 
     return (
-        <div className={catRoomStyles.container}>
+        <div className={styles.container}>
             <House>
                 <RecentShows location={location}></RecentShows>
                 {getRooms(group, location)}
@@ -98,7 +112,7 @@ export default ({ children, location }) => {
                 {getLastRoom(group, location)}
             </Ground>
             {children}
-            <div className={catRoomStyles.resize_icon}></div>
+            <div className={styles.resize_icon}></div>
         </div>
     )
 }

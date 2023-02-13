@@ -4,13 +4,18 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 //Styles
-import workRoomStyles from "./works_rooms.module.css"
+import * as styles from "./works_rooms.module.css"
 
 export default ({ children }) => {
     const data = useStaticQuery(
         graphql`
             query($category: String) {
-                allMarkdownRemark(limit: 30, sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {categories: {in: [$category]}}}) {
+                allMarkdownRemark(
+                  limit: 30,
+                  sort: { frontmatter: { date: DESC } },
+                  filter: {frontmatter: {categories: {in: [$category]}}}
+                )
+                {
                     edges {
                       node {
                         frontmatter {
@@ -27,13 +32,13 @@ export default ({ children }) => {
     )
     return (
         <div>
-            <ul className={workRoomStyles.brick}>
+            <ul className={styles.brick}>
                 {console.log(data)}
               {data.allMarkdownRemark.edges.map(work => (
-                <li key={work.slug} className={workRoomStyles.room_container}>
+                <li key={work.slug} className={styles.room_container}>
                     <Link to={work.slug}>
-                        <div className={workRoomStyles.room}>
-                            <p className={workRoomStyles.room_link}>
+                        <div className={styles.room}>
+                            <p className={styles.room_link}>
                                 {work.frontmatter.title}
                             </p>
                         </div>

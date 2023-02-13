@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/takeashot_square.jpg'
 ---
 
-#Responsive Website for Educators
+# Responsive Website for Educators
 
 <cover-img>
 
@@ -20,24 +20,24 @@ featuredImage: '../post_images/takeashot_square.jpg'
 
 <design-meta>
 
-###MEDIUM
+### MEDIUM
 
 Responsive Website
 
-###WHEN
+### WHEN
 
 March - April 2021
 
-###MY ROLE
+### MY ROLE
 
 Design,\
 Full-Stack Development
 
-###GOALS
+### GOALS
 
 Celebrate science with teens through a video contest.
 
-###TOOLS
+### TOOLS
 
 Adobe Illustrator\
 Wordpress
@@ -46,9 +46,9 @@ Wordpress
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-To celebrate science and vaccine research alongside the documentary film, <a href="https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid" target="_blank"><i>Chasing Covid</i></a>, producer Carl Kurlander and the <a href="https://www.aiu3.net/" target="_blank">Allegheny Intermediate Unit</a> commissioned me to build a video contest website.
+To celebrate science and vaccine research alongside the documentary film, <a href="https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid" target="_blank" rel="noreferrer"><i>Chasing Covid</i></a>, producer Carl Kurlander and the <a href="https://www.aiu3.net/" target="_blank">Allegheny Intermediate Unit</a> commissioned me to build a video contest website.
 
 The contest asks teens grades 6 - 12 to make their own videos and help good information about science **go viral**.
 
@@ -60,9 +60,9 @@ The contest asks teens grades 6 - 12 to make their own videos and help good info
 
 <br><br>
 
-#UX PRODUCT
+# UX PRODUCT
 
-##Responsive Web Interface
+## Responsive Web Interface
 
 <browser-container>
 <img src="../post_images/takeashot/desktop-landing.jpg" title="Landing Page"/>
@@ -96,9 +96,9 @@ The contest asks teens grades 6 - 12 to make their own videos and help good info
 
 
 
-#BACKGROUND
+# BACKGROUND
 
-##Inspired by the Documentary
+## Inspired by the Documentary
 
 [*Chasing Covid*](https://www.creative.pitt.edu/pittsburgh-lens/chasing-covid) tells the story of the research team at the [Center for Vaccine Research](https://www.cvr.pitt.edu/) at the University of Pittsburgh as they worked to develop a vaccine for COVID-19 in 2020.
 
@@ -110,9 +110,9 @@ To do so, the contest creators needed a website that could:
 1. Accept and feature video submissions
 1. Share educational resources with teachers looking to add this program to their curricula
 
-#DESIGN PROCESS
+# DESIGN PROCESS
 
-##Mood Board and Concept Sketching
+## Mood Board and Concept Sketching
 
 While discussing functional needs with the contest's project managers, I began by assembling a mood board over Pinterest and by sketching aesthetic features for the site.
 
@@ -122,7 +122,7 @@ While discussing functional needs with the contest's project managers, I began b
 
 <br /><br />
 
-##Collaborative Outline
+## Collaborative Outline
 
 Together with the contest's project managers, we created the following outline for the site:
 
@@ -154,7 +154,7 @@ Together with the contest's project managers, we created the following outline f
 
 <br /><br />
 
-##Mid-fi Mockups
+## Mid-fi Mockups
 
 I produced two concepts at this stage to gather feedback about the aesthetic direction of the site.
 
@@ -168,7 +168,7 @@ I produced two concepts at this stage to gather feedback about the aesthetic dir
 
 <br /><br />
 
-##Hi-fi Mockups
+## Hi-fi Mockups
 
 <browser-container isPrototype="true">
 <img src="../post_images/takeashot/main-page-opt.jpg" title="Landing Page"/>

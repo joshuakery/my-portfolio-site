@@ -15,7 +15,7 @@ posttype: 'design'
 featuredImage: '../post_images/arcade_cover.gif'
 ---
 
-#User Interface Design & Unity Development
+# User Interface Design & Unity Development
 
 <cover-img>
 
@@ -25,32 +25,32 @@ featuredImage: '../post_images/arcade_cover.gif'
 
 <design-meta>
 
-###MEDIUM
+###  MEDIUM
 
 WebGL Desktop Game
 
-###WHEN
+###  WHEN
 
 July, 2020
 
-###CLIENT
+###  CLIENT
 The Children's Museum of Pittsburgh
 
-###MY ROLE
+###  MY ROLE
 
 UI Design, Unity Development
 
-###TEAM
+###  TEAM
 
 Sitong Chen\
 Amelia (Xi) Li\
 Aiden (Chonghui) Sun
 
-###GOAL
+###  GOAL
 
 Connect visitors' home computers to ARCADE Lab's AR experience at the museum
 
-###TOOLS
+###  TOOLS
 
 Adobe Illustrator\
 Figma\
@@ -60,7 +60,7 @@ Unity
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 MuseumLab, at the Children's Museum of Pittsburgh, has been closed for quarantine, and this includes ARCADE Lab's augmented reality works located inside.
 
@@ -71,9 +71,9 @@ ARCADE Lab wanted to develop a game for visitors' home computers that connected 
 </div>
 
 
-#UX SOLUTION
+# UX SOLUTION
 
-##Glitches in the Museum
+##  Glitches in the Museum
 
 A spy game that casts you as a security guard, trying to remotely help some invasive glitch characters play with the activites in MuseumLab
 
@@ -109,7 +109,7 @@ In my role, I developed a custom set of UI elements for Unity as well as a small
 </text-pair>
 
 
-###Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
+###  Players may zoom in on our characters and the photosphere, Google-Streetview style portal into the museum.
 
 <browser-container>
 <figure>
@@ -133,9 +133,9 @@ Players get their daily mission brief and login when they first join, just like 
 <img src="../post_images/arcade/mission_brief.png" title="Mission Brief">
 </browser-container>
 
-#BACKGROUND
+# BACKGROUND
 
-##Pivot from Augmented Reality
+##  Pivot from Augmented Reality
 
 This work is a spin-off from ARCADE Lab's augmented reality creative annotation platform in development for MuseumLab.
 
@@ -167,9 +167,9 @@ These same sensors were used to place [Jordan Wong's digital mural](https://www.
 </img-pair>
 
 
-#UX PROCESS
+# UX PROCESS
 
-##User Experience Design
+##  User Experience Design
 
 Our first step was to model the visitor experience in a user flow diagram, from first learning about glitches appearing at the museum, to completing the game and making the final connection to a future AR experience.
 
@@ -180,17 +180,17 @@ Our first step was to model the visitor experience in a user flow diagram, from 
 </div>
 <br><br>
 
-##Prototyping UI Design
+##  Prototyping UI Design
 
 This user flow was useful for reaching consensus with our developers for the goals of our game too!
 
-###We then began developing moodboards and sketching low-fi prototypes for the UI:
+###  We then began developing moodboards and sketching low-fi prototypes for the UI:
 
 <img src="../post_images/arcade/inspirations.jpg">
 
 We chose a sci-fi aesthetic to immerse players in a world that collapses technical glitches and physical space.
 
-###Next, we developed mid-fi prototypes of the layout and interactions:
+###  Next, we developed mid-fi prototypes of the layout and interactions:
 
 <full-width-image>
 
@@ -198,7 +198,7 @@ We chose a sci-fi aesthetic to immerse players in a world that collapses technic
 
 </full-width-image>
 
-###We adapted our mid-fidelity prototypes into hi-fi mockups, which we used to export assets to Unity.
+###  We adapted our mid-fidelity prototypes into hi-fi mockups, which we used to export assets to Unity.
 
 <browser-container isPrototype="true">
 <img src="../post_images/arcade/gallery_view_midfi.png" title="Mid Fidelity Prototype">
@@ -214,7 +214,7 @@ We chose a sci-fi aesthetic to immerse players in a world that collapses technic
 
 <br><br>
 
-###We aggregated these assets into a style sheet:
+###  We aggregated these assets into a style sheet:
 
 <img src="../post_images/arcade/style_sheet.png" title="UI Style Sheet">
 

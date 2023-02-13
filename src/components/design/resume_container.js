@@ -1,10 +1,10 @@
 import React from "react"
-import Styles from "./resume_container.module.css"
+import * as styles from "./resume_container.module.css"
 
 class ResumeContainer extends React.Component {
     render() {
         return (
-            <div className={Styles.container}>
+            <div className={styles.container}>
                 { this.props.children }
             </div>
         )

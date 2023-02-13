@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/wed_cards_square.jpg'
 ---
 
-#An Educational Card Deck Accompanying Design Museum Everywhere's [We Design Exhibition](https://designmuseumfoundation.org/we-design-online-exhibition/)
+# An Educational Card Deck Accompanying Design Museum Everywhere's [We Design Exhibition](https://designmuseumfoundation.org/we-design-online-exhibition/)
 
 <cover-img>
 
@@ -22,23 +22,23 @@ featuredImage: '../post_images/wed_cards_square.jpg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Educational Card Deck
 
-###USE
+### USE
 
 Diversity, Equity, and Inclusion Education
 
-###WHEN
+### WHEN
 
 Sept - Oct 2020
 
-###MY ROLE
+### MY ROLE
 
 Research, Writing, Source Checking
 
-###TEAM
+### TEAM
 
 Mimi Shalf\
 Diana Navarrete-Rackauckas
@@ -47,9 +47,9 @@ Diana Navarrete-Rackauckas
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-##This We Design Exhibition card deck is designed to accompany [Design Museum Everywhere](https://designmuseumfoundation.org/)'s online exhibition, [We Design](https://designmuseumfoundation.org/we-design-online-exhibition/). 
+## This We Design Exhibition card deck is designed to accompany [Design Museum Everywhere](https://designmuseumfoundation.org/)'s online exhibition, [We Design](https://designmuseumfoundation.org/we-design-online-exhibition/). 
 
 From the exhibition:
 
@@ -59,15 +59,15 @@ From the exhibition:
 
 </quote>
 
-##This card deck pairs the exhibition content with written prompts that invite reflection on our career paths and our relationship to the communities in which we design and live.
+## This card deck pairs the exhibition content with written prompts that invite reflection on our career paths and our relationship to the communities in which we design and live.
 
-#RESULTS
+# RESULTS
 
-##The Design Museum Education Programs team revised a minimally sourced, original card deck to produce this latest deck, featuring 20 new cards researched, written, and source-checked.
+## The Design Museum Education Programs team revised a minimally sourced, original card deck to produce this latest deck, featuring 20 new cards researched, written, and source-checked.
 
 For more information regarding my work on this project, please reach out to me.
 
-#REFERENCES
+# REFERENCES
 
 <img src="../post_images/wed_cards/sources_sample.png">
 

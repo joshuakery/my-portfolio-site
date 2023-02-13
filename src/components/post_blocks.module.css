@@ -39,7 +39,87 @@ p {
     margin: 10px;
 }
 
+/* ----- mobile and multiMobile ------*/
+.multiMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
+
+.mobileContainer {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    padding-bottom: 9px;
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.mobileContainer span {
+    margin-bottom: 4px;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.mobileContainer:nth-child(2) {
+    margin-top: 150px;
+}
+
+.mobileContainer:nth-child(3) {
+
+}
+
+.mobileContainer img {
+    border-radius: 10px;
+}
+
+.multiMobileContainer figcaption {
+    color: darkgray;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+/* ----- end mobile and multiMobile ------*/
+
+/* ----- buttonLink ------*/
+.buttonLinkContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttonLinkContainer a.buttonLink {
+    padding: 15px;
+    margin: auto;
+    text-decoration: underline;
+    background-image: url('../images/tile_paper.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:black;
+}
+
+
+a.buttonLink:hover {
+    box-shadow: 0 7px 12px rgba(0,0,0,0.5);
+    transform:translate(0,-7px);
+    padding: 15px;
+    color: darkblue;
+}
+
+/* ----- end buttonLink ------*/
 
 @media (min-width: 750px) {
     .block {

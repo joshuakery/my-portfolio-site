@@ -1,12 +1,12 @@
 import React from "react"
-import groundStyles from '../components/ground.module.css'
+import * as styles from '../components/ground.module.css'
 
 export default ({children}) => {
     return (
-        <div className={groundStyles.ground}>
-                <div className={groundStyles.grass}></div>
-                <div className={groundStyles.dirt_gradient}></div>
-                <div className={groundStyles.dirt}></div>
+        <div className={styles.ground}>
+                <div className={styles.grass}></div>
+                <div className={styles.dirt_gradient}></div>
+                <div className={styles.dirt}></div>
                 {children}
         </div>
     )

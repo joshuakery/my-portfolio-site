@@ -11,7 +11,7 @@ posttype: 'design'
 featuredImage: '../post_images/cloudbanks_square.png'
 ---
 
-#Writing and Production
+# Writing and Production
 
 <cover-img>
 
@@ -21,20 +21,20 @@ featuredImage: '../post_images/cloudbanks_square.png'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Remote Performance
 
-###WHEN
+### WHEN
 
 May, 2020
 
-###MY ROLE
+### MY ROLE
 
 Writer\
 Set & Costume Designer
 
-###DESIGN COLLABORATORS
+### DESIGN COLLABORATORS
 
 Lumi Barron\
 Hannah Fitzgerald\
@@ -44,13 +44,13 @@ Shori Sims
 
 <grid-container>
 
-##Recording
+## Recording
 
 `vimeo: https://vimeo.com/414793308`
 
 <br><br>
 
-##Playbill
+## Playbill
 
 Produced by New Works Coffeehouse
 
@@ -86,7 +86,7 @@ Frank-Ratchye Fund For Art @ the Frontier and the Residency in Your Room Fellows
 
 <br><br>
 
-##Synopsis
+## Synopsis
 
 Now that human memories are completely converted to digital files, we can remember everything. Real-world limitations on resources and space, however, mean that our long-term memories come at immense financial cost.
 
@@ -94,7 +94,7 @@ So like all of us, the Kohl family faces a decision when they lose their father 
 
 <br><br>
 
-##Original Set Design
+## Original Set Design
 
 The set was designed as a highly compact living space that would fit inside the living room of a residential home in Pittsburgh, the intended performance venue.
 

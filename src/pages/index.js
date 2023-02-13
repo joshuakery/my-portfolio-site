@@ -16,14 +16,28 @@ export default ({ location }) => {
 }
 
 export const query = graphql`
-  query {
-    site {
-      siteMetadata {
+  query
+  {
+    site
+    {
+      siteMetadata
+      {
         title
       }
     }
-    allMarkdownRemark {
-      group(field: frontmatter___categories) {
+    allMarkdownRemark
+    {
+      group
+      (
+        field:
+        {
+          frontmatter:
+          {
+            categories: SELECT
+          }
+        }
+      )
+      {
         fieldValue
       }
     }

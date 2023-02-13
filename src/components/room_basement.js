@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import RoomText from "../components/room_link"
 
-import styles from "./room_basement.module.css"
+import * as styles from "./room_basement.module.css"
 
 const Basement = (props) => {
     const { children, title, slug } = props;
@@ -49,7 +49,7 @@ class HomePageBasement extends Component {
         const { basementHeight } = this.state;
         const { children, title, slug } = this.props;
         return (
-            <div className={`${styles.basement} ${styles.home}`} style={{height:basementHeight}}>
+            <div className={`${styles.basement}`} style={{height:basementHeight}}>
                 <Link to={slug} className={`${styles.basement_room}`}>
     
                     <div className={styles.children_container}>

@@ -1,5 +1,5 @@
 import React from "react"
-import StaggeredGroupStyles from "../components/staggered_group.module.css"
+import * as styles from "../components/staggered_group.module.css"
 
 export default class StaggeredGroup extends React.Component {
     static defaultProps= {
@@ -12,7 +12,7 @@ export default class StaggeredGroup extends React.Component {
 
     render() {
         return (
-            <div className={StaggeredGroupStyles.group}>
+            <div className={styles.group}>
                 { this.props.children }
             </div>
         )

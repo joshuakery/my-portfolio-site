@@ -12,7 +12,7 @@ posttype: 'design'
 featuredImage: '../post_images/everypossibleutterance_square.jpg'
 ---
 
-#Projecting the Tower of Babble
+# Projecting the Tower of Babble
 
 <cover-img>
 
@@ -22,30 +22,30 @@ featuredImage: '../post_images/everypossibleutterance_square.jpg'
 
 <design-meta>
 
-###EVENT
+### EVENT
 
 Live music, projected animation, and performance 
 
-###WHEN
+### WHEN
 
 December, 2019
 
-###WHERE
+### WHERE
 
 MuseumLab, Pittsburgh PA
 
-###MY ROLE
+### MY ROLE
 
 Installation Design, Fabrication
 
-###VISUAL DESIGN TEAM
+### VISUAL DESIGN TEAM
 
 Dave Choi\
 Nick Diamant\
 Selina Lee\
 Katie Tender
 
-###TOOLS
+### TOOLS
 
 Rhino, woodshop
 
@@ -53,17 +53,17 @@ Rhino, woodshop
 
 <grid-container>
 
-#UX CHALLENGE
+# UX CHALLENGE
 
-##20 Animators, a Body and Performance Class, and an Experimental Ensemble
+## 20 Animators, a Body and Performance Class, and an Experimental Ensemble
 
 We needed to combine the work of three groups of artists into a night of experimentation and play.
 
 My team designed and built the tower and projection mapping surrounding live musicians in the second half of the exhibition.
 
-#UX SOLUTION
+# UX SOLUTION
 
-##The Tower of Babble
+## The Tower of Babble
 
 <img src="../post_images/everypossibleutterance/overview2.jpg">
 
@@ -89,9 +89,9 @@ A free-standing frame of projected animations surrounds musicians from the Explo
 
 <img src="../post_images/everypossibleutterance/purple.jpg">
 
-#UX PROCESS
+# UX PROCESS
 
-##Defining the Experience Flow
+## Defining the Experience Flow
 
 <img src="../post_images/everypossibleutterance/visitor-flow-black.jpg">
 
@@ -99,7 +99,7 @@ A free-standing frame of projected animations surrounds musicians from the Explo
 
 <br><br>
 
-##Building a Tower
+## Building a Tower
 
 I designed and led fabrication of the 10' tall frames surrounding the musicians.
 
@@ -137,7 +137,7 @@ In a hidden side room of the performance space, Nik Diamant puppeteered real-tim
 
 <br><br>
 
-##Event Details
+## Event Details
 
 Every Possible Utterance was produced through the collaboration of *Exploded Ensemble*, *Animation Studio*, and *Activating the Body: Physical Computing and Technology in Performance* (all Fall 2019).
 

@@ -1,5 +1,5 @@
 import React from "react"
-import ImageRowStyles from "../components/image-row.module.css"
+import * as styles from "../components/image-row.module.css"
 
 export default class ImageRow extends React.Component {
     static defaultProps= {
@@ -12,7 +12,7 @@ export default class ImageRow extends React.Component {
 
     render() {
         return (
-            <div className={ImageRowStyles.row}>
+            <div className={styles.row}>
                 { this.props.children }
             </div>
         )

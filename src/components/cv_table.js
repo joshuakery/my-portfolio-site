@@ -1,10 +1,10 @@
 import React from "react"
-import Styles from "../components/cv_table.module.css"
+import * as styles from "../components/cv_table.module.css"
 
 class CVTable extends React.Component {
     render() {
         return (
-            <div className={Styles.cvtable}>
+            <div className={styles.cvtable}>
                 { this.props.children }
             </div>
         )

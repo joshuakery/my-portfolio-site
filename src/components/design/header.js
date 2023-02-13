@@ -1,8 +1,8 @@
-import React, {useState}  from "react"
+import React from "react"
 import { Link } from "gatsby"
 import HamBtn from "./ham_btn"
 import HamMenu from "./ham_menu"
-import headerStyles from "./header.module.css"
+import * as styles from "./header.module.css"
 import SocialBar from "./socialbar";
 
 const ListLink = props => (
@@ -53,12 +53,11 @@ const small = this.state.smallerHeader;
 return (
     <header >
 
-    <div className={`${headerStyles.header} ${small && headerStyles.smaller_header}`}>
-    <ul className={`${headerStyles.navbar} ${small && headerStyles.smaller_navbar}`}>
+    <div className={`${styles.header} ${small && styles.smaller_header}`}>
+    <ul className={`${styles.navbar} ${small && styles.smaller_navbar}`}>
         <li>
             <Link
             to="/resume/"
-            className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
             >
                 resume
             </Link>
@@ -66,7 +65,6 @@ return (
         <li>
             <Link
             to="/"
-            className={`${headerStyles.navitem} ${small && headerStyles.smaller_navitem}`}
             >
                 art site
             </Link> 
@@ -75,35 +73,35 @@ return (
 
     <Link
     to="/portfolio"
-    className={`${headerStyles.title_container} ${small && headerStyles.smaller_title_container}`}>
-        <div className={headerStyles.site_title}>
-            <h1 className={headerStyles.site_title_text}>joshua kery</h1>
+    className={`${styles.title_container} ${small && styles.smaller_title_container}`}>
+        <div>
+            <h1 className={styles.site_title_text}>joshua kery</h1>
         </div>
     </Link>
 
-    <div className={`${headerStyles.socialbar_container}`}>
+    <div className={`${styles.socialbar_container}`}>
         <SocialBar small={small} />
     </div>
 
-    <div className={`${headerStyles.ham_menu_container} ${small && headerStyles.smaller_ham_menu_container}`}>
+    <div className={`${styles.ham_menu_container} ${small && styles.smaller_ham_menu_container}`}>
         <HamMenu open={this.state.open}>
-            <ListLink to="/portfolio/" className={headerStyles.navlink}>
+            <ListLink to="/portfolio/">
                 home
             </ListLink>
-            <ListLink to="/resume/" className={headerStyles.navlink}>
+            <ListLink to="/resume/">
                 resume
             </ListLink>
-            <ListLink to="/" className={headerStyles.navlink}>
+            <ListLink to="/">
                 art site
             </ListLink>
-            <div className={headerStyles.linebreak}></div>
-            <div className={`${headerStyles.ham_socialbar_container}`}>
+            <div className={styles.linebreak}></div>
+            <div className={`${styles.ham_socialbar_container}`}>
                 <SocialBar small={small} />
             </div>
         </HamMenu>
         </div>
 
-    <HamBtn open={this.state.open} setOpen={this.setOpen} className={headerStyles.ham_btn}>
+    <HamBtn open={this.state.open} setOpen={this.setOpen} className={styles.ham_btn}>
     </HamBtn>
 
     </div>

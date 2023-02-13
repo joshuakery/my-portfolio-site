@@ -3,14 +3,14 @@ title: "CloseKnit"
 cover: "8.jpg"
 date: "2020-8-31"
 categories:
-    - 
+    - design
 tags:
     - programming
 posttype: 'design'
 featuredImage: '../post_images/closeknit_square.jpg'
 ---
 
-#Mobile Social Media App Design
+# Mobile Social Media App Design
 
 <cover-img>
 
@@ -20,27 +20,27 @@ featuredImage: '../post_images/closeknit_square.jpg'
 
 <design-meta>
 
-###MEDIUM
+### MEDIUM
 
 Mobile App
 
-###WHEN
+### WHEN
 
 August 2020
 
-###TEAM
+### TEAM
 
 Julian Killingback
 
-###MY ROLE
+### MY ROLE
 
 Design
 
-###GOALS
+### GOALS
 
 Design for tight-knit, interpersonal exchanges.
 
-###TOOLS
+### TOOLS
 
 Figma
 
@@ -48,25 +48,25 @@ Figma
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
 (This work is in progress.)
 
-##While YouTube and Facebook are changing to better support person-to-person contact, they remain at their core designed to network hundreds of strangers to each other and for the most part, to let them stay strangers.
+## While YouTube and Facebook are changing to better support person-to-person contact, they remain at their core designed to network hundreds of strangers to each other and for the most part, to let them stay strangers.
 
-##We are developing CloseKnit based on an opposing principle — that social media should supplement our intimate, existing networks, which rarely exceed 200 close contacts.
+## We are developing CloseKnit based on an opposing principle — that social media should supplement our intimate, existing networks, which rarely exceed 200 close contacts.
 
-#BACKGROUND
+# BACKGROUND
 
-##CloseKnit limits the amount of friends you have.
+## CloseKnit limits the amount of friends you have.
 
 For those who might exceed the app's 50-friend limit, it asks them to evaluate their network and let go of a contact they might not keep as close.
 
 We hope that this foundational principle helps us foster meaningful exchanges between people who know and care about each other, and helps us trim down the long lists of friends that distract us from these exchanges.
 
-#PROCESS
+# PROCESS
 
-##Before any drawing, I defined a few scenarios for the app's use with the following flow diagrams:
+## Before any drawing, I defined a few scenarios for the app's use with the following flow diagrams:
 
 OnBoarding:
 
@@ -96,7 +96,7 @@ Within the app, CloseKnit's other key feature is the ability to curate the feeds
 
 </full-width-image>
 
-##With a clear concept and tried-and-true design patterns already out there, I moved almost immediately into complete, mid-fi wireframes to map out the entire app.
+## With a clear concept and tried-and-true design patterns already out there, I moved almost immediately into complete, mid-fi wireframes to map out the entire app.
 
 OnBoarding:
 
@@ -130,7 +130,7 @@ View Profile
 
 <img src="../post_images/closeknit/wireframe-view-profile.png" />
 
-##User Testing
+## User Testing
 
 I prepared a prototype with InVision to do some brief user testing for the above wireframes.
 
@@ -140,9 +140,9 @@ We began to aggregate our notes into an affinity diagram (in progress):
 
 <img src="../post_images/closeknit/affinity1.png" />
 
-##Aesthetic Ideation
+## Aesthetic Ideation
 
-##Before developing hi-fidelity mockups, I used the freedom of this personal project to explore.
+## Before developing hi-fidelity mockups, I used the freedom of this personal project to explore.
 
 The following sketches were inspired by sewing patterns and weaving guides, in reference to the "knit" part of "CloseKnit."
 
@@ -164,7 +164,7 @@ The following sketches were inspired by sewing patterns and weaving guides, in r
 
 <img src="../post_images/closeknit/theme-picker.png" />
 
-##As a final exploration, we decided to devote some time to the idea of creating custom themes to stylize individual posts.
+## As a final exploration, we decided to devote some time to the idea of creating custom themes to stylize individual posts.
 
 The following would be the default appearance of posts:
 
@@ -180,6 +180,6 @@ Or one of these:
 
 <img src="../post_images/closeknit/hifi-theme-sketches.png" />
 
-##While my team-mate resumes grad-school, our progress on this design is on pause.
+## While my team-mate resumes grad-school, our progress on this design is on pause.
 
 </grid-container>

@@ -12,8 +12,6 @@ module.exports = {
     author: `Joshua Kery`,
   },
   plugins: [
-    
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,13 +19,13 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/post_images`,
       },
     },
+    `gatsby-plugin-image`,
     //https://www.gatsbyjs.org/packages/gatsby-image/ and also....
     //https://www.gatsbyjs.org/packages/gatsby-transformer-sharp/
     // for handling gif and svg: https://www.orangejellyfish.com/blog/a-comprehensive-guide-to-images-in-gatsby/

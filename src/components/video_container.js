@@ -1,5 +1,5 @@
 import React from "react"
-import VideoContainerStyles from "../components/video_container.module.css"
+import * as styles from "../components/video_container.module.css"
 
 export default class VideoContainer extends React.Component {
     static defaultProps= {
@@ -12,7 +12,7 @@ export default class VideoContainer extends React.Component {
 
     render() {
         return (
-            <div className={VideoContainerStyles.tablet}>
+            <div className={styles.tablet}>
                 { this.props.children }
             </div>
         )

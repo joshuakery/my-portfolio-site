@@ -2,10 +2,11 @@ import React from "react"
 
 //Components
 import { useStaticQuery, Link } from "gatsby"
-import Image from "gatsby-dynamic-image"
+import MyGatsbyImage from "../utility/my-gatsby-image"
+// import Image from "gatsby-dynamic-image"
 
 //Styles
-import styles from "./projects.module.css"
+import * as styles from "./projects.module.css"
 
 // Utilities
 import { graphql } from "gatsby"
@@ -50,8 +51,11 @@ const getProject = edge => {
     <li key={slug} className={styles.project}>
         <Link to={slug}>
             <div className={styles.featuredImageContainer}>
-              <Image node={featuredImage}
-                    className={styles.featuredImage}/>
+              <MyGatsbyImage
+                node={featuredImage}
+                alt={title}
+                className={styles.featuredImage}
+              />
             </div>
             <div className={styles.projectText}>
               <h3 className={styles.projectTitle}>{title}</h3>
@@ -98,7 +102,7 @@ export default ({ children, location }) => {
         graphql`
             query {
                 allMarkdownRemark(
-                  sort: {order: DESC, fields: frontmatter___date},
+                  sort: { frontmatter: { date: DESC } },
                   filter: {frontmatter: {categories: {in: ["design","creative-coding","teaching","live-shows"]}}}
                 ) {
                     edges {
@@ -107,12 +111,12 @@ export default ({ children, location }) => {
                           categories
                           tags
                           title
-                          featuredImage {
+                          featuredImage
+                          {
                             publicURL
-                            childImageSharp {
-                              fluid(maxWidth: 800) {
-                                ...GatsbyImageSharpFluid
-                              }
+                            childImageSharp
+                            {
+                              gatsbyImageData
                             }
                           }
                         }

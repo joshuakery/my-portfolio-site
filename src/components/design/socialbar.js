@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from "./socialbar.module.css"
+import * as styles from "./socialbar.module.css"
 
 const SocialBar = props => {
     const { small } = props;
     return (
         <ul className={`${styles.socialbar}`}>
             <li>
-                <a href="https://www.instagram.com/joshuatkery/" target="_blank">
-                    <div className={`${styles.sociallink} ${styles.instagram} ${small && styles.small}`}>
+                <a href="https://www.instagram.com/joshuatkery/" target="_blank" rel="noreferrer">
+                    <div className={`${styles.sociallink} ${small && styles.small}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.52 101.52">
                         <g id="Layer_2" data-name="Layer 2">
                             <g id="Layer_2-2" data-name="Layer 2">
@@ -22,8 +22,8 @@ const SocialBar = props => {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/joshuakery" target="_blank">
-                    <div className={`${styles.sociallink} ${styles.github} ${small && styles.small}`}>
+                <a href="https://github.com/joshuakery" target="_blank" rel="noreferrer">
+                    <div className={`${styles.sociallink} ${small && styles.small}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.53 98.05">
                         <g id="Layer_2" data-name="Layer 2">
                             <g id="Layer_2-2" data-name="Layer 2">
@@ -35,8 +35,8 @@ const SocialBar = props => {
                 </a>
             </li>
             <li>
-                <a href="mailto:joshuakery1@gmail.com" target="_blank">
-                    <div className={`${styles.sociallink} ${styles.mail} ${small && styles.small}`}>
+                <a href="mailto:joshuakery1@gmail.com" target="_blank" rel="noreferrer">
+                    <div className={`${styles.sociallink} ${small && styles.small}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102 102">
                         <g id="Layer_2" data-name="Layer 2">
                             <g id="Layer_2-2" data-name="Layer 2">

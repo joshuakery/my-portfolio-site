@@ -2,33 +2,61 @@ import React from "react"
 
 //Components
 import { useStaticQuery, Link, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 //Styles
-import recWorkStyles from "./recent_works.module.css"
+import * as styles from "./recent_works.module.css"
 
 export default ({ children, location }) => {
     const data = useStaticQuery(
         graphql`
-            query {
-                allMarkdownRemark(filter: {frontmatter: {categories: {nin: ["design","creative-coding","teaching"]},
-                                                         posttype: {nin: ["show","cv","about","bio","resume"]}}},
-                                  limit: 3,
-                                  sort: {fields: frontmatter___date, order: DESC})
+            query
+            {
+                allMarkdownRemark
+                (
+                    filter:
+                    {
+                        frontmatter:
+                        {
+                            categories:
+                            {
+                                nin: ["design","creative-coding","teaching"]
+                            },
+                            posttype:
+                            {
+                                nin: ["show","cv","about","bio","resume"]
+                            }
+                        }
+                    },
+                    limit: 3,
+                    sort:
+                    [
+                        {
+                            frontmatter:
+                            {
+                                date: DESC
+                            }
+                        }
+                    ]
+                )
                 {
-                    nodes {
-                        frontmatter {
+                    nodes
+                    {
+                        frontmatter
+                        {
                             date
                             title
-                            featuredImage {
-                                childImageSharp {
-                                  fluid(maxWidth: 800) {
-                                    ...GatsbyImageSharpFluid
-                                  }
+                            featuredImage
+                            {
+                                childImageSharp
+                                {
+                                  gatsbyImageData
                                 }
                             }
                         }
-                        fields {
+                        fields
+                        {
                             slug
                         }
                         id
@@ -36,23 +64,25 @@ export default ({ children, location }) => {
                 }
             }
         `
-    )
+    );
     return (
-        <div className={recWorkStyles.container}>
+        <div className={styles.container}>
 
-            <div className={recWorkStyles.billboard_container}>
-                <ul className={recWorkStyles.billboard}>
+            <div className={styles.billboard_container}>
+                <ul className={styles.billboard}>
                 {data.allMarkdownRemark.nodes.map(work => {
                     return (
                         <li key={work.id}>
                             <Link to={work.fields.slug}
                                 state={{previousPage: location.pathname}}
-                                className={recWorkStyles.ad}>
+                                className={styles.ad}>
+                                    <GatsbyImage
+                                        image={getImage(work.frontmatter.featuredImage)}
+                                        alt={work.frontmatter.title}
+                                        className={styles.featuredImage}
+                                    />
 
-                                    <Img fluid={work.frontmatter.featuredImage.childImageSharp.fluid}
-                                            className={recWorkStyles.featuredImage}/>
-
-                                    <p className={recWorkStyles.ad_link}>
+                                    <p className={styles.ad_link}>
                                             {work.frontmatter.title}
                                     </p>
 
@@ -64,8 +94,8 @@ export default ({ children, location }) => {
                 </ul>
             </div>
 
-            <div className={recWorkStyles.billboard_title_container}>
-                <h3 className={recWorkStyles.billboard_title}>
+            <div className={styles.billboard_title_container}>
+                <h3 className={styles.billboard_title}>
                     RECENT WORKS
                 </h3>
             </div>

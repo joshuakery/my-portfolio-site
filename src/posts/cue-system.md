@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/cue-system-square.jpg'
 ---
 
-#Codebase for a browser-based cue system
+# Codebase for a browser-based cue system
 
 <cover-img>
 
@@ -20,19 +20,19 @@ featuredImage: '../post_images/cue-system-square.jpg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Queue-based cue system for triggering real-time changes to an audience-facing webpage
 
-###USE
+### USE
 
 Interactive web performances
 
-###WHEN
+### WHEN
 
 April - May 2021
 
-###MY ROLE
+### MY ROLE
 
 Design\
 Development
@@ -41,15 +41,15 @@ Development
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-##Re-iterating on [Packing and Cracking](https://joshuakery.com/posts/packingandcracking/)
+## Re-iterating on [Packing and Cracking](https://joshuakery.com/posts/packingandcracking/)
 
 I created this codebase to help others develop audience interactions for theatrical web performances
 
 *Icon credit: https://thenounproject.com/bmijnlieff/*
 
-#FINAL PRODUCT
+# FINAL PRODUCT
 
 <browser-container>
 <img src="../post_images/cue-system/admin.jpg">
@@ -61,7 +61,7 @@ I created this codebase to help others develop audience interactions for theatri
 
 <br><br>
 
-##Demo
+## Demo
 
 <iframe src="https://limitless-sands-24279.herokuapp.com/home" height="800"></iframe>
 

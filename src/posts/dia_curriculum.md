@@ -10,7 +10,7 @@ posttype: 'design'
 featuredImage: '../post_images/dia_curriculum_square.jpg'
 ---
 
-#Curriculum Writing
+# Curriculum Writing
 
 <cover-img>
 
@@ -20,19 +20,19 @@ featuredImage: '../post_images/dia_curriculum_square.jpg'
 
 <design-meta>
 
-###WHAT
+### WHAT
 
 Curriculum for Diversity, Equity, and Inclusion Training
 
-###WHEN
+### WHEN
 
 December 2020
 
-###MY ROLE
+### MY ROLE
 
 Research, Writing
 
-###TEAM
+### TEAM
 
 Diana Navarrete-Rackauckas\
 Mimi Shalf
@@ -41,13 +41,13 @@ Mimi Shalf
 
 <grid-container>
 
-#OVERVIEW
+# OVERVIEW
 
-##(This curriculum is in progress.)
+## (This curriculum is in progress.)
 
-##Under the leadership of Diana Navarrete-Rackauckas, we are preparing a curriculum for 8 hours of direct instruction and 10-15 hours of independent work
+## Under the leadership of Diana Navarrete-Rackauckas, we are preparing a curriculum for 8 hours of direct instruction and 10-15 hours of independent work
 
-##To help design firms build community, increase cultural responsiveness, and empower leadership through an educational program centered around diversity, equity, and inclusion.
+## To help design firms build community, increase cultural responsiveness, and empower leadership through an educational program centered around diversity, equity, and inclusion.
 
 Please feel free to get in touch with me for more details regarding this experience.
 

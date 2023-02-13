@@ -1,12 +1,12 @@
 import React from "react"
-import hamBtnStyles from './ham_btn.module.css';
+import * as styles from './ham_btn.module.css';
 
 
 export default ({open, setOpen}) => {
     if (open) {
         return (
-            <div className={hamBtnStyles.btn}>
-                <div className={hamBtnStyles.btn_open} onClick={() => setOpen()}>
+            <div className={styles.btn}>
+                <div className={styles.btn_open} onClick={() => setOpen()}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.52 101.52">
                     <g id="Layer_2" data-name="Layer 2">
                         <g id="Layer_2-2" data-name="Layer 2">
@@ -21,8 +21,8 @@ export default ({open, setOpen}) => {
     }
     else {
         return (
-            <div className={hamBtnStyles.btn}>
-                <div className={hamBtnStyles.btn_closed} onClick={() => setOpen()}>
+            <div className={styles.btn}>
+                <div className={styles.btn_closed} onClick={() => setOpen()}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.52 101.52">
                         <g id="Layer_2" data-name="Layer 2">
                             <g id="Layer_2-2" data-name="Layer 2">

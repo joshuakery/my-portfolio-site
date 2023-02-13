@@ -1,6 +1,6 @@
 import React from "react"
 
-import styles from "./room_link.module.css"
+import * as styles from "./room_link.module.css"
 
 const RoomText = (props) => {
     return (
