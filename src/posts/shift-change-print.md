@@ -1,7 +1,7 @@
 ---
 title: "Shift Change"
 cover: "8.jpg"
-date: "2022-10-15"
+date: "2022-07-15"
 categories:
     - 2d
 tags:

@@ -30,8 +30,10 @@ p {
 }
 
 .group {
+    margin: auto;
     margin-top: 5%;
     margin-bottom: 10%;
+    max-width: 1000px;
 }
 
 .group figcaption {
