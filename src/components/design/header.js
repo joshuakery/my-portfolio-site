@@ -54,55 +54,58 @@ return (
     <header >
 
     <div className={`${styles.header} ${small && styles.smaller_header}`}>
-    <ul className={`${styles.navbar} ${small && styles.smaller_navbar}`}>
-        <li>
-            <Link
-            to="/resume/"
-            >
-                resume
-            </Link>
-        </li>
-        <li>
-            <Link
-            to="/"
-            >
-                art site
-            </Link> 
-        </li>
-    </ul>
 
-    <Link
-    to="/portfolio"
-    className={`${styles.title_container} ${small && styles.smaller_title_container}`}>
-        <div>
-            <h1 className={styles.site_title_text}>joshua kery</h1>
-        </div>
-    </Link>
+        <ul className={`${styles.navbar} ${small && styles.smaller_navbar}`}>
+            <li>
+                <Link
+                to="/resume/"
+                >
+                    resume
+                </Link>
+            </li>
+            <li>
+                <Link
+                to="/"
+                >
+                    art site
+                </Link> 
+            </li>
+        </ul>
 
-    <div className={`${styles.socialbar_container}`}>
-        <SocialBar small={small} />
-    </div>
-
-    <div className={`${styles.ham_menu_container} ${small && styles.smaller_ham_menu_container}`}>
-        <HamMenu open={this.state.open}>
-            <ListLink to="/portfolio/">
-                home
-            </ListLink>
-            <ListLink to="/resume/">
-                resume
-            </ListLink>
-            <ListLink to="/">
-                art site
-            </ListLink>
-            <div className={styles.linebreak}></div>
-            <div className={`${styles.ham_socialbar_container}`}>
-                <SocialBar small={small} />
+        <Link
+            to="/portfolio"
+            className={`${styles.title_container} ${small && styles.smaller_title_container}`}
+        >
+            <div>
+                <h1 className={styles.site_title_text}>joshua kery</h1>
             </div>
-        </HamMenu>
+        </Link>
+
+        <div className={`${styles.socialbar_container} ${small && styles.smaller}`}>
+            <SocialBar small={small} />
         </div>
 
-    <HamBtn open={this.state.open} setOpen={this.setOpen} className={styles.ham_btn}>
-    </HamBtn>
+        <div className={`${styles.ham_menu_container} ${small && styles.smaller_ham_menu_container}`}>
+            <HamMenu open={this.state.open}>
+                <ListLink to="/portfolio/">
+                    home
+                </ListLink>
+                <ListLink to="/resume/">
+                    resume
+                </ListLink>
+                <ListLink to="/">
+                    art site
+                </ListLink>
+                <div className={styles.linebreak}></div>
+                <div className={`${styles.ham_socialbar_container}`}>
+                    <SocialBar small={small} />
+                </div>
+            </HamMenu>
+            </div>
+
+        <div className={`${styles.ham_btn} ${small && styles.smaller}`}>
+            <HamBtn open={this.state.open} setOpen={this.setOpen} />
+        </div>
 
     </div>
 
