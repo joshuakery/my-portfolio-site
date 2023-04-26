@@ -41,6 +41,25 @@ p {
     margin: 10px;
 }
 
+.group table {
+    margin: auto;
+    border-spacing: 10px;
+}
+
+.group td {
+    width: 25%;
+}
+
+.group td div figcaption {
+    display:none;
+}
+
+.group td div p {
+    display:block;
+    min-width: 70px;
+    text-align: center;
+}
+
 /* ----- mobile and multiMobile ------*/
 .multiMobile {
     width: 100%;
@@ -129,6 +148,18 @@ a.buttonLink:hover {
     }
     .group {
         margin-bottom: 5%;
+    }
+
+    .group td div {
+        min-width: 150px;
+    }
+
+    .group td div figcaption {
+        display:block;
+    }
+
+    .group td div p {
+        display:none;
     }
 
     .left2 {

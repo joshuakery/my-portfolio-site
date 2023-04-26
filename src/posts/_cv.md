@@ -22,8 +22,8 @@ b. 1997 Lives and works in Washington, DC
 
 |              |                                                                                                    |   |   |   |
 |--------------|----------------------------------------------------------------------------------------------------|---|---|---|
-| 2022-23 | Software Developer - Richard Lewis Media Group (Boston, MA)                                        |   |   |   |
-| 2020-23 | Freelance Designer & Developer                                                                     |   |   |   |
+| 2021-23      | Freelance Software Developer - Richard Lewis Media Group (Boston, MA)                              |   |   |   |
+| 2020-23      | Freelance Designer & Content Manager                                                               |   |   |   |
 | 2021-22      | UX Designer - Aspirant (Pittsburgh, PA)                                                            |   |   |   |
 | 2021         | Learning and Engagement Contractor - Design Museum Everywhere (Boston, MA)                         |   |   |   |
 | 2020-21      | Education Programs Intern - Design Museum Everywhere (Boston, MA)                                  |   |   |   |
@@ -41,13 +41,14 @@ b. 1997 Lives and works in Washington, DC
 
 |      |                                                                           |   |
 |------|---------------------------------------------------------------------------|---|
-| 2023 | (Forthcoming) Welcome to My Homepage Digital Artist Residency, March 2023 |   |
+| 2023 | Welcome to My Homepage Digital Artist Residency, March 2023               |   |
 | 2022 | Fabric Workshop and Museum Post-Graduate Apprenticeship, Fall 2022        |   |
 
 ##  SHOWS & EXHIBITIONS
 
 |      |                                                                                                                          |
 | ---- | ------------------------------------------------------------------------------------------------------------------------ |
+| 2023 | _MashUp_, Pyramid Atlantic Art Center (Hyattsville, MD) — Group Exhibition                                                 |
 | 2022 | _Fall Apprentice Closing Ceremony and Fundraiser_, Fabric Workshop and Museum (Philadelphia, PA) – Group Exhibition      |
 |      | _GLOWLAND_ (Pittsburgh, PA) – Group Exhibition                                                                           |
 | 2021 | _Packing and Cracking_, Pennsylvania Center for Women in Politics, October 2021 – Theatrical Performance                 |
