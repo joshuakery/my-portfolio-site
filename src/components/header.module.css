@@ -78,12 +78,12 @@
 .smaller_navbar {
 }
 
-.navbar li {
+.navbar li, .socialbar_text_link {
     display: inline-block;
     margin-right: 10%;
 }
 
-.navbar li a {
+.navbar li a, .socialbar_text_link a {
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -342,6 +342,9 @@
     }
     .smaller_socialbar_link {
         width: 2em;
+    }
+    .socialbar_text_link {
+        display: none;
     }
 
     .ham_btn {

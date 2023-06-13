@@ -2,7 +2,8 @@ import React from "react"
 
 //Components
 import { useStaticQuery, Link } from "gatsby"
-import RecentShows from "../components/recent_shows"
+// import RecentShows from "../components/recent_shows"
+import StoreButton from "./store_button"
 import House from "../components/house"
 import Room from "../components/room"
 import {HomePageBasement} from "../components/room_basement"
@@ -105,7 +106,7 @@ export default ({ children, location }) => {
     return (
         <div className={styles.container}>
             <House>
-                <RecentShows location={location}></RecentShows>
+                <StoreButton></StoreButton>
                 {getRooms(group, location)}
             </House>
             <Ground>

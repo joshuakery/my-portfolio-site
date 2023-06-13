@@ -88,6 +88,14 @@ class Header extends React.Component {
                                 <ListLink to="/portfolio/">
                                     design site
                                 </ListLink>
+                                <li>
+                                    <a
+                                        href={"https://joshua-kery.helcim.app/quick-order"}
+                                        target="_blank"
+                                    >
+                                        store
+                                    </a>
+                                </li>
                             </HamMenu>
                         </div>
                         <HamBtn open={this.state.open} setOpen={this.setOpen} className={styles.ham_btn}>
@@ -100,10 +108,20 @@ class Header extends React.Component {
                         </Link>
 
                         <ul className={`${styles.socialbar} ${small && styles.smaller_socialbar}`}>
-                            <a className={`${styles.socialbar_link} ${small && styles.smaller_socialbar_link}`}
-                                href="https://www.instagram.com/joshuatkery/">
-                                <div className={`${styles.instagram} ${small && styles.smaller_instagram}`}></div>
-                            </a>
+                            <li className={`${styles.socialbar_text_link}`}>
+                                <a
+                                    href={"https://joshua-kery.helcim.app/quick-order"}
+                                    target="_blank"
+                                >
+                                    store
+                                </a>
+                            </li>
+                            <li>
+                                <a className={`${styles.socialbar_link} ${small && styles.smaller_socialbar_link}`}
+                                    href="https://www.instagram.com/joshuatkery/">
+                                    <div className={`${styles.instagram} ${small && styles.smaller_instagram}`}></div>
+                                </a>
+                            </li>
                         </ul>
                 </header>
                 { this.props.children }
