@@ -42,6 +42,7 @@ p {
 }
 
 .group table {
+    width:100%;
     margin: auto;
     border-spacing: 10px;
 }
