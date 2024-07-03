@@ -52,13 +52,17 @@ p {
 }
 
 .group td div figcaption {
-    display:none;
+    display: none;
 }
 
 .group td div p {
     display:block;
     min-width: 70px;
     text-align: center;
+}
+
+.group img {
+    width: 100%
 }
 
 /* ----- mobile and multiMobile ------*/

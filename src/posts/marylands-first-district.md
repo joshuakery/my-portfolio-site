@@ -27,6 +27,19 @@ in the style of the 1812 political cartoon about the Massachusetts ‘Essex Sout
 from which gerrymandering gets its name.
 </textbox>
 </l3>
+</group>
+
+<group>
+<r3>
+<img
+    src="../post_images/marylands_first_district/marylands_first_district_detail0.jpg"
+    alt="Detail of zoomorphic map featuring two birds, a dog, a seahorse and an octopus squashed together."
+    title="Detail of Maryland's First District: Natural and Political History: The central, dense, blue districts in Maryland."
+>
+</r3>
+</group>
+
+<group>
 <c3>
 <textbox>
 Gerrymandering is the manipulation of voting district shapes to favor one party or class. After
@@ -36,11 +49,23 @@ make it easier for their party to win in future elections. As a result, voters i
 class or race!) lose the chance to elect good representatives for themselves.
 </textbox>
 </c3>
-</br>
-<r2>
-<button-link href="https://youtu.be/Mky11UJb9AY?si=vMcGO9sivEYR17LP">LEARN MORE ABOUT GERRYMANDERING</button-link>
-</r2>
 </group>
+
+<group>
+<l2>
+<img
+    src="../post_images/marylands_first_district/marylands_first_district_detail1.jpg"
+    alt="Detail of zoomorphic map featuring a smiling, toothy, long-toe-nailed monster."
+    title="Detail of Maryland's First District: Natural and Political History: The happy First District after the Democrats redrew its borders."
+>
+</l2>
+</group>
+
+<group>
+<button-link href="https://youtu.be/Mky11UJb9AY?si=vMcGO9sivEYR17LP">LEARN MORE ABOUT GERRYMANDERING</button-link>
+</group>
+
+<br>
 
 <group>
 <img
@@ -50,6 +75,7 @@ class or race!) lose the chance to elect good representatives for themselves.
 >
 </group>
 
+<br>
 
 <group>
 <l2>
@@ -59,7 +85,9 @@ class or race!) lose the chance to elect good representatives for themselves.
     title="By-hand draft in ink on paper for the 'gerry-mander' decorative monsters."
 >
 </l2>
-<br>
+</group>
+
+<group>
 <l2>
 <img
     src="../post_images/marylands_first_district/original_gerrymander.png"
@@ -67,6 +95,9 @@ class or race!) lose the chance to elect good representatives for themselves.
     title="The original 'gerry-mander.' Image from the Massachusetts Historical Society: The Gerry-Mander. A new species of Monster which appeared in Essex South District in Jan. 1812. Broadside. 40 cm x 18 cm."
 >
 </l2>
+</group>
+
+<group>
 <r3>
 <img
     src="../post_images/marylands_first_district/marylands_first_district_draft_state_first_draft.jpg"
