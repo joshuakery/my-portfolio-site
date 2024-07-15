@@ -22,7 +22,7 @@ featuredImage: '../post_images/making_clouds_square.jpg'
 <group>
 <c3>
 <textbox>
-My father remembers his 1970s youth when his own father drew pipes for new environmental structures for the Bethlehem Steel works as part of new air pollution controls. This would have been right in my grandfather's wheel house, since most of his work as a company draftsman-engineer was on pipes for the steel plant.
+My father, a designer, can recall his 1970s youth when his own father designed pipes for the Bethlehem Steel works. The pipes were a part of new environmental structures to limit air pollution. They would have been right in my grandfather's wheel house, since most of his work as a company draftsman-engineer was on pipes for the steel plant.
 </textbox>
 </c3>
 </group>
