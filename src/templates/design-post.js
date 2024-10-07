@@ -8,7 +8,8 @@ import { ButtonLink, MultiMobileContainer, MobileContainer, GridContainer,
          Quote,
          ImagePair, TextPair,
          FullWidthImage, 
-         BrowserContainer } from "../components/design/meta"
+         BrowserContainer, 
+         BespokeContainer, VideoContainer } from "../components/design/meta"
 
 import * as styles from "../templates/design-post.module.css"
 import { DesignLayout } from "../components/layout"
@@ -20,6 +21,7 @@ const renderAst = new rehypeReact({
         "multi-mobile-container": MultiMobileContainer,
         "mobile-container": MobileContainer,
         "browser-container": BrowserContainer,
+        "bespoke-container": BespokeContainer,
         "grid-container": GridContainer,
         "design-meta": DesignMeta,
         "cover-img": CoverImg,
@@ -27,6 +29,7 @@ const renderAst = new rehypeReact({
         "img-pair": ImagePair,
         "text-pair": TextPair,
         "full-width-image": FullWidthImage,
+        "video-container": VideoContainer
     },
   }).Compiler
 

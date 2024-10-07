@@ -345,14 +345,21 @@ div.meta h1 {
     margin: 0;
 }
 
+.cover figcaption,
 .container figcaption,
 .browserWindow figcaption,
-.multiMobileContainer figcaption {
+.multiMobileContainer figcaption
+.bespokecontainer figcaption {
     color: gray;
     font-style: italic;
     display: flex;
     justify-content: flex-end;
     padding-top: 15px;
+    padding-right: 5px;
+}
+
+figcaption a {
+    padding-left: 5px;
     padding-right: 5px;
 }
 
@@ -377,6 +384,21 @@ div.meta h1 {
     border: 2px dashed gray;
 }
 /* ----- end browserWindow ------*/
+
+/* ----- bespoke container ------*/
+
+.bespokecontainer {
+    margin-bottom: 30px;
+}
+
+.bespokewindow figure {
+    margin: 0;
+}
+.bespokewindow figcaption {
+    display: none;
+}
+
+/* ----- eend bespoke container ------*/
 
 /* ----- mobile and multiMobile ------*/
 .multiMobile {
@@ -415,6 +437,23 @@ div.mobileContainer span {
     border-radius: 10px;
 }
 /* ----- end mobile and multiMobile ------*/
+
+/* video container */
+
+.videoContainer p {
+    height: 0;
+    padding: 0;
+}
+
+.videoContainer iframe {
+    background: black;
+}
+
+.videoContainer figcaption {
+    padding-top: 0;
+}
+
+/* end video container */
 
 /* ----- buttonLink ------*/
 .buttonLinkContainer {

@@ -3,10 +3,18 @@ title: "CFA Vision Lab"
 cover: "8.jpg"
 date: "2019-12-03"
 categories:
-    - interactive
-    - creative-coding
+    - software-development
 tags:
-    - programming
+    -
+work-type:
+    - school
+client:
+    - personal
+application:
+    - kiosk
+tech:
+    - openframeworks
+    - AR
 posttype: 'design'
 featuredImage: '../post_images/vision_lab_square.png'
 ---

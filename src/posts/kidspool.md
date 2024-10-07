@@ -3,11 +3,19 @@ title: "Kidspool"
 cover: "8.jpg"
 date: "2019-12-12"
 categories:
-    - uxui
-    - design
+    - ux-research
+    - ux-design
 tags:
-    - ux
-    - featured
+    -
+work-type:
+    - school
+client:
+    - private
+application:
+    - web
+    - mobile
+tech:
+    - figma
 posttype: 'design'
 featuredImage: '../post_images/kidspool_square.png'
 ---

@@ -5,7 +5,15 @@ date: "2020-12-15"
 categories:
     - teaching
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - museum
+application:
+    -
+tech:
+    -
 posttype: 'design'
 featuredImage: '../post_images/dia_curriculum_square.jpg'
 ---

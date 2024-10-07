@@ -3,11 +3,18 @@ title: "myHouse"
 cover: "8.jpg"
 date: "2019-11-04"
 categories:
-    - uxui
-    - interactive
-    - creative-coding
+    - software-development
+    - ux-design
 tags:
-    - ux
+    -
+work-type:
+    - school
+client:
+    - personal
+application:
+    - web
+tech:
+    - react
 posttype: 'design'
 featuredImage: '../post_images/mytour_square.png'
 ---

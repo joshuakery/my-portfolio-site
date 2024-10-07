@@ -3,9 +3,20 @@ title: "Schlumpy Funk Studios"
 cover: "8.jpg"
 date: "2020-08-30"
 categories:
-    - creative-coding
+    - ux-design
+    - software-development
 tags:
-    - programming
+    -
+work-type:
+    - school
+client:
+    - private
+application:
+    - mobile
+tech:
+    - unity
+    - AR
+    - c4d
 posttype: 'design'
 featuredImage: '../post_images/schlumpy-funk-studios-square.jpg'
 ---

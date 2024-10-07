@@ -4,8 +4,17 @@ cover: "8.jpg"
 date: "2021-05-15"
 categories:
     - teaching
+    - software-development
 tags:
-    - programming
+    -
+work-type:
+    - uncommissioned
+client:
+    - personal
+application:
+    - web
+tech:
+    - react
 posttype: 'design'
 featuredImage: '../post_images/teen-design-programs-square.png'
 ---

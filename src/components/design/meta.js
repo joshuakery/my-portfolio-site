@@ -56,6 +56,20 @@ class BrowserContainer extends React.Component {
     }
 }
 
+class BespokeContainer extends React.Component {
+    render() {
+        const { title } = this.props;
+        return (
+            <div className={`${styles.bespokecontainer}`}>
+                <div className={styles.bespokewindow}>
+                    {this.props.children}
+                </div>
+                <figcaption>{title}</figcaption>
+            </div>
+        )
+    }
+}
+
 class GridContainer extends React.Component {
     render() {
         return (
@@ -129,8 +143,25 @@ class FullWidthImage extends React.Component {
     }
 }
 
-export { ButtonLink, MultiMobileContainer, MobileContainer, BrowserContainer, GridContainer,
+
+class VideoContainer extends React.Component {
+    render() {
+        const { title } = this.props;
+        return (
+            <div className={styles.videoContainer}>
+                { this.props.children }
+                <figcaption>{title}</figcaption>
+            </div>
+        )
+    }
+}
+
+
+export { ButtonLink, MultiMobileContainer, MobileContainer, BrowserContainer,
+         BespokeContainer,
+         GridContainer,
          DesignMeta, CoverImg,
          Quote,
          ImagePair, TextPair,
-         FullWidthImage };
+         FullWidthImage,
+         VideoContainer };

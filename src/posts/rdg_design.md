@@ -3,12 +3,18 @@ title: "The Redistricting Game"
 cover: "8.jpg"
 date: "2017-10-01"
 categories:
-    - games
-    - creative-coding
-    - interactive
+    - software-development
+    - illustration
 tags:
-    - programming
-    - gerrymandering
+    -
+work-type:
+    - commissioned
+client:
+    - education-non-profit
+application:
+    - web
+tech:
+    - flash
 posttype: 'design'
 featuredImage: '../post_images/rdg_square.png'
 ---

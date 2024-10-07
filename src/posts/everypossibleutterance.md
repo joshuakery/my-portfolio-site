@@ -3,11 +3,20 @@ title: "Every Possible Utterance"
 cover: "8.jpg"
 date: "2019-14-12"
 categories:
-    - 3d
-    - live-shows
+    - ux-design
+    - fabrication
 tags:
-    - ux
     - featured
+    - live-performance
+work-type:
+    - school
+client:
+    - museum
+application:
+    -
+tech:
+    - rhino
+    - woodworking
 posttype: 'design'
 featuredImage: '../post_images/everypossibleutterance_square.jpg'
 ---

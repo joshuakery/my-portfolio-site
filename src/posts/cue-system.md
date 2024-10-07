@@ -3,9 +3,18 @@ title: "Browser-Based Cue System"
 cover: "8.jpg"
 date: "2021-05-15"
 categories:
-    - creative-coding
+    - software-development
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - collective
+application:
+    - web
+    - video-conference
+tech:
+    - react
 posttype: 'design'
 featuredImage: '../post_images/cue-system-square.jpg'
 ---

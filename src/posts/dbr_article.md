@@ -5,7 +5,16 @@ date: "2020-12-15"
 categories:
     - teaching
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - museum
+    - magazine
+application:
+    -
+tech:
+    -
 posttype: 'design'
 featuredImage: '../post_images/dbr_article_square.png'
 ---

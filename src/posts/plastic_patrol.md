@@ -3,13 +3,17 @@ title: "Plastic Patrol"
 cover: "8.jpg"
 date: "2020-05-17"
 categories:
-    - games
     - teaching
 tags:
-    - ux
-    - ui
-    - game
-    - interactive
+    -
+work-type:
+    - school
+client:
+    - museum
+application:
+    -
+tech:
+    -
 posttype: 'design'
 featuredImage: '../post_images/plastic_patrol_square.png'
 ---

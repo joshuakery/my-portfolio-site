@@ -3,10 +3,17 @@ title: "Atlantis Transit Hub"
 cover: "8.jpg"
 date: "2019-11-04"
 categories:
-    - uxui
-    - design
+    - ux-design
 tags:
-    - ux
+    - 
+work-type:
+    - school
+client:
+    - private
+application:
+    - kiosk
+tech:
+    - figma
 posttype: 'design'
 featuredImage: '../post_images/atlantis_square.jpg'
 ---

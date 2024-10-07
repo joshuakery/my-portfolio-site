@@ -5,7 +5,15 @@ date: "2020-11-01"
 categories:
     - teaching
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - museum
+application:
+    - 
+tech:
+    -
 posttype: 'design'
 featuredImage: '../post_images/wed_cards_square.jpg'
 ---

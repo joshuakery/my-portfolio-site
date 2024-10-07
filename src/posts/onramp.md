@@ -3,10 +3,19 @@ title: "OnRamp to Remote Learning"
 cover: "8.jpg"
 date: "2020-9-31"
 categories:
-    - design
+    - ux-design
+    - software-development
 tags:
-    - programming
     - featured
+work-type:
+    - commissioned
+client:
+    - education-non-profit
+application:
+    - web
+tech:
+    - figma
+    - wordpress
 posttype: 'design'
 featuredImage: '../post_images/onramp-cover.gif'
 ---

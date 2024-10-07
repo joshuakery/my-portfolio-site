@@ -11,32 +11,41 @@ import * as styles from "./projects.module.css"
 // Utilities
 import { graphql } from "gatsby"
 
-const PORTFOLIO_CATEGORIES = [
-'design',
-'teaching',
-'creative-coding',
-'live-shows'
-];
+const PORTFOLIO_CATS_ORDER = [
+  "ux-design",
+  "software-development",
+  "ux-research"
+]
 
-const organizeEdges = edges => {
-    const projects = {
-      featured: [],
-      'creative-coding': [],
-      'live-shows': [],
-      design: [],
-      teaching: [],
-  };
+const sortEdges = edges => {
+
+  // define the order here
+  const projects = {};
+
+  PORTFOLIO_CATS_ORDER.forEach(cat => {
+    projects[cat] = [];
+  });
+
   edges.forEach(edge => {
+
     const { node } = edge;
     let { categories, tags } = node.frontmatter;
-    categories = categories.filter(cat => (PORTFOLIO_CATEGORIES.includes(cat)));
-    const category = categories[0]; //there is only one design category for each project
+
     if (tags.includes("featured")) {
       if (!projects["featured"]) projects["featured"] = [];
       projects["featured"].push(edge);
+
     } else {
+      const category = categories[0]; // assume the first category is priority
       if (!projects[category]) projects[category] = [];
       projects[category].push(edge);
+    }
+
+  });
+
+  PORTFOLIO_CATS_ORDER.forEach(cat => {
+    if (projects[cat] && projects[cat].length == 0) {
+      delete projects[cat];
     }
   });
 
@@ -46,7 +55,7 @@ const organizeEdges = edges => {
 const getProject = edge => {
   const { node } = edge;
   const { slug } = node.fields;
-  const { title, featuredImage } = node.frontmatter;
+  const { title, featuredImage, categories } = node.frontmatter;
   return (
     <li key={slug} className={styles.project}>
         <Link to={slug}>
@@ -59,6 +68,11 @@ const getProject = edge => {
             </div>
             <div className={styles.projectText}>
               <h3 className={styles.projectTitle}>{title}</h3>
+              <div className={styles.projectCategoriesContainer}>
+              {
+                categories.map(cat => (<div className={styles.projectCategory}><div>{cat.toUpperCase()}</div></div>))
+              }
+              </div>
             </div>
         </Link>
     </li>
@@ -66,27 +80,29 @@ const getProject = edge => {
 }
 
 const getCatLabel = category => {
+
   if (category === "featured") return;
+
   return (
     <div className={styles.catLabelContainer}>
       <Link to={'/projects/' + category}>
         <div>
-          {category !== "design" ?
-            category.toUpperCase() :
-            `OTHER ${category.toUpperCase()}`
-          }
+          {category.toUpperCase()}
         </div>
       </Link>
     </div>
   )
 }
 
-const getProjects = (category, edges) => {
+const getProjectsElement = (category, edges) => {
+
   const projects = [];
+
   edges.forEach(edge => {
     const project = getProject(edge);
     projects.push(project);
   });
+
   return (
     <div key={category}>
         { getCatLabel(category) }
@@ -103,7 +119,7 @@ export default ({ children, location }) => {
             query {
                 allMarkdownRemark(
                   sort: { frontmatter: { date: DESC } },
-                  filter: {frontmatter: {categories: {in: ["design","creative-coding","teaching","live-shows"]}}}
+                  filter: {frontmatter: {categories: {in: ["ux-design", "ux-research", "software-development", "teaching", "illustration", "fabrication"]}}}
                 ) {
                     edges {
                       node {
@@ -131,16 +147,20 @@ export default ({ children, location }) => {
         `
     )
 
-    const organized = organizeEdges(data.allMarkdownRemark.edges);
+    const sortedEdges = sortEdges(data.allMarkdownRemark.edges);
+
     return (
         <div>
-            { getProjects("featured", organized.featured) }
+            { sortedEdges["featured"] ? getProjectsElement("featured", sortedEdges.featured) : (<div></div>) }
             {
-              Object.keys(organized).map(category => {
+              Object.keys(sortedEdges).map(category => {
+
                 if (category === "featured") return;
-                const categoryEdges = organized[category];
-                const projects = getProjects(category, categoryEdges);
+
+                const categoryEdges = sortedEdges[category];
+                const projects = getProjectsElement(category, categoryEdges);
                 return projects;
+
               })
             }
             {children}

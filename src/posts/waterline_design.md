@@ -3,11 +3,19 @@ title: "Waterline"
 cover: "8.jpg"
 date: "2019-05-04"
 categories:
-    - interactive
-    - uxui
-    - creative-coding
+    - software-development
+    - ux-design
 tags:
-    - ux
+    -
+work-type:
+    - school
+client:
+    - private
+application:
+    - mobile
+tech:
+    - unity
+    - illustrator
 posttype: 'design'
 featuredImage: '../post_images/waterline_square.jpg'
 ---

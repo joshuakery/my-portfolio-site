@@ -3,10 +3,18 @@ title: "Cloudbanks"
 cover: "8.jpg"
 date: "2020-05-02"
 categories:
-    - time-based
-    - live-shows
+    - writing
+    - fabrication
 tags:
-    - metals
+    - live-performance
+work-type:
+    - school
+client:
+    - personal
+application:
+    - video-conference
+tech:
+    - zoom
 posttype: 'design'
 featuredImage: '../post_images/cloudbanks_square.png'
 ---

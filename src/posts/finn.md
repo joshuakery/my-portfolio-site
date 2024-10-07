@@ -3,9 +3,17 @@ title: "Finn Character Design"
 cover: "8.jpg"
 date: "2020-10-08"
 categories:
-    - design
+    - illustration
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - education-non-profit
+application:
+    -
+tech:
+    - illustrator
 posttype: 'design'
 featuredImage: '../post_images/finn.svg'
 ---

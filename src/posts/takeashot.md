@@ -3,9 +3,18 @@ title: "Take a Shot at Changing the World"
 cover: "8.jpg"
 date: "2021-4-22"
 categories:
-    - design
+    - ux-design
+    - software-development
 tags:
-    - programming
+    -
+work-type:
+    - commissioned
+client:
+    - university
+application:
+    - web
+tech:
+    - wordpress
 posttype: 'design'
 featuredImage: '../post_images/takeashot_square.jpg'
 ---

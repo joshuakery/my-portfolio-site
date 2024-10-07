@@ -3,10 +3,18 @@ title: "Safe & Sound"
 cover: "8.jpg"
 date: "2019-05-08"
 categories:
-    - uxui
-    - design
+    - ux-research
+    - ux-design
 tags:
-    - ux
+    -
+work-type:
+    - school
+client:
+    - private
+application:
+    - mobile
+tech:
+    - figma
 posttype: 'design'
 featuredImage: '../post_images/safe&sound_square.jpg'
 ---

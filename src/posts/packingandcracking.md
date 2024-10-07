@@ -1,12 +1,21 @@
 ---
-title: "Packing and Cracking"
+title: "Packing and Cracking (2020)"
 cover: "8.jpg"
 date: "2020-10-24"
 categories:
-    - live-shows
-    - show
+    - software-development
 tags:
-    - programming
+    - live-performance
+work-type:
+    - lab-work
+client:
+    - museum
+application:
+    - web
+    - video-conference
+tech:
+    - vanilla-javascript
+    - php
 posttype: 'design'
 featuredImage: '../post_images/packingandcracking_square.png'
 ---

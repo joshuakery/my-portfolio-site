@@ -3,9 +3,17 @@ title: "CloseKnit"
 cover: "8.jpg"
 date: "2020-8-31"
 categories:
-    - design
+    - ux-design
 tags:
-    - programming
+    -
+work-type:
+    - uncommissioned
+client:
+    - private
+application:
+    - mobile
+tech:
+    - figma
 posttype: 'design'
 featuredImage: '../post_images/closeknit_square.jpg'
 ---

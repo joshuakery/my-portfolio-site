@@ -3,14 +3,19 @@ title: "Glitches in the Museum"
 cover: '../post_images/arcade/model_closeup1.png'
 date: "2020-7-24"
 categories:
-    - uxui
-    - games
-    - design
-    - interactive
+    - ux-design
+    - software-development
 tags:
-    - ux
-    - ui
     - featured
+work-type:
+    - lab
+client:
+    - museum
+application:
+    - web
+tech:
+    - unity
+    - AR
 posttype: 'design'
 featuredImage: '../post_images/arcade_cover.gif'
 ---
