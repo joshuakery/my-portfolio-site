@@ -358,11 +358,6 @@ div.meta h1 {
     padding-right: 5px;
 }
 
-figcaption a {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
 .browserWindow img + figcaption {
     padding-top: 7px;
 }

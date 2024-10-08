@@ -3,7 +3,7 @@ title: "Every Possible Utterance"
 cover: "8.jpg"
 date: "2019-14-12"
 categories:
-    - ux-design
+    - installation-design
     - fabrication
 tags:
     - featured

@@ -43,12 +43,12 @@ October 2022
 
 ### MY ROLE
 
-Developed Prototype of Drawing Background Removal\
+Prototyped Background Removal\
 Developed Visitor-Ready Software
 
 ### TOOLS
 
-Python (Prototype)\
+Python\
 Unity\
 OpenCV
 
@@ -57,6 +57,8 @@ OpenCV
 <grid-container>
 
 # OVERVIEW
+
+## Sharing Hand-Drawn Designs
 
 Visitors create the visual identity for their moon mission by drawing their own mission patch, "scanning" it into the software, and previewing it on a mural of a colonized lunar landscape.
 
@@ -86,7 +88,7 @@ All visitors draw at a moveable table before inputting their images into the sof
 Like the other Moonshot Museum interactives, this one features two visitor modes:
 
 <ol>
-<li>Mission 1 - designed for school groups to break out into small teams, and</li>
+<li>Mission   - designed for school groups to break out into small teams, and</li>
 <li>Space Now - an ambient experience for the museum's daily visitor flow.</li>
 </ol>
 
@@ -124,7 +126,7 @@ Like the other Moonshot Museum interactives, this one features two visitor modes
 
 <br><br>
 
-In addition to sharing badge drawings, "Mission 1" teams also choose a legendary historical or mythological figure as the namesake for their moon base via a selection of brand key words.
+In addition to sharing badge drawings, "Mission" teams also choose a legendary historical or mythological figure as the namesake for their moon base via a selection of brand key words.
 
 <bespoke-container title="Word Picker Screen">
 <div style="border: 2px gray solid; border-radius: 20px; padding: 28px"><!-- blue border -->
@@ -144,7 +146,9 @@ In addition to sharing badge drawings, "Mission 1" teams also choose a legendary
 
 # TECHNICAL HIGHLIGHTS
 
-I developed in Python an initial protytpe as a proof of concept for this experience.
+## Background removal prototype and calibration
+
+I developed in Python an initial prototype as a proof of concept for the automatic background removal this experience.
 
 <bespoke-container title="Background removal algorithm comparison">
 <div style="border: 2px gray dashed; border-radius: 20px; padding: 28px"><!-- blue border -->
@@ -186,13 +190,19 @@ The interactive features a debug menu used for calibrating the image scanning af
 
 <br><br>
 
-Additionally, this interactive is networked to the other four Moonshot activities in order to sync the activity timers and pass teams' results back to the experience's server.
+## Networked experience across five interactives
+
+This interactive is networked to the other four Moonshot activities in order to sync the activity timers and pass teams' results back to the experience's server.
+
 
 <img src="../post_images/moonshot_art/moonshot_networking_illustration.jpg" alt="Network diagram showing five interactives connected to a server." title=" "/>
+<figcaption>
+<span>
+Moonshot network illustration calling out the three interactives I developed: Space Debates (top), Lunar Lost and Found (center), and Design a Mission Patch (bottom). Server by Chunk Icons from <a href="https://thenounproject.com/browse/icons/term/server/" target="_blank" title="Server Icons">Noun Project</a> (CC BY 3.0)
+</span>
+<figcaption>
 
-<figcaption>
-Moonshot network illustration. Server by Chunk Icons from <a href="https://thenounproject.com/browse/icons/term/server/" target="_blank" title="Server Icons">Noun Project</a> (CC BY 3.0)
-<figcaption>
+I developed [Space Debates](/posts/moonshot_charter), [Design a Mission Patch](/posts/moonshot_art), and Lunar Lost and Found as clients for this server.
 
 
 </grid-container>

@@ -5,8 +5,9 @@ date: "2020-7-24"
 categories:
     - ux-design
     - software-development
+    - illustration
 tags:
-    - featured
+    -
 work-type:
     - lab
 client:
