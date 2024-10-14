@@ -147,15 +147,15 @@ class FullWidthImage extends React.Component {
 class VideoContainer extends React.Component {
     render() {
         const { title } = this.props;
+
         return (
             <div className={styles.videoContainer}>
                 { this.props.children }
-                <figcaption>{title}</figcaption>
+                { title ? (<figcaption>{title}</figcaption>) : null }
             </div>
         )
     }
 }
-
 
 export { ButtonLink, MultiMobileContainer, MobileContainer, BrowserContainer,
          BespokeContainer,

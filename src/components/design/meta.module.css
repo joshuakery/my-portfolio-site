@@ -392,6 +392,9 @@ div.meta h1 {
 .bespokewindow figcaption {
     display: none;
 }
+.bespokewindow .videoContainer video {
+    margin: 0;
+}
 
 /* ----- eend bespoke container ------*/
 
@@ -446,6 +449,15 @@ div.mobileContainer span {
 
 .videoContainer figcaption {
     padding-top: 0;
+}
+
+.videoContainer video {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+video iframe {
+    background: black;
 }
 
 /* end video container */

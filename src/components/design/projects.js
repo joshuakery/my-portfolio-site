@@ -59,11 +59,12 @@ const getProject = edge => {
   return (
     <li key={slug} className={styles.project}>
         <Link to={slug}>
+            
             <div className={styles.featuredImageContainer}>
               <MyGatsbyImage
-                node={featuredImage}
-                alt={title}
-                className={styles.featuredImage}
+                  node={featuredImage}
+                  alt={title}
+                  className={styles.featuredImage}
               />
             </div>
             <div className={styles.projectText}>

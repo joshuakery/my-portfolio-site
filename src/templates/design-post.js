@@ -9,7 +9,8 @@ import { ButtonLink, MultiMobileContainer, MobileContainer, GridContainer,
          ImagePair, TextPair,
          FullWidthImage, 
          BrowserContainer, 
-         BespokeContainer, VideoContainer } from "../components/design/meta"
+         BespokeContainer,
+         VideoContainer } from "../components/design/meta"
 
 import * as styles from "../templates/design-post.module.css"
 import { DesignLayout } from "../components/layout"
@@ -35,7 +36,6 @@ const renderAst = new rehypeReact({
 
 export default ({ data, location }) => {
   const post = data.markdownRemark;
-  console.log(post.htmlAst);
   return (
     <DesignLayout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
