@@ -56,6 +56,20 @@ class BrowserContainer extends React.Component {
     }
 }
 
+class TouchContainer extends React.Component {
+    render() {
+        const { title } = this.props;
+        return (
+            <div className={styles.touchContainer}>
+                <div className={styles.touchWindow}>
+                { this.props.children }
+                </div>
+                <figcaption>{title}</figcaption>
+            </div>
+        )
+    }
+}
+
 class BespokeContainer extends React.Component {
     render() {
         const { title } = this.props;
@@ -158,7 +172,7 @@ class VideoContainer extends React.Component {
 }
 
 export { ButtonLink, MultiMobileContainer, MobileContainer, BrowserContainer,
-         BespokeContainer,
+         TouchContainer, BespokeContainer,
          GridContainer,
          DesignMeta, CoverImg,
          Quote,

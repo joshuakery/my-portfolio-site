@@ -58,15 +58,13 @@ ffmpeg
 
 In a bespoke audio booth, visitors record their voice in response to prompts about York County's history.
 
-<bespoke-container title="Transition between prompt and recording pages">
-<div style="border: 2px gray solid; border-radius: 20px; padding: 28px">
+<touch-container title="Transition between prompt and recording pages">
 <video-container>
-<video autoplay loop muted>
-    <source src="../post_images/york_audio_booth/york_audio_booth_transitions.webm" type="video/webm" />
-</video>
+
+`vimeo: https://vimeo.com/1019522613`
+
 </video-container>
-</div><!-- border -->
-</bespoke-container>
+</touch-container>
 
 # VISITOR EXPERIENCE
 
@@ -74,27 +72,23 @@ In a bespoke audio booth, visitors record their voice in response to prompts abo
 
 Visitors introduce themselves to the archive and record their voice.
 
-<bespoke-container title="Recording page, with recording underway">
-<div style="border: 2px gray solid; border-radius: 20px; padding: 28px">
+<touch-container title="Recording page, with recording underway">
 <video-container>
-<video autoplay loop muted>
-    <source src="../post_images/york_audio_booth/york_audio_booth_recording.webm" type="video/webm" />
-</video>
+
+`vimeo: https://vimeo.com/1019521047`
+
 </video-container>
-</div><!-- border -->
-</bespoke-container>
+</touch-container>
 
 After, visitors edit their recordings with a custom editor.
 
-<bespoke-container title="Editing page">
-<div style="border: 2px gray solid; border-radius: 20px; padding: 28px">
+<touch-container title="Editing page">
 <video-container>
-<video autoplay loop muted>
-    <source src="../post_images/york_audio_booth/york_audio_booth_editing.webm" type="video/webm" />
-</video>
+
+`vimeo: https://vimeo.com/1019521855`
+
 </video-container>
-</div><!-- border -->
-</bespoke-container>
+</touch-container>
 
 Finally, visitors share their recordings with the museum and optionally include their names and emails.
 
@@ -105,19 +99,15 @@ Finally, visitors share their recordings with the museum and optionally include 
 
 The interactive sends visitor-produced audio and metadata to a custom endpoint in a CMS, built with Directus and hosted on the local network.
 
-<bespoke-container title="Email entry page, which visitors use to optionally share their email with the museum and/or receive a copy of their audio">
-<div style="border: 2px gray solid; border-radius: 20px; padding: 28px">
+<touch-container title="Email entry page, which visitors use to optionally share their email with the museum and/or receive a copy of their audio">
 <img src="../post_images/york_audio_booth/york_audio_booth_email.jpg" alt="Screenshot of page with text input field and on screen keyboard for visitor email entry." title=" "/>
-</div><!-- border -->
-</bespoke-container>
+</touch-container>
 
 On startup, the interactive also pulls its set of visitor text prompts from this CMS.
 
-<bespoke-container title="The first page of the experience, populated with text prompts for visitors">
-<div style="border: 2px gray solid; border-radius: 20px; padding: 28px">
+<touch-container title="The first page of the experience, populated with text prompts for visitors">
 <img src="../post_images/york_audio_booth/york_audio_booth_prompts.jpg" alt="Screenshot of page with six text prompts for visitors to respond to. Prompts include for example 'What is your most vivid York County memory?'" title=" "/>
-</div><!-- border -->
-</bespoke-container>
+</touch-container>
 
 
 

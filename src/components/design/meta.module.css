@@ -9,16 +9,7 @@
 
 .cover img {
     width: 100%;
-}
-
-.cover img:first-child {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.cover img:last-child {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 div.meta {
@@ -380,15 +371,32 @@ div.meta h1 {
 }
 /* ----- end browserWindow ------*/
 
+/* ----- touch container ------*/
+.touchContainer {
+    margin-bottom: 30px;
+}
+.touchWindow {
+    border: 2px solid darkgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.touchWindow img {
+    border-radius: 0;
+}
+/* ----- end touch container ------*/
+
+
 /* ----- bespoke container ------*/
 
 .bespokecontainer {
     margin-bottom: 30px;
 }
 
+.touchWindow figure,
 .bespokewindow figure {
     margin: 0;
 }
+.touchWindow figcaption,
 .bespokewindow figcaption {
     display: none;
 }
@@ -593,6 +601,10 @@ video iframe {
         grid-column-start: 1;
         grid-column-end: 1;
         margin-top: 0;
+    }
+    .touchWindow {
+        padding: 5px;
+        border-radius: 5px;
     }
 }
 

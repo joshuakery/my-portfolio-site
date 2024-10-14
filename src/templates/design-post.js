@@ -9,7 +9,7 @@ import { ButtonLink, MultiMobileContainer, MobileContainer, GridContainer,
          ImagePair, TextPair,
          FullWidthImage, 
          BrowserContainer, 
-         BespokeContainer,
+         TouchContainer, BespokeContainer,
          VideoContainer } from "../components/design/meta"
 
 import * as styles from "../templates/design-post.module.css"
@@ -22,6 +22,7 @@ const renderAst = new rehypeReact({
         "multi-mobile-container": MultiMobileContainer,
         "mobile-container": MobileContainer,
         "browser-container": BrowserContainer,
+        "touch-container": TouchContainer,
         "bespoke-container": BespokeContainer,
         "grid-container": GridContainer,
         "design-meta": DesignMeta,
