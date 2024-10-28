@@ -158,6 +158,25 @@ I developed in Python an initial prototype as a proof of concept for the automat
 </div><!-- gray border -->
 </bespoke-container>
 
+<img src="../post_images/moonshot_art/moonshot_station_mid.jpg" alt="Image of prototype station camera rig, with a raised table at the foot of a small tripod holding up a webcam and selfie light ring, with Moonshot software running on a display behind the rig, and the drawing on the station's table clearly visible on the screen." title="Prototyping setup at my desk: A camera on a tripod with a light ring helped me achieve an optimal set of lighting conditions for contrast between drawings and paper when performing automatic background removal."/>
+
+<br>
+
+<div style="display: flex">
+
+<div style="width: 48%; margin-right: auto">
+<img src="../post_images/moonshot_art/moonshot_station_close.jpg" alt="Image of prototype station looking down through selfie light ring to drawing on table below.." title="Overhead view of the prototyping setup."/>
+</div>
+
+<div style="width: 48%; margin-left: auto">
+<img src="../post_images/moonshot_art/moonshot_station_wide.jpg" alt="Image of prototype station from afar, with both a laptop and a secondary display visible and running the Moonshot software. The camera rig sits in between the two displays on the desk." title="View of my full desk with the software running, including a copy of the server software to help simulate the entire experience."/>
+</div>
+
+</div>
+
+
+<br>
+
 <bespoke-container title="Background removal prototype demo">
 <div style="border: 2px gray dashed; border-radius: 20px; padding: 28px"><!-- blue border -->
 <div style="border: 2px #4ba4e7 dashed"><!-- gray border -->
