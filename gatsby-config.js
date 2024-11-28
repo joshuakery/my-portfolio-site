@@ -10,6 +10,7 @@ module.exports = {
     title: `Joshua Kery`,
     description: `Portfolio Website`,
     author: `Joshua Kery`,
+    theme_color: '#000000'
   },
   plugins: [
     {

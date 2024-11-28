@@ -135,6 +135,7 @@ div.meta h1 {
 }
 .container figure span {
     margin-bottom: 0;
+    background: black;
 }
 
 .quote {
