@@ -7,7 +7,8 @@
     overflow: hidden;
 }
 
-.cover img {
+.cover img,
+.cover span {
     width: 100%;
     border-radius: 10px;
 }
@@ -88,7 +89,8 @@ div.meta h1 {
     margin-bottom: 30px;
 }
 
-.container span img {
+.container span img,
+.container span {
     box-shadow: none;
     border-radius: 10px;
 }
@@ -116,7 +118,8 @@ div.meta h1 {
     color: gray;
 }
 
-.container img {
+.container img,
+.container span {
     width: 100%;
     border-radius: 10px;
     
@@ -424,11 +427,17 @@ div.meta h1 {
     padding-bottom: 4px;
     width: 30%;
     height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.multiMobile .mobileContainer {
     margin-right: 20px;
     margin-left: 20px;
 }
 
 div.mobileContainer span {
+    margin: 0;
     margin-bottom: 4px;
 }
 
@@ -440,7 +449,8 @@ div.mobileContainer span {
 
 }
 
-.mobileContainer img {
+.mobileContainer img,
+.mobileContainer span {
     border-radius: 10px;
 }
 /* ----- end mobile and multiMobile ------*/

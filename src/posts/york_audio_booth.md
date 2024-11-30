@@ -6,7 +6,7 @@ categories:
     - software-development
     - motion-design
 tags:
-    - featured
+    - 
 work-type:
     - commissioned
 client:
