@@ -1,5 +1,5 @@
 ---
-title: "Packing and Cracking (2020)"
+title: "Packing and Cracking: Virtual"
 cover: "8.jpg"
 date: "2020-10-24"
 categories:
