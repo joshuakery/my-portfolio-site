@@ -116,7 +116,7 @@ Audience members input responses on their smartphones and a large monitor mounte
 <img src="../post_images/packingandcracking_onabus/phone_quiz.jpg" style="width:100%" />
 </mobile-container>
 </div>
-<div style="padding: 10px; border: 5px solid white; border-radius: 10px; width: 100%">
+<div style="padding: 10px; border: 5px solid white; border-radius: 10px; width: auto">
 <img src="../post_images/packingandcracking_onabus/monitor_quiz.jpg" alt="Screenshot of quiz results on large public display." title=" "/>
 </div>
 <figcaption>Top: Mobile quiz input. Bottom: Common display showing the results of the audience's input; in this example, all responses for the Green Team were for answer (a) state politicans.</figcaption>
