@@ -51,12 +51,13 @@ Amelia (Xi) Li
 ### GOALS
 
 Support schoolteachers adapting to remote learning.
-
+ -->
+ 
 ### TOOLS
 
 Figma\
 Adobe Illustrator\
-Wordpress -->
+Wordpress
 
 </design-meta>
 

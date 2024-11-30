@@ -24,7 +24,7 @@ featuredImage: '../post_images/packingandcracking_onabus.jpg'
 
 <cover-img>
 
-<img src="../post_images/packingandcracking_onabus/packingandcracking_cover.jpg" alt="Parking lot with chalk drawings by audience, depicting a salamander and the words 'We Are One District'" title="Audience members were invited to react to the performance with chalk drawings at the site of a State House district splitting two addresses in a single apartment development.">
+<img src="../post_images/packingandcracking_onabus/packingandcracking_cover.jpg" alt="Parking lot with chalk drawings by audience, depicting a salamander and the words 'We Are One District'" title="Audience members were invited to react to the performance with chalk drawings at the main stop of our bus trip: an apartment complex split into separate voting districts.">
 
 </cover-img>
 
@@ -48,6 +48,7 @@ Developed Audience-Ready Software
 
 React\
 Firebase\
+p5\
 Web Sockets
 
 </design-meta>
@@ -72,7 +73,9 @@ Through drawing and map-drawing games, Packing and Cracking uses critical cartog
 
 <br>
 
-For Packing and Cracking's 2021 run, I revamped its [digital experience](/posts/packingandcracking) with a new mobile app for a newly mobile audience; we were bringing the audience to real sites of gerrymandering, by bus!
+For Packing and Cracking's 2021 run, I revamped its [digital experience](/posts/packingandcracking) with a new mobile app for a newly mobile audience.
+
+We were bringing the audience to real sites of gerrymandering, by bus!
 
 
 # AUDIENCE EXPERIENCE
@@ -81,7 +84,7 @@ For Packing and Cracking's 2021 run, I revamped its [digital experience](/posts/
 
 To make real and visible how voting district lines can manipulate communities, we brought our audience on a bus route along PA State House district lines to a site of a divided apartment complex.
 
-<bespoke-container title="Audience members rode a bus with us in a route generally tracing State House district lines before arriving in O'Hara Township at the site of district lines splitting an apartment complex.">
+<bespoke-container title="Outside onboarding at Chatham University; on-board games as we traced the general shape of State House district lines in Pittsburgh; our main stop at the site of a divided apartment complex.">
 <img src="../post_images/packingandcracking_onabus/journey.svg" alt="Graphic of abstracted bus route, with images of audience members and performers in the show along the way." title=" "/>
 </bespoke-container>
 
@@ -91,7 +94,7 @@ To make real and visible how voting district lines can manipulate communities, w
 
 Packing and Cracking teaches audiences about gerrymandering with a series of mini-games and prompts for reflection.
 
-<img src="../post_images/packingandcracking_onabus/phone-use.jpg" alt="Audience member holds out their phone, which shows the district-drawing game." title="Audience member holds their phone featuring the district-drawing game in the show."/>
+<img src="../post_images/packingandcracking_onabus/phone-use.jpg" alt="Audience member holds out their phone, which shows the district-drawing game." title="An audience member holds out their phone featuring a game of dividing an electorate into districts."/>
 
 <br><br>
 
@@ -116,39 +119,39 @@ Audience members input responses on their smartphones and a large monitor mounte
 <div style="padding: 10px; border: 5px solid white; border-radius: 10px; width: 100%">
 <img src="../post_images/packingandcracking_onabus/monitor_quiz.jpg" alt="Screenshot of quiz results on large public display." title=" "/>
 </div>
-<figcaption>Top: Mobile quiz input. Bottom: Common display showing the results of the audience's input; in this example, all responses for the Green Team were for (a) state politicans.</figcaption>
+<figcaption>Top: Mobile quiz input. Bottom: Common display showing the results of the audience's input; in this example, all responses for the Green Team were for answer (a) state politicans.</figcaption>
 
 # EXPERIENCE DESIGN PROCESS
 
 ## Site-Specific Research
 
-We traced by car the lines of 2011 Pennsylvania State House districts in search of a strong metaphor for the sometimes manipulative drawing of district lines.
+We traced by car the lines of the 2011 Pennsylvania State House districts in search of a strong metaphor for the manipulative drawing of district lines.
 
 <figure>
 <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/joshuakery/ckt3czxm806up17o62cf5zt1y.html?title=false&access_token=pk.eyJ1Ijoiam9zaHVha2VyeSIsImEiOiJjanUwaTZweWQyeXY1NDRxdW1sNWR5cmtjIn0.cW4oEV9tM0PGv8EhMUww4Q&zoomwheel=false#13.64/40.49414/-79.8829" title="Packing and Cracking Research:Lines of Interest" style="border:none; margin-bottom:0"></iframe>
-<figcaption>This map shows the 2011 Pennsylvania State House districts, overlaid with three townships we visited on a research trip that were split by the district lines. I prepared a version of this map in advance of our journey, so that we could reference the real geographic data while we drove around Allegheny County.</figcaption>
+<figcaption>This map shows the 2011 Pennsylvania State House districts, overlaid with three townships divided across multiple districts that we visited on our research trip. I prepared a version of this map in advance of our journey, so that we could reference real geographic data while we drove around Allegheny County.</figcaption>
 </figure>
 
 Our journey took us around District 21's protrusion into O'Hara Township, down the 38-39 split of South Park, and to the cliffside boundaries of Clairton.
 
-We settled on a split dividing an apartment complex in O'Hara Township as the destination for our bus route.
+We settled on a split dividing an apartment complex in O'Hara Township as the destination for our bus route in the show.
 
 <img src="../post_images/packingandcracking_onabus/split.jpg" alt="Graphic overlay of State House districts dividing an apartment complex in O'Hara Township, PA." title="The line for 2011 State House districts 30 & 32 runs down the middle of this apartment building at 302 Fox Chapel Rd."/>
 
-<img src="../post_images/packingandcracking_onabus/split-map.jpg" alt="Graphic map of State House districts dividing an apartment complex in O'Hara Township, PA." title="Because of this line, the biuldings at 300 & 302 Fox Chapel Rd which otherwise belong to the same development fall into two separate State House districts."/>
+<img src="../post_images/packingandcracking_onabus/split-map.jpg" alt="Graphic map of State House districts dividing an apartment complex in O'Hara Township, PA." title="Because of this line, the buildings at 300 & 302 Fox Chapel Rd, which otherwise belong to the same development, fall into two separate State House districts."/>
 
 <br><br>
 
 ## Game Design Ideation
 
-As a team, we brainstormed how best to adapt Packing and Cracking's prior formats to a show on a moving bus.
+As a team, we brainstormed how best to adapt Packing and Cracking's [prior](/posts/packingandcracking) [formats](https://www.packingandcracking.com/in-person) to a show on a moving bus.
 
-<img src="../post_images/packingandcracking_onabus/game-dez.jpg" alt="Post-it notes planning the game design for the experience." title="Post-its from our collaborative experience design session."/>
+<img src="../post_images/packingandcracking_onabus/game-dez.jpg" alt="Post-it notes planning the game design for the experience." title="Post-its from our collaborative experience-design session."/>
 
 <div style="display: flex">
 
 <div style="width: 48%; margin-right: auto">
-<img src="../post_images/packingandcracking_onabus/game-dez-drawthelines.jpg" alt="Draw the Lines PA Educational flashcard with our game design ideation markup." title="Draw the Lines PA Educational flashcard with our game design ideation markup."/>
+<img src="../post_images/packingandcracking_onabus/game-dez-drawthelines.jpg" alt="Draw the Lines PA Educational flashcard with our game design ideation markup." title="Draw the Lines PA created these educational flashcards for teaching folks about gerrymandering. We marked up these as part of our ideation process, translating the competing interests in district drawing into game mechanics."/>
 </div>
 <div style="width: 48%; margin-left: auto">
 <img src="../post_images/packingandcracking_onabus/game-dez-drawthelines1.jpg" alt="Draw the Lines PA Educational flashcard with our game design ideation markup." title="Draw the Lines PA Educational flashcard with our game design ideation markup."/>
@@ -164,7 +167,7 @@ We brought a set of mobile web games into the hands of each audience member on a
 
 To avoid Internet outages while in transit, we hosted an offline network on the bus and served the web app from a laptop on board.
 
-<bespoke-container title="Network diagram of the experience. We ran a wireless router on the bus and asked audience members connect to its wi-fi network during the show. The web app was served from a Macbook Pro on the network, which also output a video signal to a hardware mixer connected to large monitor on the bus.">
+<bespoke-container title="Network diagram of the experience. We ran a wireless router on the bus and asked audience members connect to its wi-fi network during the show. The web app was served from a Macbook Pro on the network, which also output a video signal to a hardware mixer connected to a large monitor on the bus.">
 <img src="../post_images/packingandcracking_onabus/tech.svg" alt="Graphic of a bus with a network diagram inside, featuring a wireless router connected to laptop and several smartphones, as well as a large monitor connected via HDMI to the laptop" title=" "/>
 </bespoke-container>
 
@@ -174,15 +177,15 @@ I used Firebase's [Local Emulator](https://firebase.google.com/docs/emulator-sui
 
 ## Admin Control
 
-Audience members have an accountless sign-on to one of two teams.
+Audience members sign-on to one of two teams.
 
-Behind the scenes, as show tech I managed a [custom cue-system](/posts/cue-system) from an admin page.
+Behind the scenes, as show tech I controlled our games using a [custom cue-system](/posts/cue-system) admin page.
 
 <browser-container>
 <img src="../post_images/cue-system/admin.jpg">
 </browser-container>
 
-With a button click, I changed which games audience members saw on their phones; changes were saved in our Firebase instance and passed to the audience's smartphone clients via web sockets.
+With a button click, I changed which games audience members saw on their phones. Changes were saved in our Firebase instance and passed to the audience's smartphone clients via web sockets.
 
 
 # SHOW DETAILS
@@ -191,7 +194,7 @@ Audience members were split into two teams, Orange and Green, each with their ow
 
 <img src="../post_images/packingandcracking_onabus/costumes0.jpg" alt="Performer in orange cowboy hat looks back from their seat on a coach bus." title="The Orange Team leader calls back to their team at the back of the bus."/>
 
-Additionally, three performers inspired by CPG Grey's [Gerrymandering Explained](https://youtu.be/Mky11UJb9AY?si=vMcGO9sivEYR17LP), the Bear, Cat, and Weasel, facilitated the show.
+Additionally, three performers inspired by CPG Grey's [Gerrymandering Explained](https://youtu.be/Mky11UJb9AY?si=vMcGO9sivEYR17LP)—the Bear, Cat, and Weasel—facilitated the show.
 
 <img src="../post_images/packingandcracking_onabus/bus_disembark.jpg" alt="Performer hands audience members chalk as they disembark from a bus." title="The Cat hands audience members chalk as they disembark at the site of a community split by voting district lines."/>
 
@@ -199,7 +202,7 @@ The bus route ended at a parking lot for a community of two apartment buildings 
 
 Audience members used chalk to write their responses to this division.
 
-<img src="../post_images/packingandcracking_onabus/packingandcracking_cover.jpg" alt="Parking lot with chalk drawings by audience, depicting a salamander and the words 'We Are One District'" title="Audience members were invited to react to the performance with chalk drawings at the site of a State House district splitting two addresses in a single apartment development."/>
+<img src="../post_images/packingandcracking_onabus/packingandcracking_cover.jpg" alt="Parking lot with chalk drawings by audience, depicting a salamander and the words 'We Are One District'" title="Audience members were invited to react to the performance with chalk drawings at the site."/>
 
 <div>
 <button-link href="https://www.packingandcracking.com/" target="_blank">LEARN MORE ABOUT PACKING AND CRACKING</button-link>

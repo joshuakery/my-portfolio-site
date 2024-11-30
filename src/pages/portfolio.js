@@ -8,10 +8,11 @@ import { graphql } from "gatsby"
 import DesignProjects from "../components/design/projects"
 
 export default ({ data, location }) => {
+  console.log("using helmet");
   return (
     <DesignLayout>
         <div>
-            <Helmet title="Design | Joshua Kery" />
+            <Helmet title="Design | Joshua Kery"></Helmet>
             <Intro></Intro>
             <div>
               <DesignProjects location={location}></DesignProjects>
