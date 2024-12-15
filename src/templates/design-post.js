@@ -37,9 +37,10 @@ const renderAst = new rehypeReact({
 
 export default ({ data, location }) => {
   const post = data.markdownRemark;
+  const noindex = post.frontmatter.categories.includes("hidden");
   return (
     <DesignLayout>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO title={post.frontmatter.title} description={post.excerpt} noindex={noindex}/>
       <div className={styles.post_container}>
           <h1 className={styles.title}>{post.frontmatter.title}</h1>
           {
@@ -56,6 +57,7 @@ export const query = graphql`
       htmlAst
       frontmatter {
         title
+        categories
       }
       excerpt
     }

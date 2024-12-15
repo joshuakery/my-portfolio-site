@@ -110,13 +110,14 @@ div.meta h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
-.container li a {
-    text-decoration: none;
-    color: gray;
+.container li ul {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
 
 .container img,
 .container span {
@@ -387,6 +388,9 @@ div.meta h1 {
 .touchWindow img {
     border-radius: 0;
 }
+.touchWindow span {
+    margin: 0;
+}
 /* ----- end touch container ------*/
 
 
@@ -615,7 +619,7 @@ video iframe {
     }
     .touchWindow {
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 15px;
     }
 }
 

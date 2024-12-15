@@ -146,7 +146,7 @@ We settled on a split dividing an apartment complex in O'Hara Township as the de
 
 As a team, we brainstormed how best to adapt Packing and Cracking's [prior](/posts/packingandcracking) [formats](https://www.packingandcracking.com/in-person) to a show on a moving bus.
 
-<img src="../post_images/packingandcracking_onabus/game-dez.jpg" alt="Post-it notes planning the game design for the experience." title="Post-its from our collaborative experience-design session."/>
+<img src="../post_images/packingandcracking_onabus/post-its-collage.jpg" alt="Post-it notes planning the game design for the experience." title="Post-its from our collaborative experience-design session."/>
 
 <div style="display: flex">
 

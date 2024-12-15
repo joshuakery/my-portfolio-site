@@ -21,7 +21,7 @@ export default ({ children, location }) => {
                         {
                             categories:
                             {
-                                nin: ["design","creative-coding","teaching"]
+                                nin: ["software-development","motion-design","teaching", "ux-design", "ux-research", "illustration", "hidden"]
                             },
                             posttype:
                             {

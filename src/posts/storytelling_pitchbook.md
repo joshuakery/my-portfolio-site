@@ -147,7 +147,9 @@ The application process has got to reflect that we have both lots of resources a
 
 </quote>
 
-We analyzed their responses via affinity diagramming and used that analysis to structure our collaborative design thinking workshop.
+I analyzed their responses via affinity diagramming and collaborated with Aspirant's [Digital Discovery](https://www.aspirant.com/digital-discovery) team to use their proprietary AI tool to assess and extract further insights from our interview notes.
+
+I used that analysis to structure activites in our collaborative design thinking workshop.
 
 # UX PROCESS
 
