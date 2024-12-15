@@ -57,11 +57,12 @@ return (
 
         <ul className={`${styles.navbar} ${small && styles.smaller_navbar}`}>
             <li>
-                <Link
-                to="/resume/"
+                <a
+                href="https://drive.google.com/file/d/148r077XvuhRgSwplL5KeVJ7PLyBB7HpY/view?usp=sharing"
+                target="_blank"
                 >
                     resume
-                </Link>
+                </a>
             </li>
             <li>
                 <Link
@@ -90,9 +91,14 @@ return (
                 <ListLink to="/portfolio/">
                     home
                 </ListLink>
-                <ListLink to="/resume/">
-                    resume
-                </ListLink>
+                <li>
+                    <a
+                    href="https://drive.google.com/file/d/148r077XvuhRgSwplL5KeVJ7PLyBB7HpY/view?usp=sharing"
+                    target="_blank"
+                    >
+                        resume
+                    </a>
+                </li>
                 <ListLink to="/">
                     art site
                 </ListLink>

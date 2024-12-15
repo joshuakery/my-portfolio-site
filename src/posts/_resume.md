@@ -8,8 +8,6 @@ featuredImage: '../post_images/braces_square.jpg'
 
 <grid-container>
 
-<button-link href="https://drive.google.com/file/d/1neY8qrcXvrLGtE98helTQbZSxrPG7zRS/view?usp=sharing">DOWNLOAD FROM DRIVE</button-link>
-
-<img src="../images/Kery_Joshua_Sample_Resume.jpg">
+<button-link href="https://drive.google.com/file/d/148r077XvuhRgSwplL5KeVJ7PLyBB7HpY/view?usp=sharing">DOWNLOAD FROM DRIVE</button-link>
 
 </grid-container>
